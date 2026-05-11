@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-05-11T08:21:53+00:00",
+ "generated_at": "2026-05-11T08:52:55+00:00",
  "weeks": [
   "2023-10-01"
  ],
@@ -79,12 +79,12 @@
     {
      "as_of": "2023-10-01",
      "lat": 29.5,
-     "lng": 48.5
+     "lng": 48.0
     }
    ],
    "current": {
     "lat": 29.5,
-    "lng": 48.5,
+    "lng": 48.0,
     "region": "Persian Gulf",
     "status": "deployed"
    }
@@ -96,12 +96,12 @@
     {
      "as_of": "2023-10-01",
      "lat": 29.5,
-     "lng": 48.5
+     "lng": 48.0
     }
    ],
    "current": {
     "lat": 29.5,
-    "lng": 48.5,
+    "lng": 48.0,
     "region": "Persian Gulf",
     "status": "deployed"
    }
@@ -146,12 +146,12 @@
    "track": [
     {
      "as_of": "2023-10-01",
-     "lat": 20.0,
+     "lat": -10.0,
      "lng": 150.0
     }
    ],
    "current": {
-    "lat": 20.0,
+    "lat": -10.0,
     "lng": 150.0,
     "region": "Pacific Ocean",
     "status": "deployed"
