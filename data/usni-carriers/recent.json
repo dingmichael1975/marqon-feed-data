@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-05-11T08:52:55+00:00",
+ "generated_at": "2026-05-11T10:09:41+00:00",
  "weeks": [
   "2023-10-01"
  ],
@@ -45,12 +45,12 @@
     {
      "as_of": "2023-10-01",
      "lat": -5.0,
-     "lng": -81.0
+     "lng": -75.0
     }
    ],
    "current": {
     "lat": -5.0,
-    "lng": -81.0,
+    "lng": -75.0,
     "region": "South America",
     "status": "deployed"
    }
@@ -146,12 +146,12 @@
    "track": [
     {
      "as_of": "2023-10-01",
-     "lat": -10.0,
+     "lat": 20.0,
      "lng": 150.0
     }
    ],
    "current": {
-    "lat": -10.0,
+    "lat": 20.0,
     "lng": 150.0,
     "region": "Pacific Ocean",
     "status": "deployed"
