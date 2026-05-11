@@ -1,5 +1,34 @@
 {
- "generated_at": "2026-05-11T10:17:08+00:00",
- "count": 0,
- "by_name": {}
+ "generated_at": "2026-05-11T10:22:08+00:00",
+ "count": 4,
+ "by_name": {
+  "USS Iwo Jima (LHD-7)": {
+   "wiki_title": "USS Iwo Jima (LHD-7)",
+   "wiki_url": "https://en.wikipedia.org/wiki/USS_Iwo_Jima_(LHD-7)",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/US_Navy_080906-N-1082Z-029_The_multi-purpose_amphibious_assault_ship_USS_Iwo_Jima_%28LHD_7%29_transits_the_Atlantic_Ocean.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/US_Navy_080906-N-1082Z-029_The_multi-purpose_amphibious_assault_ship_USS_Iwo_Jima_%28LHD_7%29_transits_the_Atlantic_Ocean.jpg/330px-US_Navy_080906-N-1082Z-029_The_multi-purpose_amphibious_assault_ship_USS_Iwo_Jima_%28LHD_7%29_transits_the_Atlantic_Ocean.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "USS Kearsarge (LHD-3)": {
+   "wiki_title": "USS Kearsarge (LHD-3)",
+   "wiki_url": "https://en.wikipedia.org/wiki/USS_Kearsarge_(LHD-3)",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/US_Navy_040620-N-1512S-218_The_amphibious_assault_ship_USS_Kearsarge_%28LHD_3%29_underway_while_transiting_the_Straits_of_Gibraltar_and_into_the_Mediterranean_Sea.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/US_Navy_040620-N-1512S-218_The_amphibious_assault_ship_USS_Kearsarge_%28LHD_3%29_underway_while_transiting_the_Straits_of_Gibraltar_and_into_the_Mediterranean_Sea.jpg/330px-thumbnail.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "USS Nimitz (CVN-68)": {
+   "wiki_title": "USS Nimitz",
+   "wiki_url": "https://en.wikipedia.org/wiki/USS_Nimitz",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/USS_Nimitz_%28CVN-68%29.jpg/3840px-USS_Nimitz_%28CVN-68%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/USS_Nimitz_%28CVN-68%29.jpg/330px-USS_Nimitz_%28CVN-68%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "USS Tripoli (LHA-7)": {
+   "wiki_title": "USS Tripoli (LHA-7)",
+   "wiki_url": "https://en.wikipedia.org/wiki/USS_Tripoli_(LHA-7)",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/USS_Tripoli_%28LHA-7%29_underway_in_the_Gulf_of_Mexico_on_15_July_2019_%28190715-O-N0101-115%29.JPG/3840px-USS_Tripoli_%28LHA-7%29_underway_in_the_Gulf_of_Mexico_on_15_July_2019_%28190715-O-N0101-115%29.JPG",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/USS_Tripoli_%28LHA-7%29_underway_in_the_Gulf_of_Mexico_on_15_July_2019_%28190715-O-N0101-115%29.JPG/330px-USS_Tripoli_%28LHA-7%29_underway_in_the_Gulf_of_Mexico_on_15_July_2019_%28190715-O-N0101-115%29.JPG",
+   "attribution": "Wikipedia (CC BY-SA)"
+  }
+ }
 }

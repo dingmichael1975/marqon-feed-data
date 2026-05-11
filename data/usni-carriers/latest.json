@@ -1,6 +1,6 @@
 {
  "as_of": "2023-10-01",
- "fetched_at": "2026-05-11T10:17:08+00:00",
+ "fetched_at": "2026-05-11T10:22:08+00:00",
  "source_url": "https://news.usni.org/2026/04/13/usni-news-fleet-and-marine-tracker-april-13-2026",
  "image_url": "https://news.usni.org/wp-content/uploads/2026/04/FT_4_13_26.jpg",
  "count": 9,
@@ -41,7 +41,7 @@
    "name": "USS Tripoli (LHA-7)",
    "type": "amphib",
    "region": "Persian Gulf",
-   "lat": 29.0,
+   "lat": 29.5,
    "lng": 48.0,
    "status": "deployed"
   },
@@ -49,7 +49,7 @@
    "name": "Abraham Lincoln CSG",
    "type": "carrier",
    "region": "Persian Gulf",
-   "lat": 29.0,
+   "lat": 29.5,
    "lng": 48.0,
    "status": "deployed"
   },
