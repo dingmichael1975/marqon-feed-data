@@ -1,0 +1,1911 @@
+{
+ "generated_at": "2026-05-11T10:16:18+00:00",
+ "count": 381,
+ "by_hex": {
+  "10070": {
+   "reg": "HZ-ASA",
+   "type_code": "A320",
+   "type_desc": "AIRBUS A-320"
+  },
+  "10071": {
+   "reg": "HZ-ASB",
+   "type_code": "A320",
+   "type_desc": "AIRBUS A-320"
+  },
+  "10072": {
+   "reg": "SU-BKW",
+   "type_code": "B190",
+   "type_desc": "BEECH 1900"
+  },
+  "10073": {
+   "reg": "EW-364TG",
+   "type_code": "AN26",
+   "type_desc": "L2T"
+  },
+  "10074": {
+   "reg": "HZ-MA25",
+   "type_code": "A139",
+   "type_desc": "AGUSTA AW-139"
+  },
+  "10075": {
+   "reg": "EW-358LL",
+   "type_code": "DA40",
+   "type_desc": "DIAMOND DA-40 Club Star"
+  },
+  "10077": {
+   "reg": "EW-366PA",
+   "type_code": "B733",
+   "type_desc": "BOEING 737-300"
+  },
+  "10078": {
+   "reg": "EW-356TH",
+   "type_code": "IL76",
+   "type_desc": "L4J"
+  },
+  "10079": {
+   "reg": "SU-BAF",
+   "type_code": "C130",
+   "type_desc": "LOCKHEED C-130 Hercules"
+  },
+  "1007A": {
+   "reg": "SU-BAI",
+   "type_code": "C130",
+   "type_desc": "LOCKHEED C-130 Hercules"
+  },
+  "1007B": {
+   "reg": "SU-BAJ",
+   "type_code": "C130",
+   "type_desc": "LOCKHEED C-130 Hercules"
+  },
+  "1007C": {
+   "reg": "HZ-ASC",
+   "type_code": "A320",
+   "type_desc": "AIRBUS A-320"
+  },
+  "1007D": {
+   "reg": "SU-BAL",
+   "type_code": "C130",
+   "type_desc": "LOCKHEED C-130 Hercules"
+  },
+  "1007E": {
+   "reg": "HZ-ASD",
+   "type_code": "A320",
+   "type_desc": "AIRBUS A-320"
+  },
+  "10080": {
+   "reg": "EW-400PO",
+   "type_code": "E195",
+   "type_desc": "EMBRAER ERJ-190-200"
+  },
+  "10082": {
+   "reg": "EW-404PA",
+   "type_code": "B733",
+   "type_desc": "BOEING 737-300"
+  },
+  "10083": {
+   "reg": "HZ-AS35",
+   "type_code": "A320",
+   "type_desc": "AIRBUS A-320"
+  },
+  "10086": {
+   "reg": "SU-BAV",
+   "type_code": "C130",
+   "type_desc": "LOCKHEED C-130 Hercules"
+  },
+  "10087": {
+   "reg": "SU-BEW",
+   "type_code": "C130",
+   "type_desc": "LOCKHEED C-130 Hercules"
+  },
+  "10089": {
+   "reg": "SU-BEY",
+   "type_code": "C130",
+   "type_desc": "LOCKHEED C-130 Hercules"
+  },
+  "1008A": {
+   "reg": "SU-BKS",
+   "type_code": "C130",
+   "type_desc": "LOCKHEED C-130 Hercules"
+  },
+  "1008B": {
+   "reg": "HZ-AS39",
+   "type_code": "A320",
+   "type_desc": "AIRBUS A-320"
+  },
+  "1008C": {
+   "reg": "HZ-AS40",
+   "type_code": "A320",
+   "type_desc": "AIRBUS A-320"
+  },
+  "1008D": {
+   "reg": "HZ-AS41",
+   "type_code": "A320",
+   "type_desc": "AIRBUS A-320"
+  },
+  "1008E": {
+   "reg": "EW-438PA",
+   "type_code": "B738",
+   "type_desc": "L2J"
+  },
+  "1008F": {
+   "reg": "HZ-AS43",
+   "type_code": "A320",
+   "type_desc": "AIRBUS A-320"
+  },
+  "A4004": {
+   "reg": "7T-VBE",
+   "type_code": "BE20",
+   "type_desc": "L2T"
+  },
+  "A4005": {
+   "reg": "7T-VPR",
+   "type_code": "GLF4",
+   "type_desc": "GULFSTREAM 4"
+  },
+  "A4006": {
+   "reg": "7T-VPS",
+   "type_code": "GLF4",
+   "type_desc": "GULFSTREAM 4"
+  },
+  "A4009": {
+   "reg": "7T-VPC",
+   "type_code": "GLF4",
+   "type_desc": "GULFSTREAM 4"
+  },
+  "A400A": {
+   "reg": "7T-VPM",
+   "type_code": "GLF4",
+   "type_desc": "GULFSTREAM 4"
+  },
+  "A400B": {
+   "reg": "7T-VPG",
+   "type_code": "GLF5",
+   "type_desc": "GULFSTREAM 5"
+  },
+  "A400D": {
+   "reg": "7T-WHN",
+   "type_code": "C130",
+   "type_desc": "LOCKHEED C-130 Hercules"
+  },
+  "A400E": {
+   "reg": "7T-WHO",
+   "type_code": "C130",
+   "type_desc": "LOCKHEED C-130 Hercules"
+  },
+  "A4010": {
+   "reg": "7T-WHS",
+   "type_code": "C130",
+   "type_desc": "LOCKHEED C-130 Hercules"
+  },
+  "A4011": {
+   "reg": "7T-WHY",
+   "type_code": "C130",
+   "type_desc": "LOCKHEED C-130 Hercules"
+  },
+  "A4012": {
+   "reg": "7T-WHZ",
+   "type_code": "C130",
+   "type_desc": "LOCKHEED C-130 Hercules"
+  },
+  "A4014": {
+   "reg": "7T-WHP",
+   "type_code": "C130",
+   "type_desc": "LOCKHEED C-130 Hercules"
+  },
+  "A4015": {
+   "reg": "7T-WHR",
+   "type_code": "C130",
+   "type_desc": "LOCKHEED C-130 Hercules"
+  },
+  "A4017": {
+   "reg": "7T-WHJ",
+   "type_code": "C130",
+   "type_desc": "LOCKHEED C-130 Hercules"
+  },
+  "A4018": {
+   "reg": "7T-WHI",
+   "type_code": "C130",
+   "type_desc": "LOCKHEED C-130 Hercules"
+  },
+  "A4019": {
+   "reg": "7T-WHF",
+   "type_code": "C130",
+   "type_desc": "LOCKHEED C-130 Hercules"
+  },
+  "A401A": {
+   "reg": "7T-WHE",
+   "type_code": "C130",
+   "type_desc": "LOCKHEED C-130 Hercules"
+  },
+  "A401B": {
+   "reg": "7T-WHD",
+   "type_code": "C130",
+   "type_desc": "LOCKHEED C-130 Hercules"
+  },
+  "A401C": {
+   "reg": "7T-WHL",
+   "type_code": "C130",
+   "type_desc": "LOCKHEED C-130 Hercules"
+  },
+  "A401E": {
+   "reg": "7T-WHB",
+   "type_code": "C130",
+   "type_desc": "LOCKHEED C-130 Hercules"
+  },
+  "A401F": {
+   "reg": "7T-WIA",
+   "type_code": "IL76",
+   "type_desc": "ILYUSHIN Il-76/82"
+  },
+  "A4020": {
+   "reg": "7T-WIB",
+   "type_code": "IL76",
+   "type_desc": "ILYUSHIN Il-76/82"
+  },
+  "A4021": {
+   "reg": "7T-WIC",
+   "type_code": "IL76",
+   "type_desc": "ILYUSHIN Il-76/82"
+  },
+  "A4022": {
+   "reg": "7T-WID",
+   "type_code": "IL76",
+   "type_desc": "ILYUSHIN Il-76/82"
+  },
+  "A4023": {
+   "reg": "7T-WIE",
+   "type_code": "IL76",
+   "type_desc": "ILYUSHIN Il-76/82"
+  },
+  "A4024": {
+   "reg": "7T-WIG",
+   "type_code": "IL76",
+   "type_desc": "ILYUSHIN Il-76/82"
+  },
+  "A4025": {
+   "reg": "7T-WIP",
+   "type_code": "IL76",
+   "type_desc": "ILYUSHIN Il-76/82"
+  },
+  "A4026": {
+   "reg": "7T-WIU",
+   "type_code": "IL76",
+   "type_desc": "ILYUSHIN Il-76/82"
+  },
+  "A4028": {
+   "reg": "7T-WIM",
+   "type_code": "IL76",
+   "type_desc": "ILYUSHIN Il-76/82"
+  },
+  "A402A": {
+   "reg": "7T-WIT",
+   "type_code": "IL76",
+   "type_desc": "ILYUSHIN Il-76/82"
+  },
+  "A402D": {
+   "reg": "7T-VPP",
+   "type_code": "A345",
+   "type_desc": "AIRBUS A-340-500"
+  },
+  "A4035": {
+   "reg": "MS-24",
+   "type_code": "EH10",
+   "type_desc": "AGUSTA WESTLAND EH-101 Merlin"
+  },
+  "A4039": {
+   "reg": "7T-WRJ",
+   "type_code": "B350",
+   "type_desc": "BEECHCRAFT Super King Air 350"
+  },
+  "A403A": {
+   "reg": "7T-WRL",
+   "type_code": "B350",
+   "type_desc": "BEECHCRAFT Super King Air 350"
+  },
+  "A403B": {
+   "reg": "7T-WRM",
+   "type_code": "B350",
+   "type_desc": "BEECHCRAFT Super King Air 350"
+  },
+  "A403C": {
+   "reg": "7T-WRN",
+   "type_code": "B350",
+   "type_desc": "BEECHCRAFT Super King Air 350"
+  },
+  "A403D": {
+   "reg": "7T-WRP",
+   "type_code": "B350",
+   "type_desc": "BEECHCRAFT Super King Air 350"
+  },
+  "A403E": {
+   "reg": "7T-WRQ",
+   "type_code": "B350",
+   "type_desc": "BEECHCRAFT Super King Air 350"
+  },
+  "A4044": {
+   "reg": "7T-WVB",
+   "type_code": "EH10",
+   "type_desc": "AGUSTA WESTLAND EH-101 Merlin"
+  },
+  "A4045": {
+   "reg": "7T-WVD",
+   "type_code": "EH10",
+   "type_desc": "AGUSTA WESTLAND EH-101 Merlin"
+  },
+  "A4048": {
+   "reg": "LC-33",
+   "type_code": "LYNX",
+   "type_desc": "H2T"
+  },
+  "A404A": {
+   "reg": "YR-PBJ",
+   "type_code": "AN2",
+   "type_desc": "ANTONOV An-2"
+  },
+  "A404B": {
+   "reg": "LC-36",
+   "type_code": "LYNX",
+   "type_desc": "H2T"
+  },
+  "A404C": {
+   "reg": "7T-VPE",
+   "type_code": "AT76",
+   "type_desc": "ATR-72-600"
+  },
+  "A404D": {
+   "reg": "7T-VPF",
+   "type_code": "AT76",
+   "type_desc": "ATR-72-600"
+  },
+  "A404F": {
+   "reg": "7T-WRG",
+   "type_code": "BE20",
+   "type_desc": "BEECH 200 Super King Air"
+  },
+  "A4053": {
+   "reg": "7T-WRA",
+   "type_code": "B190",
+   "type_desc": "BEECH 1900"
+  },
+  "A4054": {
+   "reg": "YR-PBT",
+   "type_code": "AN2",
+   "type_desc": "ANTONOV An-2"
+  },
+  "A4055": {
+   "reg": "YR-PBU",
+   "type_code": "AN2",
+   "type_desc": "L1P"
+  },
+  "A4056": {
+   "reg": "7T-WRD",
+   "type_code": "B190",
+   "type_desc": "BEECH 1900"
+  },
+  "A4057": {
+   "reg": "7T-WRE",
+   "type_code": "B190",
+   "type_desc": "BEECH 1900"
+  },
+  "A4058": {
+   "reg": "7T-WRF",
+   "type_code": "B190",
+   "type_desc": "BEECH 1900"
+  },
+  "A405E": {
+   "reg": "7T-WJA",
+   "type_code": "C30J",
+   "type_desc": "Lockheed Martin LM-100J"
+  },
+  "A405F": {
+   "reg": "7T-WJB",
+   "type_code": "C30J",
+   "type_desc": "Lockheed Martin LM-100J"
+  },
+  "A4060": {
+   "reg": "7T-WJC",
+   "type_code": "C30J",
+   "type_desc": "LOCKHEED MARTIN C-130J Super Hercules"
+  },
+  "A4061": {
+   "reg": "7T-WJD",
+   "type_code": "C30J",
+   "type_desc": "LOCKHEED MARTIN C-130J Super Hercules"
+  },
+  "A4411": {
+   "reg": "20241",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4418": {
+   "reg": "20242",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4444": {
+   "reg": "11255",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A444F": {
+   "reg": "20543",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4493": {
+   "reg": "F-ORET",
+   "type_code": "P68",
+   "type_desc": "PARTENAVIA P-68 Observer"
+  },
+  "A4494": {
+   "reg": "F-OREU",
+   "type_code": "B77W",
+   "type_desc": "BOEING 777-300ER"
+  },
+  "A4495": {
+   "reg": "F-OREV",
+   "type_code": "AT76",
+   "type_desc": "ATR-72-600"
+  },
+  "A44C1": {
+   "reg": "F-ORGB",
+   "type_code": "R22",
+   "type_desc": "ROBINSON R-22 Mariner"
+  },
+  "A44C2": {
+   "reg": "F-ORGC",
+   "type_code": "R200",
+   "type_desc": "ROBIN Alpha"
+  },
+  "A4504": {
+   "reg": "F-ORIE",
+   "type_code": "AS50",
+   "type_desc": "AEROSPATIALE AS-350 Ecureuil"
+  },
+  "A4561": {
+   "reg": "F-ORLB",
+   "type_code": "AT46",
+   "type_desc": "ATR-42-600"
+  },
+  "A4578": {
+   "reg": "F-ORLY",
+   "type_code": "A333",
+   "type_desc": "AIRBUS A-330-300"
+  },
+  "A4593": {
+   "reg": "F-ORMT",
+   "type_code": "AT76",
+   "type_desc": "ATR-72-600"
+  },
+  "A4594": {
+   "reg": "F-ORMU",
+   "type_code": "AT76",
+   "type_desc": "ATR-72-600"
+  },
+  "A4641": {
+   "reg": "F-ORSB",
+   "type_code": "AS50",
+   "type_desc": "AEROSPATIALE AS-350 Ecureuil"
+  },
+  "A46A1": {
+   "reg": "F-ORVB",
+   "type_code": "AT45",
+   "type_desc": "ATR-42-500"
+  },
+  "A46A2": {
+   "reg": "F-ORVC",
+   "type_code": "AT45",
+   "type_desc": "ATR-42-500"
+  },
+  "A46AD": {
+   "reg": "F-ORVN",
+   "type_code": "AT76",
+   "type_desc": "ATR-72-600"
+  },
+  "A46AE": {
+   "reg": "F-ORVO",
+   "type_code": "AT76",
+   "type_desc": "ATR-72-600"
+  },
+  "A46AF": {
+   "reg": "F-ORVP",
+   "type_code": "AT75",
+   "type_desc": "ATR-72-500"
+  },
+  "A46B1": {
+   "reg": "F-ORVR",
+   "type_code": "AT76",
+   "type_desc": "ATR-72-600"
+  },
+  "A46B2": {
+   "reg": "F-ORVS",
+   "type_code": "AT76",
+   "type_desc": "ATR-72-600"
+  },
+  "A46B3": {
+   "reg": "F-ORVT",
+   "type_code": "AT76",
+   "type_desc": "ATR-72-600"
+  },
+  "A46B4": {
+   "reg": "F-ORVU",
+   "type_code": "AT76",
+   "type_desc": "ATR-72-600"
+  },
+  "A46B5": {
+   "reg": "F-ORVV",
+   "type_code": "AT76",
+   "type_desc": "ATR-72-600"
+  },
+  "A46B7": {
+   "reg": "F-ORVX",
+   "type_code": "AT76",
+   "type_desc": "ATR-72-600"
+  },
+  "A46B8": {
+   "reg": "F-ORVY",
+   "type_code": "P208",
+   "type_desc": "TECNAM P-2008"
+  },
+  "A46B9": {
+   "reg": "F-ORVZ",
+   "type_code": "P208",
+   "type_desc": "TECNAM P-2008"
+  },
+  "A4822": {
+   "reg": "F-OSBC",
+   "type_code": "C208",
+   "type_desc": "CESSNA 208 Caravan"
+  },
+  "A4824": {
+   "reg": "F-OSBE",
+   "type_code": "PC12",
+   "type_desc": "PILATUS PC-12"
+  },
+  "A482C": {
+   "reg": "YR-RAL",
+   "type_code": "AS50",
+   "type_desc": "AEROSPATIALE AS-350 Ecureuil"
+  },
+  "A4832": {
+   "reg": "F-OSBS",
+   "type_code": "C208",
+   "type_desc": "CESSNA 208 Caravan"
+  },
+  "A484E": {
+   "reg": "F-OSCO",
+   "type_code": "C208",
+   "type_desc": "CESSNA 208 Caravan"
+  },
+  "A484F": {
+   "reg": "F-OSCP",
+   "type_code": "C208",
+   "type_desc": "CESSNA 208 Caravan"
+  },
+  "A4880": {
+   "reg": "F-OSEA",
+   "type_code": "A343",
+   "type_desc": "L4J"
+  },
+  "A48A2": {
+   "reg": "F-OSFC",
+   "type_code": "P212",
+   "type_desc": "TECNAM P-2012 Traveller"
+  },
+  "A490B": {
+   "reg": "F-OSIL",
+   "type_code": "AT76",
+   "type_desc": "ATR-72-600"
+  },
+  "A4913": {
+   "reg": "F-OSIT",
+   "type_code": "AT76",
+   "type_desc": "ATR-72-600"
+  },
+  "A4915": {
+   "reg": "F-OSIV",
+   "type_code": "AT76",
+   "type_desc": "ATR-72-600"
+  },
+  "A4917": {
+   "reg": "F-OSIX",
+   "type_code": "AT76",
+   "type_desc": "ATR-72-600"
+  },
+  "A4931": {
+   "reg": "LH96930",
+   "type_code": "AS65",
+   "type_desc": "AEROSPATIALE AS-365 Dauphin 2"
+  },
+  "A4934": {
+   "reg": "LH972918",
+   "type_code": "AS65",
+   "type_desc": "AEROSPATIALE AS-365 Dauphin 2"
+  },
+  "A4994": {
+   "reg": "F-OSMU",
+   "type_code": "BE20",
+   "type_desc": "BEECH 200 Super King Air"
+  },
+  "A49E9": {
+   "reg": "F-OSPJ",
+   "type_code": "F406",
+   "type_desc": "CESSNA F406 Caravan 2"
+  },
+  "A4A61": {
+   "reg": "F-OSTB",
+   "type_code": "PC12",
+   "type_desc": "PILATUS PC-12"
+  },
+  "A4A6E": {
+   "reg": "F-OSTO",
+   "type_code": "C172",
+   "type_desc": "CESSNA 172 Skyhawk"
+  },
+  "A4A8D": {
+   "reg": "F-OSUN",
+   "type_code": "A343",
+   "type_desc": "L4J"
+  },
+  "A4C06": {
+   "reg": "F-OTAG",
+   "type_code": "BN2P",
+   "type_desc": "BRITTEN-NORMAN BN-2 Islander"
+  },
+  "A4C91": {
+   "reg": "F-OTER",
+   "type_code": "BCS3",
+   "type_desc": "AIRBUS A220-300"
+  },
+  "A4D01": {
+   "reg": "F-OTIB",
+   "type_code": "A20N",
+   "type_desc": "AIRBUS A-320neo"
+  },
+  "A4DC0": {
+   "reg": "F-OTOA",
+   "type_code": "B789",
+   "type_desc": "BOEING 787-9 Dreamliner"
+  },
+  "A4DCF": {
+   "reg": "F-OTOP",
+   "type_code": "EC30",
+   "type_desc": "AIRBUS HELICOPTERS EC-130"
+  },
+  "A4F20": {
+   "reg": "F-OTZA",
+   "type_code": "R200",
+   "type_desc": "ROBIN Alpha"
+  },
+  "A4046": {
+   "reg": "YR-PBF",
+   "type_code": "AN2",
+   "type_desc": "ANTONOV An-2"
+  },
+  "A4049": {
+   "reg": "YR-PBI",
+   "type_code": "AN2",
+   "type_desc": "ANTONOV An-2"
+  },
+  "A4052": {
+   "reg": "YR-PBR",
+   "type_code": "AN2",
+   "type_desc": "L1P"
+  },
+  "A4096": {
+   "reg": "YR-PDV",
+   "type_code": "PC12",
+   "type_desc": "PILATUS PC-12"
+  },
+  "A4198": {
+   "reg": "YR-PLX",
+   "type_code": "S22T",
+   "type_desc": "CIRRUS SR-22T Turbo"
+  },
+  "A41A5": {
+   "reg": "YR-PME",
+   "type_code": "AN2",
+   "type_desc": "L1P"
+  },
+  "A41A8": {
+   "reg": "YR-PMH",
+   "type_code": "AN2",
+   "type_desc": "ANTONOV An-2"
+  },
+  "A41A9": {
+   "reg": "YR-PMI",
+   "type_code": "AN2",
+   "type_desc": "L1P"
+  },
+  "A41B2": {
+   "reg": "YR-PMR",
+   "type_code": "AN2",
+   "type_desc": "ANTONOV An-2"
+  },
+  "A41B4": {
+   "reg": "YR-PMT",
+   "type_code": "AN2",
+   "type_desc": "ANTONOV An-2"
+  },
+  "A42C9": {
+   "reg": "YR-PVI",
+   "type_code": "AN2",
+   "type_desc": "L1P"
+  },
+  "A4821": {
+   "reg": "YR-RAA",
+   "type_code": "B06",
+   "type_desc": "BELL 206 JetRanger"
+  },
+  "A4825": {
+   "reg": "YR-RAE",
+   "type_code": "DA40",
+   "type_desc": "DIAMOND DA-40 Club Star"
+  },
+  "A482D": {
+   "reg": "YR-RAM",
+   "type_code": "A320",
+   "type_desc": "AIRBUS A-320"
+  },
+  "A48A5": {
+   "reg": "YR-REE",
+   "type_code": "R22",
+   "type_desc": "ROBINSON R-22 Mariner"
+  },
+  "A48B6": {
+   "reg": "YR-REV",
+   "type_code": "SR22",
+   "type_desc": "CIRRUS SR-22"
+  },
+  "A48E3": {
+   "reg": "YR-RGC",
+   "type_code": "KA26",
+   "type_desc": "KAMOV Ka-26"
+  },
+  "A4A13": {
+   "reg": "YR-5203",
+   "type_code": "ULAC",
+   "type_desc": "Land Africa"
+  },
+  "A4AAE": {
+   "reg": "YR-RUN",
+   "type_code": "BCS3",
+   "type_desc": "AIRBUS A220-300"
+  },
+  "A4B23": {
+   "reg": "YR-RYC",
+   "type_code": "EC35",
+   "type_desc": "AIRBUS HELICOPTERS EC-135/635"
+  },
+  "A4C61": {
+   "reg": "YR-SCA",
+   "type_code": "DV20",
+   "type_desc": "DIAMOND DA-20"
+  },
+  "A4C62": {
+   "reg": "YR-SCB",
+   "type_code": "DV20",
+   "type_desc": "DIAMOND DA-20"
+  },
+  "A4C63": {
+   "reg": "YR-SCC",
+   "type_code": "DV20",
+   "type_desc": "DIAMOND DA-20"
+  },
+  "A4C64": {
+   "reg": "YR-SCD",
+   "type_code": "DA42",
+   "type_desc": "DIAMOND DA-42 Guardian"
+  },
+  "A4C6C": {
+   "reg": "YR-SCL",
+   "type_code": "DV20",
+   "type_desc": "DIAMOND DA-20"
+  },
+  "A4CA1": {
+   "reg": "YR-SEA",
+   "type_code": "A320",
+   "type_desc": "AIRBUS A-320"
+  },
+  "A4CA2": {
+   "reg": "YR-SEB",
+   "type_code": "B734",
+   "type_desc": "L2J"
+  },
+  "A4CB3": {
+   "reg": "YR-SES",
+   "type_code": "C172",
+   "type_desc": "CESSNA 172 Skyhawk"
+  },
+  "A4D2C": {
+   "reg": "YR-SIL",
+   "type_code": "GLF4",
+   "type_desc": "GULFSTREAM 4"
+  },
+  "A4D79": {
+   "reg": "YR-SKY",
+   "type_code": "A320",
+   "type_desc": "AIRBUS A-320"
+  },
+  "A4E61": {
+   "reg": "YR-SSA",
+   "type_code": "P208",
+   "type_desc": "TECNAM P-2008"
+  },
+  "A4E63": {
+   "reg": "YR-SSC",
+   "type_code": "SIRA",
+   "type_desc": "L1P"
+  },
+  "A4E74": {
+   "reg": "YR-SST",
+   "type_code": "P06T",
+   "type_desc": "TECNAM P-2006T"
+  },
+  "A4E87": {
+   "reg": "YR-STG",
+   "type_code": "DA50",
+   "type_desc": "DIAMOND DA-50 Magnum"
+  },
+  "A4E88": {
+   "reg": "YR-STH",
+   "type_code": "R44",
+   "type_desc": "ROBINSON R-44 Raven"
+  },
+  "A4E8D": {
+   "reg": "YR-STM",
+   "type_code": "PA46",
+   "type_desc": "PIPER PA-46-310/350"
+  },
+  "A4EA2": {
+   "reg": "YR-SEB",
+   "type_code": "B734",
+   "type_desc": "BOEING 737-400"
+  },
+  "A4EAE": {
+   "reg": "YR-SUN",
+   "type_code": "A320",
+   "type_desc": "AIRBUS A-320"
+  },
+  "A4EC2": {
+   "reg": "YR-SVB",
+   "type_code": "EVSS",
+   "type_desc": "EVEKTOR SportStar"
+  },
+  "10076": {
+   "reg": "EW-355TH",
+   "type_code": "IL76",
+   "type_desc": "ILYUSHIN Il-76/82"
+  },
+  "1007F": {
+   "reg": "HZ-ASE",
+   "type_code": "A320",
+   "type_desc": "AIRBUS A-320"
+  },
+  "10081": {
+   "reg": "EW-383TH",
+   "type_code": "IL76",
+   "type_desc": "ILYUSHIN Il-76/82"
+  },
+  "A4092": {
+   "reg": "LH96112",
+   "type_code": "WZ10",
+   "type_desc": "CHANGHE WZ-10"
+  },
+  "A41B1": {
+   "reg": "7410",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi Y-9FQ"
+  },
+  "A4201": {
+   "reg": "20641",
+   "type_code": "IL76",
+   "type_desc": "ILYUSHIN Il-76/82"
+  },
+  "A4203": {
+   "reg": "20643",
+   "type_code": "IL76",
+   "type_desc": "ILYUSHIN Il-76/82"
+  },
+  "A4207": {
+   "reg": "20550",
+   "type_code": "IL76",
+   "type_desc": "ILYUSHIN Il-76/82"
+  },
+  "A420C": {
+   "reg": "21146",
+   "type_code": "IL76",
+   "type_desc": "ILYUSHIN Il-76/82"
+  },
+  "A4215": {
+   "reg": "10146",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi Y-9"
+  },
+  "A4218": {
+   "reg": "10151",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi Y-9"
+  },
+  "A4219": {
+   "reg": "10153",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi Y-9"
+  },
+  "A4221": {
+   "reg": "21042",
+   "type_code": "IL76",
+   "type_desc": "ILYUSHIN Il-76/82"
+  },
+  "A4222": {
+   "reg": "30071",
+   "type_code": "AN12",
+   "type_desc": "ANTONOV An-12"
+  },
+  "A4223": {
+   "reg": "30271",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi KJ-500"
+  },
+  "A4226": {
+   "reg": "B-4074",
+   "type_code": "EC25",
+   "type_desc": "AIRBUS HELICOPTERS EC-225/725"
+  },
+  "A4230": {
+   "reg": "30072",
+   "type_code": "AN12",
+   "type_desc": "ANTONOV An-12"
+  },
+  "A4243": {
+   "reg": "11051",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4244": {
+   "reg": "11052",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4245": {
+   "reg": "11053",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4246": {
+   "reg": "11055",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4247": {
+   "reg": "11056",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4248": {
+   "reg": "11057",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4249": {
+   "reg": "10251",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi Y-9"
+  },
+  "A424B": {
+   "reg": "10252",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi Y-9"
+  },
+  "A424C": {
+   "reg": "10253",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi Y-9"
+  },
+  "A424D": {
+   "reg": "10254",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi Y-9"
+  },
+  "A424E": {
+   "reg": "10255",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi Y-9"
+  },
+  "A424F": {
+   "reg": "10651",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi Y-9"
+  },
+  "A4252": {
+   "reg": "10256",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi Y-9YL"
+  },
+  "A4253": {
+   "reg": "11058",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4254": {
+   "reg": "11059",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4256": {
+   "reg": "10655",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi Y-9"
+  },
+  "A4258": {
+   "reg": "10150",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi Y-9"
+  },
+  "A425A": {
+   "reg": "10659",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi Y-9"
+  },
+  "A425B": {
+   "reg": "11150",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A425C": {
+   "reg": "11151",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A425D": {
+   "reg": "11152",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A425E": {
+   "reg": "11153",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A425F": {
+   "reg": "11155",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4262": {
+   "reg": "30518",
+   "type_code": "AN12",
+   "type_desc": "ANTONOV An-12"
+  },
+  "A4265": {
+   "reg": "31110",
+   "type_code": "AN12",
+   "type_desc": "ANTONOV An-12"
+  },
+  "A426A": {
+   "reg": "10052",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi Y-9"
+  },
+  "A426B": {
+   "reg": "11156",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A426C": {
+   "reg": "11157",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A426D": {
+   "reg": "11158",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A426E": {
+   "reg": "11159",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A426F": {
+   "reg": "11250",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4279": {
+   "reg": "B-4085",
+   "type_code": "B738",
+   "type_desc": "BOEING 737-800"
+  },
+  "A427A": {
+   "reg": "B-4086",
+   "type_code": "B738",
+   "type_desc": "BOEING 737-800"
+  },
+  "A427B": {
+   "reg": "30179",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi KJ-500"
+  },
+  "A427C": {
+   "reg": "30270",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi KJ-500"
+  },
+  "A427D": {
+   "reg": "30370",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi KJ-500"
+  },
+  "A427E": {
+   "reg": "53055",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi KJ-500"
+  },
+  "A427F": {
+   "reg": "20047",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4280": {
+   "reg": "20048",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4281": {
+   "reg": "20041",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4282": {
+   "reg": "20042",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4283": {
+   "reg": "20043",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4284": {
+   "reg": "20044",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4285": {
+   "reg": "20045",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4286": {
+   "reg": "20046",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4287": {
+   "reg": "20049",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4288": {
+   "reg": "20140",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4289": {
+   "reg": "20141",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A428A": {
+   "reg": "20142",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A428C": {
+   "reg": "20143",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A428D": {
+   "reg": "20144",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A428E": {
+   "reg": "20145",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A428F": {
+   "reg": "20841",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4298": {
+   "reg": "30720",
+   "type_code": "AN12",
+   "type_desc": "ANTONOV An-12"
+  },
+  "A4299": {
+   "reg": "30471",
+   "type_code": "ZZZZ",
+   "type_desc": "Shanxi KJ-500"
+  },
+  "A429A": {
+   "reg": "53053",
+   "type_code": "AN12",
+   "type_desc": "ANTONOV An-12"
+  },
+  "A429B": {
+   "reg": "30176",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi KJ-500"
+  },
+  "A429C": {
+   "reg": "30177",
+   "type_code": "AN12",
+   "type_desc": "ANTONOV An-12"
+  },
+  "A429D": {
+   "reg": "30178",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi KJ-500"
+  },
+  "A429E": {
+   "reg": "30174",
+   "type_code": "AN12",
+   "type_desc": "ANTONOV An-12"
+  },
+  "A429F": {
+   "reg": "30171",
+   "type_code": "AN12",
+   "type_desc": "ANTONOV An-12"
+  },
+  "A42A0": {
+   "reg": "30173",
+   "type_code": "ZZZZ",
+   "type_desc": "-0-"
+  },
+  "A42A1": {
+   "reg": "30170",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi KJ-500"
+  },
+  "A42A2": {
+   "reg": "30078",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi KJ-500"
+  },
+  "A42A3": {
+   "reg": "30079",
+   "type_code": "AN12",
+   "type_desc": "ANTONOV An-12"
+  },
+  "A42A4": {
+   "reg": "30075",
+   "type_code": "AN12",
+   "type_desc": "ANTONOV An-12"
+  },
+  "A42A6": {
+   "reg": "31110",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi KJ-500"
+  },
+  "A42A7": {
+   "reg": "787",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A42A8": {
+   "reg": "789",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A42B0": {
+   "reg": "7409",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi Y-9FQ"
+  },
+  "A42B2": {
+   "reg": "7411",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi Y-9FQ"
+  },
+  "A42B3": {
+   "reg": "7412",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi Y-9FQ"
+  },
+  "A42B4": {
+   "reg": "7413",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi Y-9FQ"
+  },
+  "A431A": {
+   "reg": "82011",
+   "type_code": "AN12",
+   "type_desc": "ANTONOV An-12"
+  },
+  "A431B": {
+   "reg": "82018",
+   "type_code": "AN12",
+   "type_desc": "ANTONOV An-12"
+  },
+  "A431C": {
+   "reg": "82013",
+   "type_code": "AN12",
+   "type_desc": "ANTONOV An-12"
+  },
+  "A432D": {
+   "reg": "82015",
+   "type_code": "AN12",
+   "type_desc": "ANTONOV An-12"
+  },
+  "A433A": {
+   "reg": "",
+   "type_code": "AN12",
+   "type_desc": "L4T"
+  },
+  "A438B": {
+   "reg": "91",
+   "type_code": "ZZZZ",
+   "type_desc": " Shaanxi Y-9FQ"
+  },
+  "A438C": {
+   "reg": "92",
+   "type_code": "ZZZZ",
+   "type_desc": " Shaanxi Y-9FQ"
+  },
+  "A438E": {
+   "reg": "93",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi Y-9FQ"
+  },
+  "A438F": {
+   "reg": "94",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi Y-9FQ"
+  },
+  "A43D8": {
+   "reg": "H3722019",
+   "type_code": "MA60",
+   "type_desc": "XIAN MA-60"
+  },
+  "A43D9": {
+   "reg": "H3722021",
+   "type_code": "MA60",
+   "type_desc": "XIAN MA-60"
+  },
+  "A43DA": {
+   "reg": "H3722022",
+   "type_code": "MA60",
+   "type_desc": "XIAN MA-60"
+  },
+  "A43DB": {
+   "reg": "H3722023",
+   "type_code": "MA60",
+   "type_desc": "XIAN MA-60"
+  },
+  "A43DE": {
+   "reg": "H3722018",
+   "type_code": "MA60",
+   "type_desc": "XIAN MA-60"
+  },
+  "A43DF": {
+   "reg": "H3722020",
+   "type_code": "MA60",
+   "type_desc": "XIAN MA-60"
+  },
+  "A43EA": {
+   "reg": "20842",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A43ED": {
+   "reg": "30472",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi KJ-500"
+  },
+  "A43EE": {
+   "reg": "30473",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi KJ-500"
+  },
+  "A43EF": {
+   "reg": "30474",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi KJ-500A"
+  },
+  "A43F0": {
+   "reg": "30475",
+   "type_code": "AN12",
+   "type_desc": "L4T"
+  },
+  "A43F1": {
+   "reg": "30476",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi KJ-500A"
+  },
+  "A43F2": {
+   "reg": "30477",
+   "type_code": "ZZZZ",
+   "type_desc": "-0-"
+  },
+  "A43F9": {
+   "reg": "30210",
+   "type_code": "ZZZZ",
+   "type_desc": "-0-"
+  },
+  "A43FA": {
+   "reg": "30211",
+   "type_code": "ZZZZ",
+   "type_desc": "-0-"
+  },
+  "A43FE": {
+   "reg": "20146",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A43FF": {
+   "reg": "20147",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4400": {
+   "reg": "20148",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4401": {
+   "reg": "20149",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4402": {
+   "reg": "11251",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4403": {
+   "reg": "11252",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4410": {
+   "reg": "20240",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4416": {
+   "reg": "20843",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4417": {
+   "reg": "20844",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4419": {
+   "reg": "20243",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A442B": {
+   "reg": "20244",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A442C": {
+   "reg": "1034",
+   "type_code": "FFLO",
+   "type_desc": ""
+  },
+  "A442D": {
+   "reg": "",
+   "type_code": "DRON",
+   "type_desc": "D0-"
+  },
+  "A4431": {
+   "reg": "B-4069",
+   "type_code": "CRJ7",
+   "type_desc": "L2J"
+  },
+  "A443A": {
+   "reg": "31116",
+   "type_code": "ZZZZ",
+   "type_desc": "Shaanxi KJ-500A"
+  },
+  "A443B": {
+   "reg": "31117",
+   "type_code": "ZZZZ",
+   "type_desc": "-0-"
+  },
+  "A443C": {
+   "reg": "31118",
+   "type_code": "ZZZZ",
+   "type_desc": "-0-"
+  },
+  "A443D": {
+   "reg": "31119",
+   "type_code": "ZZZZ",
+   "type_desc": "-0-"
+  },
+  "A443E": {
+   "reg": "20245",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A443F": {
+   "reg": "20246",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4440": {
+   "reg": "20845",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4445": {
+   "reg": "11256",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4447": {
+   "reg": "",
+   "type_code": "AN12",
+   "type_desc": "L4T"
+  },
+  "A444D": {
+   "reg": "20544",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A444E": {
+   "reg": "20848",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4450": {
+   "reg": "20846",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4455": {
+   "reg": "20248",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A445F": {
+   "reg": "20849",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4460": {
+   "reg": "20940",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4465": {
+   "reg": "20647",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A4475": {
+   "reg": "31210",
+   "type_code": "ZZZZ",
+   "type_desc": "-0-"
+  },
+  "A448F": {
+   "reg": "11550",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A449B": {
+   "reg": "31211",
+   "type_code": "ZZZZ",
+   "type_desc": "-0-"
+  },
+  "A449C": {
+   "reg": "31212",
+   "type_code": "ZZZZ",
+   "type_desc": "-0-"
+  },
+  "A449D": {
+   "reg": "31213",
+   "type_code": "ZZZZ",
+   "type_desc": "-0-"
+  },
+  "A44A1": {
+   "reg": "20942",
+   "type_code": "Y20",
+   "type_desc": "XIAN Kunpeng"
+  },
+  "A483A": {
+   "reg": "LH962761",
+   "type_code": "MI8",
+   "type_desc": "MIL Mi-8/9/17/19/171/172"
+  },
+  "A483C": {
+   "reg": "LH962780",
+   "type_code": "ZZZZ",
+   "type_desc": "-0-"
+  },
+  "A486D": {
+   "reg": "LH981101",
+   "type_code": "WZ10",
+   "type_desc": "CHANGHE WZ-10"
+  },
+  "A4893": {
+   "reg": "LH951119",
+   "type_code": "WZ10",
+   "type_desc": "H2T"
+  },
+  "A4895": {
+   "reg": "LH951121",
+   "type_code": "WZ10",
+   "type_desc": "CHANGHE WZ-10"
+  },
+  "A4896": {
+   "reg": "LH951122",
+   "type_code": "WZ10",
+   "type_desc": "CHANGHE WZ-10"
+  },
+  "A48D2": {
+   "reg": "LH992719",
+   "type_code": "MI8",
+   "type_desc": "MIL Mi-8/9/17/19/171/172"
+  },
+  "A48DE": {
+   "reg": "LH992119",
+   "type_code": "WZ10",
+   "type_desc": "CHANGHE WZ-10"
+  },
+  "A48EF": {
+   "reg": "LH992178",
+   "type_code": "WZ10",
+   "type_desc": "CHANGHE WZ-10"
+  },
+  "A48F9": {
+   "reg": "LH982809",
+   "type_code": "FREL",
+   "type_desc": "AEROSPATIALE Super Frelon"
+  },
+  "A4905": {
+   "reg": "LH972103",
+   "type_code": "WZ10",
+   "type_desc": "CHANGHE WZ-10"
+  },
+  "A4911": {
+   "reg": "LH982518",
+   "type_code": "ZZZZ",
+   "type_desc": "HARBIN Z-19"
+  },
+  "A4914": {
+   "reg": "LH981115",
+   "type_code": "WZ10",
+   "type_desc": "CHANGHE WZ-10"
+  },
+  "A491A": {
+   "reg": "LH981127",
+   "type_code": "WZ10",
+   "type_desc": "CHANGHE WZ-10"
+  },
+  "A491D": {
+   "reg": "LH981108",
+   "type_code": "WZ10",
+   "type_desc": "CHANGHE WZ-10"
+  },
+  "A4923": {
+   "reg": "LH921752",
+   "type_code": "MI8",
+   "type_desc": "MIL Mi-8/9/17/19/171/172"
+  },
+  "A492C": {
+   "reg": "LH972900",
+   "type_code": "AS65",
+   "type_desc": "AEROSPATIALE AS-365 Dauphin 2"
+  },
+  "A492E": {
+   "reg": "LH972916",
+   "type_code": "AS65",
+   "type_desc": "H2T"
+  },
+  "A492F": {
+   "reg": "LH972912",
+   "type_code": "AS65",
+   "type_desc": "AEROSPATIALE AS-365 Dauphin 2"
+  },
+  "A4937": {
+   "reg": "LH972103",
+   "type_code": "WZ10",
+   "type_desc": "H2T"
+  },
+  "A4939": {
+   "reg": "LH972106",
+   "type_code": "WZ10",
+   "type_desc": "CHANGHE WZ-10"
+  },
+  "A493A": {
+   "reg": "LH972109",
+   "type_code": "WZ10",
+   "type_desc": "CHANGHE WZ-10"
+  },
+  "A493C": {
+   "reg": "LH972113",
+   "type_code": "WZ10",
+   "type_desc": "CHANGHE WZ-10"
+  },
+  "A493D": {
+   "reg": "LH972116",
+   "type_code": "WZ10",
+   "type_desc": "CHANGHE WZ-10"
+  },
+  "A493E": {
+   "reg": "LH972120",
+   "type_code": "WZ10",
+   "type_desc": "CHANGHE WZ-10"
+  },
+  "A493F": {
+   "reg": "LH972122",
+   "type_code": "WZ10",
+   "type_desc": "H2T"
+  },
+  "A4940": {
+   "reg": "LH972123",
+   "type_code": "WZ10",
+   "type_desc": "CHANGHE WZ-10"
+  },
+  "A4942": {
+   "reg": "LH972128",
+   "type_code": "WZ10",
+   "type_desc": "CHANGHE WZ-10"
+  },
+  "A4943": {
+   "reg": "LH972129",
+   "type_code": "WZ10",
+   "type_desc": "CHANGHE WZ-10"
+  },
+  "A4946": {
+   "reg": "LH972136",
+   "type_code": "WZ10",
+   "type_desc": "CHANGHE WZ-10"
+  },
+  "A4948": {
+   "reg": "LH972150",
+   "type_code": "WZ10",
+   "type_desc": "CHANGHE WZ-10"
+  },
+  "A494F": {
+   "reg": "LH972705",
+   "type_code": "MI8",
+   "type_desc": "MIL Mi-8/9/17/19/171/172"
+  },
+  "A4952": {
+   "reg": "LH972710",
+   "type_code": "MI8",
+   "type_desc": "MIL Mi-8/9/17/19/171/172"
+  },
+  "A4954": {
+   "reg": "LH972712",
+   "type_code": "MI8",
+   "type_desc": "MIL Mi-8/9/17/19/171/172"
+  },
+  "A4955": {
+   "reg": "LH972713",
+   "type_code": "MI8",
+   "type_desc": "MIL Mi-8/9/17/19/171/172"
+  },
+  "A4957": {
+   "reg": "LH972719",
+   "type_code": "MI8",
+   "type_desc": "MIL Mi-8/9/17/19/171/172"
+  },
+  "A4958": {
+   "reg": "LH972723",
+   "type_code": "MI8",
+   "type_desc": "MIL Mi-8/9/17/19/171/172"
+  },
+  "A4959": {
+   "reg": "LH972725",
+   "type_code": "MI8",
+   "type_desc": "MIL Mi-8/9/17/19/171/172"
+  },
+  "A495A": {
+   "reg": "LH972730",
+   "type_code": "MI8",
+   "type_desc": "MIL Mi-8/9/17/19/171/172"
+  },
+  "A495B": {
+   "reg": "LH972731",
+   "type_code": "MI8",
+   "type_desc": "MIL Mi-8/9/17/19/171/172"
+  },
+  "A495C": {
+   "reg": "LH972735",
+   "type_code": "MI8",
+   "type_desc": "MIL Mi-8/9/17/19/171/172"
+  },
+  "A495D": {
+   "reg": "LH972750",
+   "type_code": "MI8",
+   "type_desc": "MIL Mi-8/9/17/19/171/172"
+  },
+  "A4965": {
+   "reg": "LH972226",
+   "type_code": "H60",
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
+  },
+  "A496F": {
+   "reg": "LH972263",
+   "type_code": "H60",
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
+  },
+  "A49BC": {
+   "reg": "LH921756",
+   "type_code": "MI8",
+   "type_desc": "MIL Mi-8/9/17/19/171/172"
+  },
+  "A49C3": {
+   "reg": "LH905905",
+   "type_code": "AS65",
+   "type_desc": "AEROSPATIALE AS-365 Dauphin 2"
+  },
+  "A49C4": {
+   "reg": "LH905906",
+   "type_code": "AS65",
+   "type_desc": "AEROSPATIALE AS-365 Dauphin 2"
+  },
+  "A49CF": {
+   "reg": "LH905921",
+   "type_code": "AS65",
+   "type_desc": "AEROSPATIALE AS-365 Dauphin 2"
+  },
+  "A49D2": {
+   "reg": "LH905928",
+   "type_code": "AS65",
+   "type_desc": "AEROSPATIALE AS-365 Dauphin 2"
+  },
+  "A49D8": {
+   "reg": "LH905937",
+   "type_code": "AS65",
+   "type_desc": "AEROSPATIALE AS-365 Dauphin 2"
+  },
+  "A49DA": {
+   "reg": "LH905939",
+   "type_code": "AS65",
+   "type_desc": "AEROSPATIALE AS-365 Dauphin 2"
+  },
+  "A49DC": {
+   "reg": "LH905951",
+   "type_code": "AS65",
+   "type_desc": "AEROSPATIALE AS-365 Dauphin 2"
+  },
+  "A49DE": {
+   "reg": "LH905955",
+   "type_code": "AS65",
+   "type_desc": "AEROSPATIALE AS-365 Dauphin 2"
+  },
+  "A49DF": {
+   "reg": "LH905956",
+   "type_code": "AS65",
+   "type_desc": "AEROSPATIALE AS-365 Dauphin 2"
+  },
+  "A49EE": {
+   "reg": "LH905909",
+   "type_code": "AS65",
+   "type_desc": "AEROSPATIALE AS-365 Dauphin 2"
+  },
+  "A4501": {
+   "reg": "P-4501",
+   "type_code": "C295",
+   "type_desc": "CASA C-295 Persuader"
+  },
+  "A4E53": {
+   "reg": "168220",
+   "type_code": "V22",
+   "type_desc": "R2T"
+  }
+ }
+}
