@@ -224,6 +224,11 @@ def load_old_snapshot(target_dt: datetime) -> dict[str, float] | None:
             ts = datetime.fromisoformat(p.stem.replace("Z", "+00:00"))
         except ValueError:
             continue
+        # Filename stems like "2026-05-11T07" parse offset-naive; the
+        # caller's target_dt is always UTC-aware. Promote ts to UTC so
+        # the subtraction stays consistent (tz mismatch raises TypeError).
+        if ts.tzinfo is None:
+            ts = ts.replace(tzinfo=timezone.utc)
         diff = abs((ts - target_dt).total_seconds())
         if diff < best_diff:
             best_diff = diff
