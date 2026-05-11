@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-05-11T10:23:35+00:00",
- "count": 10,
+ "generated_at": "2026-05-11T11:25:59+00:00",
+ "count": 128,
  "by_type": {
-  "C130": {
-   "wiki_title": "Lockheed C-130 Hercules",
-   "wiki_url": "https://en.wikipedia.org/wiki/Lockheed_C-130_Hercules",
-   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Lockheed_C-130_Hercules.jpg",
-   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Lockheed_C-130_Hercules.jpg/330px-Lockheed_C-130_Hercules.jpg",
+  "B52": {
+   "wiki_title": "Boeing B-52 Stratofortress",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_B-52_Stratofortress",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/B-52_Stratofortress_assigned_to_the_307th_Bomb_Wing_%28cropped%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/B-52_Stratofortress_assigned_to_the_307th_Bomb_Wing_%28cropped%29.jpg/330px-B-52_Stratofortress_assigned_to_the_307th_Bomb_Wing_%28cropped%29.jpg",
    "attribution": "Wikipedia (CC BY-SA)"
   },
   "B738": {
@@ -16,46 +16,151 @@
    "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Delta_Boeing_737-800_N371DA_departing_Boston_June_2025.jpg/330px-Delta_Boeing_737-800_N371DA_departing_Boston_June_2025.jpg",
    "attribution": "Wikipedia (CC BY-SA)"
   },
-  "BE20": {
-   "wiki_title": "Beechcraft Super King Air",
-   "wiki_url": "https://en.wikipedia.org/wiki/Beechcraft_Super_King_Air",
-   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Royal_Air_Force_King_Air_B200_Training_Aircraft_MOD_45153010.jpg",
-   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Royal_Air_Force_King_Air_B200_Training_Aircraft_MOD_45153010.jpg/330px-Royal_Air_Force_King_Air_B200_Training_Aircraft_MOD_45153010.jpg",
+  "RFAL": {
+   "wiki_title": "Dassault Rafale",
+   "wiki_url": "https://en.wikipedia.org/wiki/Dassault_Rafale",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Rafale_-_RIAT_2009_%283751416421%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Rafale_-_RIAT_2009_%283751416421%29.jpg/330px-Rafale_-_RIAT_2009_%283751416421%29.jpg",
    "attribution": "Wikipedia (CC BY-SA)"
   },
-  "Y20": {
-   "wiki_title": "Xi'an Y-20",
-   "wiki_url": "https://en.wikipedia.org/wiki/Xi'an_Y-20",
-   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/PLAAF_Y-20_-_1_%28cropped%29.jpg/3840px-PLAAF_Y-20_-_1_%28cropped%29.jpg",
-   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/PLAAF_Y-20_-_1_%28cropped%29.jpg/330px-PLAAF_Y-20_-_1_%28cropped%29.jpg",
+  "B732": {
+   "wiki_title": "Boeing 737",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_737",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/South_African_Airlink_Boeing_737-200_Advanced_Smith.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/South_African_Airlink_Boeing_737-200_Advanced_Smith.jpg/330px-South_African_Airlink_Boeing_737-200_Advanced_Smith.jpg",
    "attribution": "Wikipedia (CC BY-SA)"
   },
-  "IL76": {
-   "wiki_title": "Ilyushin Il-76",
-   "wiki_url": "https://en.wikipedia.org/wiki/Ilyushin_Il-76",
-   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Il-76MD-90A_RF-78653.jpg",
-   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Il-76MD-90A_RF-78653.jpg/330px-Il-76MD-90A_RF-78653.jpg",
+  "AT43": {
+   "wiki_title": "ATR 42",
+   "wiki_url": "https://en.wikipedia.org/wiki/ATR_42",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/ATR_42-500_Hop%21_%28HOP%29_F-GPYK_-_MSN_537_%2810276128103%29.jpg/3840px-ATR_42-500_Hop%21_%28HOP%29_F-GPYK_-_MSN_537_%2810276128103%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/ATR_42-500_Hop%21_%28HOP%29_F-GPYK_-_MSN_537_%2810276128103%29.jpg/330px-ATR_42-500_Hop%21_%28HOP%29_F-GPYK_-_MSN_537_%2810276128103%29.jpg",
    "attribution": "Wikipedia (CC BY-SA)"
   },
-  "H60": {
-   "wiki_title": "Sikorsky UH-60 Black Hawk",
-   "wiki_url": "https://en.wikipedia.org/wiki/Sikorsky_UH-60_Black_Hawk",
-   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/National-Guard-UH-60-Black-Hawk-operations-at-Fort-McCoy.jpg",
-   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/National-Guard-UH-60-Black-Hawk-operations-at-Fort-McCoy.jpg/330px-National-Guard-UH-60-Black-Hawk-operations-at-Fort-McCoy.jpg",
+  "AT76": {
+   "wiki_title": "ATR 72",
+   "wiki_url": "https://en.wikipedia.org/wiki/ATR_72",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/F-WWEZ_%28948%29_ATR.72-212A%28500%29_FlyFireFly_TLS_30AUG11_%286097869500%29_%28cropped%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/F-WWEZ_%28948%29_ATR.72-212A%28500%29_FlyFireFly_TLS_30AUG11_%286097869500%29_%28cropped%29.jpg/330px-F-WWEZ_%28948%29_ATR.72-212A%28500%29_FlyFireFly_TLS_30AUG11_%286097869500%29_%28cropped%29.jpg",
    "attribution": "Wikipedia (CC BY-SA)"
   },
-  "V22": {
-   "wiki_title": "Bell Boeing V-22 Osprey",
-   "wiki_url": "https://en.wikipedia.org/wiki/Bell_Boeing_V-22_Osprey",
-   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/MV-22_mcas_Miramar_2014.JPG",
-   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/MV-22_mcas_Miramar_2014.JPG/330px-MV-22_mcas_Miramar_2014.JPG",
+  "CRJ1": {
+   "wiki_title": "Bombardier CRJ100/200",
+   "wiki_url": "https://en.wikipedia.org/wiki/Bombardier_CRJ100%2F200",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/N466SW_LAX_%2830314755488%29.jpg/3840px-N466SW_LAX_%2830314755488%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/N466SW_LAX_%2830314755488%29.jpg/330px-N466SW_LAX_%2830314755488%29.jpg",
    "attribution": "Wikipedia (CC BY-SA)"
   },
-  "AN12": {
-   "wiki_title": "Antonov An-12",
-   "wiki_url": "https://en.wikipedia.org/wiki/Antonov_An-12",
-   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Antonov_An-12BK%2C_Russia_-_Air_Force_AN1879625.jpg",
-   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Antonov_An-12BK%2C_Russia_-_Air_Force_AN1879625.jpg/330px-Antonov_An-12BK%2C_Russia_-_Air_Force_AN1879625.jpg",
+  "CL60": {
+   "wiki_title": "Bombardier Challenger 600 series",
+   "wiki_url": "https://en.wikipedia.org/wiki/Bombardier_Challenger_600_series",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/OH-WII_CL604_pvt_%287950005490%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/OH-WII_CL604_pvt_%287950005490%29.jpg/330px-OH-WII_CL604_pvt_%287950005490%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B753": {
+   "wiki_title": "Boeing 757",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_757",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Delta_757-200_N713TW_on_final_approach_to_Boston_Dec_2024_2.jpg/3840px-Delta_757-200_N713TW_on_final_approach_to_Boston_Dec_2024_2.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Delta_757-200_N713TW_on_final_approach_to_Boston_Dec_2024_2.jpg/330px-Delta_757-200_N713TW_on_final_approach_to_Boston_Dec_2024_2.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "E6": {
+   "wiki_title": "Boeing E-6 Mercury",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_E-6_Mercury",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/United_States_Navy_Boeing_E-6B_Mercury_of_Strategic_Communications_Wing_ONE%2C_Task_Group_114.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/United_States_Navy_Boeing_E-6B_Mercury_of_Strategic_Communications_Wing_ONE%2C_Task_Group_114.jpg/330px-United_States_Navy_Boeing_E-6B_Mercury_of_Strategic_Communications_Wing_ONE%2C_Task_Group_114.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "E195": {
+   "wiki_title": "Embraer E-Jet family",
+   "wiki_url": "https://en.wikipedia.org/wiki/Embraer_E-Jet_family",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/KLM_Cityhopper_-_Embraer_190LR_-_AN2571563.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/KLM_Cityhopper_-_Embraer_190LR_-_AN2571563.jpg/330px-KLM_Cityhopper_-_Embraer_190LR_-_AN2571563.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B764": {
+   "wiki_title": "Boeing 767",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_767",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Delta_Air_Lines_B767-332_N130DL.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Delta_Air_Lines_B767-332_N130DL.jpg/330px-Delta_Air_Lines_B767-332_N130DL.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "A321": {
+   "wiki_title": "Airbus A321",
+   "wiki_url": "https://en.wikipedia.org/wiki/Airbus_A321",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Airbus_A321-231%28w%29_%E2%80%98N915US%E2%80%99_American_Airlines_%2828442733186%29.jpg/3840px-Airbus_A321-231%28w%29_%E2%80%98N915US%E2%80%99_American_Airlines_%2828442733186%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Airbus_A321-231%28w%29_%E2%80%98N915US%E2%80%99_American_Airlines_%2828442733186%29.jpg/330px-Airbus_A321-231%28w%29_%E2%80%98N915US%E2%80%99_American_Airlines_%2828442733186%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "A346": {
+   "wiki_title": "Airbus A340",
+   "wiki_url": "https://en.wikipedia.org/wiki/Airbus_A340",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Frankfurt_Airport_Lufthansa_Airbus_A340-313_D-AIGY_%28DSC02566%29.jpg/3840px-Frankfurt_Airport_Lufthansa_Airbus_A340-313_D-AIGY_%28DSC02566%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Frankfurt_Airport_Lufthansa_Airbus_A340-313_D-AIGY_%28DSC02566%29.jpg/330px-Frankfurt_Airport_Lufthansa_Airbus_A340-313_D-AIGY_%28DSC02566%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "AT75": {
+   "wiki_title": "ATR 72",
+   "wiki_url": "https://en.wikipedia.org/wiki/ATR_72",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/F-WWEZ_%28948%29_ATR.72-212A%28500%29_FlyFireFly_TLS_30AUG11_%286097869500%29_%28cropped%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/F-WWEZ_%28948%29_ATR.72-212A%28500%29_FlyFireFly_TLS_30AUG11_%286097869500%29_%28cropped%29.jpg/330px-F-WWEZ_%28948%29_ATR.72-212A%28500%29_FlyFireFly_TLS_30AUG11_%286097869500%29_%28cropped%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B788": {
+   "wiki_title": "Boeing 787 Dreamliner",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_787_Dreamliner",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Boeing_787_N1015B_ANA_Airlines_%2827611880663%29_%28cropped%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Boeing_787_N1015B_ANA_Airlines_%2827611880663%29_%28cropped%29.jpg/330px-Boeing_787_N1015B_ANA_Airlines_%2827611880663%29_%28cropped%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B3XM": {
+   "wiki_title": "Boeing 737 MAX",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_737_MAX",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Alaska_737_Max_9.jpg/3840px-Alaska_737_Max_9.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Alaska_737_Max_9.jpg/330px-Alaska_737_Max_9.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B39M": {
+   "wiki_title": "Boeing 737 MAX",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_737_MAX",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Alaska_737_Max_9.jpg/3840px-Alaska_737_Max_9.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Alaska_737_Max_9.jpg/330px-Alaska_737_Max_9.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "BE9L": {
+   "wiki_title": "Beechcraft King Air",
+   "wiki_url": "https://en.wikipedia.org/wiki/Beechcraft_King_Air",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Tc-90_04l.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Tc-90_04l.jpg/330px-Tc-90_04l.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B748": {
+   "wiki_title": "Boeing 747-8",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_747-8",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/D-ABYT_at_FRA.jpg/3840px-D-ABYT_at_FRA.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/D-ABYT_at_FRA.jpg/330px-D-ABYT_at_FRA.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "E3TF": {
+   "wiki_title": "Boeing E-3 Sentry",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_E-3_Sentry",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/E-3_Sentry_Airborne_Warning_and_Control_System_%28AWACS%29_conducts_a_mission.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/E-3_Sentry_Airborne_Warning_and_Control_System_%28AWACS%29_conducts_a_mission.jpg/330px-E-3_Sentry_Airborne_Warning_and_Control_System_%28AWACS%29_conducts_a_mission.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B773": {
+   "wiki_title": "Boeing 777",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_777",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Cathay_Pacific_Boeing_777-200%3B_B-HNL%40HKG.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Cathay_Pacific_Boeing_777-200%3B_B-HNL%40HKG.jpg/330px-Cathay_Pacific_Boeing_777-200%3B_B-HNL%40HKG.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "A388": {
+   "wiki_title": "Airbus A380",
+   "wiki_url": "https://en.wikipedia.org/wiki/Airbus_A380",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/A6-EDY_A380_Emirates_31_jan_2013_jfk_%288442269364%29_%28cropped%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/A6-EDY_A380_Emirates_31_jan_2013_jfk_%288442269364%29_%28cropped%29.jpg/330px-A6-EDY_A380_Emirates_31_jan_2013_jfk_%288442269364%29_%28cropped%29.jpg",
    "attribution": "Wikipedia (CC BY-SA)"
   },
   "A320": {
@@ -65,11 +170,732 @@
    "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Airbus_A320-214%2C_Airbus_Industrie_JP7617615.jpg/330px-Airbus_A320-214%2C_Airbus_Industrie_JP7617615.jpg",
    "attribution": "Wikipedia (CC BY-SA)"
   },
+  "B78X": {
+   "wiki_title": "Boeing 787 Dreamliner",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_787_Dreamliner",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Boeing_787_N1015B_ANA_Airlines_%2827611880663%29_%28cropped%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Boeing_787_N1015B_ANA_Airlines_%2827611880663%29_%28cropped%29.jpg/330px-Boeing_787_N1015B_ANA_Airlines_%2827611880663%29_%28cropped%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "C17": {
+   "wiki_title": "Boeing C-17 Globemaster III",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_C-17_Globemaster_III",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/C-17_test_sortie.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/C-17_test_sortie.jpg/330px-C-17_test_sortie.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "IL76": {
+   "wiki_title": "Ilyushin Il-76",
+   "wiki_url": "https://en.wikipedia.org/wiki/Ilyushin_Il-76",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Il-76MD-90A_RF-78653.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Il-76MD-90A_RF-78653.jpg/330px-Il-76MD-90A_RF-78653.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B77W": {
+   "wiki_title": "Boeing 777",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_777",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Cathay_Pacific_Boeing_777-200%3B_B-HNL%40HKG.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Cathay_Pacific_Boeing_777-200%3B_B-HNL%40HKG.jpg/330px-Cathay_Pacific_Boeing_777-200%3B_B-HNL%40HKG.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "P8": {
+   "wiki_title": "Boeing P-8 Poseidon",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_P-8_Poseidon",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/US_Navy_P-8_Poseidon_taking_off_at_Perth_Airport.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/US_Navy_P-8_Poseidon_taking_off_at_Perth_Airport.jpg/330px-US_Navy_P-8_Poseidon_taking_off_at_Perth_Airport.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B772": {
+   "wiki_title": "Boeing 777",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_777",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Cathay_Pacific_Boeing_777-200%3B_B-HNL%40HKG.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Cathay_Pacific_Boeing_777-200%3B_B-HNL%40HKG.jpg/330px-Cathay_Pacific_Boeing_777-200%3B_B-HNL%40HKG.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "GL7T": {
+   "wiki_title": "Bombardier Global 7500",
+   "wiki_url": "https://en.wikipedia.org/wiki/Bombardier_Global_7500",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/N182QS-Global7500-120823.png/3840px-N182QS-Global7500-120823.png",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/N182QS-Global7500-120823.png/330px-N182QS-Global7500-120823.png",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B37M": {
+   "wiki_title": "Boeing 737 MAX",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_737_MAX",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Alaska_737_Max_9.jpg/3840px-Alaska_737_Max_9.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Alaska_737_Max_9.jpg/330px-Alaska_737_Max_9.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "C750": {
+   "wiki_title": "Cessna Citation X",
+   "wiki_url": "https://en.wikipedia.org/wiki/Cessna_Citation_X",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/N975QS_2002_Cessna_750_C-N_750-0175_Citation_X_%287039507775%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/N975QS_2002_Cessna_750_C-N_750-0175_Citation_X_%287039507775%29.jpg/330px-N975QS_2002_Cessna_750_C-N_750-0175_Citation_X_%287039507775%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B779": {
+   "wiki_title": "Boeing 777X",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_777X",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/777X_Roll-Out_%2840407373023%29_%28cropped%29.jpg/3840px-777X_Roll-Out_%2840407373023%29_%28cropped%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/777X_Roll-Out_%2840407373023%29_%28cropped%29.jpg/330px-777X_Roll-Out_%2840407373023%29_%28cropped%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B744": {
+   "wiki_title": "Boeing 747-400",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_747-400",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Frankfurt_Airport_Lufthansa_Boeing_747-430_D-ABVY_%28DSC09727%29.jpg/3840px-Frankfurt_Airport_Lufthansa_Boeing_747-430_D-ABVY_%28DSC09727%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Frankfurt_Airport_Lufthansa_Boeing_747-430_D-ABVY_%28DSC09727%29.jpg/330px-Frankfurt_Airport_Lufthansa_Boeing_747-430_D-ABVY_%28DSC09727%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "A342": {
+   "wiki_title": "Airbus A340",
+   "wiki_url": "https://en.wikipedia.org/wiki/Airbus_A340",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Frankfurt_Airport_Lufthansa_Airbus_A340-313_D-AIGY_%28DSC02566%29.jpg/3840px-Frankfurt_Airport_Lufthansa_Airbus_A340-313_D-AIGY_%28DSC02566%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Frankfurt_Airport_Lufthansa_Airbus_A340-313_D-AIGY_%28DSC02566%29.jpg/330px-Frankfurt_Airport_Lufthansa_Airbus_A340-313_D-AIGY_%28DSC02566%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "A310": {
+   "wiki_title": "Airbus A310",
+   "wiki_url": "https://en.wikipedia.org/wiki/Airbus_A310",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Air_Transat_A310_%28C-GTSF%29_%40_LHR%2C_Aug_2009.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Air_Transat_A310_%28C-GTSF%29_%40_LHR%2C_Aug_2009.jpg/330px-Air_Transat_A310_%28C-GTSF%29_%40_LHR%2C_Aug_2009.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "CRJ9": {
+   "wiki_title": "Bombardier CRJ700 series",
+   "wiki_url": "https://en.wikipedia.org/wiki/Bombardier_CRJ700_series",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/EC-JTU_%288544702097%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/EC-JTU_%288544702097%29.jpg/330px-EC-JTU_%288544702097%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "A343": {
+   "wiki_title": "Airbus A340",
+   "wiki_url": "https://en.wikipedia.org/wiki/Airbus_A340",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Frankfurt_Airport_Lufthansa_Airbus_A340-313_D-AIGY_%28DSC02566%29.jpg/3840px-Frankfurt_Airport_Lufthansa_Airbus_A340-313_D-AIGY_%28DSC02566%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Frankfurt_Airport_Lufthansa_Airbus_A340-313_D-AIGY_%28DSC02566%29.jpg/330px-Frankfurt_Airport_Lufthansa_Airbus_A340-313_D-AIGY_%28DSC02566%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "F2TH": {
+   "wiki_title": "Dassault Falcon 2000",
+   "wiki_url": "https://en.wikipedia.org/wiki/Dassault_Falcon_2000",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/20130519190713%212010-07-15_Falcon2000_private_N671WM_EDDF_01_%28cropped%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/20130519190713%212010-07-15_Falcon2000_private_N671WM_EDDF_01_%28cropped%29.jpg/330px-20130519190713%212010-07-15_Falcon2000_private_N671WM_EDDF_01_%28cropped%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "AT72": {
+   "wiki_title": "ATR 72",
+   "wiki_url": "https://en.wikipedia.org/wiki/ATR_72",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/F-WWEZ_%28948%29_ATR.72-212A%28500%29_FlyFireFly_TLS_30AUG11_%286097869500%29_%28cropped%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/F-WWEZ_%28948%29_ATR.72-212A%28500%29_FlyFireFly_TLS_30AUG11_%286097869500%29_%28cropped%29.jpg/330px-F-WWEZ_%28948%29_ATR.72-212A%28500%29_FlyFireFly_TLS_30AUG11_%286097869500%29_%28cropped%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "A10": {
+   "wiki_title": "Fairchild Republic A-10 Thunderbolt II",
+   "wiki_url": "https://en.wikipedia.org/wiki/Fairchild_Republic_A-10_Thunderbolt_II",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Fairchild_Republic_A-10_Thunderbolt_II_-_32156159151.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Fairchild_Republic_A-10_Thunderbolt_II_-_32156159151.jpg/330px-Fairchild_Republic_A-10_Thunderbolt_II_-_32156159151.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "AT45": {
+   "wiki_title": "ATR 42",
+   "wiki_url": "https://en.wikipedia.org/wiki/ATR_42",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/ATR_42-500_Hop%21_%28HOP%29_F-GPYK_-_MSN_537_%2810276128103%29.jpg/3840px-ATR_42-500_Hop%21_%28HOP%29_F-GPYK_-_MSN_537_%2810276128103%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/ATR_42-500_Hop%21_%28HOP%29_F-GPYK_-_MSN_537_%2810276128103%29.jpg/330px-ATR_42-500_Hop%21_%28HOP%29_F-GPYK_-_MSN_537_%2810276128103%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "EUFI": {
+   "wiki_title": "Eurofighter Typhoon",
+   "wiki_url": "https://en.wikipedia.org/wiki/Eurofighter_Typhoon",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/RAF_Eurofighter_EF-2000_Typhoon_F2_Lofting-1.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RAF_Eurofighter_EF-2000_Typhoon_F2_Lofting-1.jpg/330px-RAF_Eurofighter_EF-2000_Typhoon_F2_Lofting-1.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "CL30": {
+   "wiki_title": "Bombardier Challenger 300",
+   "wiki_url": "https://en.wikipedia.org/wiki/Bombardier_Challenger_300",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Bombardier_BD-100-1A10_Challenger_300_AN1704544.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Bombardier_BD-100-1A10_Challenger_300_AN1704544.jpg/330px-Bombardier_BD-100-1A10_Challenger_300_AN1704544.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B752": {
+   "wiki_title": "Boeing 757",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_757",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Delta_757-200_N713TW_on_final_approach_to_Boston_Dec_2024_2.jpg/3840px-Delta_757-200_N713TW_on_final_approach_to_Boston_Dec_2024_2.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Delta_757-200_N713TW_on_final_approach_to_Boston_Dec_2024_2.jpg/330px-Delta_757-200_N713TW_on_final_approach_to_Boston_Dec_2024_2.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "F900": {
+   "wiki_title": "Dassault Falcon 900",
+   "wiki_url": "https://en.wikipedia.org/wiki/Dassault_Falcon_900",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Spanish_Air_Force_Dassault_Falcon_900B.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Spanish_Air_Force_Dassault_Falcon_900B.jpg/330px-Spanish_Air_Force_Dassault_Falcon_900B.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "A30B": {
+   "wiki_title": "Airbus A300",
+   "wiki_url": "https://en.wikipedia.org/wiki/Airbus_A300",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Iran_Air_Airbus_A300-605R%3B_EP-IBD%40FRA%3B06.07.2011_603ks_%285915220574%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Iran_Air_Airbus_A300-605R%3B_EP-IBD%40FRA%3B06.07.2011_603ks_%285915220574%29.jpg/330px-Iran_Air_Airbus_A300-605R%3B_EP-IBD%40FRA%3B06.07.2011_603ks_%285915220574%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "TU95": {
+   "wiki_title": "Tupolev Tu-95",
+   "wiki_url": "https://en.wikipedia.org/wiki/Tupolev_Tu-95",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Tupolev_Tu-95_over_Moscow_Kustov_%28cropped%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Tupolev_Tu-95_over_Moscow_Kustov_%28cropped%29.jpg/330px-Tupolev_Tu-95_over_Moscow_Kustov_%28cropped%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "C25C": {
+   "wiki_title": "Cessna CitationJet/M2",
+   "wiki_url": "https://en.wikipedia.org/wiki/Cessna_CitationJet%2FM2",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/OO-FLN.JPG",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/OO-FLN.JPG/330px-OO-FLN.JPG",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "E170": {
+   "wiki_title": "Embraer E-Jet family",
+   "wiki_url": "https://en.wikipedia.org/wiki/Embraer_E-Jet_family",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/KLM_Cityhopper_-_Embraer_190LR_-_AN2571563.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/KLM_Cityhopper_-_Embraer_190LR_-_AN2571563.jpg/330px-KLM_Cityhopper_-_Embraer_190LR_-_AN2571563.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "E190": {
+   "wiki_title": "Embraer E-Jet family",
+   "wiki_url": "https://en.wikipedia.org/wiki/Embraer_E-Jet_family",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/KLM_Cityhopper_-_Embraer_190LR_-_AN2571563.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/KLM_Cityhopper_-_Embraer_190LR_-_AN2571563.jpg/330px-KLM_Cityhopper_-_Embraer_190LR_-_AN2571563.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B762": {
+   "wiki_title": "Boeing 767",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_767",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Delta_Air_Lines_B767-332_N130DL.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Delta_Air_Lines_B767-332_N130DL.jpg/330px-Delta_Air_Lines_B767-332_N130DL.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B733": {
+   "wiki_title": "Boeing 737 Classic",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_737_Classic",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Classic_Colors_Southwest_Airlines_N648SW_Boeing_737-3H4_SJC.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Classic_Colors_Southwest_Airlines_N648SW_Boeing_737-3H4_SJC.jpg/330px-Classic_Colors_Southwest_Airlines_N648SW_Boeing_737-3H4_SJC.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B739": {
+   "wiki_title": "Boeing 737 Next Generation",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_737_Next_Generation",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Delta_Boeing_737-800_N371DA_departing_Boston_June_2025.jpg/3840px-Delta_Boeing_737-800_N371DA_departing_Boston_June_2025.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Delta_Boeing_737-800_N371DA_departing_Boston_June_2025.jpg/330px-Delta_Boeing_737-800_N371DA_departing_Boston_June_2025.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "A306": {
+   "wiki_title": "Airbus A300",
+   "wiki_url": "https://en.wikipedia.org/wiki/Airbus_A300",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Iran_Air_Airbus_A300-605R%3B_EP-IBD%40FRA%3B06.07.2011_603ks_%285915220574%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Iran_Air_Airbus_A300-605R%3B_EP-IBD%40FRA%3B06.07.2011_603ks_%285915220574%29.jpg/330px-Iran_Air_Airbus_A300-605R%3B_EP-IBD%40FRA%3B06.07.2011_603ks_%285915220574%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "F16": {
+   "wiki_title": "General Dynamics F-16 Fighting Falcon",
+   "wiki_url": "https://en.wikipedia.org/wiki/General_Dynamics_F-16_Fighting_Falcon",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/F-16_June_2008.jpg/3840px-F-16_June_2008.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/F-16_June_2008.jpg/330px-F-16_June_2008.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "TOR": {
+   "wiki_title": "Panavia Tornado",
+   "wiki_url": "https://en.wikipedia.org/wiki/Panavia_Tornado",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/RAF_Tornado_GR4_MOD_45155233.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/RAF_Tornado_GR4_MOD_45155233.jpg/330px-RAF_Tornado_GR4_MOD_45155233.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "P3": {
+   "wiki_title": "Lockheed P-3 Orion",
+   "wiki_url": "https://en.wikipedia.org/wiki/Lockheed_P-3_Orion",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/P-3c_03l_%28modified%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/P-3c_03l_%28modified%29.jpg/330px-P-3c_03l_%28modified%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "U2": {
+   "wiki_title": "Lockheed U-2",
+   "wiki_url": "https://en.wikipedia.org/wiki/Lockheed_U-2",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Usaf.u2.750pix.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Usaf.u2.750pix.jpg/330px-Usaf.u2.750pix.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "SU95": {
+   "wiki_title": "Yakovlev SJ-100",
+   "wiki_url": "https://en.wikipedia.org/wiki/Yakovlev_SJ-100",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Sukhoi_Superjet_100_%285096752902%29_%28cropped%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Sukhoi_Superjet_100_%285096752902%29_%28cropped%29.jpg/330px-Sukhoi_Superjet_100_%285096752902%29_%28cropped%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "F35": {
+   "wiki_title": "Lockheed Martin F-35 Lightning II",
+   "wiki_url": "https://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/F-35A_flight_%28cropped%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/F-35A_flight_%28cropped%29.jpg/330px-F-35A_flight_%28cropped%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "A35K": {
+   "wiki_title": "Airbus A350",
+   "wiki_url": "https://en.wikipedia.org/wiki/Airbus_A350",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/EGLF_-_Airbus_A350-941_-_F-WZNW.jpg/3840px-EGLF_-_Airbus_A350-941_-_F-WZNW.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/EGLF_-_Airbus_A350-941_-_F-WZNW.jpg/330px-EGLF_-_Airbus_A350-941_-_F-WZNW.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "SU27": {
+   "wiki_title": "Sukhoi Su-27",
+   "wiki_url": "https://en.wikipedia.org/wiki/Sukhoi_Su-27",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Sukhoi_Su-27SKM_at_MAKS-2005_airshow.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Sukhoi_Su-27SKM_at_MAKS-2005_airshow.jpg/330px-Sukhoi_Su-27SKM_at_MAKS-2005_airshow.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "A19N": {
+   "wiki_title": "Airbus A320neo family",
+   "wiki_url": "https://en.wikipedia.org/wiki/Airbus_A320neo_family",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/IndiGo_Airbus_A320neo_F-WWDG_%28to_VT-ITI%29_%2828915135713%29.jpg/3840px-IndiGo_Airbus_A320neo_F-WWDG_%28to_VT-ITI%29_%2828915135713%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/IndiGo_Airbus_A320neo_F-WWDG_%28to_VT-ITI%29_%2828915135713%29.jpg/330px-IndiGo_Airbus_A320neo_F-WWDG_%28to_VT-ITI%29_%2828915135713%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B742": {
+   "wiki_title": "Boeing 747",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_747",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/B-747_Iberia.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/B-747_Iberia.jpg/330px-B-747_Iberia.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "A332": {
+   "wiki_title": "Airbus A330",
+   "wiki_url": "https://en.wikipedia.org/wiki/Airbus_A330",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Turkish_Airlines%2C_Airbus_A330-300_TC-JNL_NRT_%2823708073592%29.jpg/3840px-Turkish_Airlines%2C_Airbus_A330-300_TC-JNL_NRT_%2823708073592%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Turkish_Airlines%2C_Airbus_A330-300_TC-JNL_NRT_%2823708073592%29.jpg/330px-Turkish_Airlines%2C_Airbus_A330-300_TC-JNL_NRT_%2823708073592%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "BCS1": {
+   "wiki_title": "Airbus A220",
+   "wiki_url": "https://en.wikipedia.org/wiki/Airbus_A220",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Airbus_A220-300.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Airbus_A220-300.jpg/330px-Airbus_A220-300.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "A359": {
+   "wiki_title": "Airbus A350",
+   "wiki_url": "https://en.wikipedia.org/wiki/Airbus_A350",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/EGLF_-_Airbus_A350-941_-_F-WZNW.jpg/3840px-EGLF_-_Airbus_A350-941_-_F-WZNW.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/EGLF_-_Airbus_A350-941_-_F-WZNW.jpg/330px-EGLF_-_Airbus_A350-941_-_F-WZNW.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "CRJ2": {
+   "wiki_title": "Bombardier CRJ100/200",
+   "wiki_url": "https://en.wikipedia.org/wiki/Bombardier_CRJ100%2F200",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/N466SW_LAX_%2830314755488%29.jpg/3840px-N466SW_LAX_%2830314755488%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/N466SW_LAX_%2830314755488%29.jpg/330px-N466SW_LAX_%2830314755488%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "FA7X": {
+   "wiki_title": "Dassault Falcon 7X",
+   "wiki_url": "https://en.wikipedia.org/wiki/Dassault_Falcon_7X",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/VQ-BGG%40PEK_%2820170314150921%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/VQ-BGG%40PEK_%2820170314150921%29.jpg/330px-VQ-BGG%40PEK_%2820170314150921%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "DH8B": {
+   "wiki_title": "De Havilland Canada Dash 8",
+   "wiki_url": "https://en.wikipedia.org/wiki/De_Havilland_Canada_Dash_8",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Hamburg_Airport_Wider%C3%B8e_Bombardier_DHC-8-402Q_LN-WDR_%28DSC08713%29.jpg/3840px-Hamburg_Airport_Wider%C3%B8e_Bombardier_DHC-8-402Q_LN-WDR_%28DSC08713%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Hamburg_Airport_Wider%C3%B8e_Bombardier_DHC-8-402Q_LN-WDR_%28DSC08713%29.jpg/330px-Hamburg_Airport_Wider%C3%B8e_Bombardier_DHC-8-402Q_LN-WDR_%28DSC08713%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "A21N": {
+   "wiki_title": "Airbus A320neo family",
+   "wiki_url": "https://en.wikipedia.org/wiki/Airbus_A320neo_family",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/IndiGo_Airbus_A320neo_F-WWDG_%28to_VT-ITI%29_%2828915135713%29.jpg/3840px-IndiGo_Airbus_A320neo_F-WWDG_%28to_VT-ITI%29_%2828915135713%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/IndiGo_Airbus_A320neo_F-WWDG_%28to_VT-ITI%29_%2828915135713%29.jpg/330px-IndiGo_Airbus_A320neo_F-WWDG_%28to_VT-ITI%29_%2828915135713%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "CRJ7": {
+   "wiki_title": "Bombardier CRJ700 series",
+   "wiki_url": "https://en.wikipedia.org/wiki/Bombardier_CRJ700_series",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/EC-JTU_%288544702097%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/EC-JTU_%288544702097%29.jpg/330px-EC-JTU_%288544702097%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B736": {
+   "wiki_title": "Boeing 737 Next Generation",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_737_Next_Generation",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Delta_Boeing_737-800_N371DA_departing_Boston_June_2025.jpg/3840px-Delta_Boeing_737-800_N371DA_departing_Boston_June_2025.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Delta_Boeing_737-800_N371DA_departing_Boston_June_2025.jpg/330px-Delta_Boeing_737-800_N371DA_departing_Boston_June_2025.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "C130": {
+   "wiki_title": "Lockheed C-130 Hercules",
+   "wiki_url": "https://en.wikipedia.org/wiki/Lockheed_C-130_Hercules",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Lockheed_C-130_Hercules.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Lockheed_C-130_Hercules.jpg/330px-Lockheed_C-130_Hercules.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "DH8D": {
+   "wiki_title": "De Havilland Canada Dash 8",
+   "wiki_url": "https://en.wikipedia.org/wiki/De_Havilland_Canada_Dash_8",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Hamburg_Airport_Wider%C3%B8e_Bombardier_DHC-8-402Q_LN-WDR_%28DSC08713%29.jpg/3840px-Hamburg_Airport_Wider%C3%B8e_Bombardier_DHC-8-402Q_LN-WDR_%28DSC08713%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Hamburg_Airport_Wider%C3%B8e_Bombardier_DHC-8-402Q_LN-WDR_%28DSC08713%29.jpg/330px-Hamburg_Airport_Wider%C3%B8e_Bombardier_DHC-8-402Q_LN-WDR_%28DSC08713%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "A20N": {
+   "wiki_title": "Airbus A320neo family",
+   "wiki_url": "https://en.wikipedia.org/wiki/Airbus_A320neo_family",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/IndiGo_Airbus_A320neo_F-WWDG_%28to_VT-ITI%29_%2828915135713%29.jpg/3840px-IndiGo_Airbus_A320neo_F-WWDG_%28to_VT-ITI%29_%2828915135713%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/IndiGo_Airbus_A320neo_F-WWDG_%28to_VT-ITI%29_%2828915135713%29.jpg/330px-IndiGo_Airbus_A320neo_F-WWDG_%28to_VT-ITI%29_%2828915135713%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "BCS3": {
+   "wiki_title": "Airbus A220",
+   "wiki_url": "https://en.wikipedia.org/wiki/Airbus_A220",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Airbus_A220-300.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Airbus_A220-300.jpg/330px-Airbus_A220-300.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "C25B": {
+   "wiki_title": "Cessna CitationJet/M2",
+   "wiki_url": "https://en.wikipedia.org/wiki/Cessna_CitationJet%2FM2",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/OO-FLN.JPG",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/OO-FLN.JPG/330px-OO-FLN.JPG",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "SU25": {
+   "wiki_title": "Sukhoi Su-25",
+   "wiki_url": "https://en.wikipedia.org/wiki/Sukhoi_Su-25",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Sukhoi_Su-25_of_the_Russian_Air_Force_landing_at_Vladivostok_%288683076150%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Sukhoi_Su-25_of_the_Russian_Air_Force_landing_at_Vladivostok_%288683076150%29.jpg/330px-Sukhoi_Su-25_of_the_Russian_Air_Force_landing_at_Vladivostok_%288683076150%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "F18S": {
+   "wiki_title": "Boeing F/A-18E/F Super Hornet",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_F%2FA-18E%2FF_Super_Hornet",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/US_Navy_071203-N-8923M-074_An_F-A-18F_Super_Hornet%2C_from_the_Red_Rippers_of_Strike_Fighter_Squadron_%28VFA%29_11%2C_makes_a_sharp_turn_above_the_flight_deck_aboard_the_Nimitz-class_nuclear-powered_aircraft_carrier_USS_Harry_S._Truman.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/US_Navy_071203-N-8923M-074_An_F-A-18F_Super_Hornet%2C_from_the_Red_Rippers_of_Strike_Fighter_Squadron_%28VFA%29_11%2C_makes_a_sharp_turn_above_the_flight_deck_aboard_the_Nimitz-class_nuclear-powered_aircraft_carrier_USS_Harry_S._Truman.jpg/330px-thumbnail.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "K35R": {
+   "wiki_title": "Boeing KC-135 Stratotanker",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_KC-135_Stratotanker",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/F-15C_Eagle_from_the_67th_Fighter_Squadron_at_Kadena_AB_is_refueled_by_a_KC-135R_Stratotanker_from_the_909th_Air_Refueling_Squadron_.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/F-15C_Eagle_from_the_67th_Fighter_Squadron_at_Kadena_AB_is_refueled_by_a_KC-135R_Stratotanker_from_the_909th_Air_Refueling_Squadron_.jpg/330px-F-15C_Eagle_from_the_67th_Fighter_Squadron_at_Kadena_AB_is_refueled_by_a_KC-135R_Stratotanker_from_the_909th_Air_Refueling_Squadron_.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B743": {
+   "wiki_title": "Boeing 747",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_747",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/B-747_Iberia.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/B-747_Iberia.jpg/330px-B-747_Iberia.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B734": {
+   "wiki_title": "Boeing 737 Classic",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_737_Classic",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Classic_Colors_Southwest_Airlines_N648SW_Boeing_737-3H4_SJC.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Classic_Colors_Southwest_Airlines_N648SW_Boeing_737-3H4_SJC.jpg/330px-Classic_Colors_Southwest_Airlines_N648SW_Boeing_737-3H4_SJC.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "A400": {
+   "wiki_title": "Airbus A400M Atlas",
+   "wiki_url": "https://en.wikipedia.org/wiki/Airbus_A400M_Atlas",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/German_Air_Force_Airbus_A400M_%28out_cropped%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/German_Air_Force_Airbus_A400M_%28out_cropped%29.jpg/330px-German_Air_Force_Airbus_A400M_%28out_cropped%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "A339": {
+   "wiki_title": "Airbus A330neo",
+   "wiki_url": "https://en.wikipedia.org/wiki/Airbus_A330neo",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Airbus_A330neo_F-WTTN_37.jpg/3840px-Airbus_A330neo_F-WTTN_37.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Airbus_A330neo_F-WTTN_37.jpg/330px-Airbus_A330neo_F-WTTN_37.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "A338": {
+   "wiki_title": "Airbus A330neo",
+   "wiki_url": "https://en.wikipedia.org/wiki/Airbus_A330neo",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Airbus_A330neo_F-WTTN_37.jpg/3840px-Airbus_A330neo_F-WTTN_37.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Airbus_A330neo_F-WTTN_37.jpg/330px-Airbus_A330neo_F-WTTN_37.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "C68A": {
+   "wiki_title": "Cessna Citation Latitude",
+   "wiki_url": "https://en.wikipedia.org/wiki/Cessna_Citation_Latitude",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/CS-LTI_Cessna_560_XLS_Citation_XLS_C56X_c_n_560-5798_-_NJE_%2843222541880%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/CS-LTI_Cessna_560_XLS_Citation_XLS_C56X_c_n_560-5798_-_NJE_%2843222541880%29.jpg/330px-CS-LTI_Cessna_560_XLS_Citation_XLS_C56X_c_n_560-5798_-_NJE_%2843222541880%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
   "A333": {
    "wiki_title": "Airbus A330",
    "wiki_url": "https://en.wikipedia.org/wiki/Airbus_A330",
    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Turkish_Airlines%2C_Airbus_A330-300_TC-JNL_NRT_%2823708073592%29.jpg/3840px-Turkish_Airlines%2C_Airbus_A330-300_TC-JNL_NRT_%2823708073592%29.jpg",
    "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Turkish_Airlines%2C_Airbus_A330-300_TC-JNL_NRT_%2823708073592%29.jpg/330px-Turkish_Airlines%2C_Airbus_A330-300_TC-JNL_NRT_%2823708073592%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B763": {
+   "wiki_title": "Boeing 767",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_767",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Delta_Air_Lines_B767-332_N130DL.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Delta_Air_Lines_B767-332_N130DL.jpg/330px-Delta_Air_Lines_B767-332_N130DL.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B77L": {
+   "wiki_title": "Boeing 777",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_777",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Cathay_Pacific_Boeing_777-200%3B_B-HNL%40HKG.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Cathay_Pacific_Boeing_777-200%3B_B-HNL%40HKG.jpg/330px-Cathay_Pacific_Boeing_777-200%3B_B-HNL%40HKG.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "BE40": {
+   "wiki_title": "Beechcraft King Air",
+   "wiki_url": "https://en.wikipedia.org/wiki/Beechcraft_King_Air",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Tc-90_04l.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Tc-90_04l.jpg/330px-Tc-90_04l.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "T154": {
+   "wiki_title": "Tupolev Tu-154",
+   "wiki_url": "https://en.wikipedia.org/wiki/Tupolev_Tu-154",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Tupolev_Tu-154M%2C_Iran_Air_Tours_JP6511800.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Tupolev_Tu-154M%2C_Iran_Air_Tours_JP6511800.jpg/330px-Tupolev_Tu-154M%2C_Iran_Air_Tours_JP6511800.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "AN72": {
+   "wiki_title": "Antonov An-72",
+   "wiki_url": "https://en.wikipedia.org/wiki/Antonov_An-72",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Russian_Air_Force_-_Antonov_An-72.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Russian_Air_Force_-_Antonov_An-72.jpg/330px-Russian_Air_Force_-_Antonov_An-72.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "A345": {
+   "wiki_title": "Airbus A340",
+   "wiki_url": "https://en.wikipedia.org/wiki/Airbus_A340",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Frankfurt_Airport_Lufthansa_Airbus_A340-313_D-AIGY_%28DSC02566%29.jpg/3840px-Frankfurt_Airport_Lufthansa_Airbus_A340-313_D-AIGY_%28DSC02566%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Frankfurt_Airport_Lufthansa_Airbus_A340-313_D-AIGY_%28DSC02566%29.jpg/330px-Frankfurt_Airport_Lufthansa_Airbus_A340-313_D-AIGY_%28DSC02566%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "A318": {
+   "wiki_title": "Airbus A318",
+   "wiki_url": "https://en.wikipedia.org/wiki/Airbus_A318",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/F-GUGI_CDG_%2849806325246%29.jpg/3840px-F-GUGI_CDG_%2849806325246%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/F-GUGI_CDG_%2849806325246%29.jpg/330px-F-GUGI_CDG_%2849806325246%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B38M": {
+   "wiki_title": "Boeing 737 MAX",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_737_MAX",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Alaska_737_Max_9.jpg/3840px-Alaska_737_Max_9.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Alaska_737_Max_9.jpg/330px-Alaska_737_Max_9.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B737": {
+   "wiki_title": "Boeing 737 Next Generation",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_737_Next_Generation",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Delta_Boeing_737-800_N371DA_departing_Boston_June_2025.jpg/3840px-Delta_Boeing_737-800_N371DA_departing_Boston_June_2025.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Delta_Boeing_737-800_N371DA_departing_Boston_June_2025.jpg/330px-Delta_Boeing_737-800_N371DA_departing_Boston_June_2025.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "F15": {
+   "wiki_title": "McDonnell Douglas F-15 Eagle",
+   "wiki_url": "https://en.wikipedia.org/wiki/McDonnell_Douglas_F-15_Eagle",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/F-15C_Eagle_from_the_44th_Fighter_Squadron_flies_during_a_routine_training_exercise_April_15%2C_2019.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/F-15C_Eagle_from_the_44th_Fighter_Squadron_flies_during_a_routine_training_exercise_April_15%2C_2019.jpg/330px-F-15C_Eagle_from_the_44th_Fighter_Squadron_flies_during_a_routine_training_exercise_April_15%2C_2019.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "Y20": {
+   "wiki_title": "Xi'an Y-20",
+   "wiki_url": "https://en.wikipedia.org/wiki/Xi'an_Y-20",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/PLAAF_Y-20_-_1_%28cropped%29.jpg/3840px-PLAAF_Y-20_-_1_%28cropped%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/PLAAF_Y-20_-_1_%28cropped%29.jpg/330px-PLAAF_Y-20_-_1_%28cropped%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "DH8A": {
+   "wiki_title": "De Havilland Canada Dash 8",
+   "wiki_url": "https://en.wikipedia.org/wiki/De_Havilland_Canada_Dash_8",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Hamburg_Airport_Wider%C3%B8e_Bombardier_DHC-8-402Q_LN-WDR_%28DSC08713%29.jpg/3840px-Hamburg_Airport_Wider%C3%B8e_Bombardier_DHC-8-402Q_LN-WDR_%28DSC08713%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Hamburg_Airport_Wider%C3%B8e_Bombardier_DHC-8-402Q_LN-WDR_%28DSC08713%29.jpg/330px-Hamburg_Airport_Wider%C3%B8e_Bombardier_DHC-8-402Q_LN-WDR_%28DSC08713%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "V22": {
+   "wiki_title": "Bell Boeing V-22 Osprey",
+   "wiki_url": "https://en.wikipedia.org/wiki/Bell_Boeing_V-22_Osprey",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/MV-22_mcas_Miramar_2014.JPG",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/MV-22_mcas_Miramar_2014.JPG/330px-MV-22_mcas_Miramar_2014.JPG",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B735": {
+   "wiki_title": "Boeing 737 Classic",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_737_Classic",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Classic_Colors_Southwest_Airlines_N648SW_Boeing_737-3H4_SJC.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Classic_Colors_Southwest_Airlines_N648SW_Boeing_737-3H4_SJC.jpg/330px-Classic_Colors_Southwest_Airlines_N648SW_Boeing_737-3H4_SJC.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "E290": {
+   "wiki_title": "Embraer E-Jet E2 family",
+   "wiki_url": "https://en.wikipedia.org/wiki/Embraer_E-Jet_E2_family",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Wider%C3%B8e%2C_LN-WEA%2C_Embraer_E190-E2_%40_HEL.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Wider%C3%B8e%2C_LN-WEA%2C_Embraer_E190-E2_%40_HEL.jpg/330px-Wider%C3%B8e%2C_LN-WEA%2C_Embraer_E190-E2_%40_HEL.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B741": {
+   "wiki_title": "Boeing 747",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_747",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/B-747_Iberia.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/B-747_Iberia.jpg/330px-B-747_Iberia.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "GLF6": {
+   "wiki_title": "Gulfstream G650/G700/G800",
+   "wiki_url": "https://en.wikipedia.org/wiki/Gulfstream_G650%2FG700%2FG800",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/G-ULFS_Gulfstream_G650_CVT_05-05-16_%2827046023031%29_%28cropped%29.jpg/3840px-G-ULFS_Gulfstream_G650_CVT_05-05-16_%2827046023031%29_%28cropped%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/G-ULFS_Gulfstream_G650_CVT_05-05-16_%2827046023031%29_%28cropped%29.jpg/330px-G-ULFS_Gulfstream_G650_CVT_05-05-16_%2827046023031%29_%28cropped%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "AN24": {
+   "wiki_title": "Antonov An-24",
+   "wiki_url": "https://en.wikipedia.org/wiki/Antonov_An-24",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Volga-Avia_Antonov_An-24.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Volga-Avia_Antonov_An-24.jpg/330px-Volga-Avia_Antonov_An-24.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "CRJX": {
+   "wiki_title": "Bombardier CRJ700 series",
+   "wiki_url": "https://en.wikipedia.org/wiki/Bombardier_CRJ700_series",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/EC-JTU_%288544702097%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/EC-JTU_%288544702097%29.jpg/330px-EC-JTU_%288544702097%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "H60": {
+   "wiki_title": "Sikorsky UH-60 Black Hawk",
+   "wiki_url": "https://en.wikipedia.org/wiki/Sikorsky_UH-60_Black_Hawk",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/National-Guard-UH-60-Black-Hawk-operations-at-Fort-McCoy.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/National-Guard-UH-60-Black-Hawk-operations-at-Fort-McCoy.jpg/330px-National-Guard-UH-60-Black-Hawk-operations-at-Fort-McCoy.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "GLEX": {
+   "wiki_title": "Bombardier Global Express",
+   "wiki_url": "https://en.wikipedia.org/wiki/Bombardier_Global_Express",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/2010-07-08_BD700_Tyrolean_OE-IGS_EDDF_03.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/2010-07-08_BD700_Tyrolean_OE-IGS_EDDF_03.jpg/330px-2010-07-08_BD700_Tyrolean_OE-IGS_EDDF_03.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "C25A": {
+   "wiki_title": "Cessna CitationJet/M2",
+   "wiki_url": "https://en.wikipedia.org/wiki/Cessna_CitationJet%2FM2",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/OO-FLN.JPG",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/OO-FLN.JPG/330px-OO-FLN.JPG",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "MG29": {
+   "wiki_title": "Mikoyan MiG-29",
+   "wiki_url": "https://en.wikipedia.org/wiki/Mikoyan_MiG-29",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/VVS_100th_IMG_0691_%287727464290%29_%28cropped%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/VVS_100th_IMG_0691_%287727464290%29_%28cropped%29.jpg/330px-VVS_100th_IMG_0691_%287727464290%29_%28cropped%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "GLF5": {
+   "wiki_title": "Gulfstream G550",
+   "wiki_url": "https://en.wikipedia.org/wiki/Gulfstream_G550",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/2010-07-21_G550_NetJets_CS-DKE_EDDF_01.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/2010-07-21_G550_NetJets_CS-DKE_EDDF_01.jpg/330px-2010-07-21_G550_NetJets_CS-DKE_EDDF_01.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B789": {
+   "wiki_title": "Boeing 787 Dreamliner",
+   "wiki_url": "https://en.wikipedia.org/wiki/Boeing_787_Dreamliner",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Boeing_787_N1015B_ANA_Airlines_%2827611880663%29_%28cropped%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Boeing_787_N1015B_ANA_Airlines_%2827611880663%29_%28cropped%29.jpg/330px-Boeing_787_N1015B_ANA_Airlines_%2827611880663%29_%28cropped%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "E295": {
+   "wiki_title": "Embraer E-Jet E2 family",
+   "wiki_url": "https://en.wikipedia.org/wiki/Embraer_E-Jet_E2_family",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Wider%C3%B8e%2C_LN-WEA%2C_Embraer_E190-E2_%40_HEL.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Wider%C3%B8e%2C_LN-WEA%2C_Embraer_E190-E2_%40_HEL.jpg/330px-Wider%C3%B8e%2C_LN-WEA%2C_Embraer_E190-E2_%40_HEL.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "C56X": {
+   "wiki_title": "Cessna Citation Excel",
+   "wiki_url": "https://en.wikipedia.org/wiki/Cessna_Citation_Excel",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Cessna_560XL_Citation_XLS.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Cessna_560XL_Citation_XLS.jpg/330px-Cessna_560XL_Citation_XLS.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "DH8C": {
+   "wiki_title": "De Havilland Canada Dash 8",
+   "wiki_url": "https://en.wikipedia.org/wiki/De_Havilland_Canada_Dash_8",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Hamburg_Airport_Wider%C3%B8e_Bombardier_DHC-8-402Q_LN-WDR_%28DSC08713%29.jpg/3840px-Hamburg_Airport_Wider%C3%B8e_Bombardier_DHC-8-402Q_LN-WDR_%28DSC08713%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Hamburg_Airport_Wider%C3%B8e_Bombardier_DHC-8-402Q_LN-WDR_%28DSC08713%29.jpg/330px-Hamburg_Airport_Wider%C3%B8e_Bombardier_DHC-8-402Q_LN-WDR_%28DSC08713%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "BE20": {
+   "wiki_title": "Beechcraft Super King Air",
+   "wiki_url": "https://en.wikipedia.org/wiki/Beechcraft_Super_King_Air",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Royal_Air_Force_King_Air_B200_Training_Aircraft_MOD_45153010.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Royal_Air_Force_King_Air_B200_Training_Aircraft_MOD_45153010.jpg/330px-Royal_Air_Force_King_Air_B200_Training_Aircraft_MOD_45153010.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "FA8X": {
+   "wiki_title": "Dassault Falcon 7X",
+   "wiki_url": "https://en.wikipedia.org/wiki/Dassault_Falcon_7X",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/VQ-BGG%40PEK_%2820170314150921%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/VQ-BGG%40PEK_%2820170314150921%29.jpg/330px-VQ-BGG%40PEK_%2820170314150921%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B350": {
+   "wiki_title": "Beechcraft Super King Air",
+   "wiki_url": "https://en.wikipedia.org/wiki/Beechcraft_Super_King_Air",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Royal_Air_Force_King_Air_B200_Training_Aircraft_MOD_45153010.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Royal_Air_Force_King_Air_B200_Training_Aircraft_MOD_45153010.jpg/330px-Royal_Air_Force_King_Air_B200_Training_Aircraft_MOD_45153010.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "CL35": {
+   "wiki_title": "Bombardier Challenger 300",
+   "wiki_url": "https://en.wikipedia.org/wiki/Bombardier_Challenger_300",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Bombardier_BD-100-1A10_Challenger_300_AN1704544.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Bombardier_BD-100-1A10_Challenger_300_AN1704544.jpg/330px-Bombardier_BD-100-1A10_Challenger_300_AN1704544.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "C919": {
+   "wiki_title": "Comac C919",
+   "wiki_url": "https://en.wikipedia.org/wiki/Comac_C919",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/B-919A%40PEK_%2820221226151722%29.jpg/3840px-B-919A%40PEK_%2820221226151722%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/B-919A%40PEK_%2820221226151722%29.jpg/330px-B-919A%40PEK_%2820221226151722%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "GA5C": {
+   "wiki_title": "Gulfstream G400/G500/G600",
+   "wiki_url": "https://en.wikipedia.org/wiki/Gulfstream_G400%2FG500%2FG600",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Gulfstream_G600.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Gulfstream_G600.jpg/330px-Gulfstream_G600.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "AN12": {
+   "wiki_title": "Antonov An-12",
+   "wiki_url": "https://en.wikipedia.org/wiki/Antonov_An-12",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Antonov_An-12BK%2C_Russia_-_Air_Force_AN1879625.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Antonov_An-12BK%2C_Russia_-_Air_Force_AN1879625.jpg/330px-Antonov_An-12BK%2C_Russia_-_Air_Force_AN1879625.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "GL5T": {
+   "wiki_title": "Bombardier Global Express",
+   "wiki_url": "https://en.wikipedia.org/wiki/Bombardier_Global_Express",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/2010-07-08_BD700_Tyrolean_OE-IGS_EDDF_03.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/2010-07-08_BD700_Tyrolean_OE-IGS_EDDF_03.jpg/330px-2010-07-08_BD700_Tyrolean_OE-IGS_EDDF_03.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "A319": {
+   "wiki_title": "Airbus A319",
+   "wiki_url": "https://en.wikipedia.org/wiki/Airbus_A319",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/United_Airbus_A319_%2813942617705%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/United_Airbus_A319_%2813942617705%29.jpg/330px-United_Airbus_A319_%2813942617705%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "B1": {
+   "wiki_title": "Rockwell B-1 Lancer",
+   "wiki_url": "https://en.wikipedia.org/wiki/Rockwell_B-1_Lancer",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/B-1B_air_refueling.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/B-1B_air_refueling.jpg/330px-B-1B_air_refueling.jpg",
    "attribution": "Wikipedia (CC BY-SA)"
   }
  }
