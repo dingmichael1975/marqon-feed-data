@@ -397,59 +397,117 @@ def _strip_paren_hull(name: str) -> str:
     return re.sub(r"\s*\([^)]+\)\s*$", "", name).strip()
 
 
-def fetch_vessel_photos(vessel_names: list[str]) -> dict[str, dict]:
-    """For each unique vessel NAME, look up its Wikipedia page summary
-    and pull the page thumbnail (CC-licensed).
+# OCR sometimes labels strike groups by their group name rather than the
+# flagship — e.g. "Abraham Lincoln CSG", "Boxer ARG". Wikipedia has no
+# article for the group itself; we want the flagship's article instead.
+_GROUP_RE = re.compile(r"^(.*?)\s+(CSG|CVN|ARG|MEU|SAG|ESG)\s*$", re.I)
 
-    US Navy ship Wikipedia article titles use "(HULL-NUM)" as the
-    disambiguator — e.g. "USS Iwo Jima (LHD-7)". Stripping the paren
-    sends us to a disambiguation page (multiple ships of the same
-    name) which has no thumbnail. So we try the full name FIRST and
-    only fall back to the stripped form if that 404s.
+
+def _fetch_summary(client: httpx.Client, title: str) -> dict | None:
+    """Hit Wikipedia REST summary; return JSON or None."""
+    try:
+        r = client.get(f"{_WIKI_API}/{_wiki_slug(title)}")
+    except Exception:
+        return None
+    if r.status_code != 200:
+        return None
+    try:
+        return r.json()
+    except Exception:
+        return None
+
+
+def _wiki_search_uss_titles(client: httpx.Client, query: str) -> list[str]:
+    """Wikipedia full-text search → list of titles starting with 'USS '."""
+    try:
+        r = client.get(
+            "https://en.wikipedia.org/w/api.php",
+            params={
+                "action":   "query",
+                "list":     "search",
+                "srsearch": query,
+                "srlimit":  10,
+                "format":   "json",
+            },
+        )
+    except Exception:
+        return []
+    if r.status_code != 200:
+        return []
+    hits = r.json().get("query", {}).get("search", [])
+    return [h["title"] for h in hits if h["title"].startswith("USS ")]
+
+
+def _resolve_vessel_title(client: httpx.Client, raw: str) -> dict | None:
+    """Walk a vessel label down to a Wikipedia article with a thumbnail.
+
+    Order:
+      1. Full label with hull number     ("USS Iwo Jima (LHD-7)")
+      2. Label with hull stripped         ("USS Iwo Jima")
+      3. If it's a strike-group label    ("Abraham Lincoln CSG"):
+         a. Direct probe "USS {name}" — Wikipedia often redirects
+            unique names (Gerald R. Ford, George H. W. Bush) to the
+            actual ship article with a thumbnail.
+         b. Full-text search "USS {name} CVN aircraft carrier"
+            (or amphibious assault ship for ARG); walk results and
+            return the first one whose summary has a thumbnail.
+    Returns the summary dict, or None if nothing matched.
     """
+    raw_clean = raw.strip()
+    if not raw_clean:
+        return None
+
+    # 1 + 2: direct candidates
+    candidates: list[str] = [raw_clean]
+    stripped = _strip_paren_hull(raw_clean)
+    if stripped and stripped != raw_clean:
+        candidates.append(stripped)
+    for t in candidates:
+        d = _fetch_summary(client, t)
+        if d and d.get("type") != "disambiguation" \
+           and (d.get("thumbnail") or {}).get("source"):
+            return d
+
+    # 3: strike-group / amphib-group fallback
+    m = _GROUP_RE.match(raw_clean)
+    if not m:
+        return None
+    name = m.group(1).strip()
+    kind = m.group(2).upper()
+    if kind in ("ARG", "MEU", "ESG"):
+        query = f"USS {name} amphibious assault ship"
+    else:                                    # CSG / CVN / SAG
+        query = f"USS {name} aircraft carrier"
+
+    # 3a: bare "USS {name}" — Wikipedia auto-redirects unique names
+    d = _fetch_summary(client, f"USS {name}")
+    if d and d.get("type") != "disambiguation" \
+       and (d.get("thumbnail") or {}).get("source"):
+        return d
+
+    # 3b: search → walk
+    for t in _wiki_search_uss_titles(client, query):
+        d = _fetch_summary(client, t)
+        if d and d.get("type") != "disambiguation" \
+           and (d.get("thumbnail") or {}).get("source"):
+            return d
+    return None
+
+
+def fetch_vessel_photos(vessel_names: list[str]) -> dict[str, dict]:
+    """For each unique vessel NAME (or strike-group label), look up the
+    corresponding Wikipedia page and return its thumbnail."""
     out: dict[str, dict] = {}
     headers = {"User-Agent": _WIKI_UA}
     with httpx.Client(timeout=20.0, headers=headers, follow_redirects=True) as c:
         for raw in vessel_names:
-            raw_clean = raw.strip()
-            if not raw_clean:
-                continue
-            # Try full name first (with hull number), then stripped form.
-            candidates: list[str] = [raw_clean]
-            stripped = _strip_paren_hull(raw_clean)
-            if stripped and stripped != raw_clean:
-                candidates.append(stripped)
-
-            picked: dict | None = None
-            picked_title = ""
-            for title in candidates:
-                try:
-                    r = c.get(f"{_WIKI_API}/{_wiki_slug(title)}")
-                except Exception:
-                    continue
-                if r.status_code != 200:
-                    continue
-                try:
-                    data = r.json()
-                except Exception:
-                    continue
-                # Disambiguation pages have no useful thumbnail; skip and
-                # let the next candidate run.
-                if data.get("type") == "disambiguation":
-                    continue
-                thumb = (data.get("thumbnail") or {}).get("source")
-                if not thumb:
-                    continue
-                picked = data
-                picked_title = title
-                break
-
+            picked = _resolve_vessel_title(c, raw)
             if not picked:
                 continue
             thumb = (picked.get("thumbnail") or {}).get("source")
             orig  = (picked.get("originalimage") or {}).get("source")
             out[raw] = {
-                "wiki_title":  picked.get("title") or picked_title,
+                "wiki_title":  picked.get("title") or raw,
                 "wiki_url":    picked.get("content_urls", {}).get(
                                    "desktop", {}).get("page", ""),
                 "photo_url":   orig or thumb,
