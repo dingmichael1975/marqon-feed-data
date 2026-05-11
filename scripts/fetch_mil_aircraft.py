@@ -235,6 +235,7 @@ TYPE_TO_WIKI: dict[str, str] = {
     "C17":  "Boeing C-17 Globemaster III",
     "C130": "Lockheed C-130 Hercules",
     "C130J":"Lockheed Martin C-130J Super Hercules",
+    "C30J": "Lockheed Martin C-130J Super Hercules",   # short-fuselage variant
     "C141": "Lockheed C-141 Starlifter",
     "C40":  "Boeing C-40 Clipper",
     "K35R": "Boeing KC-135 Stratotanker",
@@ -387,10 +388,19 @@ TYPE_TO_WIKI: dict[str, str] = {
     "CL30": "Bombardier Challenger 300",
     "CL35": "Bombardier Challenger 350",
     "CL60": "Bombardier Challenger 600 series",
+    "FA50": "Dassault Falcon 50",
     "FA7X": "Dassault Falcon 7X",
     "FA8X": "Dassault Falcon 8X",
     "F900": "Dassault Falcon 900",
     "F2TH": "Dassault Falcon 2000",
+    # Light / GA / liaison aircraft commonly used by EU air forces &
+    # SAMU (French air medical) for utility / training / observation.
+    "DA42": "Diamond DA42",
+    "PC24": "Pilatus PC-24",
+    # Light / medium twin helicopters (military medevac + utility)
+    "EC35": "Eurocopter EC135",
+    "EC45": "Eurocopter EC145",
+    "A109": "AgustaWestland AW109",
     # Beechcraft / Cessna common
     "BE20": "Beechcraft Super King Air",
     "BE40": "Beechcraft King Air",
