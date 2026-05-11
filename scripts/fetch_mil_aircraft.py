@@ -136,6 +136,18 @@ def _shard_prefix(name: str) -> str:
     return name[:-3] if name.endswith(".js") else name
 
 
+def _safe_str(v: Any) -> str:
+    """Coerce a tar1090-db record field to a clean str. A small fraction
+    of entries store numeric type_codes (e.g. plain `737`) as JSON
+    numbers instead of strings; `(v or "").strip()` would crash on those
+    with `AttributeError: 'float' object has no attribute 'strip'`."""
+    if v is None:
+        return ""
+    if isinstance(v, str):
+        return v.strip()
+    return str(v).strip()
+
+
 def _full_hex(shard_prefix: str, key: str) -> str:
     """Concat shard prefix with shard-internal key, then zero-pad to
     6-char uppercase. tar1090-db stores hex split as `{prefix}{key}`
@@ -482,12 +494,12 @@ async def main_async() -> int:
         # rec format: [reg, type_code, flag, type_desc]
         if not isinstance(rec, list) or len(rec) < 3:
             continue
-        reg       = rec[0] or ""
-        type_code = (rec[1] or "").upper()
+        reg       = _safe_str(rec[0])
+        type_code = _safe_str(rec[1]).upper()
         type_str  = ""
-        if len(rec) >= 4 and rec[3]:
-            type_str = rec[3]
-        elif type_code in type_desc:
+        if len(rec) >= 4:
+            type_str = _safe_str(rec[3])
+        if not type_str and type_code in type_desc:
             type_str = type_desc[type_code].get("desc", "")
         mil_db[hex_str.upper()] = {
             "reg":       reg,
@@ -530,7 +542,7 @@ async def main_async() -> int:
     for hex_str, rec in all_records.items():
         if not isinstance(rec, list) or len(rec) < 2:
             continue
-        type_code = (rec[1] or "").strip().upper()
+        type_code = _safe_str(rec[1]).upper()
         if not type_code:
             continue
         universal_codes[hex_str.upper()] = type_code
