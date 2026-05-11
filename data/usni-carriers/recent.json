@@ -1,6 +1,7 @@
 {
- "generated_at": "2026-05-11T10:09:41+00:00",
+ "generated_at": "2026-05-11T10:17:26+00:00",
  "weeks": [
+  "vessel_photos",
   "2023-10-01"
  ],
  "vessels": [
@@ -44,12 +45,12 @@
    "track": [
     {
      "as_of": "2023-10-01",
-     "lat": -5.0,
+     "lat": -10.0,
      "lng": -75.0
     }
    ],
    "current": {
-    "lat": -5.0,
+    "lat": -10.0,
     "lng": -75.0,
     "region": "South America",
     "status": "deployed"
@@ -78,12 +79,12 @@
    "track": [
     {
      "as_of": "2023-10-01",
-     "lat": 29.5,
+     "lat": 29.0,
      "lng": 48.0
     }
    ],
    "current": {
-    "lat": 29.5,
+    "lat": 29.0,
     "lng": 48.0,
     "region": "Persian Gulf",
     "status": "deployed"
@@ -95,12 +96,12 @@
    "track": [
     {
      "as_of": "2023-10-01",
-     "lat": 29.5,
+     "lat": 29.0,
      "lng": 48.0
     }
    ],
    "current": {
-    "lat": 29.5,
+    "lat": 29.0,
     "lng": 48.0,
     "region": "Persian Gulf",
     "status": "deployed"
