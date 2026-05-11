@@ -1,0 +1,161 @@
+{
+ "generated_at": "2026-05-11T08:21:53+00:00",
+ "weeks": [
+  "2023-10-01"
+ ],
+ "vessels": [
+  {
+   "name": "USS Iwo Jima (LHD-7)",
+   "type": "amphib",
+   "track": [
+    {
+     "as_of": "2023-10-01",
+     "lat": 30.4,
+     "lng": -81.4
+    }
+   ],
+   "current": {
+    "lat": 30.4,
+    "lng": -81.4,
+    "region": "Mayport, Florida",
+    "status": "homeport"
+   }
+  },
+  {
+   "name": "USS Kearsarge (LHD-3)",
+   "type": "amphib",
+   "track": [
+    {
+     "as_of": "2023-10-01",
+     "lat": 30.4,
+     "lng": -81.4
+    }
+   ],
+   "current": {
+    "lat": 30.4,
+    "lng": -81.4,
+    "region": "Mayport, Florida",
+    "status": "homeport"
+   }
+  },
+  {
+   "name": "USS Nimitz (CVN-68)",
+   "type": "carrier",
+   "track": [
+    {
+     "as_of": "2023-10-01",
+     "lat": -5.0,
+     "lng": -81.0
+    }
+   ],
+   "current": {
+    "lat": -5.0,
+    "lng": -81.0,
+    "region": "South America",
+    "status": "deployed"
+   }
+  },
+  {
+   "name": "Ford CSG",
+   "type": "carrier",
+   "track": [
+    {
+     "as_of": "2023-10-01",
+     "lat": 36.5,
+     "lng": 18.2
+    }
+   ],
+   "current": {
+    "lat": 36.5,
+    "lng": 18.2,
+    "region": "Mediterranean Sea",
+    "status": "deployed"
+   }
+  },
+  {
+   "name": "USS Tripoli (LHA-7)",
+   "type": "amphib",
+   "track": [
+    {
+     "as_of": "2023-10-01",
+     "lat": 29.5,
+     "lng": 48.5
+    }
+   ],
+   "current": {
+    "lat": 29.5,
+    "lng": 48.5,
+    "region": "Persian Gulf",
+    "status": "deployed"
+   }
+  },
+  {
+   "name": "Abraham Lincoln CSG",
+   "type": "carrier",
+   "track": [
+    {
+     "as_of": "2023-10-01",
+     "lat": 29.5,
+     "lng": 48.5
+    }
+   ],
+   "current": {
+    "lat": 29.5,
+    "lng": 48.5,
+    "region": "Persian Gulf",
+    "status": "deployed"
+   }
+  },
+  {
+   "name": "George H.W. Bush CSG",
+   "type": "carrier",
+   "track": [
+    {
+     "as_of": "2023-10-01",
+     "lat": 36.5,
+     "lng": 18.2
+    }
+   ],
+   "current": {
+    "lat": 36.5,
+    "lng": 18.2,
+    "region": "Mediterranean Sea",
+    "status": "deployed"
+   }
+  },
+  {
+   "name": "George Washington CSG",
+   "type": "carrier",
+   "track": [
+    {
+     "as_of": "2023-10-01",
+     "lat": 35.4,
+     "lng": 139.6
+    }
+   ],
+   "current": {
+    "lat": 35.4,
+    "lng": 139.6,
+    "region": "Yokosuka, Japan",
+    "status": "homeport"
+   }
+  },
+  {
+   "name": "Boxer ARG",
+   "type": "amphib",
+   "track": [
+    {
+     "as_of": "2023-10-01",
+     "lat": 20.0,
+     "lng": 150.0
+    }
+   ],
+   "current": {
+    "lat": 20.0,
+    "lng": 150.0,
+    "region": "Pacific Ocean",
+    "status": "deployed"
+   }
+  }
+ ]
+}
