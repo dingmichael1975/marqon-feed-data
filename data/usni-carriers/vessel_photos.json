@@ -1,7 +1,42 @@
 {
- "generated_at": "2026-05-11T10:22:08+00:00",
- "count": 4,
+ "generated_at": "2026-05-11T10:30:07+00:00",
+ "count": 9,
  "by_name": {
+  "Abraham Lincoln CSG": {
+   "wiki_title": "USS Abraham Lincoln (CVN-72)",
+   "wiki_url": "https://en.wikipedia.org/wiki/USS_Abraham_Lincoln_(CVN-72)",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/USS_Abraham_Lincoln_%28CVN-72%29_underway_in_the_Atlantic_Ocean_on_30_January_2019_%28190130-N-PW716-1312%29.JPG/3840px-USS_Abraham_Lincoln_%28CVN-72%29_underway_in_the_Atlantic_Ocean_on_30_January_2019_%28190130-N-PW716-1312%29.JPG",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/USS_Abraham_Lincoln_%28CVN-72%29_underway_in_the_Atlantic_Ocean_on_30_January_2019_%28190130-N-PW716-1312%29.JPG/330px-USS_Abraham_Lincoln_%28CVN-72%29_underway_in_the_Atlantic_Ocean_on_30_January_2019_%28190130-N-PW716-1312%29.JPG",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "Boxer ARG": {
+   "wiki_title": "USS Boxer (LHD-4)",
+   "wiki_url": "https://en.wikipedia.org/wiki/USS_Boxer_(LHD-4)",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/US_Navy_110818-N-ZS026-035_The_USS_Boxer_steams_across_the_Indian_Ocean.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/US_Navy_110818-N-ZS026-035_The_USS_Boxer_steams_across_the_Indian_Ocean.jpg/330px-US_Navy_110818-N-ZS026-035_The_USS_Boxer_steams_across_the_Indian_Ocean.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "Ford CSG": {
+   "wiki_title": "USS Gerald R. Ford",
+   "wiki_url": "https://en.wikipedia.org/wiki/USS_Gerald_R._Ford",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/USS_Gerald_R._Ford_%28CVN-78%29_underway_in_the_Atlantic_Ocean_on_9_October_2022_%28221009-N-TL968-1248%29.JPG/3840px-USS_Gerald_R._Ford_%28CVN-78%29_underway_in_the_Atlantic_Ocean_on_9_October_2022_%28221009-N-TL968-1248%29.JPG",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/USS_Gerald_R._Ford_%28CVN-78%29_underway_in_the_Atlantic_Ocean_on_9_October_2022_%28221009-N-TL968-1248%29.JPG/330px-USS_Gerald_R._Ford_%28CVN-78%29_underway_in_the_Atlantic_Ocean_on_9_October_2022_%28221009-N-TL968-1248%29.JPG",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "George H.W. Bush CSG": {
+   "wiki_title": "USS George H. W. Bush",
+   "wiki_url": "https://en.wikipedia.org/wiki/USS_George_H._W._Bush",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/US_Navy_110129-N-3885H-158_USS_George_H.W._Bush_%28CVN_77%29_is_underway_in_the_Atlantic_Ocean.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/US_Navy_110129-N-3885H-158_USS_George_H.W._Bush_%28CVN_77%29_is_underway_in_the_Atlantic_Ocean.jpg/330px-US_Navy_110129-N-3885H-158_USS_George_H.W._Bush_%28CVN_77%29_is_underway_in_the_Atlantic_Ocean.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "George Washington CSG": {
+   "wiki_title": "USS George Washington (CVN-73)",
+   "wiki_url": "https://en.wikipedia.org/wiki/USS_George_Washington_(CVN-73)",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/US_Navy_101206-N-5538K-395_The_aircraft_carrier_USS_George_Washington_%28CVN_76%29_transits_the_East_China_Sea.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/US_Navy_101206-N-5538K-395_The_aircraft_carrier_USS_George_Washington_%28CVN_76%29_transits_the_East_China_Sea.jpg/330px-US_Navy_101206-N-5538K-395_The_aircraft_carrier_USS_George_Washington_%28CVN_76%29_transits_the_East_China_Sea.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
   "USS Iwo Jima (LHD-7)": {
    "wiki_title": "USS Iwo Jima (LHD-7)",
    "wiki_url": "https://en.wikipedia.org/wiki/USS_Iwo_Jima_(LHD-7)",
