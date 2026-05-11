@@ -26,9 +26,11 @@ jobs:
           python-version: "3.12"
 
       - name: Install deps
-        run: pip install --no-cache-dir httpx beautifulsoup4
+        run: pip install --no-cache-dir httpx
 
       - name: Fetch + parse + write snapshot
+        env:
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
         run: python scripts/fetch_ukmto.py
 
       - name: Commit + push

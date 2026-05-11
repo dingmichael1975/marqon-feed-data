@@ -25,6 +25,7 @@ Cron cadence: every 4 hours (workflow: ukmto-4h.yml).
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 from datetime import datetime, timezone
@@ -32,25 +33,16 @@ from pathlib import Path
 from typing import Any
 
 import httpx
-from bs4 import BeautifulSoup
 
 ROOT    = Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "data" / "ukmto"
 URL     = "https://www.ukmto.org/recent-incidents"
 
-BROWSER_HEADERS = {
-    "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                   "AppleWebKit/537.36 (KHTML, like Gecko) "
-                   "Chrome/124.0.0.0 Safari/537.36"),
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Connection": "keep-alive",
-    "Upgrade-Insecure-Requests": "1",
-    "Sec-Fetch-Dest": "document",
-    "Sec-Fetch-Mode": "navigate",
-    "Sec-Fetch-Site": "none",
-    "Sec-Fetch-User": "?1",
-}
+# UKMTO sits behind Cloudflare and returns 403 to GitHub Actions Azure
+# IPs even with full browser headers. We scrape through Firecrawl's
+# stealth proxy instead — requires FIRECRAWL_API_KEY in GH Secrets.
+# Free tier: 500 requests/month; 4 h cron = 180/month.
+FIRECRAWL_API = "https://api.firecrawl.dev/v2/scrape"
 
 
 # ── Geographic reference table ──────────────────────────────────────
@@ -125,31 +117,57 @@ GEO_TABLE: list[tuple[str, float, float]] = [
 ]
 
 
-def fetch_html() -> str:
-    """Pull the recent-incidents page. Plain httpx + browser headers."""
-    with httpx.Client(timeout=30.0, headers=BROWSER_HEADERS) as c:
-        r = c.get(URL, follow_redirects=True)
+def fetch_markdown() -> str:
+    """Pull the recent-incidents page via Firecrawl stealth proxy.
+
+    Direct httpx (even with full browser headers + Sec-Fetch-*) gets
+    403'd by UKMTO's Cloudflare WAF when called from GitHub Actions
+    Azure IPs. Firecrawl's stealth proxy uses residential IPs +
+    challenge solving so we get the rendered markdown reliably.
+    """
+    api_key = os.environ.get("FIRECRAWL_API_KEY")
+    if not api_key:
+        raise RuntimeError(
+            "FIRECRAWL_API_KEY env not set — add it as a repo secret"
+            " (Settings → Secrets and variables → Actions).")
+    body = {
+        "url":            URL,
+        "formats":        ["markdown"],
+        "onlyMainContent": True,
+        "proxy":          "stealth",
+    }
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type":  "application/json",
+    }
+    with httpx.Client(timeout=90.0) as c:
+        r = c.post(FIRECRAWL_API, json=body, headers=headers)
         r.raise_for_status()
-        return r.text
+        payload = r.json()
+    if not payload.get("success", True):
+        raise RuntimeError(f"Firecrawl failure: {payload}")
+    data = payload.get("data") or payload
+    md = data.get("markdown") or ""
+    if not md:
+        raise RuntimeError(f"Firecrawl returned no markdown: keys={list(data.keys())}")
+    return md
 
 
-# Incident card HTML on ukmto.org looks roughly like:
-#   <article>
-#     <h3>Attack UKMTO #56</h3>
-#     <span>9 May 2026</span>
-#     <p>UKMTO has received a report of an incident 23NM northeast of
-#        DOHA, QATAR. ...</p>
-#   </article>
+# Firecrawl-rendered markdown for each incident looks like:
 #
-# Markup varies a bit between page rebuilds so we don't rely on
-# specific class names — we just walk every element whose text begins
-# with one of the known incident type words ("Advisory", "Attack",
-# "Suspicious Activity", "Hijack") and then grab the next date-looking
-# sibling + the prose body.
+#   ### Attack UKMTO \#56
+#       - 📅 9 May 2026
+#       UKMTO WARNING - 056-26 - ATTACK
+#       UKMTO has received a report of an incident 23NM northeast of
+#       DOHA, QATAR.
+#       ...
+#
+# We split the document at "### …UKMTO #N" boundaries and extract the
+# date + body block for each.
 
-_TYPE_RE = re.compile(
-    r"^\s*(Advisory|Attack|Suspicious Activity|Hijack)\s+UKMTO\s+#?(\d+)\s*$",
-    re.I,
+_HEADER_RE = re.compile(
+    r"^###\s+(Advisory|Attack|Suspicious Activity|Hijack)\s+UKMTO\s+\\?#?(\d+)\s*$",
+    re.I | re.M,
 )
 _DATE_RE = re.compile(
     r"\b(\d{1,2}\s+"
@@ -159,72 +177,51 @@ _DATE_RE = re.compile(
 )
 
 
-def parse_incidents(html: str) -> list[dict[str, Any]]:
-    """Walk the page and return one dict per incident card."""
-    soup = BeautifulSoup(html, "html.parser")
+def parse_incidents(md: str) -> list[dict[str, Any]]:
+    """Split the markdown at incident headers and return one dict per card."""
+    headers = list(_HEADER_RE.finditer(md))
     out: list[dict[str, Any]] = []
-
-    # Each incident's <h3> (or similar header tag) contains the title.
-    # Try a few heading levels and let the regex filter.
-    for header in soup.find_all(re.compile(r"^h[1-6]$", re.I)):
-        txt = header.get_text(" ", strip=True)
-        m = _TYPE_RE.match(txt)
-        if not m:
-            continue
-        kind = m.group(1).title()
+    for i, hm in enumerate(headers):
+        kind = hm.group(1).title()
         try:
-            number = int(m.group(2))
+            number = int(hm.group(2))
         except ValueError:
             continue
-
-        # Date — the closest following text/element containing a date.
+        body_start = hm.end()
+        body_end   = headers[i + 1].start() if i + 1 < len(headers) else len(md)
+        chunk = md[body_start:body_end].strip()
+        # Date — first date-looking token in the chunk
         date_str = ""
-        for sib in header.find_all_next(string=True, limit=12):
-            sib_text = str(sib).strip()
-            if not sib_text:
+        dm = _DATE_RE.search(chunk)
+        if dm:
+            date_str = dm.group(1)
+        # Body — strip leading list bullets / icon-line / date-line
+        lines: list[str] = []
+        for ln in chunk.splitlines():
+            ln = ln.strip()
+            if not ln:
                 continue
-            md = _DATE_RE.search(sib_text)
-            if md:
-                date_str = md.group(1)
-                break
-
-        # Body — the next <p> (or first non-empty text block after the date).
-        body = ""
-        next_p = header.find_next("p")
-        if next_p is not None:
-            body = next_p.get_text("\n", strip=True)
-        # Some posts only have a <div>; fall back to combined sibling text
-        if not body:
-            sib_block = []
-            for sib in header.find_all_next(string=True, limit=40):
-                t = str(sib).strip()
-                if not t:
-                    continue
-                if _TYPE_RE.match(t):
-                    break  # next incident starts
-                if _DATE_RE.search(t):
-                    continue
-                sib_block.append(t)
-            body = "\n".join(sib_block)
-
+            if ln.startswith(("-", "*")) and _DATE_RE.search(ln):
+                continue                             # date bullet
+            if ln.startswith("![") or ln.startswith("!["):
+                continue                             # icon image lines
+            lines.append(ln)
+        body = "\n".join(lines)[:1200]
         if not body:
             continue
-
         out.append({
-            "number":  number,
-            "type":    kind,
-            "date":    date_str,
-            "body":    body[:1200],            # keep cards compact
+            "number": number,
+            "type":   kind,
+            "date":   date_str,
+            "body":   body,
         })
-
-    # Deduplicate by number (the page has one card per incident)
+    # Dedup by number, latest first wins
     seen: set[int] = set()
     unique: list[dict[str, Any]] = []
     for ev in out:
-        n = ev["number"]
-        if n in seen:
+        if ev["number"] in seen:
             continue
-        seen.add(n)
+        seen.add(ev["number"])
         unique.append(ev)
     return unique
 
@@ -254,8 +251,9 @@ def main() -> int:
     now = datetime.now(timezone.utc).replace(microsecond=0)
     print(f"[ukmto] start @ {now.isoformat()}")
 
-    html = fetch_html()
-    incidents = parse_incidents(html)
+    md = fetch_markdown()
+    print(f"[ukmto] markdown fetched: {len(md)} chars")
+    incidents = parse_incidents(md)
     print(f"[ukmto] parsed {len(incidents)} incidents")
 
     # Attach geo + severity
