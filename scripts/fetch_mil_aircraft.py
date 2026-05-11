@@ -279,13 +279,22 @@ def slugify(title: str) -> str:
     return urllib.parse.quote(title.replace(" ", "_"))
 
 
+# Wikipedia API requires a User-Agent that identifies the bot AND
+# provides a way to contact the operator (URL or email). Plain UA
+# strings get 403'd. See: https://meta.wikimedia.org/wiki/User-Agent_policy
+WIKI_UA = (
+    "marketplus-feed-bot/1.0 "
+    "(https://github.com/dingmichael1975/marketplus-feed-data; "
+    "dingmichael1975@users.noreply.github.com)"
+)
+
+
 async def fetch_wiki_photo(client: httpx.AsyncClient, title: str) -> dict[str, str] | None:
     """Hit Wikipedia REST API for one article, return thumbnail URL +
     attribution. None on miss (no article / no image)."""
     url = f"{WIKI_API}/{slugify(title)}"
     try:
-        r = await client.get(url, timeout=20.0, headers={
-            "User-Agent": "marketplus-feed-bot/1.0 (Wikipedia REST)"})
+        r = await client.get(url, timeout=20.0, headers={"User-Agent": WIKI_UA})
         if r.status_code != 200:
             return None
         data = r.json()
@@ -307,7 +316,7 @@ async def fetch_wiki_photo(client: httpx.AsyncClient, title: str) -> dict[str, s
 async def fetch_all_photos(type_codes: list[str]) -> dict[str, dict]:
     """For each unique type_code we've seen, look up Wikipedia photo."""
     out: dict[str, dict] = {}
-    async with httpx.AsyncClient() as client:
+    async with httpx.AsyncClient(follow_redirects=True) as client:
         sem = asyncio.Semaphore(8)
 
         async def one(tc: str):

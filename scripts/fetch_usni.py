@@ -377,6 +377,15 @@ def build_recent_index() -> dict[str, Any]:
 
 _WIKI_API = "https://en.wikipedia.org/api/rest_v1/page/summary"
 
+# Wikipedia API requires a User-Agent that identifies the bot AND
+# provides a way to contact the operator (URL or email). Plain UA
+# strings get 403'd. See: https://meta.wikimedia.org/wiki/User-Agent_policy
+_WIKI_UA = (
+    "marketplus-feed-bot/1.0 "
+    "(https://github.com/dingmichael1975/marketplus-feed-data; "
+    "dingmichael1975@users.noreply.github.com)"
+)
+
 
 def _wiki_slug(title: str) -> str:
     return urllib.parse.quote(title.replace(" ", "_"))
@@ -399,8 +408,8 @@ def fetch_vessel_photos(vessel_names: list[str]) -> dict[str, dict]:
     only fall back to the stripped form if that 404s.
     """
     out: dict[str, dict] = {}
-    headers = {"User-Agent": "marketplus-feed-bot/1.0 (Wikipedia REST)"}
-    with httpx.Client(timeout=20.0, headers=headers) as c:
+    headers = {"User-Agent": _WIKI_UA}
+    with httpx.Client(timeout=20.0, headers=headers, follow_redirects=True) as c:
         for raw in vessel_names:
             raw_clean = raw.strip()
             if not raw_clean:
