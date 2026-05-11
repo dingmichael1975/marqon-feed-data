@@ -1,0 +1,44 @@
+name: UKMTO maritime alerts (4 h snapshot)
+
+# Scrapes ukmto.org/recent-incidents every 4 hours, parses the
+# incident cards, geocodes each via a curated reference table, and
+# commits data/ukmto/latest.json.
+
+on:
+  schedule:
+    # Top of every 4 hours (00:10, 04:10, 08:10, ...). Offset 10 min
+    # so we don't fight the hourly polymarket job for runner slots.
+    - cron: "10 */4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install --no-cache-dir httpx beautifulsoup4
+
+      - name: Fetch + parse + write snapshot
+        run: python scripts/fetch_ukmto.py
+
+      - name: Commit + push
+        run: |
+          git config user.name  "ukmto-bot"
+          git config user.email "ukmto-bot@users.noreply.github.com"
+          git add data/ukmto/
+          if git diff --staged --quiet; then
+            echo "no changes — skipping commit"
+            exit 0
+          fi
+          git commit -m "ukmto: 4 h snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
