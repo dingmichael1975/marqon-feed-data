@@ -390,29 +390,58 @@ def _strip_paren_hull(name: str) -> str:
 
 def fetch_vessel_photos(vessel_names: list[str]) -> dict[str, dict]:
     """For each unique vessel NAME, look up its Wikipedia page summary
-    and pull the page thumbnail (CC-licensed). Returns {name: {photo_url,
-    wiki_url, attribution}}."""
+    and pull the page thumbnail (CC-licensed).
+
+    US Navy ship Wikipedia article titles use "(HULL-NUM)" as the
+    disambiguator — e.g. "USS Iwo Jima (LHD-7)". Stripping the paren
+    sends us to a disambiguation page (multiple ships of the same
+    name) which has no thumbnail. So we try the full name FIRST and
+    only fall back to the stripped form if that 404s.
+    """
     out: dict[str, dict] = {}
     headers = {"User-Agent": "marketplus-feed-bot/1.0 (Wikipedia REST)"}
     with httpx.Client(timeout=20.0, headers=headers) as c:
         for raw in vessel_names:
-            title = _strip_paren_hull(raw)
-            if not title:
+            raw_clean = raw.strip()
+            if not raw_clean:
                 continue
-            try:
-                r = c.get(f"{_WIKI_API}/{_wiki_slug(title)}")
+            # Try full name first (with hull number), then stripped form.
+            candidates: list[str] = [raw_clean]
+            stripped = _strip_paren_hull(raw_clean)
+            if stripped and stripped != raw_clean:
+                candidates.append(stripped)
+
+            picked: dict | None = None
+            picked_title = ""
+            for title in candidates:
+                try:
+                    r = c.get(f"{_WIKI_API}/{_wiki_slug(title)}")
+                except Exception:
+                    continue
                 if r.status_code != 200:
                     continue
-                data = r.json()
-            except Exception:
+                try:
+                    data = r.json()
+                except Exception:
+                    continue
+                # Disambiguation pages have no useful thumbnail; skip and
+                # let the next candidate run.
+                if data.get("type") == "disambiguation":
+                    continue
+                thumb = (data.get("thumbnail") or {}).get("source")
+                if not thumb:
+                    continue
+                picked = data
+                picked_title = title
+                break
+
+            if not picked:
                 continue
-            thumb = (data.get("thumbnail") or {}).get("source")
-            orig  = (data.get("originalimage") or {}).get("source")
-            if not thumb:
-                continue
+            thumb = (picked.get("thumbnail") or {}).get("source")
+            orig  = (picked.get("originalimage") or {}).get("source")
             out[raw] = {
-                "wiki_title":  data.get("title") or title,
-                "wiki_url":    data.get("content_urls", {}).get(
+                "wiki_title":  picked.get("title") or picked_title,
+                "wiki_url":    picked.get("content_urls", {}).get(
                                    "desktop", {}).get("page", ""),
                 "photo_url":   orig or thumb,
                 "thumb_url":   thumb,

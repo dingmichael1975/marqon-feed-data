@@ -132,24 +132,36 @@ async def fetch_shard(client: httpx.AsyncClient, name: str) -> dict[str, list]:
 
 
 async def fetch_all_shards(shard_names: list[str]) -> dict[str, list]:
-    """Pull every shard in parallel, merge into one big {hex: [...]} dict."""
+    """Pull every shard in parallel, merge into one big {hex: [...]} dict.
+
+    tar1090-db's /db/ also contains support shards (regdb_*, type stats)
+    that decode to lists / strings rather than {hex: rec}. Those are
+    skipped — only top-level dicts contribute to the merged DB."""
     out: dict[str, list] = {}
+    skipped_nondict: list[str] = []
     async with httpx.AsyncClient() as client:
         # Concurrency cap — 16 simultaneous is plenty for GitHub raw.
         sem = asyncio.Semaphore(16)
 
-        async def bounded(name: str):
+        async def bounded(name: str) -> tuple[str, Any]:
             async with sem:
                 try:
                     rec = await fetch_shard(client, name)
                 except Exception as exc:
                     print(f"  [warn] shard {name} failed: {exc}")
-                    return {}
-                return rec
+                    return name, {}
+                return name, rec
 
         results = await asyncio.gather(*(bounded(n) for n in shard_names))
-        for d in results:
+        for name, d in results:
+            if not isinstance(d, dict):
+                skipped_nondict.append(f"{name}({type(d).__name__})")
+                continue
             out.update(d)
+    if skipped_nondict:
+        head = ", ".join(skipped_nondict[:10])
+        tail = " ..." if len(skipped_nondict) > 10 else ""
+        print(f"  [info] skipped {len(skipped_nondict)} non-dict shards: {head}{tail}")
     return out
 
 
