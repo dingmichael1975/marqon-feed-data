@@ -1,0 +1,48 @@
+name: USNI Fleet Tracker weekly OCR
+
+# Pulls the latest USNI News Fleet and Marine Tracker article, downloads
+# the embedded fleet map, sends it through OpenAI gpt-4o-mini vision for
+# structured extraction, commits parsed JSON to data/usni-carriers/.
+#
+# Requires OPENAI_API_KEY in the repo Secrets.
+
+on:
+  schedule:
+    # USNI publishes Tuesday afternoons US Eastern. Wednesday 08:00 UTC
+    # is the safest first-pick (US dawn, Asia afternoon).
+    - cron: "0 8 * * 3"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install --no-cache-dir httpx beautifulsoup4 openai
+
+      - name: Fetch + OCR + write snapshot
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python scripts/fetch_usni.py
+
+      - name: Commit + push
+        run: |
+          git config user.name  "usni-bot"
+          git config user.email "usni-bot@users.noreply.github.com"
+          git add data/usni-carriers/
+          if git diff --staged --quiet; then
+            echo "no changes — skipping commit"
+            exit 0
+          fi
+          git commit -m "usni-carriers: weekly snapshot $(date -u +%Y-%m-%d)"
+          git push

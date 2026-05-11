@@ -1,0 +1,44 @@
+name: Polymarket hourly snapshot
+
+# Pulls every active Polymarket market, filters down to geo-tagged
+# subset, computes 6 h price deltas, commits result to data/polymarket/.
+
+on:
+  schedule:
+    # 5 minutes past every hour (UTC). Spread off the top of the hour
+    # to avoid scheduler congestion.
+    - cron: "5 * * * *"
+  workflow_dispatch:        # manual trigger from Actions tab
+
+permissions:
+  contents: write           # commit + push back into the repo
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install --no-cache-dir httpx
+
+      - name: Fetch + write snapshot
+        run: python scripts/fetch_polymarket.py
+
+      - name: Commit + push
+        run: |
+          git config user.name  "polymarket-bot"
+          git config user.email "polymarket-bot@users.noreply.github.com"
+          git add data/polymarket/
+          # Skip if nothing changed (e.g. Polymarket returned identical payload)
+          if git diff --staged --quiet; then
+            echo "no changes — skipping commit"
+            exit 0
+          fi
+          git commit -m "polymarket: hourly snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
