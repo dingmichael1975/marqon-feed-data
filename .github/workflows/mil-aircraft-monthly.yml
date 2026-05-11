@@ -1,0 +1,44 @@
+name: Military aircraft DB (monthly)
+
+# Builds the military aircraft enrichment dataset:
+#   - hex → registration / type_code / type_desc  (from tar1090-db)
+#   - type_code → Wikipedia photo URL + attribution
+#
+# Runs monthly because military fleet assignments don't change fast.
+
+on:
+  schedule:
+    - cron: "0 6 1 * *"      # 06:00 UTC on the 1st of every month
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install --no-cache-dir httpx
+
+      - name: Build mil aircraft DB + fetch photos
+        run: python scripts/fetch_mil_aircraft.py
+
+      - name: Commit + push
+        run: |
+          git config user.name  "mil-aircraft-bot"
+          git config user.email "mil-aircraft-bot@users.noreply.github.com"
+          git add data/mil-aircraft/
+          if git diff --staged --quiet; then
+            echo "no changes — skipping commit"
+            exit 0
+          fi
+          git commit -m "mil-aircraft: monthly DB refresh $(date -u +%Y-%m-%d)"
+          git push

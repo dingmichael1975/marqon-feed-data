@@ -33,6 +33,7 @@ import json
 import os
 import re
 import sys
+import urllib.parse
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -374,6 +375,52 @@ def build_recent_index() -> dict[str, Any]:
     }
 
 
+_WIKI_API = "https://en.wikipedia.org/api/rest_v1/page/summary"
+
+
+def _wiki_slug(title: str) -> str:
+    return urllib.parse.quote(title.replace(" ", "_"))
+
+
+def _strip_paren_hull(name: str) -> str:
+    """USS Gerald R. Ford (CVN-78) → USS Gerald R. Ford  (Wikipedia
+    article titles drop the hull number paren)."""
+    return re.sub(r"\s*\([^)]+\)\s*$", "", name).strip()
+
+
+def fetch_vessel_photos(vessel_names: list[str]) -> dict[str, dict]:
+    """For each unique vessel NAME, look up its Wikipedia page summary
+    and pull the page thumbnail (CC-licensed). Returns {name: {photo_url,
+    wiki_url, attribution}}."""
+    out: dict[str, dict] = {}
+    headers = {"User-Agent": "marketplus-feed-bot/1.0 (Wikipedia REST)"}
+    with httpx.Client(timeout=20.0, headers=headers) as c:
+        for raw in vessel_names:
+            title = _strip_paren_hull(raw)
+            if not title:
+                continue
+            try:
+                r = c.get(f"{_WIKI_API}/{_wiki_slug(title)}")
+                if r.status_code != 200:
+                    continue
+                data = r.json()
+            except Exception:
+                continue
+            thumb = (data.get("thumbnail") or {}).get("source")
+            orig  = (data.get("originalimage") or {}).get("source")
+            if not thumb:
+                continue
+            out[raw] = {
+                "wiki_title":  data.get("title") or title,
+                "wiki_url":    data.get("content_urls", {}).get(
+                                   "desktop", {}).get("page", ""),
+                "photo_url":   orig or thumb,
+                "thumb_url":   thumb,
+                "attribution": "Wikipedia (CC BY-SA)",
+            }
+    return out
+
+
 def prune_history():
     """Keep only the most recent HIST_KEEP dated archives + latest.json
     + recent.json. Older weekly archives get deleted so the repo doesn't
@@ -441,6 +488,23 @@ def main() -> int:
         json.dumps(recent, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"[usni] recent.json: {len(recent['weeks'])} weeks, "
           f"{len(recent['vessels'])} unique vessels")
+
+    # Vessel photos (Wikimedia Commons via Wikipedia summary API). One
+    # photo per unique vessel name across the 12-week window so the
+    # tooltip can render an image even for ships not in the current
+    # week's snapshot. Cheap — ~15 HTTP calls per run.
+    names = sorted({v["name"] for v in recent.get("vessels", [])})
+    print(f"[usni] fetching Wikipedia photos for {len(names)} unique vessels ...")
+    vessel_photos = fetch_vessel_photos(names)
+    (OUT_DIR / "vessel_photos.json").write_text(
+        json.dumps({
+            "generated_at": now.isoformat(),
+            "count":        len(vessel_photos),
+            "by_name":      vessel_photos,
+        }, ensure_ascii=False, indent=1),
+        encoding="utf-8",
+    )
+    print(f"[usni] vessel photos with valid hits: {len(vessel_photos)}")
 
     prune_history()
     print(f"[usni] done")
