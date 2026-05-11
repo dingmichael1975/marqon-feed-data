@@ -162,11 +162,13 @@ def fetch_markdown() -> str:
 #       DOHA, QATAR.
 #       ...
 #
-# We split the document at "### …UKMTO #N" boundaries and extract the
-# date + body block for each.
+# The `\#` is Firecrawl's markdown escape for the literal `#` in the
+# heading. We strip backslashes from the doc first (they're only in
+# headings + a couple of escaped punctuation marks; nothing semantic
+# is lost) and then run a clean regex against `### Attack UKMTO #56`.
 
 _HEADER_RE = re.compile(
-    r"^###\s+(Advisory|Attack|Suspicious Activity|Hijack)\s+UKMTO\s+\\?#?(\d+)\s*$",
+    r"^###\s+(Advisory|Attack|Suspicious Activity|Hijack)\s+UKMTO\s+#?(\d+)",
     re.I | re.M,
 )
 _DATE_RE = re.compile(
@@ -179,6 +181,11 @@ _DATE_RE = re.compile(
 
 def parse_incidents(md: str) -> list[dict[str, Any]]:
     """Split the markdown at incident headers and return one dict per card."""
+    # Strip Firecrawl's `\` escapes — they only appear before the
+    # heading `#` and the occasional `.` and have no semantic value
+    # for our parsing. Doing this once up-front lets the regex be a
+    # plain `#?(\d+)`.
+    md = md.replace("\\#", "#").replace("\\.", ".").replace("\\-", "-")
     headers = list(_HEADER_RE.finditer(md))
     out: list[dict[str, Any]] = []
     for i, hm in enumerate(headers):
