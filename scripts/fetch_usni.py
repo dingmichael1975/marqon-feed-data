@@ -53,7 +53,25 @@ ARTICLE_RE = re.compile(
     re.I,
 )
 HIST_KEEP  = 12        # keep ~12 weeks of dated snapshots for path tracking
-UA         = "Mozilla/5.0 (compatible; marketplus-feed-bot/1.0; +research)"
+
+# Real-browser headers — USNI's article pages 403 anything that
+# self-identifies as a bot or omits the standard Sec-Fetch-* envelope.
+# The category listing tolerated a plain UA because it's edge-cached;
+# individual article fetches are not, so we always go through here.
+BROWSER_HEADERS = {
+    "User-Agent":      ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                        "AppleWebKit/537.36 (KHTML, like Gecko) "
+                        "Chrome/124.0.0.0 Safari/537.36"),
+    "Accept":          "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Connection":      "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest":  "document",
+    "Sec-Fetch-Mode":  "navigate",
+    "Sec-Fetch-Site":  "same-origin",
+    "Sec-Fetch-User":  "?1",
+    "Referer":         "https://news.usni.org/category/fleet-tracker",
+}
 
 SYSTEM_PROMPT = """\
 You read US Navy fleet-tracker map images and return structured JSON.
@@ -90,7 +108,9 @@ def find_latest_article_url() -> str:
     """Pull the fleet-tracker category page and scan ALL anchor hrefs
     for the canonical Fleet Tracker article URL pattern. Returns the
     URL with the newest YYYY/MM/DD prefix."""
-    with httpx.Client(timeout=30.0, headers={"User-Agent": UA}) as c:
+    headers = dict(BROWSER_HEADERS)
+    headers["Referer"] = "https://news.usni.org/"
+    with httpx.Client(timeout=30.0, headers=headers) as c:
         r = c.get(INDEX_URL, follow_redirects=True)
         r.raise_for_status()
     soup = BeautifulSoup(r.text, "html.parser")
@@ -124,11 +144,53 @@ def find_latest_article_url() -> str:
     return matches[0][1]
 
 
+def _wp_slug_from_url(article_url: str) -> str:
+    """Extract the WordPress slug (last URL segment) from an article URL."""
+    return article_url.rstrip("/").rsplit("/", 1)[-1]
+
+
 def find_map_image_url(article_url: str) -> str:
-    """Fetch the article and return the URL of the embedded fleet
-    tracker map PNG. USNI articles consistently put the map as the
-    first featured image."""
-    with httpx.Client(timeout=30.0, headers={"User-Agent": UA}) as c:
+    """Locate the article's featured image (the fleet-tracker map PNG).
+
+    Strategy:
+      1. Try WordPress REST API first — USNI exposes
+         /wp-json/wp/v2/posts?slug=...&_embed which returns the
+         featured-media source_url cleanly, and is rarely bot-gated.
+      2. Fall back to HTML scraping with full browser headers if the
+         REST endpoint shape changes or 404s.
+
+    USNI's plain article pages return 403 to anything that doesn't
+    look like a real Chrome session, so the HTML fallback also uses
+    the BROWSER_HEADERS bundle.
+    """
+    slug = _wp_slug_from_url(article_url)
+    api_url = f"https://news.usni.org/wp-json/wp/v2/posts?slug={slug}&_embed"
+
+    # 1) WP REST API
+    try:
+        with httpx.Client(timeout=30.0, headers=BROWSER_HEADERS) as c:
+            r = c.get(api_url, follow_redirects=True)
+            r.raise_for_status()
+            posts = r.json()
+        if posts and isinstance(posts, list):
+            post = posts[0]
+            embedded = post.get("_embedded") or {}
+            media = embedded.get("wp:featuredmedia") or []
+            if media:
+                src = media[0].get("source_url")
+                if src:
+                    return src
+            # Some posts skip _embed but expose featured_media id
+            jp = post.get("jetpack_featured_media_url")
+            if jp:
+                return jp
+    except Exception as exc:
+        print(f"[usni] WP REST fallback (API path errored: {exc})")
+
+    # 2) Plain HTML fallback
+    headers = dict(BROWSER_HEADERS)
+    headers["Referer"] = "https://news.usni.org/category/fleet-tracker"
+    with httpx.Client(timeout=30.0, headers=headers) as c:
         r = c.get(article_url, follow_redirects=True)
         r.raise_for_status()
     soup = BeautifulSoup(r.text, "html.parser")
@@ -142,7 +204,10 @@ def find_map_image_url(article_url: str) -> str:
 
 
 def download_image(url: str) -> bytes:
-    with httpx.Client(timeout=60.0, headers={"User-Agent": UA}) as c:
+    headers = dict(BROWSER_HEADERS)
+    headers["Accept"] = "image/avif,image/webp,image/png,image/*;q=0.8,*/*;q=0.5"
+    headers["Referer"] = "https://news.usni.org/"
+    with httpx.Client(timeout=60.0, headers=headers) as c:
         r = c.get(url, follow_redirects=True)
         r.raise_for_status()
         return r.content
