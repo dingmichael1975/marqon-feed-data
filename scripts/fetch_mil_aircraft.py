@@ -131,8 +131,31 @@ async def fetch_shard(client: httpx.AsyncClient, name: str) -> dict[str, list]:
     return json.loads(raw)
 
 
+def _shard_prefix(name: str) -> str:
+    """`'39.js'` → `'39'`; `'A4.js'` → `'A4'`."""
+    return name[:-3] if name.endswith(".js") else name
+
+
+def _full_hex(shard_prefix: str, key: str) -> str:
+    """Concat shard prefix with shard-internal key, then zero-pad to
+    6-char uppercase. tar1090-db stores hex split as `{prefix}{key}`
+    where lengths combine to 6 hex chars (e.g. shard `39` has 4-char
+    keys, shard `A4` has 4-char keys, shard `1` has 5-char keys).
+    Returns canonical ICAO24 form."""
+    full = (shard_prefix + key).upper()
+    if len(full) < 6:
+        full = full.rjust(6, "0")
+    return full
+
+
 async def fetch_all_shards(shard_names: list[str]) -> dict[str, list]:
     """Pull every shard in parallel, merge into one big {hex: [...]} dict.
+
+    Each shard `{prefix}.js` stores keys WITHOUT the prefix; we splice
+    the prefix back so the merged map's keys are full 6-char ICAO24.
+    Without this step, the keys end up as 4- or 5-char fragments that
+    can never match an OpenSky icao24 (always 6-char hex). That bug
+    caused 0 % enrichment hit rate on the May 11 run.
 
     tar1090-db's /db/ also contains support shards (regdb_*, type stats)
     that decode to lists / strings rather than {hex: rec}. Those are
@@ -157,7 +180,9 @@ async def fetch_all_shards(shard_names: list[str]) -> dict[str, list]:
             if not isinstance(d, dict):
                 skipped_nondict.append(f"{name}({type(d).__name__})")
                 continue
-            out.update(d)
+            prefix = _shard_prefix(name)
+            for key, rec in d.items():
+                out[_full_hex(prefix, key)] = rec
     if skipped_nondict:
         head = ", ".join(skipped_nondict[:10])
         tail = " ..." if len(skipped_nondict) > 10 else ""
@@ -249,24 +274,122 @@ TYPE_TO_WIKI: dict[str, str] = {
     "AN124":"Antonov An-124 Ruslan",
     "Y20":  "Xian Y-20",
     "Y8":   "Shaanxi Y-8",
-    # Civilian-derivative VIP / patrol
-    "B752": "Boeing 757",
-    "B763": "Boeing 767",
-    "B772": "Boeing 777",
-    "B773": "Boeing 777",
+    # ── Civilian airliners (commonly callsign-tagged into mil feed,
+    #    e.g. Air France / Lufthansa / Aeroflot govt charters) ─────
+    # Boeing 737 family
+    "B731": "Boeing 737",
+    "B732": "Boeing 737",
+    "B733": "Boeing 737 Classic",
+    "B734": "Boeing 737 Classic",
+    "B735": "Boeing 737 Classic",
+    "B736": "Boeing 737 Next Generation",
+    "B737": "Boeing 737 Next Generation",
     "B738": "Boeing 737 Next Generation",
     "B739": "Boeing 737 Next Generation",
+    "B37M": "Boeing 737 MAX",
+    "B38M": "Boeing 737 MAX",
+    "B39M": "Boeing 737 MAX",
+    "B3XM": "Boeing 737 MAX",
+    # Boeing 747 / 757 / 767 / 777 / 787
+    "B741": "Boeing 747",
+    "B742": "Boeing 747",
+    "B743": "Boeing 747",
+    "B744": "Boeing 747-400",
+    "B748": "Boeing 747-8",
+    "B752": "Boeing 757",
+    "B753": "Boeing 757",
+    "B762": "Boeing 767",
+    "B763": "Boeing 767",
+    "B764": "Boeing 767",
+    "B772": "Boeing 777",
+    "B773": "Boeing 777",
+    "B77L": "Boeing 777",
+    "B77W": "Boeing 777",
+    "B778": "Boeing 777X",
+    "B779": "Boeing 777X",
+    "B788": "Boeing 787 Dreamliner",
+    "B789": "Boeing 787 Dreamliner",
+    "B78X": "Boeing 787 Dreamliner",
+    # Airbus
+    "A306": "Airbus A300",
+    "A30B": "Airbus A300",
     "A310": "Airbus A310",
+    "A318": "Airbus A318",
     "A319": "Airbus A319",
     "A320": "Airbus A320 family",
     "A321": "Airbus A321",
+    "A19N": "Airbus A320neo family",
+    "A20N": "Airbus A320neo family",
+    "A21N": "Airbus A320neo family",
     "A332": "Airbus A330",
     "A333": "Airbus A330",
+    "A338": "Airbus A330neo",
+    "A339": "Airbus A330neo",
+    "A342": "Airbus A340",
+    "A343": "Airbus A340",
+    "A345": "Airbus A340",
+    "A346": "Airbus A340",
+    "A359": "Airbus A350 XWB",
+    "A35K": "Airbus A350 XWB",
+    "A388": "Airbus A380",
+    # Embraer / Bombardier
+    "E170": "Embraer E-Jet family",
+    "E175": "Embraer E-Jet family",
+    "E190": "Embraer E-Jet family",
+    "E195": "Embraer E-Jet family",
+    "E290": "Embraer E-Jet E2 family",
+    "E295": "Embraer E-Jet E2 family",
+    "BCS1": "Airbus A220",
+    "BCS3": "Airbus A220",
+    "CRJ1": "Bombardier CRJ100/200",
+    "CRJ2": "Bombardier CRJ100/200",
+    "CRJ7": "Bombardier CRJ700 series",
+    "CRJ9": "Bombardier CRJ700 series",
+    "CRJX": "Bombardier CRJ700 series",
+    # ATR / Dash / Saab regional
+    "AT42": "ATR 42",
+    "AT43": "ATR 42",
+    "AT45": "ATR 42",
+    "AT72": "ATR 72",
+    "AT75": "ATR 72",
+    "AT76": "ATR 72",
+    "DH8A": "De Havilland Canada Dash 8",
+    "DH8B": "De Havilland Canada Dash 8",
+    "DH8C": "De Havilland Canada Dash 8",
+    "DH8D": "De Havilland Canada Dash 8",
+    # Russian / Chinese commercial
+    "SU95": "Sukhoi Superjet 100",
+    "RRJ":  "Sukhoi Superjet 100",
+    "MC21": "Irkut MC-21",
+    "C919": "Comac C919",
+    "ARJ":  "Comac ARJ21",
+    "ARJ2": "Comac ARJ21",
+    # Gulfstream / large biz jets
     "G5":   "Gulfstream G550",
+    "GLF5": "Gulfstream G550",
     "GLF6": "Gulfstream G650",
+    "GA5C": "Gulfstream G500/G600",
+    "GLEX": "Bombardier Global Express",
+    "GL5T": "Bombardier Global 5000",
+    "GL7T": "Bombardier Global 7500",
+    "CL30": "Bombardier Challenger 300",
+    "CL35": "Bombardier Challenger 350",
+    "CL60": "Bombardier Challenger 600 series",
+    "FA7X": "Dassault Falcon 7X",
+    "FA8X": "Dassault Falcon 8X",
+    "F900": "Dassault Falcon 900",
+    "F2TH": "Dassault Falcon 2000",
+    # Beechcraft / Cessna common
     "BE20": "Beechcraft Super King Air",
     "BE40": "Beechcraft King Air",
     "BE9L": "Beechcraft King Air",
+    "B350": "Beechcraft Super King Air",
+    "C25A": "Cessna CitationJet",
+    "C25B": "Cessna CitationJet",
+    "C25C": "Cessna CitationJet",
+    "C56X": "Cessna Citation Excel",
+    "C68A": "Cessna Citation Latitude",
+    "C750": "Cessna Citation X",
     # UAV
     "RQ4":  "Northrop Grumman RQ-4 Global Hawk",
     "MQ9":  "General Atomics MQ-9 Reaper",
@@ -387,11 +510,49 @@ async def main_async() -> int:
         encoding="utf-8",
     )
 
-    # Photos — only fetch for types we actually have aircraft of (skip rare /
-    # vintage types that won't appear on the live mil-flights feed).
-    common_types = [tc for tc, n in type_counter.items() if n >= 1]
-    # Limit to known TYPE_TO_WIKI keys we curated
-    photo_targets = [tc for tc in common_types if tc in TYPE_TO_WIKI]
+    # ── Universal aircraft codes (P6.13e v2 fix) ─────────────────────
+    # The mil filter above keeps only ~400 strictly-military aircraft,
+    # but OpenSky's callsign-whitelist mil-flights feed pulls in ~150
+    # *callsign-tagged* aircraft per snapshot, the majority of which
+    # have civilian hex assignments (Air France govt charter, Chinese
+    # VIP flights, etc.). Without a universal hex→type lookup, those
+    # aircraft show up in tooltip with no Aircraft row, no Registration,
+    # no photo — exactly the user-visible bug we're fixing here.
+    #
+    # Schema: { generated_at, count, by_hex: { "39E692": "BCS3", ... } }
+    # Size: ~750k aircraft × ~14 bytes/entry ≈ 10 MB. Each tar1090-db
+    # entry is `[reg, type_code, flag, type_desc]`; we keep only
+    # type_code in this universal map to stay under the 25 MB GitHub
+    # raw distribution sweet-spot. (Backend looks up type_desc from
+    # icao_aircraft_types.json by type_code on demand.)
+    universal_codes: dict[str, str] = {}
+    civil_type_counter: dict[str, int] = {}
+    for hex_str, rec in all_records.items():
+        if not isinstance(rec, list) or len(rec) < 2:
+            continue
+        type_code = (rec[1] or "").strip().upper()
+        if not type_code:
+            continue
+        universal_codes[hex_str.upper()] = type_code
+        civil_type_counter[type_code] = civil_type_counter.get(type_code, 0) + 1
+
+    (OUT_DIR / "aircraft_codes.json").write_text(
+        json.dumps({
+            "generated_at": now.isoformat(),
+            "count":        len(universal_codes),
+            "by_hex":       universal_codes,
+        }, ensure_ascii=False, separators=(",", ":")),   # compact: no indent
+        encoding="utf-8",
+    )
+    print(f"[mil-db] aircraft_codes.json: {len(universal_codes):,} entries, "
+          f"{len(civil_type_counter)} unique type codes")
+
+    # Photos — pull Wikipedia thumbnails for every type code we've
+    # curated AND that actually appears in the data (mil + civil
+    # combined). Keeps the photo-set tight; expanding TYPE_TO_WIKI is
+    # the lever to raise hit rate, not blasting Wikipedia.
+    seen_types: set[str] = set(type_counter) | set(civil_type_counter)
+    photo_targets = [tc for tc in seen_types if tc in TYPE_TO_WIKI]
     print(f"[mil-db] fetching Wikipedia photos for {len(photo_targets)} types ...")
     photos = await fetch_all_photos(photo_targets)
     print(f"[mil-db] photos with valid Wikipedia hits: {len(photos)}")
@@ -402,6 +563,19 @@ async def main_async() -> int:
             "count":        len(photos),
             "by_type":      photos,
         }, ensure_ascii=False, indent=1),
+        encoding="utf-8",
+    )
+
+    # ICAO type-code → description table; dumped alongside so the
+    # backend doesn't have to re-fetch the upstream JSON. Useful for
+    # type_desc resolution when looking up an aircraft from the
+    # universal codes table (which only carries type_code).
+    (OUT_DIR / "type_descriptions.json").write_text(
+        json.dumps({
+            "generated_at": now.isoformat(),
+            "count":        len(type_desc),
+            "by_code":      type_desc,
+        }, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
 
