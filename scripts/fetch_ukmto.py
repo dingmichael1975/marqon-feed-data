@@ -167,8 +167,11 @@ def fetch_markdown() -> str:
 # headings + a couple of escaped punctuation marks; nothing semantic
 # is lost) and then run a clean regex against `### Attack UKMTO #56`.
 
+# Firecrawl wraps each card in a markdown list, so the heading shows up
+# as "- ### Attack UKMTO #56" (note the leading bullet). The regex
+# tolerates any leading whitespace / dashes before the `###`.
 _HEADER_RE = re.compile(
-    r"^###\s+(Advisory|Attack|Suspicious Activity|Hijack)\s+UKMTO\s+#?(\d+)",
+    r"^[\s\-]*###\s+(Advisory|Attack|Suspicious Activity|Hijack)\s+UKMTO\s+#?(\d+)",
     re.I | re.M,
 )
 _DATE_RE = re.compile(
