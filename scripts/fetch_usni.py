@@ -39,12 +39,14 @@ from pathlib import Path
 from typing import Any
 
 import httpx
+import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
 from openai import OpenAI
 
 ROOT       = Path(__file__).resolve().parent.parent
 OUT_DIR    = ROOT / "data" / "usni-carriers"
 INDEX_URL  = "https://news.usni.org/category/fleet-tracker"
+RSS_URL    = "https://news.usni.org/category/fleet-tracker/feed"
 # Pattern for fleet-tracker article URLs:
 #   https://news.usni.org/2026/05/04/usni-news-fleet-and-marine-tracker-may-4-2026
 ARTICLE_RE = re.compile(
@@ -142,6 +144,69 @@ def find_latest_article_url() -> str:
 
     matches.sort(reverse=True)             # newest YYYY-MM-DD first
     return matches[0][1]
+
+
+def fetch_via_rss() -> tuple[str, str]:
+    """Pull the category RSS feed and return (article_url, image_url) for
+    the most recent fleet-tracker post.
+
+    RSS is the most reliable path on Cloudflare-protected WP sites —
+    feed-reader user agents are explicitly whitelisted because USNI
+    *wants* Feedly / Inoreader / etc. to redistribute their headlines.
+    Article-page HTML and the WP REST API both 403 from GitHub Actions
+    Azure IPs (verified 2026-05-11). RSS does not.
+    """
+    headers = dict(BROWSER_HEADERS)
+    # Identify as a feed reader; some Cloudflare WAF rules whitelist
+    # User-Agents that mention "feedparser" / "RSS".
+    headers["User-Agent"] = (
+        "Mozilla/5.0 (compatible; feedparser/6.0; +https://github.com/kurtmckee/feedparser)"
+    )
+    headers["Accept"] = "application/rss+xml, application/xml;q=0.9, */*;q=0.5"
+
+    with httpx.Client(timeout=30.0, headers=headers) as c:
+        r = c.get(RSS_URL, follow_redirects=True)
+        r.raise_for_status()
+
+    root = ET.fromstring(r.text)
+    ns = {
+        "content": "http://purl.org/rss/1.0/modules/content/",
+        "media":   "http://search.yahoo.com/mrss/",
+    }
+    item = root.find("channel/item")
+    if item is None:
+        raise RuntimeError("RSS feed had no <item> entries")
+
+    article_url = (item.findtext("link") or "").strip()
+    if not article_url:
+        raise RuntimeError("RSS <item> missing <link>")
+
+    # Pull image URL — try in order: <enclosure>, <media:content>,
+    # <media:thumbnail>, then regex over <content:encoded>.
+    enc = item.find("enclosure")
+    if enc is not None and enc.get("url"):
+        return article_url, enc.get("url")
+
+    mc = item.find("media:content", ns)
+    if mc is not None and mc.get("url"):
+        return article_url, mc.get("url")
+
+    mt = item.find("media:thumbnail", ns)
+    if mt is not None and mt.get("url"):
+        return article_url, mt.get("url")
+
+    content_html = item.findtext("content:encoded", default="", namespaces=ns)
+    m = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', content_html, re.I)
+    if m:
+        return article_url, m.group(1)
+
+    # Final fallback: the description field sometimes has an inline img too.
+    description = item.findtext("description") or ""
+    m = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', description, re.I)
+    if m:
+        return article_url, m.group(1)
+
+    raise RuntimeError(f"No image found in RSS item for {article_url}")
 
 
 def _wp_slug_from_url(article_url: str) -> str:
@@ -331,11 +396,18 @@ def main() -> int:
     now = datetime.now(timezone.utc).replace(microsecond=0)
     print(f"[usni] start @ {now.isoformat()}")
 
-    article = find_latest_article_url()
-    print(f"[usni] article: {article}")
-
-    img_url = find_map_image_url(article)
-    print(f"[usni] image: {img_url}")
+    # Primary: RSS feed (USNI Cloudflare whitelists feed clients,
+    # blocks article HTML + WP REST from GitHub Actions IPs).
+    try:
+        article, img_url = fetch_via_rss()
+        print(f"[usni] via RSS  article: {article}")
+        print(f"[usni] via RSS  image:   {img_url}")
+    except Exception as exc:
+        print(f"[usni] RSS path failed ({exc}), falling back to HTML scrape")
+        article = find_latest_article_url()
+        print(f"[usni] via HTML article: {article}")
+        img_url = find_map_image_url(article)
+        print(f"[usni] via HTML image:   {img_url}")
 
     png = download_image(img_url)
     print(f"[usni] image size: {len(png)} bytes")
