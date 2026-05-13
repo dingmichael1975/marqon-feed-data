@@ -1,25 +1,42 @@
 {
- "generated_at": "2026-05-11T10:30:24+00:00",
+ "generated_at": "2026-05-13T10:15:43+00:00",
  "weeks": [
   "vessel_photos",
   "2023-10-01"
  ],
  "vessels": [
   {
-   "name": "USS Iwo Jima (LHD-7)",
+   "name": "USS Theodore Roosevelt (CVN-71)",
+   "type": "carrier",
+   "track": [
+    {
+     "as_of": "2023-10-01",
+     "lat": 24.5,
+     "lng": -120.0
+    }
+   ],
+   "current": {
+    "lat": 24.5,
+    "lng": -120.0,
+    "region": "Eastern Pacific",
+    "status": "deployed"
+   }
+  },
+  {
+   "name": "USS Essex (LHD-2)",
    "type": "amphib",
    "track": [
     {
      "as_of": "2023-10-01",
-     "lat": 30.4,
-     "lng": -81.4
+     "lat": 24.5,
+     "lng": -120.0
     }
    ],
    "current": {
-    "lat": 30.4,
-    "lng": -81.4,
-    "region": "Mayport, Florida",
-    "status": "homeport"
+    "lat": 24.5,
+    "lng": -120.0,
+    "region": "Eastern Pacific",
+    "status": "deployed"
    }
   },
   {
@@ -28,15 +45,32 @@
    "track": [
     {
      "as_of": "2023-10-01",
-     "lat": 30.4,
-     "lng": -81.4
+     "lat": 29.7,
+     "lng": -95.4
     }
    ],
    "current": {
-    "lat": 30.4,
-    "lng": -81.4,
-    "region": "Mayport, Florida",
-    "status": "homeport"
+    "lat": 29.7,
+    "lng": -95.4,
+    "region": "Gulf of Mexico",
+    "status": "deployed"
+   }
+  },
+  {
+   "name": "Iwo Jima ARG",
+   "type": "amphib",
+   "track": [
+    {
+     "as_of": "2023-10-01",
+     "lat": 18.0,
+     "lng": -66.0
+    }
+   ],
+   "current": {
+    "lat": 18.0,
+    "lng": -66.0,
+    "region": "Caribbean Sea",
+    "status": "deployed"
    }
   },
   {
@@ -45,14 +79,31 @@
    "track": [
     {
      "as_of": "2023-10-01",
-     "lat": -10.0,
-     "lng": -75.0
+     "lat": -33.0,
+     "lng": -71.6
     }
    ],
    "current": {
-    "lat": -10.0,
-    "lng": -75.0,
+    "lat": -33.0,
+    "lng": -71.6,
     "region": "South America",
+    "status": "deployed"
+   }
+  },
+  {
+   "name": "USS Tripoli (LHA-7)",
+   "type": "amphib",
+   "track": [
+    {
+     "as_of": "2023-10-01",
+     "lat": 26.0,
+     "lng": 56.0
+    }
+   ],
+   "current": {
+    "lat": 26.0,
+    "lng": 56.0,
+    "region": "Persian Gulf",
     "status": "deployed"
    }
   },
@@ -74,35 +125,18 @@
    }
   },
   {
-   "name": "USS Tripoli (LHA-7)",
-   "type": "amphib",
-   "track": [
-    {
-     "as_of": "2023-10-01",
-     "lat": 29.5,
-     "lng": 48.0
-    }
-   ],
-   "current": {
-    "lat": 29.5,
-    "lng": 48.0,
-    "region": "Persian Gulf",
-    "status": "deployed"
-   }
-  },
-  {
    "name": "Abraham Lincoln CSG",
    "type": "carrier",
    "track": [
     {
      "as_of": "2023-10-01",
-     "lat": 29.5,
-     "lng": 48.0
+     "lat": 26.0,
+     "lng": 56.0
     }
    ],
    "current": {
-    "lat": 29.5,
-    "lng": 48.0,
+    "lat": 26.0,
+    "lng": 56.0,
     "region": "Persian Gulf",
     "status": "deployed"
    }
@@ -137,8 +171,8 @@
    "current": {
     "lat": 35.4,
     "lng": 139.6,
-    "region": "Yokosuka, Japan",
-    "status": "homeport"
+    "region": "Western Pacific",
+    "status": "deployed"
    }
   },
   {
@@ -147,14 +181,14 @@
    "track": [
     {
      "as_of": "2023-10-01",
-     "lat": 10.0,
-     "lng": 150.0
+     "lat": 35.4,
+     "lng": 139.6
     }
    ],
    "current": {
-    "lat": 10.0,
-    "lng": 150.0,
-    "region": "Pacific Ocean",
+    "lat": 35.4,
+    "lng": 139.6,
+    "region": "Western Pacific",
     "status": "deployed"
    }
   }

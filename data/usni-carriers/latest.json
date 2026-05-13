@@ -1,32 +1,56 @@
 {
  "as_of": "2023-10-01",
- "fetched_at": "2026-05-11T10:30:07+00:00",
- "source_url": "https://news.usni.org/2026/04/13/usni-news-fleet-and-marine-tracker-april-13-2026",
- "image_url": "https://news.usni.org/wp-content/uploads/2026/04/FT_4_13_26.jpg",
- "count": 9,
+ "fetched_at": "2026-05-13T10:15:29+00:00",
+ "source_url": "https://news.usni.org/2026/04/20/usni-news-fleet-and-marine-tracker-april-20-2026",
+ "image_url": "https://news.usni.org/wp-content/uploads/2026/04/FT_4_20_26-1.jpg",
+ "count": 11,
  "vessels": [
   {
-   "name": "USS Iwo Jima (LHD-7)",
+   "name": "USS Theodore Roosevelt (CVN-71)",
+   "type": "carrier",
+   "region": "Eastern Pacific",
+   "lat": 24.5,
+   "lng": -120.0,
+   "status": "deployed"
+  },
+  {
+   "name": "USS Essex (LHD-2)",
    "type": "amphib",
-   "region": "Mayport, Florida",
-   "lat": 30.4,
-   "lng": -81.4,
-   "status": "homeport"
+   "region": "Eastern Pacific",
+   "lat": 24.5,
+   "lng": -120.0,
+   "status": "deployed"
   },
   {
    "name": "USS Kearsarge (LHD-3)",
    "type": "amphib",
-   "region": "Mayport, Florida",
-   "lat": 30.4,
-   "lng": -81.4,
-   "status": "homeport"
+   "region": "Gulf of Mexico",
+   "lat": 29.7,
+   "lng": -95.4,
+   "status": "deployed"
+  },
+  {
+   "name": "Iwo Jima ARG",
+   "type": "amphib",
+   "region": "Caribbean Sea",
+   "lat": 18.0,
+   "lng": -66.0,
+   "status": "deployed"
   },
   {
    "name": "USS Nimitz (CVN-68)",
    "type": "carrier",
    "region": "South America",
-   "lat": -10.0,
-   "lng": -75.0,
+   "lat": -33.0,
+   "lng": -71.6,
+   "status": "deployed"
+  },
+  {
+   "name": "USS Tripoli (LHA-7)",
+   "type": "amphib",
+   "region": "Persian Gulf",
+   "lat": 26.0,
+   "lng": 56.0,
    "status": "deployed"
   },
   {
@@ -38,19 +62,11 @@
    "status": "deployed"
   },
   {
-   "name": "USS Tripoli (LHA-7)",
-   "type": "amphib",
-   "region": "Persian Gulf",
-   "lat": 29.5,
-   "lng": 48.0,
-   "status": "deployed"
-  },
-  {
    "name": "Abraham Lincoln CSG",
    "type": "carrier",
    "region": "Persian Gulf",
-   "lat": 29.5,
-   "lng": 48.0,
+   "lat": 26.0,
+   "lng": 56.0,
    "status": "deployed"
   },
   {
@@ -64,17 +80,17 @@
   {
    "name": "George Washington CSG",
    "type": "carrier",
-   "region": "Yokosuka, Japan",
+   "region": "Western Pacific",
    "lat": 35.4,
    "lng": 139.6,
-   "status": "homeport"
+   "status": "deployed"
   },
   {
    "name": "Boxer ARG",
    "type": "amphib",
-   "region": "Pacific Ocean",
-   "lat": 10.0,
-   "lng": 150.0,
+   "region": "Western Pacific",
+   "lat": 35.4,
+   "lng": 139.6,
    "status": "deployed"
   }
  ]
