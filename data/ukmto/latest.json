@@ -1,17 +1,27 @@
 {
- "generated_at": "2026-05-15T10:36:43+00:00",
- "count": 48,
+ "generated_at": "2026-05-15T14:32:54+00:00",
+ "count": 49,
  "source_url": "https://www.ukmto.org/recent-incidents",
  "incidents": [
   {
    "number": 2026,
    "type": "Advisory",
    "severity": "low",
-   "date": "11 May 2026",
+   "date": "14 May 2026",
    "region": "Strait Of Hormuz",
    "lat": 26.5667,
    "lng": 56.25,
-   "body": "Total Incidents Summary. Reporting period: 28 February 2026 - 11 May 2026, 0800UTC. UKMTO has received 47 reports of incidents affecting vessels operating in and around the Arabian Gulf, Strait of Hormuz (SOH), and Gulf of Oman. Total ATTACK reports: 27. Total SUSPICIOUS ACTIVITY reports: 18. Total HIJACK reports: 2. Details of these incident reports are available below."
+   "body": "Total Incidents Summary. Reporting period: 28 February 2026 - 14 May 2026, 0800UTC. UKMTO has received 49 reports of incidents affecting vessels operating in and around the Arabian Gulf, Strait of Hormuz (SOH), and Gulf of Oman. Total ATTACK reports: 27. Total SUSPICIOUS ACTIVITY reports: 20. Total HIJACK reports: 2. Details of these incident reports are available below."
+  },
+  {
+   "number": 57,
+   "type": "Suspicious Activity",
+   "severity": "medium",
+   "date": "14 May 2026",
+   "region": "Fujairah",
+   "lat": 25.1288,
+   "lng": 56.3265,
+   "body": "UKMTO has received a report of an incident 38NM northeast of Fujairah, United Arab\nEmirates. The CSO has reported that the vessel has been taken by unauthorised personnel\nwhist at anchor and is now bound for Iranian Territorial Waters.\nUKMTO continue to investigate."
   },
   {
    "number": 56,
