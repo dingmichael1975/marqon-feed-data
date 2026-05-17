@@ -626,15 +626,31 @@ def main() -> int:
                     if v.get("photo_key")})
     print(f"[usni] fetching Wikipedia photos for {len(names)} unique vessels ...")
     vessel_photos = fetch_vessel_photos(names)
-    (OUT_DIR / "vessel_photos.json").write_text(
+    # Merge with the previous vessel_photos.json. Wiki REST occasionally
+    # rate-limits or returns no thumbnail on a given run, so blindly
+    # overwriting drops every photo we successfully resolved before;
+    # users see the popup go from "had a picture" to "blank". Keep the
+    # last good photo when this run failed to resolve a vessel.
+    photos_path = OUT_DIR / "vessel_photos.json"
+    existing: dict = {}
+    if photos_path.exists():
+        try:
+            prior = json.loads(photos_path.read_text(encoding="utf-8"))
+            existing = prior.get("by_name", {}) or {}
+        except Exception:
+            pass
+    merged = dict(existing)
+    merged.update(vessel_photos)   # successful new lookups win
+    photos_path.write_text(
         json.dumps({
             "generated_at": now.isoformat(),
-            "count":        len(vessel_photos),
-            "by_name":      vessel_photos,
+            "count":        len(merged),
+            "by_name":      merged,
         }, ensure_ascii=False, indent=1),
         encoding="utf-8",
     )
-    print(f"[usni] vessel photos with valid hits: {len(vessel_photos)}")
+    print(f"[usni] vessel photos: {len(vessel_photos)} new this run, "
+          f"{len(merged)} total in vessel_photos.json")
 
     prune_history()
     print(f"[usni] done")
