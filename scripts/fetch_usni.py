@@ -57,6 +57,18 @@ ARTICLE_RE = re.compile(
 )
 HIST_KEEP  = 12        # keep ~12 weeks of dated snapshots for path tracking
 
+
+def _date_from_article_url(url: str) -> str | None:
+    """Parse YYYY-MM-DD out of a fleet-tracker article URL — the URL
+    path is the canonical source of truth. OpenAI Vision tends to
+    hallucinate as_of='2023-10-01' on every image, which caused every
+    weekly run to overwrite the same dated archive file and left
+    recent.json with only one track point per vessel."""
+    m = ARTICLE_RE.match(url)
+    if not m:
+        return None
+    return f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+
 # Real-browser headers — USNI's article pages 403 anything that
 # self-identifies as a bot or omits the standard Sec-Fetch-* envelope.
 # The category listing tolerated a plain UA because it's edge-cached;
@@ -350,10 +362,11 @@ def build_recent_index() -> dict[str, Any]:
             except (KeyError, TypeError, ValueError):
                 continue
             slot = by_name.setdefault(name, {
-                "name":  name,
-                "type":  v.get("type") or "other",
-                "track": [],
-                "current": None,
+                "name":      name,
+                "photo_key": _photo_key(name),
+                "type":      v.get("type") or "other",
+                "track":     [],
+                "current":   None,
             })
             point = {"as_of": date_key, "lat": lat, "lng": lng}
             slot["track"].append(point)
@@ -401,6 +414,24 @@ def _strip_paren_hull(name: str) -> str:
 # flagship — e.g. "Abraham Lincoln CSG", "Boxer ARG". Wikipedia has no
 # article for the group itself; we want the flagship's article instead.
 _GROUP_RE = re.compile(r"^(.*?)\s+(CSG|CVN|ARG|MEU|SAG|ESG)\s*$", re.I)
+
+
+def _photo_key(name: str) -> str:
+    """Stable lookup key shared between recent.json's vessel entries
+    and vessel_photos.json's by_name map. Normalises both styles the
+    OCR emits:
+      "USS Theodore Roosevelt (CVN-71)" → "USS Theodore Roosevelt"
+      "Abraham Lincoln CSG"             → "USS Abraham Lincoln"
+      "Iwo Jima ARG"                    → "USS Iwo Jima"
+    The Qt client (CarrierGroupsLayer.hit_test_2d) reads this key from
+    the vessel feature and uses it to look the wiki thumbnail up in
+    vessel_photos.json — without normalisation the two files use
+    different conventions and every lookup misses."""
+    n = re.sub(r"\s*\([^)]+\)\s*$", "", name).strip()
+    m = _GROUP_RE.match(n)
+    if m:
+        return f"USS {m.group(1).strip()}"
+    return n
 
 
 def _fetch_summary(client: httpx.Client, title: str) -> dict | None:
@@ -562,7 +593,9 @@ def main() -> int:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
     out = {
-        "as_of":        parsed.get("as_of") or now.strftime("%Y-%m-%d"),
+        "as_of":        _date_from_article_url(article)
+                            or parsed.get("as_of")
+                            or now.strftime("%Y-%m-%d"),
         "fetched_at":   now.isoformat(),
         "source_url":   article,
         "image_url":    img_url,
@@ -589,7 +622,8 @@ def main() -> int:
     # photo per unique vessel name across the 12-week window so the
     # tooltip can render an image even for ships not in the current
     # week's snapshot. Cheap — ~15 HTTP calls per run.
-    names = sorted({v["name"] for v in recent.get("vessels", [])})
+    names = sorted({v["photo_key"] for v in recent.get("vessels", [])
+                    if v.get("photo_key")})
     print(f"[usni] fetching Wikipedia photos for {len(names)} unique vessels ...")
     vessel_photos = fetch_vessel_photos(names)
     (OUT_DIR / "vessel_photos.json").write_text(
