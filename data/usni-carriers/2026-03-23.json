@@ -1,0 +1,73 @@
+{
+ "as_of": "2026-03-23",
+ "fetched_at": "2026-05-17T06:55:29+00:00",
+ "source_url": "https://news.usni.org/2026/03/23/usni-news-fleet-and-marine-tracker-march-23-2026",
+ "image_url": "https://news.usni.org/wp-content/uploads/2026/03/FT_3_23_26-1.jpg",
+ "count": 8,
+ "vessels": [
+  {
+   "name": "USS Boxer ARG",
+   "type": "amphib",
+   "region": "Pacific Ocean",
+   "lat": 33.0,
+   "lng": -117.0,
+   "status": "deployed"
+  },
+  {
+   "name": "USS George H.W. Bush (CVN-77)",
+   "type": "carrier",
+   "region": "Mediterranean Sea",
+   "lat": 39.0,
+   "lng": 1.0,
+   "status": "deployed"
+  },
+  {
+   "name": "USS Nimitz (CVN-68)",
+   "type": "carrier",
+   "region": "Pacific Ocean",
+   "lat": 24.0,
+   "lng": -110.0,
+   "status": "deployed"
+  },
+  {
+   "name": "USS Iwo Jima ARG",
+   "type": "amphib",
+   "region": "Caribbean Sea",
+   "lat": 18.0,
+   "lng": -75.0,
+   "status": "deployed"
+  },
+  {
+   "name": "Ford CSG",
+   "type": "carrier",
+   "region": "Mediterranean Sea",
+   "lat": 35.0,
+   "lng": 25.0,
+   "status": "deployed"
+  },
+  {
+   "name": "USS Abraham Lincoln CSG",
+   "type": "carrier",
+   "region": "Persian Gulf",
+   "lat": 26.0,
+   "lng": 54.0,
+   "status": "deployed"
+  },
+  {
+   "name": "USS Tripoli (LHA-7)",
+   "type": "amphib",
+   "region": "Indian Ocean",
+   "lat": -7.0,
+   "lng": 72.0,
+   "status": "deployed"
+  },
+  {
+   "name": "George Washington CSG",
+   "type": "carrier",
+   "region": "Pacific Ocean",
+   "lat": 35.0,
+   "lng": 139.0,
+   "status": "deployed"
+  }
+ ]
+}

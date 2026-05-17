@@ -1,0 +1,57 @@
+{
+ "as_of": "2026-02-09",
+ "fetched_at": "2026-05-17T06:55:29+00:00",
+ "source_url": "https://news.usni.org/2026/02/09/usni-news-fleet-and-marine-tracker-feb-9-2026",
+ "image_url": "https://news.usni.org/wp-content/uploads/2026/02/FT_2_9a_26.jpg",
+ "count": 6,
+ "vessels": [
+  {
+   "name": "USS Theodore Roosevelt (CVN-71)",
+   "type": "carrier",
+   "region": "Pacific Ocean",
+   "lat": 30.0,
+   "lng": -120.0,
+   "status": "deployed"
+  },
+  {
+   "name": "USS George H.W. Bush (CVN-77)",
+   "type": "carrier",
+   "region": "Mediterranean Sea",
+   "lat": 37.0,
+   "lng": 15.0,
+   "status": "deployed"
+  },
+  {
+   "name": "Ford CSG Iwo Jima ARG",
+   "type": "amphib",
+   "region": "Caribbean Sea",
+   "lat": 20.0,
+   "lng": -75.0,
+   "status": "deployed"
+  },
+  {
+   "name": "Abraham Lincoln CSG",
+   "type": "carrier",
+   "region": "Indian Ocean",
+   "lat": 20.0,
+   "lng": 60.0,
+   "status": "deployed"
+  },
+  {
+   "name": "George Washington CSG",
+   "type": "carrier",
+   "region": "Yokosuka, Japan",
+   "lat": 35.4,
+   "lng": 139.6,
+   "status": "deployed"
+  },
+  {
+   "name": "USS Tripoli (LHA-7)",
+   "type": "amphib",
+   "region": "Pacific Ocean",
+   "lat": 30.0,
+   "lng": 140.0,
+   "status": "deployed"
+  }
+ ]
+}

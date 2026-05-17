@@ -1,0 +1,65 @@
+{
+ "as_of": "2026-02-17",
+ "fetched_at": "2026-05-17T06:55:29+00:00",
+ "source_url": "https://news.usni.org/2026/02/17/usni-news-fleet-and-marine-tracker-feb-17-2026",
+ "image_url": "https://news.usni.org/wp-content/uploads/2026/02/FT_2_17_26.jpg",
+ "count": 7,
+ "vessels": [
+  {
+   "name": "USS Essex (LHD-2)",
+   "type": "amphib",
+   "region": "Pacific Ocean",
+   "lat": 32.5,
+   "lng": -117.0,
+   "status": "deployed"
+  },
+  {
+   "name": "USS George H.W. Bush (CVN-77)",
+   "type": "carrier",
+   "region": "Mediterranean Sea",
+   "lat": 39.0,
+   "lng": 1.0,
+   "status": "deployed"
+  },
+  {
+   "name": "Ford CSG",
+   "type": "carrier",
+   "region": "Atlantic Ocean",
+   "lat": 40.0,
+   "lng": -30.0,
+   "status": "deployed"
+  },
+  {
+   "name": "Iwo Jima ARG",
+   "type": "amphib",
+   "region": "Caribbean Sea",
+   "lat": 18.0,
+   "lng": -70.0,
+   "status": "deployed"
+  },
+  {
+   "name": "Abraham Lincoln CSG",
+   "type": "carrier",
+   "region": "Persian Gulf",
+   "lat": 29.5,
+   "lng": 48.0,
+   "status": "deployed"
+  },
+  {
+   "name": "George Washington CSG",
+   "type": "carrier",
+   "region": "Yokosuka, Japan",
+   "lat": 35.4,
+   "lng": 139.6,
+   "status": "deployed"
+  },
+  {
+   "name": "USS Tripoli (LHA-7)",
+   "type": "amphib",
+   "region": "Western Pacific",
+   "lat": 30.0,
+   "lng": 135.0,
+   "status": "deployed"
+  }
+ ]
+}
