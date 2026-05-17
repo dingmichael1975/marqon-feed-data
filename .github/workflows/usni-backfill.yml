@@ -1,0 +1,50 @@
+name: USNI Fleet Tracker backfill (manual)
+
+# Pulls the most recent N weeks of USNI Fleet & Marine Tracker
+# articles via RSS, OCRs each map image with gpt-4o-mini, and writes
+# the per-week dated archive files under data/usni-carriers/. Then
+# rebuilds recent.json + vessel_photos.json so the carrier track
+# polylines and tooltip photos light up immediately instead of
+# waiting weeks for the weekly cron to accumulate them.
+
+on:
+  workflow_dispatch:
+    inputs:
+      weeks:
+        description: 'Number of past weeks to backfill (default 12).'
+        required: false
+        default: '12'
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install --no-cache-dir httpx beautifulsoup4 openai
+
+      - name: Run backfill
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python scripts/backfill_usni.py ${{ inputs.weeks }}
+
+      - name: Commit + push
+        run: |
+          git config user.name  "usni-backfill-bot"
+          git config user.email "usni-backfill-bot@users.noreply.github.com"
+          git add data/usni-carriers/
+          if git diff --staged --quiet; then
+            echo "no changes — backfill resolved nothing new"
+            exit 0
+          fi
+          git commit -m "usni: backfill ${{ inputs.weeks }} weeks of fleet tracker archives"
+          git push
