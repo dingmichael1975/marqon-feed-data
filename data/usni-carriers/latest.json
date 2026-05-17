@@ -1,6 +1,6 @@
 {
  "as_of": "2026-04-20",
- "fetched_at": "2026-05-17T05:23:41+00:00",
+ "fetched_at": "2026-05-17T05:28:52+00:00",
  "source_url": "https://news.usni.org/2026/04/20/usni-news-fleet-and-marine-tracker-april-20-2026",
  "image_url": "https://news.usni.org/wp-content/uploads/2026/04/FT_4_20_26-1.jpg",
  "count": 11,
@@ -34,7 +34,7 @@
    "type": "amphib",
    "region": "Caribbean Sea",
    "lat": 18.0,
-   "lng": -75.0,
+   "lng": -70.0,
    "status": "deployed"
   },
   {
@@ -81,16 +81,16 @@
    "name": "George Washington CSG",
    "type": "carrier",
    "region": "Western Pacific",
-   "lat": 35.0,
-   "lng": 139.0,
+   "lat": 35.5,
+   "lng": 139.5,
    "status": "deployed"
   },
   {
    "name": "Boxer ARG",
    "type": "amphib",
    "region": "Western Pacific",
-   "lat": 35.0,
-   "lng": 139.0,
+   "lat": 30.0,
+   "lng": 135.0,
    "status": "deployed"
   }
  ]

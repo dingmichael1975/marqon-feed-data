@@ -1,7 +1,6 @@
 {
- "generated_at": "2026-05-17T05:23:55+00:00",
+ "generated_at": "2026-05-17T05:29:05+00:00",
  "weeks": [
-  "vessel_photos",
   "2026-04-20",
   "2023-10-01"
  ],
@@ -88,12 +87,12 @@
     {
      "as_of": "2026-04-20",
      "lat": 18.0,
-     "lng": -75.0
+     "lng": -70.0
     }
    ],
    "current": {
     "lat": 18.0,
-    "lng": -75.0,
+    "lng": -70.0,
     "region": "Caribbean Sea",
     "status": "deployed"
    }
@@ -225,13 +224,13 @@
     },
     {
      "as_of": "2026-04-20",
-     "lat": 35.0,
-     "lng": 139.0
+     "lat": 35.5,
+     "lng": 139.5
     }
    ],
    "current": {
-    "lat": 35.0,
-    "lng": 139.0,
+    "lat": 35.5,
+    "lng": 139.5,
     "region": "Western Pacific",
     "status": "deployed"
    }
@@ -248,13 +247,13 @@
     },
     {
      "as_of": "2026-04-20",
-     "lat": 35.0,
-     "lng": 139.0
+     "lat": 30.0,
+     "lng": 135.0
     }
    ],
    "current": {
-    "lat": 35.0,
-    "lng": 139.0,
+    "lat": 30.0,
+    "lng": 135.0,
     "region": "Western Pacific",
     "status": "deployed"
    }
