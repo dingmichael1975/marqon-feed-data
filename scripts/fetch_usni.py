@@ -525,20 +525,27 @@ def _resolve_vessel_title(client: httpx.Client, raw: str) -> dict | None:
     return None
 
 
-def fetch_vessel_photos(vessel_names: list[str]) -> dict[str, dict]:
-    """For each unique vessel NAME (or strike-group label), look up the
-    corresponding Wikipedia page and return its thumbnail."""
+def fetch_vessel_photos(key_to_lookup: dict[str, str]) -> dict[str, dict]:
+    """For each (storage_key, lookup_name) pair, resolve the Wikipedia
+    article and return its thumbnail keyed by storage_key.
+
+    The split between the two names matters: the Qt client looks the
+    photo up by `photo_key` (normalised flagship form like 'USS Iwo
+    Jima'), but Wikipedia's most specific article needs the hull
+    number ('USS Iwo Jima (LHD-7)') to dodge the disambiguation page
+    that "USS Iwo Jima" returns. lookup_name is the wiki-friendly raw
+    name, storage_key is what the rest of the system reads."""
     out: dict[str, dict] = {}
     headers = {"User-Agent": _WIKI_UA}
     with httpx.Client(timeout=20.0, headers=headers, follow_redirects=True) as c:
-        for raw in vessel_names:
+        for key, raw in key_to_lookup.items():
             picked = _resolve_vessel_title(c, raw)
             if not picked:
                 continue
             thumb = (picked.get("thumbnail") or {}).get("source")
             orig  = (picked.get("originalimage") or {}).get("source")
-            out[raw] = {
-                "wiki_title":  picked.get("title") or raw,
+            out[key] = {
+                "wiki_title":  picked.get("title") or key,
                 "wiki_url":    picked.get("content_urls", {}).get(
                                    "desktop", {}).get("page", ""),
                 "photo_url":   orig or thumb,
@@ -622,10 +629,18 @@ def main() -> int:
     # photo per unique vessel name across the 12-week window so the
     # tooltip can render an image even for ships not in the current
     # week's snapshot. Cheap — ~15 HTTP calls per run.
-    names = sorted({v["photo_key"] for v in recent.get("vessels", [])
-                    if v.get("photo_key")})
-    print(f"[usni] fetching Wikipedia photos for {len(names)} unique vessels ...")
-    vessel_photos = fetch_vessel_photos(names)
+    # Build {photo_key -> raw vessel name for wiki lookup}. The raw
+    # name (with hull number / group suffix) goes to Wikipedia where
+    # it disambiguates to a specific article; the photo_key is what
+    # the Qt client uses to look the photo up afterwards.
+    key_to_lookup: dict[str, str] = {}
+    for v in recent.get("vessels", []):
+        pk = v.get("photo_key")
+        if not pk or pk in key_to_lookup:
+            continue
+        key_to_lookup[pk] = v.get("name") or pk
+    print(f"[usni] fetching Wikipedia photos for {len(key_to_lookup)} unique vessels ...")
+    vessel_photos = fetch_vessel_photos(key_to_lookup)
     # Merge with the previous vessel_photos.json. Wiki REST occasionally
     # rate-limits or returns no thumbnail on a given run, so blindly
     # overwriting drops every photo we successfully resolved before;
