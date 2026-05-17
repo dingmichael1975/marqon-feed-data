@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-05-17T04:12:57+00:00",
+ "generated_at": "2026-05-17T05:08:43+00:00",
  "count": 3,
  "markets": [
   {
@@ -7,48 +7,48 @@
    "question": "MicroStrategy sells any Bitcoin by May 31, 2026?",
    "slug": "microstrategy-sells-any-bitcoin-by-may-31-2026",
    "url": "https://polymarket.com/event/microstrategy-sells-any-bitcoin-by-may-31-2026",
-   "yes_price": 0.295,
-   "volume_24h": 520582.1871130006,
-   "volume": 3160357.200057988,
+   "yes_price": 0.275,
+   "volume_24h": 530699.2191040005,
+   "volume": 3172405.596483989,
    "end_date": "2026-07-01T04:00:00Z",
    "lat": 37.7749,
    "lng": -122.4194,
    "region": "Bitcoin (SF proxy)",
    "category": "",
-   "yes_price_6h_ago": 0.345,
-   "delta_6h": -0.05
-  },
-  {
-   "id": "2251595",
-   "question": "Starmer out by May 19, 2026?",
-   "slug": "starmer-out-by-may-19-2026",
-   "url": "https://polymarket.com/event/starmer-out-by-may-19-2026",
-   "yes_price": 0.1425,
-   "volume_24h": 333987.62241200026,
-   "volume": 643039.4912749993,
-   "end_date": "2026-05-19T12:00:00Z",
-   "lat": 51.5074,
-   "lng": -0.1278,
-   "region": "London",
-   "category": "",
-   "yes_price_6h_ago": 0.096,
-   "delta_6h": 0.0465
+   "yes_price_6h_ago": 0.335,
+   "delta_6h": -0.06
   },
   {
    "id": "2231205",
    "question": "Starmer out by May 31, 2026?",
    "slug": "starmer-out-by-may-31-2026",
    "url": "https://polymarket.com/event/starmer-out-by-may-31-2026",
-   "yes_price": 0.3655,
-   "volume_24h": 278933.30942400015,
-   "volume": 1241545.5261840015,
+   "yes_price": 0.3645,
+   "volume_24h": 281812.80646700016,
+   "volume": 1244468.3532270014,
    "end_date": "2026-06-30T12:00:00Z",
    "lat": 51.5074,
    "lng": -0.1278,
    "region": "London",
    "category": "",
-   "yes_price_6h_ago": 0.335,
-   "delta_6h": 0.0305
+   "yes_price_6h_ago": 0.318,
+   "delta_6h": 0.0465
+  },
+  {
+   "id": "2251595",
+   "question": "Starmer out by May 19, 2026?",
+   "slug": "starmer-out-by-may-19-2026",
+   "url": "https://polymarket.com/event/starmer-out-by-may-19-2026",
+   "yes_price": 0.1285,
+   "volume_24h": 337698.4989030004,
+   "volume": 649962.7399469992,
+   "end_date": "2026-05-19T12:00:00Z",
+   "lat": 51.5074,
+   "lng": -0.1278,
+   "region": "London",
+   "category": "",
+   "yes_price_6h_ago": 0.1005,
+   "delta_6h": 0.028
   }
  ]
 }
