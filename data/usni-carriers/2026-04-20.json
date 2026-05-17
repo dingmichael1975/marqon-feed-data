@@ -1,6 +1,6 @@
 {
  "as_of": "2026-04-20",
- "fetched_at": "2026-05-17T05:58:52+00:00",
+ "fetched_at": "2026-05-17T06:07:13+00:00",
  "source_url": "https://news.usni.org/2026/04/20/usni-news-fleet-and-marine-tracker-april-20-2026",
  "image_url": "https://news.usni.org/wp-content/uploads/2026/04/FT_4_20_26-1.jpg",
  "count": 11,
@@ -8,17 +8,17 @@
   {
    "name": "USS Theodore Roosevelt (CVN-71)",
    "type": "carrier",
-   "region": "Pacific Ocean",
-   "lat": 32.5,
-   "lng": -118.5,
+   "region": "Eastern Pacific",
+   "lat": 23.0,
+   "lng": -106.0,
    "status": "deployed"
   },
   {
    "name": "USS Essex (LHD-2)",
    "type": "amphib",
-   "region": "Pacific Ocean",
-   "lat": 32.5,
-   "lng": -118.5,
+   "region": "Eastern Pacific",
+   "lat": 23.0,
+   "lng": -106.0,
    "status": "deployed"
   },
   {
@@ -26,22 +26,22 @@
    "type": "amphib",
    "region": "Gulf of Mexico",
    "lat": 29.7,
-   "lng": -95.4,
-   "status": "homeport"
+   "lng": -95.3,
+   "status": "deployed"
   },
   {
    "name": "Iwo Jima ARG",
    "type": "amphib",
    "region": "Caribbean Sea",
-   "lat": 18.5,
-   "lng": -70.5,
+   "lat": 18.0,
+   "lng": -75.0,
    "status": "deployed"
   },
   {
    "name": "USS Nimitz (CVN-68)",
    "type": "carrier",
    "region": "South America",
-   "lat": -33.5,
+   "lat": -33.0,
    "lng": -71.6,
    "status": "deployed"
   },
@@ -49,48 +49,48 @@
    "name": "Ford CSG",
    "type": "carrier",
    "region": "Mediterranean Sea",
-   "lat": 36.5,
-   "lng": 18.2,
+   "lat": 36.0,
+   "lng": 15.0,
    "status": "deployed"
   },
   {
    "name": "Abraham Lincoln CSG",
    "type": "carrier",
-   "region": "Mediterranean Sea",
-   "lat": 36.5,
-   "lng": 18.2,
+   "region": "Indian Ocean",
+   "lat": 20.0,
+   "lng": 60.0,
    "status": "deployed"
   },
   {
    "name": "USS Tripoli (LHA-7)",
    "type": "amphib",
-   "region": "Mediterranean Sea",
-   "lat": 36.5,
-   "lng": 18.2,
+   "region": "Indian Ocean",
+   "lat": 20.0,
+   "lng": 60.0,
    "status": "deployed"
   },
   {
    "name": "George H.W. Bush CSG",
    "type": "carrier",
    "region": "Mediterranean Sea",
-   "lat": 36.5,
-   "lng": 18.2,
+   "lat": 35.0,
+   "lng": 10.0,
    "status": "deployed"
   },
   {
    "name": "George Washington CSG",
    "type": "carrier",
-   "region": "Japan",
-   "lat": 35.4,
-   "lng": 139.6,
+   "region": "Western Pacific",
+   "lat": 35.0,
+   "lng": 139.0,
    "status": "deployed"
   },
   {
    "name": "Boxer ARG",
    "type": "amphib",
-   "region": "Pacific Ocean",
-   "lat": -30.0,
-   "lng": 150.0,
+   "region": "Western Pacific",
+   "lat": 30.0,
+   "lng": 135.0,
    "status": "deployed"
   }
  ]

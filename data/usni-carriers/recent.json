@@ -1,8 +1,7 @@
 {
- "generated_at": "2026-05-17T05:59:03+00:00",
+ "generated_at": "2026-05-17T06:07:26+00:00",
  "weeks": [
-  "2026-04-20",
-  "2023-10-01"
+  "2026-04-20"
  ],
  "vessels": [
   {
@@ -11,20 +10,15 @@
    "type": "carrier",
    "track": [
     {
-     "as_of": "2023-10-01",
-     "lat": 24.5,
-     "lng": -120.0
-    },
-    {
      "as_of": "2026-04-20",
-     "lat": 32.5,
-     "lng": -118.5
+     "lat": 23.0,
+     "lng": -106.0
     }
    ],
    "current": {
-    "lat": 32.5,
-    "lng": -118.5,
-    "region": "Pacific Ocean",
+    "lat": 23.0,
+    "lng": -106.0,
+    "region": "Eastern Pacific",
     "status": "deployed"
    }
   },
@@ -34,20 +28,15 @@
    "type": "amphib",
    "track": [
     {
-     "as_of": "2023-10-01",
-     "lat": 24.5,
-     "lng": -120.0
-    },
-    {
      "as_of": "2026-04-20",
-     "lat": 32.5,
-     "lng": -118.5
+     "lat": 23.0,
+     "lng": -106.0
     }
    ],
    "current": {
-    "lat": 32.5,
-    "lng": -118.5,
-    "region": "Pacific Ocean",
+    "lat": 23.0,
+    "lng": -106.0,
+    "region": "Eastern Pacific",
     "status": "deployed"
    }
   },
@@ -57,21 +46,16 @@
    "type": "amphib",
    "track": [
     {
-     "as_of": "2023-10-01",
-     "lat": 29.7,
-     "lng": -95.4
-    },
-    {
      "as_of": "2026-04-20",
      "lat": 29.7,
-     "lng": -95.4
+     "lng": -95.3
     }
    ],
    "current": {
     "lat": 29.7,
-    "lng": -95.4,
+    "lng": -95.3,
     "region": "Gulf of Mexico",
-    "status": "homeport"
+    "status": "deployed"
    }
   },
   {
@@ -80,19 +64,14 @@
    "type": "amphib",
    "track": [
     {
-     "as_of": "2023-10-01",
-     "lat": 18.0,
-     "lng": -66.0
-    },
-    {
      "as_of": "2026-04-20",
-     "lat": 18.5,
-     "lng": -70.5
+     "lat": 18.0,
+     "lng": -75.0
     }
    ],
    "current": {
-    "lat": 18.5,
-    "lng": -70.5,
+    "lat": 18.0,
+    "lng": -75.0,
     "region": "Caribbean Sea",
     "status": "deployed"
    }
@@ -103,43 +82,15 @@
    "type": "carrier",
    "track": [
     {
-     "as_of": "2023-10-01",
+     "as_of": "2026-04-20",
      "lat": -33.0,
      "lng": -71.6
-    },
-    {
-     "as_of": "2026-04-20",
-     "lat": -33.5,
-     "lng": -71.6
     }
    ],
    "current": {
-    "lat": -33.5,
+    "lat": -33.0,
     "lng": -71.6,
     "region": "South America",
-    "status": "deployed"
-   }
-  },
-  {
-   "name": "USS Tripoli (LHA-7)",
-   "photo_key": "USS Tripoli",
-   "type": "amphib",
-   "track": [
-    {
-     "as_of": "2023-10-01",
-     "lat": 26.0,
-     "lng": 56.0
-    },
-    {
-     "as_of": "2026-04-20",
-     "lat": 36.5,
-     "lng": 18.2
-    }
-   ],
-   "current": {
-    "lat": 36.5,
-    "lng": 18.2,
-    "region": "Mediterranean Sea",
     "status": "deployed"
    }
   },
@@ -149,19 +100,14 @@
    "type": "carrier",
    "track": [
     {
-     "as_of": "2023-10-01",
-     "lat": 36.5,
-     "lng": 18.2
-    },
-    {
      "as_of": "2026-04-20",
-     "lat": 36.5,
-     "lng": 18.2
+     "lat": 36.0,
+     "lng": 15.0
     }
    ],
    "current": {
-    "lat": 36.5,
-    "lng": 18.2,
+    "lat": 36.0,
+    "lng": 15.0,
     "region": "Mediterranean Sea",
     "status": "deployed"
    }
@@ -172,20 +118,33 @@
    "type": "carrier",
    "track": [
     {
-     "as_of": "2023-10-01",
-     "lat": 26.0,
-     "lng": 56.0
-    },
-    {
      "as_of": "2026-04-20",
-     "lat": 36.5,
-     "lng": 18.2
+     "lat": 20.0,
+     "lng": 60.0
     }
    ],
    "current": {
-    "lat": 36.5,
-    "lng": 18.2,
-    "region": "Mediterranean Sea",
+    "lat": 20.0,
+    "lng": 60.0,
+    "region": "Indian Ocean",
+    "status": "deployed"
+   }
+  },
+  {
+   "name": "USS Tripoli (LHA-7)",
+   "photo_key": "USS Tripoli",
+   "type": "amphib",
+   "track": [
+    {
+     "as_of": "2026-04-20",
+     "lat": 20.0,
+     "lng": 60.0
+    }
+   ],
+   "current": {
+    "lat": 20.0,
+    "lng": 60.0,
+    "region": "Indian Ocean",
     "status": "deployed"
    }
   },
@@ -195,19 +154,14 @@
    "type": "carrier",
    "track": [
     {
-     "as_of": "2023-10-01",
-     "lat": 36.5,
-     "lng": 18.2
-    },
-    {
      "as_of": "2026-04-20",
-     "lat": 36.5,
-     "lng": 18.2
+     "lat": 35.0,
+     "lng": 10.0
     }
    ],
    "current": {
-    "lat": 36.5,
-    "lng": 18.2,
+    "lat": 35.0,
+    "lng": 10.0,
     "region": "Mediterranean Sea",
     "status": "deployed"
    }
@@ -218,20 +172,15 @@
    "type": "carrier",
    "track": [
     {
-     "as_of": "2023-10-01",
-     "lat": 35.4,
-     "lng": 139.6
-    },
-    {
      "as_of": "2026-04-20",
-     "lat": 35.4,
-     "lng": 139.6
+     "lat": 35.0,
+     "lng": 139.0
     }
    ],
    "current": {
-    "lat": 35.4,
-    "lng": 139.6,
-    "region": "Japan",
+    "lat": 35.0,
+    "lng": 139.0,
+    "region": "Western Pacific",
     "status": "deployed"
    }
   },
@@ -241,20 +190,15 @@
    "type": "amphib",
    "track": [
     {
-     "as_of": "2023-10-01",
-     "lat": 35.4,
-     "lng": 139.6
-    },
-    {
      "as_of": "2026-04-20",
-     "lat": -30.0,
-     "lng": 150.0
+     "lat": 30.0,
+     "lng": 135.0
     }
    ],
    "current": {
-    "lat": -30.0,
-    "lng": 150.0,
-    "region": "Pacific Ocean",
+    "lat": 30.0,
+    "lng": 135.0,
+    "region": "Western Pacific",
     "status": "deployed"
    }
   }
