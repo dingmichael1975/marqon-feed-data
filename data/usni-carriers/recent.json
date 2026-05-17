@@ -1,22 +1,29 @@
 {
- "generated_at": "2026-05-13T10:15:43+00:00",
+ "generated_at": "2026-05-17T05:23:55+00:00",
  "weeks": [
   "vessel_photos",
+  "2026-04-20",
   "2023-10-01"
  ],
  "vessels": [
   {
    "name": "USS Theodore Roosevelt (CVN-71)",
+   "photo_key": "USS Theodore Roosevelt",
    "type": "carrier",
    "track": [
     {
      "as_of": "2023-10-01",
      "lat": 24.5,
      "lng": -120.0
+    },
+    {
+     "as_of": "2026-04-20",
+     "lat": 25.0,
+     "lng": -120.0
     }
    ],
    "current": {
-    "lat": 24.5,
+    "lat": 25.0,
     "lng": -120.0,
     "region": "Eastern Pacific",
     "status": "deployed"
@@ -24,16 +31,22 @@
   },
   {
    "name": "USS Essex (LHD-2)",
+   "photo_key": "USS Essex",
    "type": "amphib",
    "track": [
     {
      "as_of": "2023-10-01",
      "lat": 24.5,
      "lng": -120.0
+    },
+    {
+     "as_of": "2026-04-20",
+     "lat": 25.0,
+     "lng": -120.0
     }
    ],
    "current": {
-    "lat": 24.5,
+    "lat": 25.0,
     "lng": -120.0,
     "region": "Eastern Pacific",
     "status": "deployed"
@@ -41,10 +54,16 @@
   },
   {
    "name": "USS Kearsarge (LHD-3)",
+   "photo_key": "USS Kearsarge",
    "type": "amphib",
    "track": [
     {
      "as_of": "2023-10-01",
+     "lat": 29.7,
+     "lng": -95.4
+    },
+    {
+     "as_of": "2026-04-20",
      "lat": 29.7,
      "lng": -95.4
     }
@@ -58,27 +77,39 @@
   },
   {
    "name": "Iwo Jima ARG",
+   "photo_key": "USS Iwo Jima",
    "type": "amphib",
    "track": [
     {
      "as_of": "2023-10-01",
      "lat": 18.0,
      "lng": -66.0
+    },
+    {
+     "as_of": "2026-04-20",
+     "lat": 18.0,
+     "lng": -75.0
     }
    ],
    "current": {
     "lat": 18.0,
-    "lng": -66.0,
+    "lng": -75.0,
     "region": "Caribbean Sea",
     "status": "deployed"
    }
   },
   {
    "name": "USS Nimitz (CVN-68)",
+   "photo_key": "USS Nimitz",
    "type": "carrier",
    "track": [
     {
      "as_of": "2023-10-01",
+     "lat": -33.0,
+     "lng": -71.6
+    },
+    {
+     "as_of": "2026-04-20",
      "lat": -33.0,
      "lng": -71.6
     }
@@ -92,102 +123,138 @@
   },
   {
    "name": "USS Tripoli (LHA-7)",
+   "photo_key": "USS Tripoli",
    "type": "amphib",
    "track": [
     {
      "as_of": "2023-10-01",
      "lat": 26.0,
      "lng": 56.0
+    },
+    {
+     "as_of": "2026-04-20",
+     "lat": 26.0,
+     "lng": 54.0
     }
    ],
    "current": {
     "lat": 26.0,
-    "lng": 56.0,
+    "lng": 54.0,
     "region": "Persian Gulf",
     "status": "deployed"
    }
   },
   {
    "name": "Ford CSG",
+   "photo_key": "USS Ford",
    "type": "carrier",
    "track": [
     {
      "as_of": "2023-10-01",
      "lat": 36.5,
      "lng": 18.2
+    },
+    {
+     "as_of": "2026-04-20",
+     "lat": 35.0,
+     "lng": 15.0
     }
    ],
    "current": {
-    "lat": 36.5,
-    "lng": 18.2,
+    "lat": 35.0,
+    "lng": 15.0,
     "region": "Mediterranean Sea",
     "status": "deployed"
    }
   },
   {
    "name": "Abraham Lincoln CSG",
+   "photo_key": "USS Abraham Lincoln",
    "type": "carrier",
    "track": [
     {
      "as_of": "2023-10-01",
      "lat": 26.0,
      "lng": 56.0
+    },
+    {
+     "as_of": "2026-04-20",
+     "lat": 26.0,
+     "lng": 54.0
     }
    ],
    "current": {
     "lat": 26.0,
-    "lng": 56.0,
+    "lng": 54.0,
     "region": "Persian Gulf",
     "status": "deployed"
    }
   },
   {
    "name": "George H.W. Bush CSG",
+   "photo_key": "USS George H.W. Bush",
    "type": "carrier",
    "track": [
     {
      "as_of": "2023-10-01",
      "lat": 36.5,
      "lng": 18.2
+    },
+    {
+     "as_of": "2026-04-20",
+     "lat": 35.0,
+     "lng": 15.0
     }
    ],
    "current": {
-    "lat": 36.5,
-    "lng": 18.2,
+    "lat": 35.0,
+    "lng": 15.0,
     "region": "Mediterranean Sea",
     "status": "deployed"
    }
   },
   {
    "name": "George Washington CSG",
+   "photo_key": "USS George Washington",
    "type": "carrier",
    "track": [
     {
      "as_of": "2023-10-01",
      "lat": 35.4,
      "lng": 139.6
+    },
+    {
+     "as_of": "2026-04-20",
+     "lat": 35.0,
+     "lng": 139.0
     }
    ],
    "current": {
-    "lat": 35.4,
-    "lng": 139.6,
+    "lat": 35.0,
+    "lng": 139.0,
     "region": "Western Pacific",
     "status": "deployed"
    }
   },
   {
    "name": "Boxer ARG",
+   "photo_key": "USS Boxer",
    "type": "amphib",
    "track": [
     {
      "as_of": "2023-10-01",
      "lat": 35.4,
      "lng": 139.6
+    },
+    {
+     "as_of": "2026-04-20",
+     "lat": 35.0,
+     "lng": 139.0
     }
    ],
    "current": {
-    "lat": 35.4,
-    "lng": 139.6,
+    "lat": 35.0,
+    "lng": 139.0,
     "region": "Western Pacific",
     "status": "deployed"
    }
