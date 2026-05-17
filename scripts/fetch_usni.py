@@ -335,7 +335,7 @@ def build_recent_index() -> dict[str, Any]:
     """
     snapshots: list[tuple[str, dict[str, Any]]] = []
     for p in sorted(OUT_DIR.glob("*.json")):
-        if p.name in {"latest.json", "recent.json"}:
+        if p.name in {"latest.json", "recent.json", "vessel_photos.json"}:
             continue
         try:
             data = json.loads(p.read_text(encoding="utf-8"))
@@ -554,7 +554,7 @@ def prune_history():
     grow unboundedly."""
     dated = []
     for p in OUT_DIR.glob("*.json"):
-        if p.name in {"latest.json", "recent.json"}:
+        if p.name in {"latest.json", "recent.json", "vessel_photos.json"}:
             continue
         dated.append(p)
     dated.sort(key=lambda p: p.name)
