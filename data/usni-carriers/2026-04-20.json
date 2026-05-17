@@ -1,6 +1,6 @@
 {
  "as_of": "2026-04-20",
- "fetched_at": "2026-05-17T06:07:13+00:00",
+ "fetched_at": "2026-05-17T06:25:02+00:00",
  "source_url": "https://news.usni.org/2026/04/20/usni-news-fleet-and-marine-tracker-april-20-2026",
  "image_url": "https://news.usni.org/wp-content/uploads/2026/04/FT_4_20_26-1.jpg",
  "count": 11,
@@ -9,16 +9,16 @@
    "name": "USS Theodore Roosevelt (CVN-71)",
    "type": "carrier",
    "region": "Eastern Pacific",
-   "lat": 23.0,
-   "lng": -106.0,
+   "lat": 24.5,
+   "lng": -120.0,
    "status": "deployed"
   },
   {
    "name": "USS Essex (LHD-2)",
    "type": "amphib",
    "region": "Eastern Pacific",
-   "lat": 23.0,
-   "lng": -106.0,
+   "lat": 24.5,
+   "lng": -120.0,
    "status": "deployed"
   },
   {
@@ -26,7 +26,7 @@
    "type": "amphib",
    "region": "Gulf of Mexico",
    "lat": 29.7,
-   "lng": -95.3,
+   "lng": -95.4,
    "status": "deployed"
   },
   {
@@ -34,7 +34,7 @@
    "type": "amphib",
    "region": "Caribbean Sea",
    "lat": 18.0,
-   "lng": -75.0,
+   "lng": -63.0,
    "status": "deployed"
   },
   {
@@ -49,8 +49,8 @@
    "name": "Ford CSG",
    "type": "carrier",
    "region": "Mediterranean Sea",
-   "lat": 36.0,
-   "lng": 15.0,
+   "lat": 36.5,
+   "lng": 18.2,
    "status": "deployed"
   },
   {
@@ -74,23 +74,23 @@
    "type": "carrier",
    "region": "Mediterranean Sea",
    "lat": 35.0,
-   "lng": 10.0,
+   "lng": 15.0,
    "status": "deployed"
   },
   {
    "name": "George Washington CSG",
    "type": "carrier",
    "region": "Western Pacific",
-   "lat": 35.0,
-   "lng": 139.0,
+   "lat": 35.5,
+   "lng": 139.5,
    "status": "deployed"
   },
   {
    "name": "Boxer ARG",
    "type": "amphib",
    "region": "Western Pacific",
-   "lat": 30.0,
-   "lng": 135.0,
+   "lat": 35.5,
+   "lng": 139.5,
    "status": "deployed"
   }
  ]

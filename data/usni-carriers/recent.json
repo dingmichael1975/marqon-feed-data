@@ -1,84 +1,84 @@
 {
- "generated_at": "2026-05-17T06:07:26+00:00",
+ "generated_at": "2026-05-17T06:25:17+00:00",
  "weeks": [
   "2026-04-20"
  ],
  "vessels": [
   {
    "name": "USS Theodore Roosevelt (CVN-71)",
-   "photo_key": "USS Theodore Roosevelt",
+   "photo_key": "ves-USS_Theodore_Roosevelt-440a3b",
    "type": "carrier",
    "track": [
     {
      "as_of": "2026-04-20",
-     "lat": 23.0,
-     "lng": -106.0
+     "lat": 24.5,
+     "lng": -120.0
     }
    ],
    "current": {
-    "lat": 23.0,
-    "lng": -106.0,
+    "lat": 24.5,
+    "lng": -120.0,
     "region": "Eastern Pacific",
     "status": "deployed"
    }
   },
   {
    "name": "USS Essex (LHD-2)",
-   "photo_key": "USS Essex",
+   "photo_key": "ves-USS_Essex-2a05cd",
    "type": "amphib",
    "track": [
     {
      "as_of": "2026-04-20",
-     "lat": 23.0,
-     "lng": -106.0
+     "lat": 24.5,
+     "lng": -120.0
     }
    ],
    "current": {
-    "lat": 23.0,
-    "lng": -106.0,
+    "lat": 24.5,
+    "lng": -120.0,
     "region": "Eastern Pacific",
     "status": "deployed"
    }
   },
   {
    "name": "USS Kearsarge (LHD-3)",
-   "photo_key": "USS Kearsarge",
+   "photo_key": "ves-USS_Kearsarge-d1a1a1",
    "type": "amphib",
    "track": [
     {
      "as_of": "2026-04-20",
      "lat": 29.7,
-     "lng": -95.3
+     "lng": -95.4
     }
    ],
    "current": {
     "lat": 29.7,
-    "lng": -95.3,
+    "lng": -95.4,
     "region": "Gulf of Mexico",
     "status": "deployed"
    }
   },
   {
    "name": "Iwo Jima ARG",
-   "photo_key": "USS Iwo Jima",
+   "photo_key": "ves-USS_Iwo_Jima-9e86df",
    "type": "amphib",
    "track": [
     {
      "as_of": "2026-04-20",
      "lat": 18.0,
-     "lng": -75.0
+     "lng": -63.0
     }
    ],
    "current": {
     "lat": 18.0,
-    "lng": -75.0,
+    "lng": -63.0,
     "region": "Caribbean Sea",
     "status": "deployed"
    }
   },
   {
    "name": "USS Nimitz (CVN-68)",
-   "photo_key": "USS Nimitz",
+   "photo_key": "ves-USS_Nimitz-f10671",
    "type": "carrier",
    "track": [
     {
@@ -96,25 +96,25 @@
   },
   {
    "name": "Ford CSG",
-   "photo_key": "USS Ford",
+   "photo_key": "ves-USS_Ford-3fba05",
    "type": "carrier",
    "track": [
     {
      "as_of": "2026-04-20",
-     "lat": 36.0,
-     "lng": 15.0
+     "lat": 36.5,
+     "lng": 18.2
     }
    ],
    "current": {
-    "lat": 36.0,
-    "lng": 15.0,
+    "lat": 36.5,
+    "lng": 18.2,
     "region": "Mediterranean Sea",
     "status": "deployed"
    }
   },
   {
    "name": "Abraham Lincoln CSG",
-   "photo_key": "USS Abraham Lincoln",
+   "photo_key": "ves-USS_Abraham_Lincoln-407f91",
    "type": "carrier",
    "track": [
     {
@@ -132,7 +132,7 @@
   },
   {
    "name": "USS Tripoli (LHA-7)",
-   "photo_key": "USS Tripoli",
+   "photo_key": "ves-USS_Tripoli-51a490",
    "type": "amphib",
    "track": [
     {
@@ -150,54 +150,54 @@
   },
   {
    "name": "George H.W. Bush CSG",
-   "photo_key": "USS George H.W. Bush",
+   "photo_key": "ves-USS_George_H.W._Bush-a57ac1",
    "type": "carrier",
    "track": [
     {
      "as_of": "2026-04-20",
      "lat": 35.0,
-     "lng": 10.0
+     "lng": 15.0
     }
    ],
    "current": {
     "lat": 35.0,
-    "lng": 10.0,
+    "lng": 15.0,
     "region": "Mediterranean Sea",
     "status": "deployed"
    }
   },
   {
    "name": "George Washington CSG",
-   "photo_key": "USS George Washington",
+   "photo_key": "ves-USS_George_Washington-ffbde5",
    "type": "carrier",
    "track": [
     {
      "as_of": "2026-04-20",
-     "lat": 35.0,
-     "lng": 139.0
+     "lat": 35.5,
+     "lng": 139.5
     }
    ],
    "current": {
-    "lat": 35.0,
-    "lng": 139.0,
+    "lat": 35.5,
+    "lng": 139.5,
     "region": "Western Pacific",
     "status": "deployed"
    }
   },
   {
    "name": "Boxer ARG",
-   "photo_key": "USS Boxer",
+   "photo_key": "ves-USS_Boxer-43ea61",
    "type": "amphib",
    "track": [
     {
      "as_of": "2026-04-20",
-     "lat": 30.0,
-     "lng": 135.0
+     "lat": 35.5,
+     "lng": 139.5
     }
    ],
    "current": {
-    "lat": 30.0,
-    "lng": 135.0,
+    "lat": 35.5,
+    "lng": 139.5,
     "region": "Western Pacific",
     "status": "deployed"
    }
