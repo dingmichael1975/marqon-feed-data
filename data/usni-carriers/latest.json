@@ -1,6 +1,6 @@
 {
  "as_of": "2026-04-20",
- "fetched_at": "2026-05-17T05:28:52+00:00",
+ "fetched_at": "2026-05-17T05:52:52+00:00",
  "source_url": "https://news.usni.org/2026/04/20/usni-news-fleet-and-marine-tracker-april-20-2026",
  "image_url": "https://news.usni.org/wp-content/uploads/2026/04/FT_4_20_26-1.jpg",
  "count": 11,
@@ -10,7 +10,7 @@
    "type": "carrier",
    "region": "Eastern Pacific",
    "lat": 25.0,
-   "lng": -120.0,
+   "lng": -100.0,
    "status": "deployed"
   },
   {
@@ -18,23 +18,23 @@
    "type": "amphib",
    "region": "Eastern Pacific",
    "lat": 25.0,
-   "lng": -120.0,
+   "lng": -100.0,
    "status": "deployed"
   },
   {
    "name": "USS Kearsarge (LHD-3)",
    "type": "amphib",
    "region": "Gulf of Mexico",
-   "lat": 29.7,
-   "lng": -95.4,
+   "lat": 29.0,
+   "lng": -95.0,
    "status": "deployed"
   },
   {
    "name": "Iwo Jima ARG",
    "type": "amphib",
    "region": "Caribbean Sea",
-   "lat": 18.0,
-   "lng": -70.0,
+   "lat": 15.0,
+   "lng": -75.0,
    "status": "deployed"
   },
   {
@@ -42,31 +42,7 @@
    "type": "carrier",
    "region": "South America",
    "lat": -33.0,
-   "lng": -71.6,
-   "status": "deployed"
-  },
-  {
-   "name": "USS Tripoli (LHA-7)",
-   "type": "amphib",
-   "region": "Persian Gulf",
-   "lat": 26.0,
-   "lng": 54.0,
-   "status": "deployed"
-  },
-  {
-   "name": "Abraham Lincoln CSG",
-   "type": "carrier",
-   "region": "Persian Gulf",
-   "lat": 26.0,
-   "lng": 54.0,
-   "status": "deployed"
-  },
-  {
-   "name": "George H.W. Bush CSG",
-   "type": "carrier",
-   "region": "Mediterranean Sea",
-   "lat": 35.0,
-   "lng": 15.0,
+   "lng": -71.0,
    "status": "deployed"
   },
   {
@@ -78,11 +54,35 @@
    "status": "deployed"
   },
   {
+   "name": "Abraham Lincoln CSG",
+   "type": "carrier",
+   "region": "Indian Ocean",
+   "lat": 20.0,
+   "lng": 60.0,
+   "status": "deployed"
+  },
+  {
+   "name": "USS Tripoli (LHA-7)",
+   "type": "amphib",
+   "region": "Indian Ocean",
+   "lat": 20.0,
+   "lng": 60.0,
+   "status": "deployed"
+  },
+  {
+   "name": "George H.W. Bush CSG",
+   "type": "carrier",
+   "region": "Mediterranean Sea",
+   "lat": 35.0,
+   "lng": 15.0,
+   "status": "deployed"
+  },
+  {
    "name": "George Washington CSG",
    "type": "carrier",
    "region": "Western Pacific",
-   "lat": 35.5,
-   "lng": 139.5,
+   "lat": 35.0,
+   "lng": 139.0,
    "status": "deployed"
   },
   {
@@ -90,7 +90,7 @@
    "type": "amphib",
    "region": "Western Pacific",
    "lat": 30.0,
-   "lng": 135.0,
+   "lng": 140.0,
    "status": "deployed"
   }
  ]

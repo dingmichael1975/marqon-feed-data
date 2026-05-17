@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-05-17T05:29:05+00:00",
+ "generated_at": "2026-05-17T05:53:03+00:00",
  "weeks": [
   "2026-04-20",
   "2023-10-01"
@@ -18,12 +18,12 @@
     {
      "as_of": "2026-04-20",
      "lat": 25.0,
-     "lng": -120.0
+     "lng": -100.0
     }
    ],
    "current": {
     "lat": 25.0,
-    "lng": -120.0,
+    "lng": -100.0,
     "region": "Eastern Pacific",
     "status": "deployed"
    }
@@ -41,12 +41,12 @@
     {
      "as_of": "2026-04-20",
      "lat": 25.0,
-     "lng": -120.0
+     "lng": -100.0
     }
    ],
    "current": {
     "lat": 25.0,
-    "lng": -120.0,
+    "lng": -100.0,
     "region": "Eastern Pacific",
     "status": "deployed"
    }
@@ -63,13 +63,13 @@
     },
     {
      "as_of": "2026-04-20",
-     "lat": 29.7,
-     "lng": -95.4
+     "lat": 29.0,
+     "lng": -95.0
     }
    ],
    "current": {
-    "lat": 29.7,
-    "lng": -95.4,
+    "lat": 29.0,
+    "lng": -95.0,
     "region": "Gulf of Mexico",
     "status": "deployed"
    }
@@ -86,13 +86,13 @@
     },
     {
      "as_of": "2026-04-20",
-     "lat": 18.0,
-     "lng": -70.0
+     "lat": 15.0,
+     "lng": -75.0
     }
    ],
    "current": {
-    "lat": 18.0,
-    "lng": -70.0,
+    "lat": 15.0,
+    "lng": -75.0,
     "region": "Caribbean Sea",
     "status": "deployed"
    }
@@ -110,12 +110,12 @@
     {
      "as_of": "2026-04-20",
      "lat": -33.0,
-     "lng": -71.6
+     "lng": -71.0
     }
    ],
    "current": {
     "lat": -33.0,
-    "lng": -71.6,
+    "lng": -71.0,
     "region": "South America",
     "status": "deployed"
    }
@@ -132,14 +132,14 @@
     },
     {
      "as_of": "2026-04-20",
-     "lat": 26.0,
-     "lng": 54.0
+     "lat": 20.0,
+     "lng": 60.0
     }
    ],
    "current": {
-    "lat": 26.0,
-    "lng": 54.0,
-    "region": "Persian Gulf",
+    "lat": 20.0,
+    "lng": 60.0,
+    "region": "Indian Ocean",
     "status": "deployed"
    }
   },
@@ -178,14 +178,14 @@
     },
     {
      "as_of": "2026-04-20",
-     "lat": 26.0,
-     "lng": 54.0
+     "lat": 20.0,
+     "lng": 60.0
     }
    ],
    "current": {
-    "lat": 26.0,
-    "lng": 54.0,
-    "region": "Persian Gulf",
+    "lat": 20.0,
+    "lng": 60.0,
+    "region": "Indian Ocean",
     "status": "deployed"
    }
   },
@@ -224,13 +224,13 @@
     },
     {
      "as_of": "2026-04-20",
-     "lat": 35.5,
-     "lng": 139.5
+     "lat": 35.0,
+     "lng": 139.0
     }
    ],
    "current": {
-    "lat": 35.5,
-    "lng": 139.5,
+    "lat": 35.0,
+    "lng": 139.0,
     "region": "Western Pacific",
     "status": "deployed"
    }
@@ -248,12 +248,12 @@
     {
      "as_of": "2026-04-20",
      "lat": 30.0,
-     "lng": 135.0
+     "lng": 140.0
     }
    ],
    "current": {
     "lat": 30.0,
-    "lng": 135.0,
+    "lng": 140.0,
     "region": "Western Pacific",
     "status": "deployed"
    }
