@@ -29,6 +29,7 @@ The OPENAI_API_KEY GitHub Secret is required.
 from __future__ import annotations
 
 import base64
+import hashlib
 import json
 import os
 import re
@@ -416,22 +417,36 @@ def _strip_paren_hull(name: str) -> str:
 _GROUP_RE = re.compile(r"^(.*?)\s+(CSG|CVN|ARG|MEU|SAG|ESG)\s*$", re.I)
 
 
-def _photo_key(name: str) -> str:
-    """Stable lookup key shared between recent.json's vessel entries
-    and vessel_photos.json's by_name map. Normalises both styles the
-    OCR emits:
+def _normalize_vessel_name(name: str) -> str:
+    """Flagship form used as the storage key in vessel_photos.json:
       "USS Theodore Roosevelt (CVN-71)" → "USS Theodore Roosevelt"
       "Abraham Lincoln CSG"             → "USS Abraham Lincoln"
       "Iwo Jima ARG"                    → "USS Iwo Jima"
-    The Qt client (CarrierGroupsLayer.hit_test_2d) reads this key from
-    the vessel feature and uses it to look the wiki thumbnail up in
-    vessel_photos.json — without normalisation the two files use
-    different conventions and every lookup misses."""
+    Server's photo_path_for() iterates vessel_photos.json's by_name
+    keys and re-hashes each one to compare against the incoming
+    /api/monitor/photo/{key} request, so the key here must match the
+    string the server runs through vessel_photo_key()."""
     n = re.sub(r"\s*\([^)]+\)\s*$", "", name).strip()
     m = _GROUP_RE.match(n)
     if m:
         return f"USS {m.group(1).strip()}"
     return n
+
+
+def _photo_key(name: str) -> str:
+    """Server-compatible URL key for the Qt client's
+    /api/monitor/photo/{key} request. Mirrors the server's
+    enrichment._photo_key_for("ves", normalized_name) so the round
+    trip — client emits this string, server hashes its by_name keys
+    and looks for an equal one — terminates in a hit.
+
+    Format: 'ves-{safe_name}-{md5_6}'  e.g.
+        'ves-USS_Theodore_Roosevelt-3f9a02'
+    """
+    norm = _normalize_vessel_name(name)
+    safe = re.sub(r"[^A-Za-z0-9._-]+", "_", norm).strip("_")[:60]
+    digest = hashlib.md5(norm.encode("utf-8")).hexdigest()[:6]
+    return f"ves-{safe}-{digest}"
 
 
 def _fetch_summary(client: httpx.Client, title: str) -> dict | None:
@@ -629,16 +644,16 @@ def main() -> int:
     # photo per unique vessel name across the 12-week window so the
     # tooltip can render an image even for ships not in the current
     # week's snapshot. Cheap — ~15 HTTP calls per run.
-    # Build {photo_key -> raw vessel name for wiki lookup}. The raw
-    # name (with hull number / group suffix) goes to Wikipedia where
-    # it disambiguates to a specific article; the photo_key is what
-    # the Qt client uses to look the photo up afterwards.
+    # vessel_photos.json keys = NORMALISED flagship name (the form the
+    # server hashes during photo_path_for()). The lookup name handed
+    # to Wikipedia keeps hull numbers so disambiguation works.
     key_to_lookup: dict[str, str] = {}
     for v in recent.get("vessels", []):
-        pk = v.get("photo_key")
-        if not pk or pk in key_to_lookup:
+        raw = v.get("name") or ""
+        norm = _normalize_vessel_name(raw)
+        if not norm or norm in key_to_lookup:
             continue
-        key_to_lookup[pk] = v.get("name") or pk
+        key_to_lookup[norm] = raw or norm
     print(f"[usni] fetching Wikipedia photos for {len(key_to_lookup)} unique vessels ...")
     vessel_photos = fetch_vessel_photos(key_to_lookup)
     # Merge with the previous vessel_photos.json. Wiki REST occasionally
