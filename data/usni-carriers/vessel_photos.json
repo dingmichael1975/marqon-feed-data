@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-05-17T06:55:29+00:00",
+ "generated_at": "2026-05-20T10:44:05+00:00",
  "count": 15,
  "by_name": {
   "USS George H.W. Bush": {
@@ -47,8 +47,8 @@
   "USS Tripoli": {
    "wiki_title": "USS Tripoli (LHA-7)",
    "wiki_url": "https://en.wikipedia.org/wiki/USS_Tripoli_(LHA-7)",
-   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/USS_Tripoli_%28LHA-7%29_underway_in_the_Gulf_of_Mexico_on_15_July_2019_%28190715-O-N0101-115%29.JPG/3840px-USS_Tripoli_%28LHA-7%29_underway_in_the_Gulf_of_Mexico_on_15_July_2019_%28190715-O-N0101-115%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/USS_Tripoli_%28LHA-7%29_underway_in_the_Gulf_of_Mexico_on_15_July_2019_%28190715-O-N0101-115%29.JPG/330px-USS_Tripoli_%28LHA-7%29_underway_in_the_Gulf_of_Mexico_on_15_July_2019_%28190715-O-N0101-115%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/USS_Tripoli_%28LHA-7%29_underway_in_the_Gulf_of_Mexico_on_15_July_2019_%28190715-O-N0101-115%29.JPG/3840px-USS_Tripoli_%28LHA-7%29_underway_in_the_Gulf_of_Mexico_on_15_July_2019_%28190715-O-N0101-115%29.JPG",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/USS_Tripoli_%28LHA-7%29_underway_in_the_Gulf_of_Mexico_on_15_July_2019_%28190715-O-N0101-115%29.JPG/330px-USS_Tripoli_%28LHA-7%29_underway_in_the_Gulf_of_Mexico_on_15_July_2019_%28190715-O-N0101-115%29.JPG",
    "attribution": "Wikipedia (CC BY-SA)"
   },
   "USS Ford": {
@@ -75,8 +75,8 @@
   "USS Boxer": {
    "wiki_title": "USS Boxer (LHD-4)",
    "wiki_url": "https://en.wikipedia.org/wiki/USS_Boxer_(LHD-4)",
-   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/US_Navy_110818-N-ZS026-035_The_USS_Boxer_steams_across_the_Indian_Ocean.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/US_Navy_110818-N-ZS026-035_The_USS_Boxer_steams_across_the_Indian_Ocean.jpg/330px-US_Navy_110818-N-ZS026-035_The_USS_Boxer_steams_across_the_Indian_Ocean.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/US_Navy_110818-N-ZS026-035_The_USS_Boxer_steams_across_the_Indian_Ocean.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/US_Navy_110818-N-ZS026-035_The_USS_Boxer_steams_across_the_Indian_Ocean.jpg/330px-US_Navy_110818-N-ZS026-035_The_USS_Boxer_steams_across_the_Indian_Ocean.jpg",
    "attribution": "Wikipedia (CC BY-SA)"
   },
   "USS Ford CSG Iwo Jima": {
@@ -89,8 +89,8 @@
   "USS USS Boxer": {
    "wiki_title": "USS Boxer (LHD-4)",
    "wiki_url": "https://en.wikipedia.org/wiki/USS_Boxer_(LHD-4)",
-   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/US_Navy_110818-N-ZS026-035_The_USS_Boxer_steams_across_the_Indian_Ocean.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/US_Navy_110818-N-ZS026-035_The_USS_Boxer_steams_across_the_Indian_Ocean.jpg/330px-US_Navy_110818-N-ZS026-035_The_USS_Boxer_steams_across_the_Indian_Ocean.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/US_Navy_110818-N-ZS026-035_The_USS_Boxer_steams_across_the_Indian_Ocean.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/US_Navy_110818-N-ZS026-035_The_USS_Boxer_steams_across_the_Indian_Ocean.jpg/330px-US_Navy_110818-N-ZS026-035_The_USS_Boxer_steams_across_the_Indian_Ocean.jpg",
    "attribution": "Wikipedia (CC BY-SA)"
   },
   "USS USS Iwo Jima": {
