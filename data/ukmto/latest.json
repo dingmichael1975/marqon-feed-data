@@ -1,8 +1,38 @@
 {
- "generated_at": "2026-05-26T04:32:48+00:00",
- "count": 50,
+ "generated_at": "2026-05-26T16:06:50+00:00",
+ "count": 52,
  "source_url": "https://www.ukmto.org/recent-incidents",
  "incidents": [
+  {
+   "number": 2026,
+   "type": "Advisory",
+   "severity": "low",
+   "date": "26 May 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "Total Incidents Summary. Reporting period: 28 February 2026 - 26 May 2026, 1200UTC. UKMTO has received 52 reports of incidents affecting vessels operating in and around the Arabian Gulf, Strait of Hormuz (SOH), and Gulf of Oman. Total ATTACK reports: 28. Total SUSPICIOUS ACTIVITY reports: 22. Total HIJACK reports: 2. Details of these incident reports are available below."
+  },
+  {
+   "number": 62,
+   "type": "Attack",
+   "severity": "high",
+   "date": "26 May 2026",
+   "region": "Muscat",
+   "lat": 23.5859,
+   "lng": 58.4059,
+   "body": "UKMTO WARNING 062-26 - ATTACK\nReport Date:26 May 2026\nReport Time: 0945UTC\nIssue Date:26 May 2026\nSource Master\nUKMTO has received a report of an incident 60NM east of Muscat, Oman.\nThe Master of a Tanker reports of an external explosion, Port side aft close to the\nwaterline.\nThe crew and vessel are safe, although the Master reports some bunker fuel has\ndischarged into the sea.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to\nUKMTO."
+  },
+  {
+   "number": 61,
+   "type": "Advisory",
+   "severity": "low",
+   "date": "23 May 2026",
+   "region": "Gulf Of Aden",
+   "lat": 12.0,
+   "lng": 47.0,
+   "body": "UKMTO ADVISORY 061-26 - ADVISORY\nReport Date: 23 May 2026\nReport Time: 0830UTC\nIssue Date: 23 May 2026\nSource Military authorities\nUKMTO has received reports from various sources of suspicious activity within the\nGulf of Aden.\nThere have been multiple reports of vessels being approached by Skiff’s, a large Skiff\nwith two outboard engines has been observed carrying both ladders and weapons.\nVessels transiting the area are advised to transit with caution, follow guidance\nwritten in BMP MS and report any suspicious activity to UKMTO.\nAuthorities are investigating"
+  },
   {
    "number": 60,
    "type": "Suspicious Activity",
@@ -12,16 +42,6 @@
    "lat": 13.5,
    "lng": 48.5,
    "body": "UKMTO has received a report of an incident within the IRTC 200NM west of Socotra.\nThe Master of a products tanker has reported that the vessel was approached by a small craft with 5 persons onboard, closest point of approach 100m. The vessel’s Armed Security Team were deployed and the small craft altered course away from the reporting vessel.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO whilst authorities investigate."
-  },
-  {
-   "number": 2026,
-   "type": "Advisory",
-   "severity": "low",
-   "date": "14 May 2026",
-   "region": "Strait Of Hormuz",
-   "lat": 26.5667,
-   "lng": 56.25,
-   "body": "Total Incidents Summary. Reporting period: 28 February 2026 - 22 May 2026, 0800UTC. UKMTO has received 49 reports of incidents affecting vessels operating in and around the Arabian Gulf, Strait of Hormuz (SOH), and Gulf of Oman. Total ATTACK reports: 27. Total SUSPICIOUS ACTIVITY reports: 20. Total HIJACK reports: 2. Details of these incident reports are available below."
   },
   {
    "number": 57,
