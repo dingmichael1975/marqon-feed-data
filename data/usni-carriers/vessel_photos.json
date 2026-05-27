@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-05-20T10:44:05+00:00",
- "count": 15,
+ "generated_at": "2026-05-27T11:31:58+00:00",
+ "count": 17,
  "by_name": {
   "USS George H.W. Bush": {
    "wiki_title": "USS George H. W. Bush",
    "wiki_url": "https://en.wikipedia.org/wiki/USS_George_H._W._Bush",
-   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/US_Navy_110129-N-3885H-158_USS_George_H.W._Bush_%28CVN_77%29_is_underway_in_the_Atlantic_Ocean.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/US_Navy_110129-N-3885H-158_USS_George_H.W._Bush_%28CVN_77%29_is_underway_in_the_Atlantic_Ocean.jpg/330px-US_Navy_110129-N-3885H-158_USS_George_H.W._Bush_%28CVN_77%29_is_underway_in_the_Atlantic_Ocean.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/US_Navy_110129-N-3885H-158_USS_George_H.W._Bush_%28CVN_77%29_is_underway_in_the_Atlantic_Ocean.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/US_Navy_110129-N-3885H-158_USS_George_H.W._Bush_%28CVN_77%29_is_underway_in_the_Atlantic_Ocean.jpg/330px-US_Navy_110129-N-3885H-158_USS_George_H.W._Bush_%28CVN_77%29_is_underway_in_the_Atlantic_Ocean.jpg",
    "attribution": "Wikipedia (CC BY-SA)"
   },
   "USS Nimitz": {
@@ -33,15 +33,15 @@
   "USS Kearsarge": {
    "wiki_title": "USS Kearsarge (LHD-3)",
    "wiki_url": "https://en.wikipedia.org/wiki/USS_Kearsarge_(LHD-3)",
-   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/US_Navy_040620-N-1512S-218_The_amphibious_assault_ship_USS_Kearsarge_%28LHD_3%29_underway_while_transiting_the_Straits_of_Gibraltar_and_into_the_Mediterranean_Sea.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/US_Navy_040620-N-1512S-218_The_amphibious_assault_ship_USS_Kearsarge_%28LHD_3%29_underway_while_transiting_the_Straits_of_Gibraltar_and_into_the_Mediterranean_Sea.jpg/330px-thumbnail.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/US_Navy_040620-N-1512S-218_The_amphibious_assault_ship_USS_Kearsarge_%28LHD_3%29_underway_while_transiting_the_Straits_of_Gibraltar_and_into_the_Mediterranean_Sea.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/US_Navy_040620-N-1512S-218_The_amphibious_assault_ship_USS_Kearsarge_%28LHD_3%29_underway_while_transiting_the_Straits_of_Gibraltar_and_into_the_Mediterranean_Sea.jpg/330px-thumbnail.jpg",
    "attribution": "Wikipedia (CC BY-SA)"
   },
   "USS Iwo Jima": {
    "wiki_title": "USS Iwo Jima (LHD-7)",
    "wiki_url": "https://en.wikipedia.org/wiki/USS_Iwo_Jima_(LHD-7)",
-   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/US_Navy_080906-N-1082Z-029_The_multi-purpose_amphibious_assault_ship_USS_Iwo_Jima_%28LHD_7%29_transits_the_Atlantic_Ocean.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/US_Navy_080906-N-1082Z-029_The_multi-purpose_amphibious_assault_ship_USS_Iwo_Jima_%28LHD_7%29_transits_the_Atlantic_Ocean.jpg/330px-US_Navy_080906-N-1082Z-029_The_multi-purpose_amphibious_assault_ship_USS_Iwo_Jima_%28LHD_7%29_transits_the_Atlantic_Ocean.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/US_Navy_080906-N-1082Z-029_The_multi-purpose_amphibious_assault_ship_USS_Iwo_Jima_%28LHD_7%29_transits_the_Atlantic_Ocean.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/US_Navy_080906-N-1082Z-029_The_multi-purpose_amphibious_assault_ship_USS_Iwo_Jima_%28LHD_7%29_transits_the_Atlantic_Ocean.jpg/330px-US_Navy_080906-N-1082Z-029_The_multi-purpose_amphibious_assault_ship_USS_Iwo_Jima_%28LHD_7%29_transits_the_Atlantic_Ocean.jpg",
    "attribution": "Wikipedia (CC BY-SA)"
   },
   "USS Tripoli": {
@@ -96,8 +96,8 @@
   "USS USS Iwo Jima": {
    "wiki_title": "USS Iwo Jima (LHD-7)",
    "wiki_url": "https://en.wikipedia.org/wiki/USS_Iwo_Jima_(LHD-7)",
-   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/US_Navy_080906-N-1082Z-029_The_multi-purpose_amphibious_assault_ship_USS_Iwo_Jima_%28LHD_7%29_transits_the_Atlantic_Ocean.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/US_Navy_080906-N-1082Z-029_The_multi-purpose_amphibious_assault_ship_USS_Iwo_Jima_%28LHD_7%29_transits_the_Atlantic_Ocean.jpg/330px-US_Navy_080906-N-1082Z-029_The_multi-purpose_amphibious_assault_ship_USS_Iwo_Jima_%28LHD_7%29_transits_the_Atlantic_Ocean.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/US_Navy_080906-N-1082Z-029_The_multi-purpose_amphibious_assault_ship_USS_Iwo_Jima_%28LHD_7%29_transits_the_Atlantic_Ocean.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/US_Navy_080906-N-1082Z-029_The_multi-purpose_amphibious_assault_ship_USS_Iwo_Jima_%28LHD_7%29_transits_the_Atlantic_Ocean.jpg/330px-US_Navy_080906-N-1082Z-029_The_multi-purpose_amphibious_assault_ship_USS_Iwo_Jima_%28LHD_7%29_transits_the_Atlantic_Ocean.jpg",
    "attribution": "Wikipedia (CC BY-SA)"
   },
   "USS USS Abraham Lincoln": {
@@ -105,6 +105,20 @@
    "wiki_url": "https://en.wikipedia.org/wiki/USS_Abraham_Lincoln_(CVN-72)",
    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/USS_Abraham_Lincoln_%28CVN-72%29_underway_in_the_Atlantic_Ocean_on_30_January_2019_%28190130-N-PW716-1312%29.JPG/3840px-USS_Abraham_Lincoln_%28CVN-72%29_underway_in_the_Atlantic_Ocean_on_30_January_2019_%28190130-N-PW716-1312%29.JPG",
    "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/USS_Abraham_Lincoln_%28CVN-72%29_underway_in_the_Atlantic_Ocean_on_30_January_2019_%28190130-N-PW716-1312%29.JPG/330px-USS_Abraham_Lincoln_%28CVN-72%29_underway_in_the_Atlantic_Ocean_on_30_January_2019_%28190130-N-PW716-1312%29.JPG",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "USS Makin Island": {
+   "wiki_title": "USS Makin Island (LHD-8)",
+   "wiki_url": "https://en.wikipedia.org/wiki/USS_Makin_Island_(LHD-8)",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Amphibious_assault_ship_USS_Makin_Island_%28LHD_8%29_%28cropped%29.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Amphibious_assault_ship_USS_Makin_Island_%28LHD_8%29_%28cropped%29.jpg/330px-Amphibious_assault_ship_USS_Makin_Island_%28LHD_8%29_%28cropped%29.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "USS Dwight D. Eisenhower": {
+   "wiki_title": "USS Dwight D. Eisenhower",
+   "wiki_url": "https://en.wikipedia.org/wiki/USS_Dwight_D._Eisenhower",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/US_Navy_060617-N-0490C-010_The_Nimitz-class_aircraft_carrier_USS_Dwight_D._Eisenhower_%28CVN_69%29_conducts_a_turn_in_the_Atlantic_Ocean._Eisenhower_is_underway_conducting_routine_carrier_operations.jpg",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/US_Navy_060617-N-0490C-010_The_Nimitz-class_aircraft_carrier_USS_Dwight_D._Eisenhower_%28CVN_69%29_conducts_a_turn_in_the_Atlantic_Ocean._Eisenhower_is_underway_conducting_routine_carrier_operations.jpg/330px-thumbnail.jpg",
    "attribution": "Wikipedia (CC BY-SA)"
   }
  }
