@@ -1,8 +1,18 @@
 {
- "generated_at": "2026-06-01T13:46:54+00:00",
- "count": 52,
+ "generated_at": "2026-06-01T20:34:24+00:00",
+ "count": 53,
  "source_url": "https://www.ukmto.org/recent-incidents",
  "incidents": [
+  {
+   "number": 28082035,
+   "type": "Attack",
+   "severity": "high",
+   "date": "1 June 2026",
+   "region": "Arabian Gulf",
+   "lat": 26.5,
+   "lng": 51.5,
+   "body": "UKMTO has received a report of an incident 40NM southeast of Umm Qasr, Iraq.\nA Cargo vessel was transiting in the Arabian Gulf when a large explosion following a hit from an unknown projectile on the starboard side.\nUKMTO is unaware of any environmental impact at this time.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO."
+  },
   {
    "number": 2026,
    "type": "Advisory",
