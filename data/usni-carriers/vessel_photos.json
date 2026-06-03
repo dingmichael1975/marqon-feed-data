@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-05-27T11:31:58+00:00",
- "count": 17,
+ "generated_at": "2026-06-03T12:36:47+00:00",
+ "count": 18,
  "by_name": {
   "USS George H.W. Bush": {
    "wiki_title": "USS George H. W. Bush",
@@ -119,6 +119,13 @@
    "wiki_url": "https://en.wikipedia.org/wiki/USS_Dwight_D._Eisenhower",
    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/US_Navy_060617-N-0490C-010_The_Nimitz-class_aircraft_carrier_USS_Dwight_D._Eisenhower_%28CVN_69%29_conducts_a_turn_in_the_Atlantic_Ocean._Eisenhower_is_underway_conducting_routine_carrier_operations.jpg",
    "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/US_Navy_060617-N-0490C-010_The_Nimitz-class_aircraft_carrier_USS_Dwight_D._Eisenhower_%28CVN_69%29_conducts_a_turn_in_the_Atlantic_Ocean._Eisenhower_is_underway_conducting_routine_carrier_operations.jpg/330px-thumbnail.jpg",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "USS Gerald R. Ford": {
+   "wiki_title": "USS Gerald R. Ford",
+   "wiki_url": "https://en.wikipedia.org/wiki/USS_Gerald_R._Ford",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/USS_Gerald_R._Ford_%28CVN-78%29_underway_in_the_Atlantic_Ocean_on_9_October_2022_%28221009-N-TL968-1248%29.JPG/3840px-USS_Gerald_R._Ford_%28CVN-78%29_underway_in_the_Atlantic_Ocean_on_9_October_2022_%28221009-N-TL968-1248%29.JPG",
+   "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/USS_Gerald_R._Ford_%28CVN-78%29_underway_in_the_Atlantic_Ocean_on_9_October_2022_%28221009-N-TL968-1248%29.JPG/330px-USS_Gerald_R._Ford_%28CVN-78%29_underway_in_the_Atlantic_Ocean_on_9_October_2022_%28221009-N-TL968-1248%29.JPG",
    "attribution": "Wikipedia (CC BY-SA)"
   }
  }
