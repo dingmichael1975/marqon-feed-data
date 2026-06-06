@@ -1,54 +1,38 @@
 {
- "generated_at": "2026-06-06T18:15:17+00:00",
- "count": 3,
+ "generated_at": "2026-06-06T20:16:48+00:00",
+ "count": 2,
  "markets": [
   {
    "id": "2270338",
    "question": "US x Iran permanent peace deal by July 31, 2026?",
    "slug": "us-x-iran-permanent-peace-deal-by-july-31-2026-831-252",
    "url": "https://polymarket.com/event/us-x-iran-permanent-peace-deal-by-july-31-2026-831-252",
-   "yes_price": 0.335,
-   "volume_24h": 382792.1808349959,
-   "volume": 4921323.2804521015,
+   "yes_price": 0.295,
+   "volume_24h": 504166.2307059958,
+   "volume": 5051845.572495105,
    "end_date": "2026-07-31T00:00:00Z",
    "lat": 32.4279,
    "lng": 53.688,
    "region": "Iran",
    "category": "",
-   "yes_price_6h_ago": 0.315,
-   "delta_6h": 0.02
+   "yes_price_6h_ago": 0.345,
+   "delta_6h": -0.05
   },
   {
-   "id": "947289",
-   "question": "Will Roberto Sánchez Palomino win the 2026 Peruvian presidential election?",
-   "slug": "will-roberto-snchez-palomino-win-the-2026-peruvian-presidential-election",
-   "url": "https://polymarket.com/event/will-roberto-snchez-palomino-win-the-2026-peruvian-presidential-election",
-   "yes_price": 0.3755,
-   "volume_24h": 357988.39482099994,
-   "volume": 15246478.552223023,
-   "end_date": "2026-06-07T00:00:00Z",
-   "lat": 38.9072,
-   "lng": -77.0369,
-   "region": "US Election",
-   "category": "",
-   "yes_price_6h_ago": 0.3955,
-   "delta_6h": -0.02
-  },
-  {
-   "id": "956980",
-   "question": "Ukraine agrees not to join NATO by June 30?",
-   "slug": "ukraine-agrees-not-to-join-nato-by-june-30",
-   "url": "https://polymarket.com/event/ukraine-agrees-not-to-join-nato-by-june-30",
-   "yes_price": 0.0455,
-   "volume_24h": 220507.06215,
-   "volume": 1743106.195667003,
+   "id": "1971905",
+   "question": "Strait of Hormuz traffic returns to normal by end of June?",
+   "slug": "strait-of-hormuz-traffic-returns-to-normal-by-end-of-june",
+   "url": "https://polymarket.com/event/strait-of-hormuz-traffic-returns-to-normal-by-end-of-june",
+   "yes_price": 0.145,
+   "volume_24h": 221500.828948,
+   "volume": 14168593.938118191,
    "end_date": "2026-06-30T00:00:00Z",
-   "lat": 48.3794,
-   "lng": 31.1656,
-   "region": "Ukraine",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "region": "Strait of Hormuz",
    "category": "",
-   "yes_price_6h_ago": 0.0305,
-   "delta_6h": 0.015
+   "yes_price_6h_ago": 0.155,
+   "delta_6h": -0.01
   }
  ]
 }
