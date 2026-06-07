@@ -1,22 +1,5 @@
 {
- "generated_at": "2026-06-07T05:46:09+00:00",
- "count": 1,
- "markets": [
-  {
-   "id": "629035",
-   "question": "Will Spencer Pratt win the 2026 Los Angeles mayoral election?",
-   "slug": "will-spencer-pratt-win-the-2026-los-angeles-mayoral-election-983",
-   "url": "https://polymarket.com/event/will-spencer-pratt-win-the-2026-los-angeles-mayoral-election-983",
-   "yes_price": 0.007,
-   "volume_24h": 552884.4786120004,
-   "volume": 5201052.72122502,
-   "end_date": "2026-06-02T00:00:00Z",
-   "lat": 38.9072,
-   "lng": -77.0369,
-   "region": "US Election",
-   "category": "",
-   "yes_price_6h_ago": 0.018,
-   "delta_6h": -0.011
-  }
- ]
+ "generated_at": "2026-06-07T09:29:30+00:00",
+ "count": 0,
+ "markets": []
 }
