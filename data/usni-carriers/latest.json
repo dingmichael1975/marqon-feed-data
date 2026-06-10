@@ -1,81 +1,8 @@
 {
- "as_of": "2026-05-18",
- "fetched_at": "2026-06-03T12:36:47+00:00",
- "source_url": "https://news.usni.org/2026/05/18/usni-news-fleet-and-marine-tracker-may-18-2026",
- "image_url": "https://news.usni.org/wp-content/uploads/2026/05/FT_5_18_26_a.jpg",
- "count": 9,
- "vessels": [
-  {
-   "name": "USS Makin Island (LHD-8)",
-   "type": "amphib",
-   "region": "Norfolk, Virginia",
-   "lat": 36.9,
-   "lng": -76.3,
-   "status": "homeport"
-  },
-  {
-   "name": "USS Gerald R. Ford (CVN-78)",
-   "type": "carrier",
-   "region": "Norfolk, Virginia",
-   "lat": 36.9,
-   "lng": -76.3,
-   "status": "homeport"
-  },
-  {
-   "name": "USS Iwo Jima (LHD-7)",
-   "type": "amphib",
-   "region": "Caribbean Sea",
-   "lat": 18.5,
-   "lng": -66.0,
-   "status": "deployed"
-  },
-  {
-   "name": "USS Nimitz (CVN-68)",
-   "type": "carrier",
-   "region": "South America",
-   "lat": -3.0,
-   "lng": -60.0,
-   "status": "deployed"
-  },
-  {
-   "name": "USS Abraham Lincoln (CVN-72)",
-   "type": "carrier",
-   "region": "Mediterranean Sea",
-   "lat": 34.0,
-   "lng": 18.0,
-   "status": "deployed"
-  },
-  {
-   "name": "USS George H.W. Bush (CVN-77)",
-   "type": "carrier",
-   "region": "Mediterranean Sea",
-   "lat": 34.0,
-   "lng": 18.0,
-   "status": "deployed"
-  },
-  {
-   "name": "USS Tripoli (LHA-7)",
-   "type": "amphib",
-   "region": "Mediterranean Sea",
-   "lat": 34.0,
-   "lng": 18.0,
-   "status": "deployed"
-  },
-  {
-   "name": "USS George Washington (CVN-73)",
-   "type": "carrier",
-   "region": "Yokosuka, Japan",
-   "lat": 35.4,
-   "lng": 139.6,
-   "status": "homeport"
-  },
-  {
-   "name": "USS Boxer (LHD-4)",
-   "type": "amphib",
-   "region": "Western Pacific",
-   "lat": 10.0,
-   "lng": 120.0,
-   "status": "deployed"
-  }
- ]
+ "as_of": "2023-10-01",
+ "fetched_at": "2026-06-10T11:32:55+00:00",
+ "source_url": "https://news.usni.org/2026/05/22/usni-news-western-pacific-pulse-may-22-2026",
+ "image_url": "https://news.usni.org/wp-content/uploads/2018/07/dims.jpeg",
+ "count": 0,
+ "vessels": []
 }
