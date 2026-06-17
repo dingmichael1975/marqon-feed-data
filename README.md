@@ -1,6 +1,6 @@
-# marketplus-feed-data
+# marqon-feed-data
 
-Static-snapshot data feed used by **Market+ Terminal v2**. Two scheduled
+Static-snapshot data feed used by **Marqon Terminal v2**. Two scheduled
 workflows do all the work; consumers (the v2 local sidecar) just pull
 plain JSON from `raw.githubusercontent.com`.
 
@@ -65,9 +65,9 @@ That's it — the cron schedules take over from there.
 After setup, these URLs are public and CDN-cached by GitHub:
 
 ```
-https://raw.githubusercontent.com/<owner>/marketplus-feed-data/main/data/polymarket/latest.json
-https://raw.githubusercontent.com/<owner>/marketplus-feed-data/main/data/polymarket/breaking-6h.json
-https://raw.githubusercontent.com/<owner>/marketplus-feed-data/main/data/usni-carriers/latest.json
+https://raw.githubusercontent.com/<owner>/marqon-feed-data/main/data/polymarket/latest.json
+https://raw.githubusercontent.com/<owner>/marqon-feed-data/main/data/polymarket/breaking-6h.json
+https://raw.githubusercontent.com/<owner>/marqon-feed-data/main/data/usni-carriers/latest.json
 ```
 
 The v2 sidecar's `polymarket.py` and `usni_carriers.py` sources fetch

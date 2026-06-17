@@ -395,8 +395,8 @@ _WIKI_API = "https://en.wikipedia.org/api/rest_v1/page/summary"
 # provides a way to contact the operator (URL or email). Plain UA
 # strings get 403'd. See: https://meta.wikimedia.org/wiki/User-Agent_policy
 _WIKI_UA = (
-    "marketplus-feed-bot/1.0 "
-    "(https://github.com/dingmichael1975/marketplus-feed-data; "
+    "marqon-feed-bot/1.0 "
+    "(https://github.com/dingmichael1975/marqon-feed-data; "
     "dingmichael1975@users.noreply.github.com)"
 )
 

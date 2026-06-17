@@ -126,7 +126,7 @@ GEO_TABLE: list[tuple[str, float, float, str]] = [
 def fetch_markets() -> list[dict[str, Any]]:
     """Pull every active, non-closed Gamma market, paginated."""
     out: list[dict[str, Any]] = []
-    with httpx.Client(timeout=TIMEOUT_S, headers={"User-Agent": "marketplus-feed-bot/1.0"}) as client:
+    with httpx.Client(timeout=TIMEOUT_S, headers={"User-Agent": "marqon-feed-bot/1.0"}) as client:
         for page in range(MAX_PAGES):
             params = {
                 "active":      "true",
