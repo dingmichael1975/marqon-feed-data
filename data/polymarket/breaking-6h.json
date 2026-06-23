@@ -1,31 +1,15 @@
 {
- "generated_at": "2026-06-23T21:04:20+00:00",
- "count": 3,
+ "generated_at": "2026-06-23T22:20:31+00:00",
+ "count": 4,
  "markets": [
-  {
-   "id": "2412402",
-   "question": "Will 40 ships transit the Strait of Hormuz on any day by June 30, 2026?",
-   "slug": "will-40-ships-transit-the-strait-of-hormuz-on-any-day-by-june-30-2026",
-   "url": "https://polymarket.com/event/will-40-ships-transit-the-strait-of-hormuz-on-any-day-by-june-30-2026",
-   "yes_price": 0.48,
-   "volume_24h": 359922.6314129999,
-   "volume": 569904.0946510001,
-   "end_date": "2026-06-30T16:00:00Z",
-   "lat": 26.5667,
-   "lng": 56.25,
-   "region": "Strait of Hormuz",
-   "category": "",
-   "yes_price_6h_ago": 0.455,
-   "delta_6h": 0.025
-  },
   {
    "id": "2535468",
    "question": "Strait of Hormuz traffic returns to normal by July 15?",
    "slug": "strait-of-hormuz-traffic-returns-to-normal-by-july-15",
    "url": "https://polymarket.com/event/strait-of-hormuz-traffic-returns-to-normal-by-july-15",
    "yes_price": 0.255,
-   "volume_24h": 302484.00282599987,
-   "volume": 2521796.5182979996,
+   "volume_24h": 296313.5504959999,
+   "volume": 2538994.062125999,
    "end_date": "2026-07-15T00:00:00Z",
    "lat": 26.5667,
    "lng": 56.25,
@@ -35,20 +19,52 @@
    "delta_6h": 0.025
   },
   {
+   "id": "2412402",
+   "question": "Will 40 ships transit the Strait of Hormuz on any day by June 30, 2026?",
+   "slug": "will-40-ships-transit-the-strait-of-hormuz-on-any-day-by-june-30-2026",
+   "url": "https://polymarket.com/event/will-40-ships-transit-the-strait-of-hormuz-on-any-day-by-june-30-2026",
+   "yes_price": 0.475,
+   "volume_24h": 352657.299595,
+   "volume": 585498.6195550002,
+   "end_date": "2026-06-30T16:00:00Z",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "region": "Strait of Hormuz",
+   "category": "",
+   "yes_price_6h_ago": 0.455,
+   "delta_6h": 0.02
+  },
+  {
+   "id": "2176262",
+   "question": "Strait of Hormuz traffic returns to normal by July 31?",
+   "slug": "strait-of-hormuz-traffic-returns-to-normal-by-july-31",
+   "url": "https://polymarket.com/event/strait-of-hormuz-traffic-returns-to-normal-by-july-31",
+   "yes_price": 0.465,
+   "volume_24h": 330412.3949349998,
+   "volume": 8163448.030920081,
+   "end_date": "2026-07-31T00:00:00Z",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "region": "Strait of Hormuz",
+   "category": "",
+   "yes_price_6h_ago": 0.455,
+   "delta_6h": 0.01
+  },
+  {
    "id": "1280208",
    "question": "Israeli parliament dissolved by June 30?",
    "slug": "israeli-parliament-dissolved-by-june-30-228",
    "url": "https://polymarket.com/event/israeli-parliament-dissolved-by-june-30-228",
-   "yes_price": 0.11,
-   "volume_24h": 236043.47491800002,
-   "volume": 690502.0348000067,
+   "yes_price": 0.1,
+   "volume_24h": 223093.82991799994,
+   "volume": 696861.9148000067,
    "end_date": "2026-06-30T00:00:00Z",
    "lat": 31.0461,
    "lng": 34.8516,
    "region": "Israel",
    "category": "",
    "yes_price_6h_ago": 0.09,
-   "delta_6h": 0.02
+   "delta_6h": 0.01
   }
  ]
 }
