@@ -1,8 +1,18 @@
 {
- "generated_at": "2026-06-23T04:18:47+00:00",
- "count": 19,
+ "generated_at": "2026-06-23T11:29:45+00:00",
+ "count": 20,
  "source_url": "https://www.ukmto.org/recent-incidents",
  "incidents": [
+  {
+   "number": 28082035,
+   "type": "Suspicious Activity",
+   "severity": "medium",
+   "date": "21 June 2026",
+   "region": "Yemen",
+   "lat": 15.5527,
+   "lng": 48.5164,
+   "body": "UKMTO has received a report of an incident 50NM southeast of Al-Shihr, Yemen. The Master of a product tanker reported being approached by a skiff carrying five armed persons who appeared to be attempting to board the vessel. In response, the vessel conducted evasive manoeuvres and altered course away from the skiff. Vessel is now proceeding to its next port of call.\nThe vessel and crew are reported safe.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO"
+  },
   {
    "number": 71,
    "type": "Attack",
