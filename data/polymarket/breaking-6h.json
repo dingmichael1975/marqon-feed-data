@@ -1,54 +1,5 @@
 {
- "generated_at": "2026-06-23T08:34:21+00:00",
- "count": 3,
- "markets": [
-  {
-   "id": "1971905",
-   "question": "Strait of Hormuz traffic returns to normal by end of June?",
-   "slug": "strait-of-hormuz-traffic-returns-to-normal-by-end-of-june",
-   "url": "https://polymarket.com/event/strait-of-hormuz-traffic-returns-to-normal-by-end-of-june",
-   "yes_price": 0.055,
-   "volume_24h": 690187.960970999,
-   "volume": 31847235.15049739,
-   "end_date": "2026-06-30T00:00:00Z",
-   "lat": 26.5667,
-   "lng": 56.25,
-   "region": "Strait of Hormuz",
-   "category": "",
-   "yes_price_6h_ago": 0.065,
-   "delta_6h": -0.01
-  },
-  {
-   "id": "2099580",
-   "question": "Will Keir Starmer be the next leader out before 2027?",
-   "slug": "will-keir-starmer-be-the-next-leader-out-before-2027-565",
-   "url": "https://polymarket.com/event/will-keir-starmer-be-the-next-leader-out-before-2027-565",
-   "yes_price": 0.78,
-   "volume_24h": 402354.0840730004,
-   "volume": 707063.9745089997,
-   "end_date": "2026-12-31T00:00:00Z",
-   "lat": 51.5074,
-   "lng": -0.1278,
-   "region": "London",
-   "category": "",
-   "yes_price_6h_ago": 0.79,
-   "delta_6h": -0.01
-  },
-  {
-   "id": "2535468",
-   "question": "Strait of Hormuz traffic returns to normal by July 15?",
-   "slug": "strait-of-hormuz-traffic-returns-to-normal-by-july-15",
-   "url": "https://polymarket.com/event/strait-of-hormuz-traffic-returns-to-normal-by-july-15",
-   "yes_price": 0.305,
-   "volume_24h": 247842.6203,
-   "volume": 2290892.5412529996,
-   "end_date": "2026-07-15T00:00:00Z",
-   "lat": 26.5667,
-   "lng": 56.25,
-   "region": "Strait of Hormuz",
-   "category": "",
-   "yes_price_6h_ago": 0.295,
-   "delta_6h": 0.01
-  }
- ]
+ "generated_at": "2026-06-23T12:12:37+00:00",
+ "count": 0,
+ "markets": []
 }
