@@ -1,17 +1,37 @@
 {
- "generated_at": "2026-06-25T11:06:33+00:00",
- "count": 20,
+ "generated_at": "2026-06-25T15:09:56+00:00",
+ "count": 12,
  "source_url": "https://www.ukmto.org/recent-incidents",
  "incidents": [
   {
-   "number": 28082035,
+   "number": 74,
+   "type": "Attack",
+   "severity": "high",
+   "date": "25 June 2026",
+   "region": "Oman",
+   "lat": 21.4735,
+   "lng": 55.9754,
+   "body": "UKMTO WARNING 074-26 - ATTACK\nReport Date: 25 Jun 2026 Report Time: 1410UTC Source: Master\nUKMTO has received a report of an incident 7.5NM southeast of Dahit, Oman.\nA cargo vessel has been hit on the starboard side by an unknown projectile, causing damage to the bridge.\nMaster has reported no casualties and no environmental impact."
+  },
+  {
+   "number": 73,
+   "type": "Advisory",
+   "severity": "low",
+   "date": "23 June 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO ADVISORY 073-26 - ADVISORY\nIssue Date:23 Jun 2026\nSource: IMO\nUKMTO ADVISORY – IMO-SUPPORTED EVACUATION PROCESS (STRAIT OF HORMUZ)\nUKMTO is supporting an IMO-coordinated process to assist vessels currently operating within the Gulf region.\nThe IMO is working with industry organisations, coastal states and regional partners to develop a prioritised\napproach to the safe and orderly movement of vessels. This includes the IMO-led identification of vessels for\npotential phased departure and the provision of associated information to support decision-making.\nAs part of this process, vessels may be contacted by UKMTO to be notified of their inclusion in an IMO planning\nbatch and to highlight relevant published maritime guidance, including coastal state Notices to Mariners.\nAll decisions regarding vessel movement, routing and timing remain the responsibility of the Master and owning\ncompany. Participation in this process is voluntary.\nUKMTO will continue to act as a neutral information conduit, supporting the provision of timely and coherent\ninformation to the maritime community.\nOperators are encouraged to:\n• Maintain reporting to UKMTO in accordance with the Voluntary Reporting Are"
+  },
+  {
+   "number": 72,
    "type": "Suspicious Activity",
    "severity": "medium",
    "date": "21 June 2026",
    "region": "Yemen",
    "lat": 15.5527,
    "lng": 48.5164,
-   "body": "UKMTO has received a report of an incident 50NM southeast of Al-Shihr, Yemen. The Master of a product tanker reported being approached by a skiff carrying five armed persons who appeared to be attempting to board the vessel. In response, the vessel conducted evasive manoeuvres and altered course away from the skiff. Vessel is now proceeding to its next port of call.\nThe vessel and crew are reported safe.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO"
+   "body": "UKMTO Warning 072-26. UKMTO has received a report of an incident 50NM southeast of Al-Shihr, Yemen. The Master of a product tanker reported being approached by a skiff carrying five armed persons who appeared to be attempting to board the vessel. In response, the vessel conducted evasive maneuvers and altered course away from the skiff. Vessel is now proceeding to its next port of call.\nThe vessel and crew are reported safe.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO"
   },
   {
    "number": 71,
@@ -101,107 +121,7 @@
    "region": "Arabian Gulf",
    "lat": 26.5,
    "lng": 51.5,
-   "body": "UKMTO has received a report of an incident 40NM southeast of Umm Qasr, Iraq.\nA Cargo vessel was transiting in the Arabian Gulf when a large explosion following a hit from an unknown projectile on the starboard side.\nUKMTO is unaware of any environmental impact at this time.\nUpdate 001: UKMTO has been informed of a second impact to the Cargo Vessel, resulting\nin a fire which has since been extinguished. No report of injuries to crew.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO."
-  },
-  {
-   "number": 62,
-   "type": "Attack",
-   "severity": "high",
-   "date": "26 May 2026",
-   "region": "Muscat",
-   "lat": 23.5859,
-   "lng": 58.4059,
-   "body": "UKMTO WARNING 062-26 - ATTACK\nReport Date:26 May 2026\nReport Time: 0945UTC\nIssue Date:26 May 2026\nSource Master\nUKMTO has received a report of an incident 60NM east of Muscat, Oman.\nThe Master of a Tanker reports of an external explosion, Port side aft close to the\nwaterline.\nThe crew and vessel are safe, although the Master reports some bunker fuel has\ndischarged into the sea.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to\nUKMTO."
-  },
-  {
-   "number": 61,
-   "type": "Advisory",
-   "severity": "low",
-   "date": "23 May 2026",
-   "region": "Gulf Of Aden",
-   "lat": 12.0,
-   "lng": 47.0,
-   "body": "UKMTO ADVISORY 061-26 - ADVISORY\nReport Date: 23 May 2026\nReport Time: 0830UTC\nIssue Date: 23 May 2026\nSource Military authorities\nUKMTO has received reports from various sources of suspicious activity within the\nGulf of Aden.\nThere have been multiple reports of vessels being approached by Skiff’s, a large Skiff\nwith two outboard engines has been observed carrying both ladders and weapons.\nVessels transiting the area are advised to transit with caution, follow guidance\nwritten in BMP MS and report any suspicious activity to UKMTO.\nAuthorities are investigating"
-  },
-  {
-   "number": 60,
-   "type": "Suspicious Activity",
-   "severity": "medium",
-   "date": "22 May 2026",
-   "region": "Irtc",
-   "lat": 13.5,
-   "lng": 48.5,
-   "body": "UKMTO has received a report of an incident within the IRTC 200NM west of Socotra.\nThe Master of a products tanker has reported that the vessel was approached by a small craft with 5 persons onboard, closest point of approach 100m. The vessel’s Armed Security Team were deployed and the small craft altered course away from the reporting vessel.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO whilst authorities investigate."
-  },
-  {
-   "number": 57,
-   "type": "Suspicious Activity",
-   "severity": "medium",
-   "date": "14 May 2026",
-   "region": "Fujairah",
-   "lat": 25.1288,
-   "lng": 56.3265,
-   "body": "UKMTO has received a report of an incident 38NM northeast of Fujairah, United Arab\nEmirates. The CSO has reported that the vessel has been taken by unauthorised personnel\nwhist at anchor and is now bound for Iranian Territorial Waters.\nUKMTO continue to investigate."
-  },
-  {
-   "number": 56,
-   "type": "Attack",
-   "severity": "high",
-   "date": "9 May 2026",
-   "region": "Doha",
-   "lat": 25.2854,
-   "lng": 51.531,
-   "body": "UKMTO WARNING - 056-26 - ATTACK\nUKMTO has received a report of an incident 23NM northeast of DOHA, QATAR.\nThe Master of a Bulk Carrier reports being hit by an unknown projectile. There was a small fire\nthat has been extinguished, there are no casualties. There is no reported environmental impact."
-  },
-  {
-   "number": 55,
-   "type": "Attack",
-   "severity": "high",
-   "date": "5 May 2026",
-   "region": "Strait Of Hormuz",
-   "lat": 26.5667,
-   "lng": 56.25,
-   "body": "UKMTO WARNING 55-2026. UKMTO has received a report of an incident within the Strait of Hormuz.\nA verified source reported a cargo vessel has been struck by an unknown projectile. Environmental impact is unknown at time of report.\nVessels are advised to report any suspicious activity to UKMTO, whilst authorities investigate."
-  },
-  {
-   "number": 54,
-   "type": "Suspicious Activity",
-   "severity": "medium",
-   "date": "4 May 2026",
-   "region": "Mina Saqr",
-   "lat": 25.9933,
-   "lng": 56.0533,
-   "body": "UKMTO WARNING 052-26. UKMTO has received a report of an incident 14NM west of Mina Saqr, United Arab Emirates.\nUKMTO received information from a third party that a vessel was on fire and requesting vessels in\nthe vicinity to keep a safe distance from them. The cause of the fire has not been verified at this time\nNo environmental impact reported\nAuthorities are investigating."
-  },
-  {
-   "number": 52,
-   "type": "Attack",
-   "severity": "high",
-   "date": "3 May 2026",
-   "region": "Fujairah",
-   "lat": 25.1288,
-   "lng": 56.3265,
-   "body": "UKMTO WARNING-ATTACK 052-26. UKMTO has received a report of an incident 78NM north of Fujairah. United Arab Emirates.\nA tanker has reported being hit by unknown projectiles. All crew reported safe.\nNo environmental impact reported."
-  },
-  {
-   "number": 50,
-   "type": "Attack",
-   "severity": "high",
-   "date": "3 May 2026",
-   "region": "Sirik",
-   "lat": 26.5119,
-   "lng": 57.0823,
-   "body": "UKMTO has received a report of an incident 11NM west of Sirik, Iran.\nThe Master of a northbound bulk carrier has reported being attacked by multiple small craft. All crew reported safe and no environmental impact reported.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO, authorities are investigating."
-  },
-  {
-   "number": 51,
-   "type": "Suspicious Activity",
-   "severity": "medium",
-   "date": "3 May 2026",
-   "region": "Ras Al Khaimah",
-   "lat": 25.7895,
-   "lng": 55.9432,
-   "body": "UKMTO has received a report from several Masters in the vicinity of Ras Al Khaimah, UAE, that they have been directed via VHF broadcast to move from their anchorages.\nAuthorities continue to investigate and vessels are requested to continue to report any further suspicious activity.\n- [Home](https://www.ukmto.org/)\n- [About us](https://www.ukmto.org/about-us)\n- [Recent Incidents](https://www.ukmto.org/recent-incidents)\n- [UKMTO Products](https://www.ukmto.org/ukmto-products)\n- [Partner Products](https://www.ukmto.org/partner-products)\n- [Reporting Formats](https://www.ukmto.org/reporting-formats)\n- [Best Practices](https://www.ukmto.org/best-management-practices)\n- [Contact us](https://www.ukmto.org/contact-us)\n- Email: [info@ukmto.org](mailto:info@ukmto.org)\n- Phone: [+44 (0) 2392 222065](tel:+44 (0) 2392 222065)\n- Emergency Email: [watchkeepers@ukmto.org](mailto:watchkeepers@ukmto.org)\n- Emergency Phone: [+44 (0) 2392 222060](tel:+44 (0) 2392 222060)\n© Crown copyright\n- [Terms & Conditions](https://www.ukmto.org/terms-and-conditions)"
+   "body": "UKMTO has received a report of an incident 40NM southeast of Umm Qasr, Iraq.\nA Cargo vessel was transiting in the Arabian Gulf when a large explosion following a hit from an unknown projectile on the starboard side.\nUKMTO is unaware of any environmental impact at this time.\nUpdate 001: UKMTO has been informed of a second impact to the Cargo Vessel, resulting\nin a fire which has since been extinguished. No report of injuries to crew.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO.\n- [Home](https://www.ukmto.org/)\n- [About us](https://www.ukmto.org/about-us)\n- [Recent Incidents](https://www.ukmto.org/recent-incidents)\n- [UKMTO Products](https://www.ukmto.org/ukmto-products)\n- [Partner Products](https://www.ukmto.org/partner-products)\n- [Reporting Formats](https://www.ukmto.org/reporting-formats)\n- [Best Practices](https://www.ukmto.org/best-management-practices)\n- [Contact us](https://www.ukmto.org/contact-us)\n- Email: [info@ukmto.org](mailto:info@ukmto.org)\n- Phone: [+44 (0) 2392 222065](tel:+44 (0) 2392 222065)\n- Emergency Email: [watchkeepers@ukmto.org](mailto:watchkeepers@ukmto.org)\n- Emergency Phone: [+44 (0"
   }
  ]
 }
