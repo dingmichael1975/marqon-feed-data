@@ -1,8 +1,18 @@
 {
- "generated_at": "2026-06-27T14:04:27+00:00",
- "count": 12,
+ "generated_at": "2026-06-27T17:20:35+00:00",
+ "count": 13,
  "source_url": "https://www.ukmto.org/recent-incidents",
  "incidents": [
+  {
+   "number": 76,
+   "type": "Attack",
+   "severity": "high",
+   "date": "27 June 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO has received a report of an incident within the Strait of Hormuz.\nThe Master of Tanker has reported being struck by an unidentified projectile. The vessel sustained damage to their bridge; all crew are reported safe. No environmental damage reported at present.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO, authorities are investigating."
+  },
   {
    "number": 74,
    "type": "Attack",
