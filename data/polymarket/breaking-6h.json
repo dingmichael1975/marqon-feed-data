@@ -1,5 +1,54 @@
 {
- "generated_at": "2026-07-01T13:37:56+00:00",
- "count": 0,
- "markets": []
+ "generated_at": "2026-07-01T16:33:16+00:00",
+ "count": 3,
+ "markets": [
+  {
+   "id": "2646848",
+   "question": "US x Iran diplomatic meeting by July 3, 2026?",
+   "slug": "us-x-iran-diplomatic-meeting-by-july-3-2026-20260622191708359",
+   "url": "https://polymarket.com/event/us-x-iran-diplomatic-meeting-by-july-3-2026-20260622191708359",
+   "yes_price": 0.065,
+   "volume_24h": 229479.0725000001,
+   "volume": 1261569.3446379998,
+   "end_date": "2026-07-03T23:59:00Z",
+   "lat": 32.4279,
+   "lng": 53.688,
+   "region": "Iran",
+   "category": "",
+   "yes_price_6h_ago": 0.17,
+   "delta_6h": -0.105
+  },
+  {
+   "id": "567621",
+   "question": "Will China invade Taiwan by end of 2026?",
+   "slug": "will-china-invade-taiwan-before-2027",
+   "url": "https://polymarket.com/event/will-china-invade-taiwan-before-2027",
+   "yes_price": 0.0365,
+   "volume_24h": 397883.76478200295,
+   "volume": 37649890.27839639,
+   "end_date": "2026-12-31T00:00:00Z",
+   "lat": 23.6978,
+   "lng": 120.9605,
+   "region": "Taiwan",
+   "category": "",
+   "yes_price_6h_ago": 0.0485,
+   "delta_6h": -0.012
+  },
+  {
+   "id": "2721765",
+   "question": "Argentina vs. Cabo Verde: Team to Advance",
+   "slug": "fifwc-arg-cvi-2026-07-03-team-to-advance",
+   "url": "https://polymarket.com/event/fifwc-arg-cvi-2026-07-03-team-to-advance",
+   "yes_price": 0.915,
+   "volume_24h": 286786.80067099904,
+   "volume": 416506.27457399876,
+   "end_date": "2026-07-03T22:00:00Z",
+   "lat": -38.4161,
+   "lng": -63.6167,
+   "region": "Argentina",
+   "category": "",
+   "yes_price_6h_ago": 0.905,
+   "delta_6h": 0.01
+  }
+ ]
 }
