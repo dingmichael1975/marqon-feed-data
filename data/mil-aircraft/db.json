@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-06-01T11:46:48+00:00",
- "count": 15912,
+ "generated_at": "2026-07-01T09:59:41+00:00",
+ "count": 15942,
  "by_hex": {
   "010070": {
    "reg": "SU-BGM",
@@ -1045,7 +1045,7 @@
   "35360A": {
    "reg": "T.21-12",
    "type_code": "C295",
-   "type_desc": "CASA C-295 Persuader"
+   "type_desc": "L2T"
   },
   "35360B": {
    "reg": "T.21-13",
@@ -5367,15 +5367,25 @@
    "type_code": "CL2T",
    "type_desc": "CANADAIR CL-415 SuperScooper"
   },
+  "3B7B7A": {
+   "reg": "F-ZBRE",
+   "type_code": "EC45",
+   "type_desc": "AIRBUS HELICOPTERS EC-145"
+  },
+  "3B7B7B": {
+   "reg": "F-ZBQV",
+   "type_code": "EC45",
+   "type_desc": "AIRBUS HELICOPTERS EC-145"
+  },
   "3B7B7C": {
-   "reg": "F-ZWTF",
-   "type_code": "NH90",
-   "type_desc": "NHI NH-90"
+   "reg": "F-ZBRC",
+   "type_code": "EC45",
+   "type_desc": "AIRBUS HELICOPTERS EC-145"
   },
   "3B7B7D": {
-   "reg": "F-ZBGL",
-   "type_code": "B350",
-   "type_desc": "BEECHCRAFT Super King Air 350"
+   "reg": "F-ZBRB",
+   "type_code": "EC45",
+   "type_desc": "AIRBUS HELICOPTERS EC-145"
   },
   "3B7B7E": {
    "reg": "F-ZBRA",
@@ -6307,6 +6317,11 @@
    "type_code": "TWR",
    "type_desc": "T0-"
   },
+  "3EA3C4": {
+   "reg": "TWR",
+   "type_code": "TWR",
+   "type_desc": "T0-"
+  },
   "3EA427": {
    "reg": "63+01",
    "type_code": "P8",
@@ -6345,7 +6360,7 @@
   "3EA92A": {
    "reg": "51+06",
    "type_code": "C160",
-   "type_desc": "L2T"
+   "type_desc": "TRANSALL C-160"
   },
   "3EAC69": {
    "reg": "76+06",
@@ -7074,6 +7089,11 @@
   },
   "3F8F0F": {
    "reg": "30+15",
+   "type_code": "EUFI",
+   "type_desc": "EUROFIGHTER 2000"
+  },
+  "3F8F28": {
+   "reg": "30+40",
    "type_code": "EUFI",
    "type_desc": "EUROFIGHTER 2000"
   },
@@ -10267,6 +10287,11 @@
    "type_code": "EUFI",
    "type_desc": "EUROFIGHTER 2000"
   },
+  "43C742": {
+   "reg": "ZK380",
+   "type_code": "EUFI",
+   "type_desc": "EUROFIGHTER 2000"
+  },
   "43C743": {
    "reg": "ZJ947",
    "type_code": "EUFI",
@@ -11782,6 +11807,11 @@
    "type_code": "E737",
    "type_desc": "BOEING 737-700 AEWC"
   },
+  "43C97B": {
+   "reg": "WT002",
+   "type_code": "E737",
+   "type_desc": "BOEING 737-700 AEWC"
+  },
   "43C988": {
    "reg": "ZT104",
    "type_code": "FFLO",
@@ -12279,6 +12309,11 @@
   },
   "44F424": {
    "reg": "CH-04",
+   "type_code": "C130",
+   "type_desc": "LOCKHEED C-130 Hercules"
+  },
+  "44F425": {
+   "reg": "CH-05",
    "type_code": "C130",
    "type_desc": "LOCKHEED C-130 Hercules"
   },
@@ -13243,6 +13278,11 @@
    "type_desc": "T0-"
   },
   "468378": {
+   "reg": "TWR",
+   "type_code": "TWR",
+   "type_desc": "T0-"
+  },
+  "46837C": {
    "reg": "TWR",
    "type_code": "TWR",
    "type_desc": "T0-"
@@ -18465,7 +18505,7 @@
   "7CFAA8": {
    "reg": "A60-010",
    "type_code": "H60",
-   "type_desc": "SIKORSKY UH-60 Black Hawk"
+   "type_desc": "H2T"
   },
   "7CFAA9": {
    "reg": "A60-011",
@@ -18526,6 +18566,11 @@
    "reg": "A15-314",
    "type_code": "H47",
    "type_desc": "BOEING-VERTOL CH-47 Chinook"
+  },
+  "7CFAE5": {
+   "reg": "N48-025",
+   "type_code": "H60",
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "7CFAFC": {
    "reg": "N52-101",
@@ -45472,6 +45517,11 @@
    "type_code": "V22",
    "type_desc": "Bell/Boeing CV-22B Osprey"
   },
+  "AE498C": {
+   "reg": "08-0038",
+   "type_code": "V22",
+   "type_desc": "BELL-BOEING V-22 Osprey"
+  },
   "AE498D": {
    "reg": "08-0039",
    "type_code": "V22",
@@ -45651,6 +45701,11 @@
    "reg": "168389",
    "type_code": "F18S",
    "type_desc": "Boeing EA-18G Growler"
+  },
+  "AE49EE": {
+   "reg": "168390",
+   "type_code": "F18S",
+   "type_desc": "BOEING FA-18 SUPER HORNET"
   },
   "AE49F0": {
    "reg": "168392",
@@ -46637,6 +46692,11 @@
    "type_code": "H53S",
    "type_desc": "SIKORSKY CH-53 Super Stallion"
   },
+  "AE4BA8": {
+   "reg": "165244",
+   "type_code": "H53",
+   "type_desc": "SIKORSKY CH-53"
+  },
   "AE4BA9": {
    "reg": "164860",
    "type_code": "H53S",
@@ -47295,7 +47355,7 @@
   "AE4D3F": {
    "reg": "168553",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE4D40": {
    "reg": "168554",
@@ -49815,7 +49875,7 @@
   "AE50AE": {
    "reg": "09-20177",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE50B0": {
    "reg": "09-20224",
@@ -49825,7 +49885,7 @@
   "AE50B1": {
    "reg": "09-20225",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE50B2": {
    "reg": "10-20238",
@@ -49925,7 +49985,7 @@
   "AE50C5": {
    "reg": "10-20261",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE50C8": {
    "reg": "10-20264",
@@ -50020,7 +50080,7 @@
   "AE50DC": {
    "reg": "10-20284",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE50DD": {
    "reg": "10-20285",
@@ -50045,7 +50105,7 @@
   "AE50E1": {
    "reg": "10-20289",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE50E2": {
    "reg": "10-20311",
@@ -50055,7 +50115,7 @@
   "AE50E3": {
    "reg": "10-20312",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE50E4": {
    "reg": "10-20313",
@@ -50090,12 +50150,12 @@
   "AE50EA": {
    "reg": "10-20319",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE50EB": {
    "reg": "10-20320",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE50F0": {
    "reg": "",
@@ -50175,7 +50235,7 @@
   "AE5117": {
    "reg": "10-20301",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5118": {
    "reg": "10-20302",
@@ -50190,7 +50250,7 @@
   "AE511A": {
    "reg": "10-20304",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE511B": {
    "reg": "10-20305",
@@ -50210,12 +50270,12 @@
   "AE511E": {
    "reg": "10-20308",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE511F": {
    "reg": "10-20309",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5120": {
    "reg": "10-20310",
@@ -50555,7 +50615,7 @@
   "AE5197": {
    "reg": "10-20325",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5198": {
    "reg": "10-20327",
@@ -50598,9 +50658,9 @@
    "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE51A3": {
-   "reg": "10-20341",
+   "reg": "11-20341",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE51A4": {
    "reg": "11-20343",
@@ -50615,7 +50675,7 @@
   "AE51A6": {
    "reg": "11-20346",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE51A7": {
    "reg": "11-20348",
@@ -50685,7 +50745,7 @@
   "AE51B4": {
    "reg": "11-20369",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE51B5": {
    "reg": "11-20370",
@@ -50735,12 +50795,12 @@
   "AE51BE": {
    "reg": "11-20390",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE51BF": {
    "reg": "11-20391",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE51C0": {
    "reg": "11-20393",
@@ -50755,7 +50815,7 @@
   "AE51C3": {
    "reg": "11-20396",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE51C4": {
    "reg": "11-20397",
@@ -50765,7 +50825,7 @@
   "AE51C5": {
    "reg": "11-20398",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE51C6": {
    "reg": "11-20399",
@@ -50780,7 +50840,7 @@
   "AE51C8": {
    "reg": "11-20412",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE51C9": {
    "reg": "11-20413",
@@ -50815,7 +50875,7 @@
   "AE51CF": {
    "reg": "11-20419",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE51D0": {
    "reg": "11-20420",
@@ -50840,7 +50900,7 @@
   "AE51D4": {
    "reg": "11-20349",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE51D5": {
    "reg": "11-20350",
@@ -50880,17 +50940,17 @@
   "AE51DC": {
    "reg": "11-20377",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE51DD": {
    "reg": "11-20378",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE51DE": {
    "reg": "11-20379",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE51DF": {
    "reg": "11-20380",
@@ -50925,7 +50985,7 @@
   "AE51E5": {
    "reg": "11-20403",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE51E6": {
    "reg": "11-20404",
@@ -50940,7 +51000,7 @@
   "AE51E8": {
    "reg": "11-20406",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE51E9": {
    "reg": "11-20407",
@@ -50950,7 +51010,7 @@
   "AE51EA": {
    "reg": "11-20408",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE51EB": {
    "reg": "11-20409",
@@ -52255,7 +52315,7 @@
   "AE536D": {
    "reg": "11-20385",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE536E": {
    "reg": "11-20433",
@@ -52305,7 +52365,7 @@
   "AE5377": {
    "reg": "12-20456",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5378": {
    "reg": "12-20472",
@@ -52335,7 +52395,7 @@
   "AE537E": {
    "reg": "12-20459",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE537F": {
    "reg": "11-20424",
@@ -52425,12 +52485,12 @@
   "AE5392": {
    "reg": "12-20501",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5393": {
    "reg": "12-20498",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5394": {
    "reg": "12-20500",
@@ -52440,17 +52500,17 @@
   "AE5395": {
    "reg": "12-20495",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5396": {
    "reg": "12-20497",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5397": {
    "reg": "12-20504",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5398": {
    "reg": "12-20502",
@@ -52470,17 +52530,17 @@
   "AE539B": {
    "reg": "12-20499",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE539C": {
    "reg": "12-20494",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE539D": {
    "reg": "12-20451",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE539E": {
    "reg": "11-20426",
@@ -53555,7 +53615,7 @@
   "AE5655": {
    "reg": "12-20444",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5656": {
    "reg": "12-20445",
@@ -53670,7 +53730,7 @@
   "AE566C": {
    "reg": "12-20509",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE566D": {
    "reg": "12-20510",
@@ -53685,12 +53745,12 @@
   "AE566F": {
    "reg": "12-20512",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5670": {
    "reg": "12-20513",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5671": {
    "reg": "12-20514",
@@ -53745,7 +53805,7 @@
   "AE567B": {
    "reg": "12-20528",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE567C": {
    "reg": "12-20529",
@@ -53805,7 +53865,7 @@
   "AE5688": {
    "reg": "12-20544",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5689": {
    "reg": "12-20545",
@@ -53815,7 +53875,7 @@
   "AE568A": {
    "reg": "13-20546",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE568B": {
    "reg": "13-20547",
@@ -53840,12 +53900,12 @@
   "AE568F": {
    "reg": "13-20551",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5690": {
    "reg": "13-20552",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5691": {
    "reg": "13-20553",
@@ -53870,7 +53930,7 @@
   "AE5696": {
    "reg": "13-20558",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5697": {
    "reg": "13-20559",
@@ -53990,7 +54050,7 @@
   "AE56B0": {
    "reg": "13-20584",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE56B1": {
    "reg": "13-20585",
@@ -54000,7 +54060,7 @@
   "AE56B2": {
    "reg": "13-20586",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE56B3": {
    "reg": "13-20587",
@@ -54045,7 +54105,7 @@
   "AE56BC": {
    "reg": "13-20596",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE56BD": {
    "reg": "13-20597",
@@ -54065,12 +54125,12 @@
   "AE56C0": {
    "reg": "13-20600",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE56C1": {
    "reg": "13-20601",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE56C2": {
    "reg": "13-20602",
@@ -54130,7 +54190,7 @@
   "AE56CE": {
    "reg": "13-20614",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE56CF": {
    "reg": "13-20615",
@@ -54185,7 +54245,7 @@
   "AE56DA": {
    "reg": "13-20626",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE56DB": {
    "reg": "13-20627",
@@ -54195,7 +54255,7 @@
   "AE56DC": {
    "reg": "13-20628",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE56DD": {
    "reg": "13-20629",
@@ -54630,7 +54690,7 @@
   "AE5777": {
    "reg": "13-20647",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5778": {
    "reg": "14-20648",
@@ -54775,7 +54835,7 @@
   "AE5794": {
    "reg": "14-20676",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5795": {
    "reg": "14-20677",
@@ -54860,7 +54920,7 @@
   "AE57A5": {
    "reg": "14-20693",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE57A6": {
    "reg": "14-20694",
@@ -57013,9 +57073,9 @@
    "type_desc": "BOEING-VERTOL CH-47 Chinook"
   },
   "AE5A38": {
-   "reg": "11-08410",
+   "reg": "11-08416",
    "type_code": "H47",
-   "type_desc": "H2T"
+   "type_desc": "BOEING-VERTOL CH-47 Chinook"
   },
   "AE5A3A": {
    "reg": "11-08417",
@@ -57650,7 +57710,7 @@
   "AE5ABD": {
    "reg": "15-20731",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5ABE": {
    "reg": "15-20732",
@@ -57835,7 +57895,7 @@
   "AE5AE2": {
    "reg": "15-20768",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5AE3": {
    "reg": "15-20769",
@@ -57845,7 +57905,7 @@
   "AE5AE4": {
    "reg": "15-20770",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5AE5": {
    "reg": "15-20771",
@@ -58125,7 +58185,7 @@
   "AE5B44": {
    "reg": "14-20710",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5B45": {
    "reg": "14-20711",
@@ -58410,17 +58470,17 @@
   "AE5BAD": {
    "reg": "13-20640",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5BAE": {
    "reg": "13-20641",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5BAF": {
    "reg": "13-20642",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5BB0": {
    "reg": "13-20643",
@@ -58435,7 +58495,7 @@
   "AE5BB2": {
    "reg": "13-20645",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5BB3": {
    "reg": "",
@@ -58655,7 +58715,7 @@
   "AE5BDE": {
    "reg": "15-20803",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5BDF": {
    "reg": "15-20804",
@@ -59980,7 +60040,7 @@
   "AE5D44": {
    "reg": "16-20827",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5D45": {
    "reg": "16-20828",
@@ -60030,7 +60090,7 @@
   "AE5D4E": {
    "reg": "16-20837",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5D4F": {
    "reg": "16-20838",
@@ -60130,7 +60190,7 @@
   "AE5D62": {
    "reg": "16-20857",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5D63": {
    "reg": "16-20858",
@@ -60200,22 +60260,22 @@
   "AE5D70": {
    "reg": "16-20871",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5D71": {
    "reg": "16-20872",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5D72": {
    "reg": "16-20873",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5D73": {
    "reg": "16-20874",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE5D74": {
    "reg": "16-20875",
@@ -62595,7 +62655,7 @@
   "AE600A": {
    "reg": "17-20923",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE600B": {
    "reg": "17-20924",
@@ -62770,7 +62830,7 @@
   "AE602D": {
    "reg": "17-20958",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE602E": {
    "reg": "17-20959",
@@ -65592,6 +65652,11 @@
    "type_code": "EC45",
    "type_desc": "Airbus Helicopters UH-72A Lakota"
   },
+  "AE6343": {
+   "reg": "19-72459",
+   "type_code": "EC45",
+   "type_desc": "AIRBUS HELICOPTERS EC-145"
+  },
   "AE6344": {
    "reg": "19-72460",
    "type_code": "EC45",
@@ -65890,7 +65955,7 @@
   "AE6395": {
    "reg": "18-21037",
    "type_code": "H60",
-   "type_desc": "H2T"
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AE63B1": {
    "reg": "19-46069",
@@ -71975,7 +72040,7 @@
   "AE779B": {
    "reg": "21-6001",
    "type_code": "C30J",
-   "type_desc": "L4T"
+   "type_desc": "LOCKHEED MARTIN C-130J Super Hercules"
   },
   "AE779C": {
    "reg": "21-6003",
@@ -72752,6 +72817,11 @@
    "type_code": "H64",
    "type_desc": "MCDONNELL DOUGLAS AH-64 Apache"
   },
+  "AED489": {
+   "reg": "22-46102",
+   "type_code": "B762",
+   "type_desc": "BOEING 767-200"
+  },
   "AED4A2": {
    "reg": "24-03534",
    "type_code": "H64",
@@ -72882,6 +72952,16 @@
    "type_code": "H64",
    "type_desc": "MCDONNELL DOUGLAS AH-64 Apache"
   },
+  "AEDA14": {
+   "reg": "170350",
+   "type_code": "H53S",
+   "type_desc": "SIKORSKY CH-53 Super Stallion"
+  },
+  "AEDA18": {
+   "reg": "170778",
+   "type_code": "BE20",
+   "type_desc": "BEECH 200 Super King Air"
+  },
   "AEDA1D": {
    "reg": "25-21318",
    "type_code": "H60",
@@ -72891,6 +72971,11 @@
    "reg": "23-14556",
    "type_code": "H60",
    "type_desc": "SIKORSKY UH-60 Black Hawk"
+  },
+  "AEDA22": {
+   "reg": "22-46103",
+   "type_code": "B762",
+   "type_desc": "BOEING 767-200"
   },
   "AEDA3E": {
    "reg": "",
@@ -73117,6 +73202,11 @@
    "type_code": "H64",
    "type_desc": "MCDONNELL DOUGLAS AH-64 Apache"
   },
+  "AEF436": {
+   "reg": "25-21333",
+   "type_code": "H60",
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
+  },
   "AEF4C4": {
    "reg": "170340",
    "type_code": "F18S",
@@ -73327,6 +73417,11 @@
    "type_code": "E6",
    "type_desc": "L4J"
   },
+  "AF203A": {
+   "reg": "24-03555",
+   "type_code": "H64",
+   "type_desc": "MCDONNELL DOUGLAS AH-64 Apache"
+  },
   "AF20A2": {
    "reg": "",
    "type_code": "E6",
@@ -73451,6 +73546,11 @@
    "reg": "23-14553",
    "type_code": "H60",
    "type_desc": "SIKORSKY UH-60 Black Hawk"
+  },
+  "AF3B67": {
+   "reg": "25-7007",
+   "type_code": "BT7",
+   "type_desc": "BOEING T-7 Red Hawk"
   },
   "AF3BBC": {
    "reg": "",
@@ -73707,6 +73807,11 @@
    "type_code": "B762",
    "type_desc": "BOEING 767-200"
   },
+  "AF4F5F": {
+   "reg": "6068",
+   "type_code": "",
+   "type_desc": ""
+  },
   "AF4F60": {
    "reg": "22-14544",
    "type_code": "H60",
@@ -73781,6 +73886,11 @@
    "reg": "",
    "type_code": "E6",
    "type_desc": "L4J"
+  },
+  "AF54C1": {
+   "reg": "170344",
+   "type_code": "F18S",
+   "type_desc": "BOEING FA-18 SUPER HORNET"
   },
   "AF54C4": {
    "reg": "170747",
@@ -73977,6 +74087,11 @@
    "type_code": "H60",
    "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
+  "AF8403": {
+   "reg": "22-46099",
+   "type_code": "B762",
+   "type_desc": "BOEING 767-200"
+  },
   "AF841C": {
    "reg": "170112",
    "type_code": "H60",
@@ -74104,6 +74219,11 @@
   },
   "AF85AE": {
    "reg": "25-21323",
+   "type_code": "H60",
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
+  },
+  "AF85B0": {
+   "reg": "23-14561",
    "type_code": "H60",
    "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
@@ -74307,6 +74427,11 @@
    "type_code": "E6",
    "type_desc": "L4J"
   },
+  "AFA173": {
+   "reg": "24-1025",
+   "type_code": "A139",
+   "type_desc": "AGUSTA AW-139"
+  },
   "AFA175": {
    "reg": "19-46111",
    "type_code": "B762",
@@ -74416,6 +74541,11 @@
    "reg": "170329",
    "type_code": "F18S",
    "type_desc": "BOEING FA-18 SUPER HORNET"
+  },
+  "AFB220": {
+   "reg": "23-14560",
+   "type_code": "H60",
+   "type_desc": "SIKORSKY UH-60 Black Hawk"
   },
   "AFB22C": {
    "reg": "",
@@ -74562,6 +74692,11 @@
    "type_code": "E6",
    "type_desc": "L4J"
   },
+  "AFCA0A": {
+   "reg": "24-0018",
+   "type_code": "AT8T",
+   "type_desc": "AIR TRACTOR AT-802"
+  },
   "AFCA14": {
    "reg": "25-21330",
    "type_code": "H60",
@@ -74702,6 +74837,11 @@
    "type_code": "E6",
    "type_desc": "L4J"
   },
+  "AFEAD2": {
+   "reg": "23-46117",
+   "type_code": "B762",
+   "type_desc": "BOEING 767-200"
+  },
   "AFEAD4": {
    "reg": "23-03530",
    "type_code": "H64",
@@ -74756,6 +74896,11 @@
    "reg": "24-03536",
    "type_code": "H64",
    "type_desc": "MCDONNELL DOUGLAS AH-64 Apache"
+  },
+  "AFF012": {
+   "reg": "23-46114",
+   "type_code": "B762",
+   "type_desc": "BOEING 767-200"
   },
   "AFF47E": {
    "reg": "24-21284",
@@ -78749,6 +78894,11 @@
   },
   "C2BD2D": {
    "reg": "295513",
+   "type_code": "C295",
+   "type_desc": "CASA C-295 Persuader"
+  },
+  "C2BD37": {
+   "reg": "295514",
    "type_code": "C295",
    "type_desc": "CASA C-295 Persuader"
   },
