@@ -1,38 +1,5 @@
 {
- "generated_at": "2026-07-01T10:05:29+00:00",
- "count": 2,
- "markets": [
-  {
-   "id": "2646848",
-   "question": "US x Iran diplomatic meeting by July 3, 2026?",
-   "slug": "us-x-iran-diplomatic-meeting-by-july-3-2026-20260622191708359",
-   "url": "https://polymarket.com/event/us-x-iran-diplomatic-meeting-by-july-3-2026-20260622191708359",
-   "yes_price": 0.17,
-   "volume_24h": 248610.34191799987,
-   "volume": 1184247.7485949995,
-   "end_date": "2026-07-03T23:59:00Z",
-   "lat": 32.4279,
-   "lng": 53.688,
-   "region": "Iran",
-   "category": "",
-   "yes_price_6h_ago": 0.11,
-   "delta_6h": 0.06
-  },
-  {
-   "id": "2363862",
-   "question": "Will Donald Trump publicly insult Benjamin Netanyahu by June 30, 2026?",
-   "slug": "will-donald-trump-publicly-insult-benjamin-netanyahu-by-june-30-2026",
-   "url": "https://polymarket.com/event/will-donald-trump-publicly-insult-benjamin-netanyahu-by-june-30-2026",
-   "yes_price": 0.35,
-   "volume_24h": 312608.81644100015,
-   "volume": 571511.1532570017,
-   "end_date": "2026-06-30T00:00:00Z",
-   "lat": 38.9072,
-   "lng": -77.0369,
-   "region": "Washington DC",
-   "category": "",
-   "yes_price_6h_ago": 0.315,
-   "delta_6h": 0.035
-  }
- ]
+ "generated_at": "2026-07-01T13:37:56+00:00",
+ "count": 0,
+ "markets": []
 }
