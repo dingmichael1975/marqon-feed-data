@@ -1,8 +1,18 @@
 {
- "generated_at": "2026-09-06T22:06:14+00:00",
- "count": 46,
+ "generated_at": "2026-09-07T04:33:14+00:00",
+ "count": 47,
  "source_url": "https://www.ukmto.org/recent-incidents",
  "incidents": [
+  {
+   "number": 127,
+   "type": "Advisory",
+   "severity": "low",
+   "date": "5 September 2026",
+   "region": "Gulf Of Oman",
+   "lat": 24.5,
+   "lng": 58.0,
+   "body": "UKMTO ADVISORY 127-26\nUKMTO has received a report involving several merchant vessels in the Northern Arabian Gulf and the Gulf of Oman.\nReports indicate the vessels were subject to disabling fire as part of ongoing military activity in the region.\nUKMTO is unable to confirm if any casualties or environmental impact has occurredat this time.\nAuthorities are aware and relevant investigations remain ongoing.\nMariners are advised to consider the latest maritime security information and maintain awareness of the evolving operational environment."
+  },
   {
    "number": 126,
    "type": "Attack",
