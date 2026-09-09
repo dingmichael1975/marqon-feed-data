@@ -1,8 +1,18 @@
 {
- "generated_at": "2026-09-08T22:37:38+00:00",
- "count": 47,
+ "generated_at": "2026-09-09T04:36:19+00:00",
+ "count": 48,
  "source_url": "https://www.ukmto.org/recent-incidents",
  "incidents": [
+  {
+   "number": 28082035,
+   "type": "Advisory",
+   "severity": "low",
+   "date": "8 September 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO ADVISORY 128-26\nUKMTO has received a report involving a merchant vessel in the Strait of Hormuz. Reports indicate that the vessel was subject to interaction as part of ongoing military activity in\nthe region. Authorities are aware and relevant investigations remain ongoing. Mariners are advised to consider the latest maritime security information and maintain awareness of the evolving operational environment."
+  },
   {
    "number": 127,
    "type": "Advisory",
