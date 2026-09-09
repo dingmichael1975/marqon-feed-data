@@ -1,5 +1,70 @@
 {
- "generated_at": "2026-09-08T21:45:39+00:00",
- "count": 0,
- "markets": []
+ "generated_at": "2026-09-09T00:01:19+00:00",
+ "count": 4,
+ "markets": [
+  {
+   "id": "1130016",
+   "question": "Will New People (NL) gain the most seats in the next Russian parliamentary election?",
+   "slug": "will-new-people-nl-gain-the-most-seats-in-the-next-russian-parliamentary-election",
+   "url": "https://polymarket.com/event/will-new-people-nl-gain-the-most-seats-in-the-next-russian-parliamentary-election",
+   "yes_price": 0.224,
+   "volume_24h": 109367.19840699999,
+   "volume": 2780361.2136169993,
+   "end_date": "2026-09-30T00:00:00Z",
+   "lat": 61.524,
+   "lng": 105.3188,
+   "region": "Russia",
+   "category": "",
+   "yes_price_6h_ago": 0.212,
+   "delta_6h": 0.012
+  },
+  {
+   "id": "2252244",
+   "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+   "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615",
+   "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615",
+   "yes_price": 0.455,
+   "volume_24h": 630685.0443329995,
+   "volume": 24714613.220645197,
+   "end_date": "2026-09-16T00:00:00Z",
+   "lat": 38.9072,
+   "lng": -77.0369,
+   "region": "Federal Reserve",
+   "category": "",
+   "yes_price_6h_ago": 0.445,
+   "delta_6h": 0.01
+  },
+  {
+   "id": "1130012",
+   "question": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+   "slug": "will-united-russia-er-gain-the-most-seats-in-the-next-russian-parliamentary-election",
+   "url": "https://polymarket.com/event/will-united-russia-er-gain-the-most-seats-in-the-next-russian-parliamentary-election",
+   "yes_price": 0.735,
+   "volume_24h": 246117.362457,
+   "volume": 9461228.512927996,
+   "end_date": "2026-09-30T00:00:00Z",
+   "lat": 61.524,
+   "lng": 105.3188,
+   "region": "Russia",
+   "category": "",
+   "yes_price_6h_ago": 0.745,
+   "delta_6h": -0.01
+  },
+  {
+   "id": "2252245",
+   "question": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+   "slug": "will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649",
+   "url": "https://polymarket.com/event/will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649",
+   "yes_price": 0.545,
+   "volume_24h": 219923.5089919999,
+   "volume": 19347863.812589057,
+   "end_date": "2026-09-16T00:00:00Z",
+   "lat": 38.9072,
+   "lng": -77.0369,
+   "region": "Federal Reserve",
+   "category": "",
+   "yes_price_6h_ago": 0.535,
+   "delta_6h": 0.01
+  }
+ ]
 }
