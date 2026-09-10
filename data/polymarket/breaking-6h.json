@@ -1,5 +1,38 @@
 {
- "generated_at": "2026-09-09T21:37:27+00:00",
- "count": 0,
- "markets": []
+ "generated_at": "2026-09-10T00:02:56+00:00",
+ "count": 2,
+ "markets": [
+  {
+   "id": "4095052",
+   "question": "US x Iran Effective Ceasefire by September 4?",
+   "slug": "us-x-iran-effective-ceasefire-by-september-4",
+   "url": "https://polymarket.com/event/us-x-iran-effective-ceasefire-by-september-4",
+   "yes_price": 0.535,
+   "volume_24h": 535346.491205,
+   "volume": 1263091.5878269998,
+   "end_date": "2026-09-04T23:59:00Z",
+   "lat": 32.4279,
+   "lng": 53.688,
+   "region": "Iran",
+   "category": "",
+   "yes_price_6h_ago": 0.45,
+   "delta_6h": 0.085
+  },
+  {
+   "id": "2176270",
+   "question": "Strait of Hormuz traffic returns to normal by December 31?",
+   "slug": "strait-of-hormuz-traffic-returns-to-normal-by-december-31",
+   "url": "https://polymarket.com/event/strait-of-hormuz-traffic-returns-to-normal-by-december-31",
+   "yes_price": 0.185,
+   "volume_24h": 327996.39661599987,
+   "volume": 10953758.209655998,
+   "end_date": "2026-12-31T00:00:00Z",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "region": "Strait of Hormuz",
+   "category": "",
+   "yes_price_6h_ago": 0.205,
+   "delta_6h": -0.02
+  }
+ ]
 }
