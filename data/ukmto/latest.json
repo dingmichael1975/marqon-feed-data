@@ -1,10 +1,50 @@
 {
- "generated_at": "2026-09-10T22:32:47+00:00",
- "count": 48,
+ "generated_at": "2026-09-11T04:34:17+00:00",
+ "count": 52,
  "source_url": "https://www.ukmto.org/recent-incidents",
  "incidents": [
   {
-   "number": 28082035,
+   "number": 133,
+   "type": "Attack",
+   "severity": "high",
+   "date": "10 September 2026",
+   "region": "Oman",
+   "lat": 21.4735,
+   "lng": 55.9754,
+   "body": "20260910-UKMTO\\_WARNING\\_133-26\nUKMTO has received a report of two vessels involved in an incident 4NM west of Khasab Oman.\nThe Master of the vessel reports seeing four unknown projectiles hit two unknown vessels causing a fire on one vessel and unsure of the status of the second vessel, 6NM north of his position.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO."
+  },
+  {
+   "number": 132,
+   "type": "Suspicious Activity",
+   "severity": "medium",
+   "date": "10 September 2026",
+   "region": "Al Mukalla",
+   "lat": 14.5237,
+   "lng": 49.1265,
+   "body": "UKMTO has received a report of an incident 98NM southwest of Al Mukalla, Yemen.\nThe CSO of a cargo vessel has reported that his vessel has been approached by an\nunidentified skiff.\nVessels are advised to transit with caution and report any suspicious activity to\nUKMTO whilst authorities investigate."
+  },
+  {
+   "number": 130,
+   "type": "Attack",
+   "severity": "high",
+   "date": "9 September 2026",
+   "region": "Uae",
+   "lat": 23.4241,
+   "lng": 53.8478,
+   "body": "UKMTO has received a report from a third-party of an incident 24NM northwest of Port Rashid, UAE.\nThe Master of a tanker has reported sighting a vessel listing while at anchor, possibly indicating water ingress following an attack from an unknown projectile.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO whilst authorities are investigating."
+  },
+  {
+   "number": 129,
+   "type": "Advisory",
+   "severity": "low",
+   "date": "9 September 2026",
+   "region": "Gulf Of Oman",
+   "lat": 24.5,
+   "lng": 58.0,
+   "body": "UKMTO has received a report involving several merchant vessels in the Northern Arabian Gulf and the Gulf of Oman.\nReports indicate the vessels were subject to disabling fire as part of ongoing military activity in the region.\nUKMTO is unable to confirm if any casualties or environmental impact has occurred at this time.\nAuthorities are aware and relevant investigations remain ongoing.\nMariners are advised to consider the latest maritime security information and maintain awareness of the evolving operational environment."
+  },
+  {
+   "number": 128,
    "type": "Advisory",
    "severity": "low",
    "date": "8 September 2026",
