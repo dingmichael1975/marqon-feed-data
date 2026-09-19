@@ -1,5 +1,54 @@
 {
- "generated_at": "2026-09-19T17:55:12+00:00",
- "count": 0,
- "markets": []
+ "generated_at": "2026-09-19T20:30:00+00:00",
+ "count": 3,
+ "markets": [
+  {
+   "id": "1130012",
+   "question": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+   "slug": "will-united-russia-er-gain-the-most-seats-in-the-next-russian-parliamentary-election",
+   "url": "https://polymarket.com/event/will-united-russia-er-gain-the-most-seats-in-the-next-russian-parliamentary-election",
+   "yes_price": 0.815,
+   "volume_24h": 2368924.2020009994,
+   "volume": 15608179.842912992,
+   "end_date": "2026-09-30T00:00:00Z",
+   "lat": 61.524,
+   "lng": 105.3188,
+   "region": "Russia",
+   "category": "",
+   "yes_price_6h_ago": 0.735,
+   "delta_6h": 0.08
+  },
+  {
+   "id": "1130016",
+   "question": "Will New People (NL) gain the most seats in the next Russian parliamentary election?",
+   "slug": "will-new-people-nl-gain-the-most-seats-in-the-next-russian-parliamentary-election",
+   "url": "https://polymarket.com/event/will-new-people-nl-gain-the-most-seats-in-the-next-russian-parliamentary-election",
+   "yes_price": 0.1705,
+   "volume_24h": 441389.9205879998,
+   "volume": 4161297.3471450005,
+   "end_date": "2026-09-30T00:00:00Z",
+   "lat": 61.524,
+   "lng": 105.3188,
+   "region": "Russia",
+   "category": "",
+   "yes_price_6h_ago": 0.2435,
+   "delta_6h": -0.073
+  },
+  {
+   "id": "4052419",
+   "question": "Will Bitcoin reach $85,000 in September?",
+   "slug": "will-bitcoin-reach-85k-in-september-2026",
+   "url": "https://polymarket.com/event/will-bitcoin-reach-85k-in-september-2026",
+   "yes_price": 0.475,
+   "volume_24h": 96171.275484,
+   "volume": 777824.104192,
+   "end_date": "2026-10-01T04:00:00Z",
+   "lat": 37.7749,
+   "lng": -122.4194,
+   "region": "Bitcoin (SF proxy)",
+   "category": "",
+   "yes_price_6h_ago": 0.455,
+   "delta_6h": 0.02
+  }
+ ]
 }
