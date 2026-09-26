@@ -1,54 +1,5 @@
 {
- "generated_at": "2026-09-26T17:02:12+00:00",
- "count": 3,
- "markets": [
-  {
-   "id": "4641064",
-   "question": "US x Iran ceasefire continues through September 30?",
-   "slug": "us-x-iran-ceasefire-continues-through-september-30-20260917",
-   "url": "https://polymarket.com/event/us-x-iran-ceasefire-continues-through-september-30-20260917",
-   "yes_price": 0.915,
-   "volume_24h": 435283.388456,
-   "volume": 1341237.5781460002,
-   "end_date": "2026-09-30T23:59:00Z",
-   "lat": 32.4279,
-   "lng": 53.688,
-   "region": "Iran",
-   "category": "",
-   "yes_price_6h_ago": 0.895,
-   "delta_6h": 0.02
-  },
-  {
-   "id": "4641065",
-   "question": "US x Iran ceasefire continues through October 31?",
-   "slug": "us-x-iran-ceasefire-continues-through-october-31-20260917",
-   "url": "https://polymarket.com/event/us-x-iran-ceasefire-continues-through-october-31-20260917",
-   "yes_price": 0.585,
-   "volume_24h": 98850.77572300001,
-   "volume": 614015.8811080003,
-   "end_date": "2026-10-31T23:59:00Z",
-   "lat": 32.4279,
-   "lng": 53.688,
-   "region": "Iran",
-   "category": "",
-   "yes_price_6h_ago": 0.565,
-   "delta_6h": 0.02
-  },
-  {
-   "id": "3128888",
-   "question": "US announces end of Iranian blockade by October 31, 2026?",
-   "slug": "us-announces-end-of-iranian-blockade-by-october-31-2026-20260727171711632-895-372-622-413-171-454-592-696",
-   "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-october-31-2026-20260727171711632-895-372-622-413-171-454-592-696",
-   "yes_price": 0.275,
-   "volume_24h": 142559.24864599996,
-   "volume": 2299809.3084090003,
-   "end_date": "2026-11-01T03:59:00Z",
-   "lat": 32.4279,
-   "lng": 53.688,
-   "region": "Iran",
-   "category": "",
-   "yes_price_6h_ago": 0.265,
-   "delta_6h": 0.01
-  }
- ]
+ "generated_at": "2026-09-26T19:43:05+00:00",
+ "count": 0,
+ "markets": []
 }
