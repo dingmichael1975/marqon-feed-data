@@ -1,54 +1,22 @@
 {
- "generated_at": "2026-09-27T13:49:09+00:00",
- "count": 3,
+ "generated_at": "2026-09-27T18:15:16+00:00",
+ "count": 1,
  "markets": [
-  {
-   "id": "4761632",
-   "question": "Will the price of Bitcoin be above $84,000 on September 27?",
-   "slug": "bitcoin-above-84k-on-september-27-2026",
-   "url": "https://polymarket.com/event/bitcoin-above-84k-on-september-27-2026",
-   "yes_price": 0.9785,
-   "volume_24h": 112663.49844699998,
-   "volume": 135887.31514399996,
-   "end_date": "2026-09-27T16:00:00Z",
-   "lat": 37.7749,
-   "lng": -122.4194,
-   "region": "Bitcoin (SF proxy)",
-   "category": "",
-   "yes_price_6h_ago": 0.945,
-   "delta_6h": 0.0335
-  },
-  {
-   "id": "4761633",
-   "question": "Will the price of Bitcoin be above $86,000 on September 27?",
-   "slug": "bitcoin-above-86k-on-september-27-2026",
-   "url": "https://polymarket.com/event/bitcoin-above-86k-on-september-27-2026",
-   "yes_price": 0.014,
-   "volume_24h": 81819.13900400001,
-   "volume": 132268.92839999995,
-   "end_date": "2026-09-27T16:00:00Z",
-   "lat": 37.7749,
-   "lng": -122.4194,
-   "region": "Bitcoin (SF proxy)",
-   "category": "",
-   "yes_price_6h_ago": 0.028,
-   "delta_6h": -0.014
-  },
   {
    "id": "4641064",
    "question": "US x Iran ceasefire continues through September 30?",
    "slug": "us-x-iran-ceasefire-continues-through-september-30-20260917",
    "url": "https://polymarket.com/event/us-x-iran-ceasefire-continues-through-september-30-20260917",
-   "yes_price": 0.895,
-   "volume_24h": 281079.4801370002,
-   "volume": 1576907.3683230001,
+   "yes_price": 0.925,
+   "volume_24h": 442086.94872000004,
+   "volume": 1808072.0011619998,
    "end_date": "2026-09-30T23:59:00Z",
    "lat": 32.4279,
    "lng": 53.688,
    "region": "Iran",
    "category": "",
-   "yes_price_6h_ago": 0.885,
-   "delta_6h": 0.01
+   "yes_price_6h_ago": 0.895,
+   "delta_6h": 0.03
   }
  ]
 }
