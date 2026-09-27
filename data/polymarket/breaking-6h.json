@@ -1,22 +1,5 @@
 {
- "generated_at": "2026-09-27T18:15:16+00:00",
- "count": 1,
- "markets": [
-  {
-   "id": "4641064",
-   "question": "US x Iran ceasefire continues through September 30?",
-   "slug": "us-x-iran-ceasefire-continues-through-september-30-20260917",
-   "url": "https://polymarket.com/event/us-x-iran-ceasefire-continues-through-september-30-20260917",
-   "yes_price": 0.925,
-   "volume_24h": 442086.94872000004,
-   "volume": 1808072.0011619998,
-   "end_date": "2026-09-30T23:59:00Z",
-   "lat": 32.4279,
-   "lng": 53.688,
-   "region": "Iran",
-   "category": "",
-   "yes_price_6h_ago": 0.895,
-   "delta_6h": 0.03
-  }
- ]
+ "generated_at": "2026-09-27T21:58:58+00:00",
+ "count": 0,
+ "markets": []
 }
