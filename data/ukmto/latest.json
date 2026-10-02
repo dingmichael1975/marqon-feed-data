@@ -1,8 +1,18 @@
 {
- "generated_at": "2026-10-01T21:00:05+00:00",
- "count": 65,
+ "generated_at": "2026-10-02T05:30:28+00:00",
+ "count": 66,
  "source_url": "https://www.ukmto.org/recent-incidents",
  "incidents": [
+  {
+   "number": 147,
+   "type": "Attack",
+   "severity": "high",
+   "date": "1 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO has received a third-party report of a tanker being stuck by an unknown projectile while transiting the Strait of Hormuz, resulting in a fire.\nCrew have been reported safe, damage assessment and environmental impact is unknown at time of report.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO, whilst authorities investigate."
+  },
   {
    "number": 146,
    "type": "Attack",
