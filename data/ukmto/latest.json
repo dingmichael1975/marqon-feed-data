@@ -1,8 +1,28 @@
 {
- "generated_at": "2026-10-03T22:55:42+00:00",
- "count": 66,
+ "generated_at": "2026-10-04T05:46:49+00:00",
+ "count": 68,
  "source_url": "https://www.ukmto.org/recent-incidents",
  "incidents": [
+  {
+   "number": 149,
+   "type": "Attack",
+   "severity": "high",
+   "date": "2 October 2026",
+   "region": "Oman",
+   "lat": 21.4735,
+   "lng": 55.9754,
+   "body": "UKMTO has received a report of an incident 4nm east of Oman.\nThe Master of a crude oil tanker has reported being struck by an unknown projectile\non the port side. All crew are reported assafe and no environmental impact reported\nat present time.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to\nUKMTO."
+  },
+  {
+   "number": 148,
+   "type": "Attack",
+   "severity": "high",
+   "date": "2 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO WARNING 148-26 - ATTACK\nReport Date:02 Oct 2026\nReport Time:1122 UTC\nIssue Date:02 Oct 2026\nSource Master\nUKMTO has received a report of an incident within the Strait of Hormuz.\nThe Master of a tanker has reported being struck by an unknown projectile, whilst\nconducting an outbound transit, resulting in a small fire and blackout onboard. The\nfire has since been extinguished and the vessel is underway.\nThere are no reported casualties or environmental impact.\nAuthorities are investigating. Vessels are advised to transit with caution and report\nany suspicious activity to UKMTO."
+  },
   {
    "number": 147,
    "type": "Attack",
