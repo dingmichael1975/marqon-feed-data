@@ -1,54 +1,5 @@
 {
- "generated_at": "2026-10-06T21:33:38+00:00",
- "count": 3,
- "markets": [
-  {
-   "id": "679022",
-   "question": "Will David Lisnard win the 2027 French presidential election?",
-   "slug": "will-david-lisnard-win-the-2027-french-presidential-election",
-   "url": "https://polymarket.com/event/will-david-lisnard-win-the-2027-french-presidential-election",
-   "yes_price": 0.1125,
-   "volume_24h": 135247.88605699997,
-   "volume": 3990210.124643999,
-   "end_date": "2027-04-19T03:59:00Z",
-   "lat": 38.9072,
-   "lng": -77.0369,
-   "region": "US Election",
-   "category": "",
-   "yes_price_6h_ago": 0.1285,
-   "delta_6h": -0.016
-  },
-  {
-   "id": "665374",
-   "question": "Will the U.S. invade Iran before 2027?",
-   "slug": "will-the-us-invade-iran-before-2027",
-   "url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027",
-   "yes_price": 0.155,
-   "volume_24h": 297175.104605,
-   "volume": 72235886.2672061,
-   "end_date": "2027-01-01T04:59:00Z",
-   "lat": 32.4279,
-   "lng": 53.688,
-   "region": "Iran",
-   "category": "",
-   "yes_price_6h_ago": 0.145,
-   "delta_6h": 0.01
-  },
-  {
-   "id": "562803",
-   "question": "Will the Republican Party control the House after the 2026 Midterm elections?",
-   "slug": "will-the-republican-party-control-the-house-after-the-2026-midterm-elections",
-   "url": "https://polymarket.com/event/will-the-republican-party-control-the-house-after-the-2026-midterm-elections",
-   "yes_price": 0.085,
-   "volume_24h": 280145.665188,
-   "volume": 6248368.634126,
-   "end_date": "2026-11-04T04:59:00Z",
-   "lat": 38.9072,
-   "lng": -77.0369,
-   "region": "US Election",
-   "category": "",
-   "yes_price_6h_ago": 0.075,
-   "delta_6h": 0.01
-  }
- ]
+ "generated_at": "2026-10-07T01:23:41+00:00",
+ "count": 0,
+ "markets": []
 }
