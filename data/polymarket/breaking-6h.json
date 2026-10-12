@@ -1,54 +1,5 @@
 {
- "generated_at": "2026-10-12T07:13:29+00:00",
- "count": 3,
- "markets": [
-  {
-   "id": "3865960",
-   "question": "Will Bitcoin dip to $70,000 by December 31, 2026?",
-   "slug": "will-bitcoin-dip-to-70000-by-december-31-2026-from-august-24",
-   "url": "https://polymarket.com/event/will-bitcoin-dip-to-70000-by-december-31-2026-from-august-24",
-   "yes_price": 0.335,
-   "volume_24h": 74256.946538,
-   "volume": 923137.6376579998,
-   "end_date": "2027-01-01T05:00:00Z",
-   "lat": 37.7749,
-   "lng": -122.4194,
-   "region": "Bitcoin (SF proxy)",
-   "category": "",
-   "yes_price_6h_ago": 0.355,
-   "delta_6h": -0.02
-  },
-  {
-   "id": "682705",
-   "question": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
-   "slug": "will-benjamin-netanyahu-be-the-next-prime-minister-of-israel",
-   "url": "https://polymarket.com/event/will-benjamin-netanyahu-be-the-next-prime-minister-of-israel",
-   "yes_price": 0.315,
-   "volume_24h": 230046.13091900002,
-   "volume": 6963823.252174999,
-   "end_date": "2026-10-28T03:59:00Z",
-   "lat": 31.0461,
-   "lng": 34.8516,
-   "region": "Israel",
-   "category": "",
-   "yes_price_6h_ago": 0.325,
-   "delta_6h": -0.01
-  },
-  {
-   "id": "5523557",
-   "question": "US x Yemen ceasefire continues through October 15?",
-   "slug": "us-x-yemen-ceasefire-continues-through-october-15",
-   "url": "https://polymarket.com/event/us-x-yemen-ceasefire-continues-through-october-15",
-   "yes_price": 0.925,
-   "volume_24h": 135530.99149400002,
-   "volume": 149457.286354,
-   "end_date": "2026-10-15T23:59:00Z",
-   "lat": 15.5527,
-   "lng": 48.5164,
-   "region": "Yemen",
-   "category": "",
-   "yes_price_6h_ago": 0.915,
-   "delta_6h": 0.01
-  }
- ]
+ "generated_at": "2026-10-12T17:43:24+00:00",
+ "count": 0,
+ "markets": []
 }
