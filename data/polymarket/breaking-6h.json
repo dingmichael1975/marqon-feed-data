@@ -1,5 +1,54 @@
 {
- "generated_at": "2026-10-14T01:04:33+00:00",
- "count": 0,
- "markets": []
+ "generated_at": "2026-10-14T06:04:12+00:00",
+ "count": 3,
+ "markets": [
+  {
+   "id": "5340069",
+   "question": "Will Flávio Bolsonaro win the second round of the 2026 Brazilian presidential election by 8–12%?",
+   "slug": "will-flavio-bolsonaro-win-the-second-round-of-the-2026-brazilian-presidential-election-by-812",
+   "url": "https://polymarket.com/event/will-flavio-bolsonaro-win-the-second-round-of-the-2026-brazilian-presidential-election-by-812",
+   "yes_price": 0.1155,
+   "volume_24h": 91930.127808,
+   "volume": 224815.534308,
+   "end_date": "2026-10-26T03:59:00Z",
+   "lat": 38.9072,
+   "lng": -77.0369,
+   "region": "US Election",
+   "category": "",
+   "yes_price_6h_ago": 0.086,
+   "delta_6h": 0.0295
+  },
+  {
+   "id": "3399459",
+   "question": "Israel x Iran ceasefire continues through October 31?",
+   "slug": "israel-x-iran-ceasefire-continues-through-october-31",
+   "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-october-31",
+   "yes_price": 0.855,
+   "volume_24h": 204564.922994,
+   "volume": 1982000.283782999,
+   "end_date": "2026-10-31T20:29:00Z",
+   "lat": 32.4279,
+   "lng": 53.688,
+   "region": "Iran",
+   "category": "",
+   "yes_price_6h_ago": 0.84,
+   "delta_6h": 0.015
+  },
+  {
+   "id": "4761462",
+   "question": "US x Yemen ceasefire continues through October 31?",
+   "slug": "us-x-yemen-ceasefire-continues-through-october-31-20260920",
+   "url": "https://polymarket.com/event/us-x-yemen-ceasefire-continues-through-october-31-20260920",
+   "yes_price": 0.875,
+   "volume_24h": 126742.01674900002,
+   "volume": 217018.52004100007,
+   "end_date": "2026-10-31T23:59:00Z",
+   "lat": 15.5527,
+   "lng": 48.5164,
+   "region": "Yemen",
+   "category": "",
+   "yes_price_6h_ago": 0.865,
+   "delta_6h": 0.01
+  }
+ ]
 }
