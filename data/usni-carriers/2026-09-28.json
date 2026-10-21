@@ -1,0 +1,65 @@
+{
+ "as_of": "2026-09-28",
+ "fetched_at": "2026-10-21T13:20:13+00:00",
+ "source_url": "https://news.usni.org/2026/09/28/usni-news-fleet-and-marine-tracker-sept-28-2026",
+ "image_url": "https://news.usni.org/wp-content/uploads/2026/09/FT_9_28_26.jpg",
+ "count": 7,
+ "vessels": [
+  {
+   "name": "Theodore Roosevelt CSG",
+   "type": "carrier",
+   "region": "Pacific Ocean",
+   "lat": 32.5,
+   "lng": -120.0,
+   "status": "deployed"
+  },
+  {
+   "name": "USS San Antonio (LPD-17)",
+   "type": "amphib",
+   "region": "Caribbean Sea",
+   "lat": 17.9,
+   "lng": -66.1,
+   "status": "deployed"
+  },
+  {
+   "name": "George H.W. Bush CSG",
+   "type": "carrier",
+   "region": "Mediterranean Sea",
+   "lat": 38.0,
+   "lng": 15.0,
+   "status": "deployed"
+  },
+  {
+   "name": "George Washington CSG",
+   "type": "carrier",
+   "region": "Mediterranean Sea",
+   "lat": 38.0,
+   "lng": 15.0,
+   "status": "deployed"
+  },
+  {
+   "name": "Boxer ARG",
+   "type": "amphib",
+   "region": "Mediterranean Sea",
+   "lat": 38.0,
+   "lng": 15.0,
+   "status": "deployed"
+  },
+  {
+   "name": "USS Tripoli (LHA-7)",
+   "type": "amphib",
+   "region": "East China Sea",
+   "lat": 32.5,
+   "lng": 129.8,
+   "status": "deployed"
+  },
+  {
+   "name": "Abraham Lincoln CSG",
+   "type": "carrier",
+   "region": "Pacific Ocean",
+   "lat": 32.5,
+   "lng": 135.0,
+   "status": "deployed"
+  }
+ ]
+}
