@@ -1,6 +1,377 @@
 {
- "generated_at": "2026-10-23T13:21:14+00:00",
- "count": 0,
+ "generated_at": "2026-10-23T19:56:16+00:00",
+ "count": 37,
  "source_url": "https://www.ukmto.org/recent-incidents",
- "incidents": []
+ "incidents": [
+  {
+   "number": 181,
+   "type": "Attack",
+   "severity": "high",
+   "date": "22 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO WARNING 181-26 ATTACK\nIncident Date: 22 OCT 2026 Incident Time: 1715UTC\nUKMTO has received a time-late report of an incident 7NM northeast of Limah, Oman.\nA tanker has reported being hit by an unknown projectile whilst transiting outbound in\nthe Strait of Hormuz.\nThe tanker was able to continue its voyage to the next port of call."
+  },
+  {
+   "number": 179,
+   "type": "Attack",
+   "severity": "high",
+   "date": "20 October 2026",
+   "region": "Oman",
+   "lat": 21.4735,
+   "lng": 55.9754,
+   "body": "UKMTO WARNING 179-26 - ATTACK\nIncident Date:21 Oct 2026\nIncident Time:0145UTC\nLocal Authorities\nUKMTO has received a report of an incident 11NM west of Bukha, Oman.\nLocal Authorities have reported that a Tanker has been struck by an unknown projectile\nwhich started a fire which has been extinguished. The Tanker is now at anchor.\nAll crew are reported as safe. There is no reported environmental impact at this time.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO,\nwhilst authorities investigate."
+  },
+  {
+   "number": 178,
+   "type": "Advisory",
+   "severity": "low",
+   "date": "20 October 2026",
+   "region": "Oman",
+   "lat": 21.4735,
+   "lng": 55.9754,
+   "body": "UKMTO has received a report of an incident involving a tanker and military forces\napproximately 121NM east of Duqm, Oman.\nReports indicate that the tanker was subject to interaction as part of ongoing military\nactivity in the region. Authorities are aware and relevant investigations remain ongoing.\nVessels are advised to consider the latest maritime security information and maintain\nawareness of the evolving operational environment."
+  },
+  {
+   "number": 177,
+   "type": "Attack",
+   "severity": "high",
+   "date": "17 October 2026",
+   "region": "Khor Fakkan",
+   "lat": 25.3389,
+   "lng": 56.3553,
+   "body": "UKMTO WARNING 177-26 - ATTACK\nIncident Date: 18 OCT 2026 Incident Time: TBC\nUKMTO has received a report of an incident northeast of Khor Fakkan, UAE.\nA tug travelling southbound has reported being struck by 2 unknown projectiles.\nThe tug has sustained damage but is continuing on its route. One minor casualty has been reported.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO, whilst authorities investigate."
+  },
+  {
+   "number": 176,
+   "type": "Attack",
+   "severity": "high",
+   "date": "17 October 2026",
+   "region": "Al Mukalla",
+   "lat": 14.5237,
+   "lng": 49.1265,
+   "body": "UKMTO has received a report of an incident 140NM southwest of Al Mukalla, Yemen.\nA Master of an LNG Tanker has reported being approached by a small skiff with seven persons onboard. The skiff fired two shots at the tanker whose armed Security Team fired two warning shots at the small skiff which forced them to alter course.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO, whilst authorities investigate."
+  },
+  {
+   "number": 175,
+   "type": "Attack",
+   "severity": "high",
+   "date": "16 October 2026",
+   "region": "Saudi Arabia",
+   "lat": 23.8859,
+   "lng": 45.0792,
+   "body": "UKMTO has received a report of an incident 78NM northeast of Al Jubayl, Saudi Arabia.\nThe Master of a tanker has reported being attacked by an RPG from a small boat, resulting in damage to the aft port quarter. Crew are accounted for and reported safe. A complete damage assessment and environmental impact are unknown at time of report.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO, whilst authorities investigate."
+  },
+  {
+   "number": 174,
+   "type": "Attack",
+   "severity": "high",
+   "date": "16 October 2026",
+   "region": "Saudi Arabia",
+   "lat": 23.8859,
+   "lng": 45.0792,
+   "body": "UKMTO has received a time-late report of an incident 68NM northeast of Al Jubayl, Saudi Arabia of a tanker stuck by an unknown projectile.\nAll crew are reported safe and have been evacuated. There is no reported environmental impact at time of report.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO while authorities are investigating."
+  },
+  {
+   "number": 173,
+   "type": "Attack",
+   "severity": "high",
+   "date": "14 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO WARNING 173-26\nUKMTO has received a time-late report of an incident within the Strait of Hormuz.\nA 19,000 tonne Container ship was struck by an unknown projectile whilst\nconducting an outbound SoH transit.\nThe vessel reports minor damage, no casualties and was able to continue on its\npassage.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to\nUKMTO."
+  },
+  {
+   "number": 172,
+   "type": "Attack",
+   "severity": "high",
+   "date": "14 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO WARNING 172-26\nUKMTO has received a time-late report of an incident within the Strait of Hormuz.\nA 50,000 tonne Container ship was struck by an unknown projectile whilst\nconducting an inbound SoH transit.\nThe vessel reports minor damage, no casualties and was able to continue on its\npassage.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to\nUKMTO."
+  },
+  {
+   "number": 171,
+   "type": "Attack",
+   "severity": "high",
+   "date": "13 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO has received a report of an incident within the Strait of Hormuz. A verified\nsource has reported that a tanker was struck by an unknown projectile.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to\nUKMTO."
+  },
+  {
+   "number": 170,
+   "type": "Attack",
+   "severity": "high",
+   "date": "13 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO has received a report of an incident within the Strait of Hormuz. A verified\nsource has reported that a container ship was struck by an unknown projectile.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to\nUKMTO."
+  },
+  {
+   "number": 169,
+   "type": "Attack",
+   "severity": "high",
+   "date": "12 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO has received a time-late report of an incident within the Strait of Hormuz.\nA verified source has reported that a crude oil tanker has been struck by an unknown\nprojectile whilst conducting an outbound transit.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to\nUKMTO."
+  },
+  {
+   "number": 168,
+   "type": "Attack",
+   "severity": "high",
+   "date": "12 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO has received a time-late report of an incident within the Strait of Hormuz.\nA verified source has reported that a Products Tanker has been struck by an unknown\nprojectile whilst conducting an outbound transit.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to\nUKMTO."
+  },
+  {
+   "number": 167,
+   "type": "Attack",
+   "severity": "high",
+   "date": "12 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO has received a time-late report from a verified source that a container vessel\nwas struck by an unknown projectile while transiting inbound through of the Strait\nof Hormuz.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to\nUKMTO."
+  },
+  {
+   "number": 166,
+   "type": "Attack",
+   "severity": "high",
+   "date": "12 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO WARNING 166-26 - ATTACK\nIncident Date:11 Oct 2026\nIncident Time:TBC\nSource Verified\nUKMTO has received a time late report of an incident in the Strait of Hormuz.\nAn outbound tanker has been struck by an unknown projectile. The crew have been\nconfirmed as safe, and the environmental impact is unknown at this time. Authorities\nare investigating.\nVessels are advised to transit with caution and report any suspicious activity to\nUKMTO."
+  },
+  {
+   "number": 165,
+   "type": "Attack",
+   "severity": "high",
+   "date": "11 October 2026",
+   "region": "Oman",
+   "lat": 21.4735,
+   "lng": 55.9754,
+   "body": "UKMTO Suspicious Activity 165-26\nUKMTO has received a report of an incident involving a tanker in the vicinity of Sohar anchorage, Oman.\nThe status of crew, damage assessment, and environmental impact are unknown at time of report.\nUpdate 001:\nUKMTO has reclassified this incident as an attack following confirmation that the tanker was struck by an Uncrewed Aerial Vehicle (UAV). Local authorities are assisting in the evacuation of the crew, damage assessment and environmental impact is unknown at time of update.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO whilst authorities investigate."
+  },
+  {
+   "number": 164,
+   "type": "Attack",
+   "severity": "high",
+   "date": "11 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO has received a report of an incident within the Strait of Hormuz.\nThe CSO reported a tanker transiting outbound had been struck on the port side by\nan unidentified projectile, resulting in damage to the vessel. All crew members were\nreported safe, and no environmental impact was reported at the time of the attack.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to\nUKMTO."
+  },
+  {
+   "number": 163,
+   "type": "Advisory",
+   "severity": "low",
+   "date": "10 October 2026",
+   "region": "Gulf Of Oman",
+   "lat": 24.5,
+   "lng": 58.0,
+   "body": "UKMTO have received a report of an incident involving a tanker and military forces in the Gulf of Oman.\nVessels are advised to consider the latest maritime security information and maintain awareness of the evolving operational environment. Authorities are aware and relevant investigations remain ongoing."
+  },
+  {
+   "number": 162,
+   "type": "Attack",
+   "severity": "high",
+   "date": "10 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO has received a report of an incident within the Strait of Hormuz.\nThe Master of an outbound tanker reports being struck on the port side by an unknown projectile, causing a fire on board.\nCrew are reported safe. Damage assessment and environmental impact are unknown at time of report.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO whilst authorities investigate."
+  },
+  {
+   "number": 160,
+   "type": "Attack",
+   "severity": "high",
+   "date": "9 October 2026",
+   "region": "Uae",
+   "lat": 23.4241,
+   "lng": 53.8478,
+   "body": "UKMTO has received a report of an incident 13NM west of Al Jazeera, UAE.\nUKMTO has received reports from multiple sources that the vessel has been struck\nby an unknown projectile causing a fire which has since been extinguished.\nStatus of the crew, damage assessment and environmental impact are unknown at\npresent.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to\nUKMTO."
+  },
+  {
+   "number": 158,
+   "type": "Attack",
+   "severity": "high",
+   "date": "7 October 2026",
+   "region": "Qatar",
+   "lat": 25.3548,
+   "lng": 51.1839,
+   "body": "UKMTO WARNING 158-26 - ATTACK\nIncident Date: 07 OCT 2026 Incident Time: 1900\nUKMTO has received a report of an incident 51NM north of Madinat ash Shamal, Qatar.\nA tanker has reported being struck by multiple projectiles.\nCasualties have been reported.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO."
+  },
+  {
+   "number": 159,
+   "type": "Attack",
+   "severity": "high",
+   "date": "6 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO has received a time-late report from a verified source, that a crude oil tanker was struck by an unknown projectile on the 06 OCT2026, while transiting the\nStrait of Hormuz.\nThere have been no reported casualties. Damage assessment and environmental impact are unknown at time of report.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO, whilst authorities investigate."
+  },
+  {
+   "number": 157,
+   "type": "Attack",
+   "severity": "high",
+   "date": "5 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO 157-26 - ATTACK\nIncident Date: 05 OCT 2026 Incident Time: TBC\nUKMTO has received a time-late report of an incident within the Strait of Hormuz.\nA verified source has reported that an Oil Tanker transiting outbound has been struck by an unknown projectile.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO."
+  },
+  {
+   "number": 156,
+   "type": "Attack",
+   "severity": "high",
+   "date": "5 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO\\_WARNING\\_156-26\nIncident Date: 05 Oct 2026 Incident Time: 1637 UTC\nUKMTO has received a report of an incident within the Strait of Hormuz.\nThe Master of a tanker reports being struck by an unknown projectile, causing a fire\nin the engine room of which the crew are fighting.\nThere are no reported casualties or environmental impact at the time of this\nwarning.\nAuthorities are investigating. Vessels are advised to transit with caution and report\nany suspicious activity to UKMTO."
+  },
+  {
+   "number": 152,
+   "type": "Suspicious Activity",
+   "severity": "medium",
+   "date": "5 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO ADVISORY 152-26 SUSPICIOUS ACTIVITY\nIncident Date: 05 OCT 2026 Incident Time: 0827UTC\nUKMTO has received a report of an incident 11NM north of Khasab, Oman.\nA tanker transiting the Strait of Hormuz inbound was hailed by the IRGC and instructed to turn back or the vessel would be targeted. The Master of the tanker has confirmed that they have complied with the instruction.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO."
+  },
+  {
+   "number": 154,
+   "type": "Attack",
+   "severity": "high",
+   "date": "4 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO 154-26 - ATTACK\nIncident Date: 04 OCT 2026 Incident Time: 1907UTC\nUKMTO has received a time-late report of an incident within the Strait of Hormuz.\nA verified source has reported that a Crude Oil tanker has been struck by unknown projectiles.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO."
+  },
+  {
+   "number": 151,
+   "type": "Suspicious Activity",
+   "severity": "medium",
+   "date": "4 October 2026",
+   "region": "Yemen",
+   "lat": 15.5527,
+   "lng": 48.5164,
+   "body": "UKMTO has received a report of an incident 60NM south of Al Mukha, Yemen.\nThe Company Security Officer reported a tanker sighting multiple explosions in close\nproximity to the vessel. The crew are reported as safe and no environmental impact\nhas been reported.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to\nUKMTO."
+  },
+  {
+   "number": 153,
+   "type": "Attack",
+   "severity": "high",
+   "date": "4 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO 153-26 - ATTACK\nIncident Date: 04 OCT 2026 Incident Time: 1716UTC\nUKMTO has received a time-late report of an incident within the Strait of Hormuz.\nA verified source has reported that an LPG tanker transiting inbound has been struck by an unknown projectile.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO."
+  },
+  {
+   "number": 150,
+   "type": "Attack",
+   "severity": "high",
+   "date": "4 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO WARNING 150-26 - ATTACK\nReport Date: TBC\nReport Time: TBC\nIssue Date: 04 Oct 2026\nSource Master\nUKMTO has received a report of an incident within the Strait of Hormuz.\nThe Master of a tanker has reported being struck by unknown projectile, causing\ndamage to the engine room.\nThe crew have been reported as safe and there is no environmental impact\nreported at this time. Authorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to\nUKMTO.\ns"
+  },
+  {
+   "number": 155,
+   "type": "Attack",
+   "severity": "high",
+   "date": "3 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO 155-26 - ATTACK\nIncident Date: 03 OCT 2026 Incident Time: TBC\nUKMTO has received a time-late report of an incident within the Strait of Hormuz.\nA verified source has reported that a Crude Oil tanker has been struck above the waterline by an unknown projectile.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO."
+  },
+  {
+   "number": 149,
+   "type": "Attack",
+   "severity": "high",
+   "date": "2 October 2026",
+   "region": "Oman",
+   "lat": 21.4735,
+   "lng": 55.9754,
+   "body": "UKMTO has received a report of an incident 4nm east of Oman.\nThe Master of a crude oil tanker has reported being struck by an unknown projectile\non the port side. All crew are reported assafe and no environmental impact reported\nat present time.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to\nUKMTO."
+  },
+  {
+   "number": 148,
+   "type": "Attack",
+   "severity": "high",
+   "date": "2 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO WARNING 148-26 - ATTACK\nReport Date:02 Oct 2026\nReport Time:1122 UTC\nIssue Date:02 Oct 2026\nSource Master\nUKMTO has received a report of an incident within the Strait of Hormuz.\nThe Master of a tanker has reported being struck by an unknown projectile, whilst\nconducting an outbound transit, resulting in a small fire and blackout onboard. The\nfire has since been extinguished and the vessel is underway.\nThere are no reported casualties or environmental impact.\nAuthorities are investigating. Vessels are advised to transit with caution and report\nany suspicious activity to UKMTO."
+  },
+  {
+   "number": 147,
+   "type": "Attack",
+   "severity": "high",
+   "date": "1 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO has received a third-party report of a tanker being stuck by an unknown projectile while transiting the Strait of Hormuz, resulting in a fire.\nCrew have been reported safe, damage assessment and environmental impact is unknown at time of report.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO, whilst authorities investigate."
+  },
+  {
+   "number": 146,
+   "type": "Attack",
+   "severity": "high",
+   "date": "30 September 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO has received a time-late report of an incident within the Strait of Hormuz.\nA verified source has reported that a Tanker has been struck by an unknown\nprojectile.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to\nUKMTO."
+  },
+  {
+   "number": 145,
+   "type": "Attack",
+   "severity": "high",
+   "date": "30 September 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO has received a time-late report of an incident within the Strait of Hormuz.\nA verified source has reported that a tanker transiting inbound has been struck by\nan unknown projectile.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to\nUKMTO."
+  },
+  {
+   "number": 144,
+   "type": "Attack",
+   "severity": "high",
+   "date": "30 September 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO has received a time-late report of an incident within the Strait of Hormuz.\nA verified source has reported that a crude oil tanker has been struck on the port\nside by an unknown projectile.\nAuthorities are investigating.\nVessels are advised to transit with caution and report any suspicious activity to\nUKMTO."
+  },
+  {
+   "number": 143,
+   "type": "Suspicious Activity",
+   "severity": "medium",
+   "date": "28 September 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO has received a time-late report of an incident occurring on the evening of 28SEP2026 in the Strait of Hormuz.\nUKMTO has received a third-party report of a vessel struck by a suspected unknown projectile while transiting the Strait of Hormuz, resulting in a fire. The fire has since been extinguished and the vessel is underway. Crew are safe, there has been no reported environmental impact or damage assessment.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO, whilst authorities investigate.\n- [Home](https://www.ukmto.org/)\n- [About us](https://www.ukmto.org/about-us)\n- [Recent Incidents](https://www.ukmto.org/recent-incidents)\n- [UKMTO Products](https://www.ukmto.org/ukmto-products)\n- [Partner Products](https://www.ukmto.org/partner-products)\n- [Reporting Formats](https://www.ukmto.org/reporting-formats)\n- [Best Practices](https://www.ukmto.org/best-management-practices)\n- [Contact us](https://www.ukmto.org/contact-us)\n- Email: [info@ukmto.org](mailto:info@ukmto.org)\n- Phone: [+44 (0) 2392 222065](tel:+44 (0) 2392 222065)\n- Emergency Email: [watchkeepers@ukmto.org](mailto:watchkeepers@ukmto.org)\n- Emergency Phone: [+44 (0) 2392 222060](te"
+  }
+ ]
 }
