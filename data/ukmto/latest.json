@@ -1,8 +1,18 @@
 {
- "generated_at": "2026-10-27T20:39:49+00:00",
- "count": 37,
+ "generated_at": "2026-10-28T05:33:22+00:00",
+ "count": 38,
  "source_url": "https://www.ukmto.org/recent-incidents",
  "incidents": [
+  {
+   "number": 182,
+   "type": "Attack",
+   "severity": "high",
+   "date": "23 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO has received a verified time-late report of an incident in the Strait of Hormuz.\nA tanker transiting outbound was struck by an unknown projectile, disabling the vessel. The crew have been reported safe. There is no damage assessment or environmental impact report at present.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO, whilst authorities investigate."
+  },
   {
    "number": 181,
    "type": "Attack",
