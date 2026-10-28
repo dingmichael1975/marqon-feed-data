@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-21T13:20:13+00:00",
- "count": 22,
+ "generated_at": "2026-10-28T14:44:11+00:00",
+ "count": 23,
  "by_name": {
   "USS George H.W. Bush": {
    "wiki_title": "USS George H. W. Bush",
@@ -154,6 +154,13 @@
    "wiki_url": "https://en.wikipedia.org/wiki/USS_San_Antonio",
    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/USS_San_Antonio_%28LPD-17%29_deploy.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/USS_San_Antonio_%28LPD-17%29_deploy.jpg/330px-USS_San_Antonio_%28LPD-17%29_deploy.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "attribution": "Wikipedia (CC BY-SA)"
+  },
+  "USS Ronald Reagan": {
+   "wiki_title": "USS Ronald Reagan",
+   "wiki_url": "https://en.wikipedia.org/wiki/USS_Ronald_Reagan",
+   "photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/USSRONALDREAGANgoodshot.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/USSRONALDREAGANgoodshot.jpg/330px-USSRONALDREAGANgoodshot.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
    "attribution": "Wikipedia (CC BY-SA)"
   }
  }

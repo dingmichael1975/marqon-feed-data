@@ -1,6 +1,7 @@
 {
- "generated_at": "2026-10-21T13:20:20+00:00",
+ "generated_at": "2026-10-28T14:44:19+00:00",
  "weeks": [
+  "2026-10-05",
   "2026-09-28",
   "2026-09-21",
   "2026-09-14",
@@ -11,25 +12,39 @@
   "2026-08-10",
   "2026-07-27",
   "2026-07-20",
-  "2026-07-13",
-  "2026-07-07"
+  "2026-07-13"
  ],
  "vessels": [
   {
-   "name": "USS Nimitz (CVN-68)",
-   "photo_key": "ves-USS_Nimitz-f10671",
+   "name": "USS Carl Vinson (CVN-70)",
+   "photo_key": "ves-USS_Carl_Vinson-ed5e78",
    "type": "carrier",
    "track": [
     {
-     "as_of": "2026-07-07",
-     "lat": 40.0,
-     "lng": -75.0
+     "as_of": "2026-07-13",
+     "lat": 34.0,
+     "lng": -120.0
+    },
+    {
+     "as_of": "2026-08-17",
+     "lat": 34.0,
+     "lng": -120.0
+    },
+    {
+     "as_of": "2026-08-24",
+     "lat": 34.0,
+     "lng": -120.0
+    },
+    {
+     "as_of": "2026-08-31",
+     "lat": 10.0,
+     "lng": -130.0
     }
    ],
    "current": {
-    "lat": 40.0,
-    "lng": -75.0,
-    "region": "North Atlantic",
+    "lat": 10.0,
+    "lng": -130.0,
+    "region": "Pacific Ocean",
     "status": "deployed"
    }
   },
@@ -38,11 +53,6 @@
    "photo_key": "ves-USS_Fort_Lauderdale-6f348b",
    "type": "amphib",
    "track": [
-    {
-     "as_of": "2026-07-07",
-     "lat": 10.5,
-     "lng": -66.9
-    },
     {
      "as_of": "2026-07-13",
      "lat": 26.0,
@@ -57,15 +67,83 @@
    }
   },
   {
+   "name": "USS San Antonio (LPD-17)",
+   "photo_key": "ves-USS_San_Antonio-bc0617",
+   "type": "amphib",
+   "track": [
+    {
+     "as_of": "2026-07-13",
+     "lat": 10.5,
+     "lng": -64.0
+    },
+    {
+     "as_of": "2026-07-20",
+     "lat": 12.5,
+     "lng": -68.5
+    },
+    {
+     "as_of": "2026-07-27",
+     "lat": -15.0,
+     "lng": -70.0
+    },
+    {
+     "as_of": "2026-08-10",
+     "lat": 10.0,
+     "lng": -85.0
+    },
+    {
+     "as_of": "2026-08-17",
+     "lat": 10.0,
+     "lng": -75.0
+    },
+    {
+     "as_of": "2026-08-24",
+     "lat": -15.0,
+     "lng": -75.0
+    },
+    {
+     "as_of": "2026-08-31",
+     "lat": -20.0,
+     "lng": -60.0
+    },
+    {
+     "as_of": "2026-09-08",
+     "lat": -30.0,
+     "lng": -60.0
+    },
+    {
+     "as_of": "2026-09-14",
+     "lat": 10.5,
+     "lng": -62.5
+    },
+    {
+     "as_of": "2026-09-21",
+     "lat": 10.5,
+     "lng": -62.5
+    },
+    {
+     "as_of": "2026-09-28",
+     "lat": 17.9,
+     "lng": -66.1
+    },
+    {
+     "as_of": "2026-10-05",
+     "lat": 36.9,
+     "lng": -76.3
+    }
+   ],
+   "current": {
+    "lat": 36.9,
+    "lng": -76.3,
+    "region": "Norfolk, Virginia",
+    "status": "homeport"
+   }
+  },
+  {
    "name": "USS Mount Whitney (LCC-20)",
    "photo_key": "ves-USS_Mount_Whitney-7c8697",
    "type": "other",
    "track": [
-    {
-     "as_of": "2026-07-07",
-     "lat": 51.3,
-     "lng": 3.2
-    },
     {
      "as_of": "2026-07-13",
      "lat": 37.0,
@@ -84,11 +162,6 @@
    "photo_key": "ves-USS_Abraham_Lincoln-407f91",
    "type": "carrier",
    "track": [
-    {
-     "as_of": "2026-07-07",
-     "lat": 10.0,
-     "lng": 70.0
-    },
     {
      "as_of": "2026-07-13",
      "lat": 25.0,
@@ -158,11 +231,6 @@
    "type": "carrier",
    "track": [
     {
-     "as_of": "2026-07-07",
-     "lat": 10.0,
-     "lng": 70.0
-    },
-    {
      "as_of": "2026-07-13",
      "lat": 25.0,
      "lng": 60.0
@@ -231,11 +299,6 @@
    "type": "amphib",
    "track": [
     {
-     "as_of": "2026-07-07",
-     "lat": 10.0,
-     "lng": 70.0
-    },
-    {
      "as_of": "2026-07-13",
      "lat": 25.0,
      "lng": 60.0
@@ -299,15 +362,83 @@
    }
   },
   {
+   "name": "USS Tripoli (LHA-7)",
+   "photo_key": "ves-USS_Tripoli-51a490",
+   "type": "amphib",
+   "track": [
+    {
+     "as_of": "2026-07-13",
+     "lat": 30.0,
+     "lng": 135.0
+    },
+    {
+     "as_of": "2026-07-20",
+     "lat": 25.5,
+     "lng": 135.5
+    },
+    {
+     "as_of": "2026-07-27",
+     "lat": 33.0,
+     "lng": 129.0
+    },
+    {
+     "as_of": "2026-08-10",
+     "lat": 33.0,
+     "lng": 129.0
+    },
+    {
+     "as_of": "2026-08-17",
+     "lat": 32.0,
+     "lng": 129.0
+    },
+    {
+     "as_of": "2026-08-24",
+     "lat": 32.5,
+     "lng": 129.5
+    },
+    {
+     "as_of": "2026-08-31",
+     "lat": 33.0,
+     "lng": 129.0
+    },
+    {
+     "as_of": "2026-09-08",
+     "lat": 33.0,
+     "lng": 129.0
+    },
+    {
+     "as_of": "2026-09-14",
+     "lat": 33.5,
+     "lng": 129.7
+    },
+    {
+     "as_of": "2026-09-21",
+     "lat": 32.5,
+     "lng": 129.8
+    },
+    {
+     "as_of": "2026-09-28",
+     "lat": 32.5,
+     "lng": 129.8
+    },
+    {
+     "as_of": "2026-10-05",
+     "lat": 33.3,
+     "lng": 129.8
+    }
+   ],
+   "current": {
+    "lat": 33.3,
+    "lng": 129.8,
+    "region": "Sasebo, Japan",
+    "status": "deployed"
+   }
+  },
+  {
    "name": "Theodore Roosevelt CSG",
    "photo_key": "ves-USS_Theodore_Roosevelt-440a3b",
    "type": "carrier",
    "track": [
-    {
-     "as_of": "2026-07-07",
-     "lat": 20.0,
-     "lng": 130.0
-    },
     {
      "as_of": "2026-07-13",
      "lat": 30.0,
@@ -342,11 +473,6 @@
    "type": "amphib",
    "track": [
     {
-     "as_of": "2026-07-07",
-     "lat": 20.0,
-     "lng": 130.0
-    },
-    {
      "as_of": "2026-07-13",
      "lat": 30.0,
      "lng": 135.0
@@ -379,11 +505,6 @@
    "photo_key": "ves-USS_George_Washington-ffbde5",
    "type": "carrier",
    "track": [
-    {
-     "as_of": "2026-07-07",
-     "lat": 20.0,
-     "lng": 130.0
-    },
     {
      "as_of": "2026-07-13",
      "lat": 30.0,
@@ -448,180 +569,6 @@
    }
   },
   {
-   "name": "USS Tripoli (LHA-7)",
-   "photo_key": "ves-USS_Tripoli-51a490",
-   "type": "amphib",
-   "track": [
-    {
-     "as_of": "2026-07-07",
-     "lat": 20.0,
-     "lng": 130.0
-    },
-    {
-     "as_of": "2026-07-13",
-     "lat": 30.0,
-     "lng": 135.0
-    },
-    {
-     "as_of": "2026-07-20",
-     "lat": 25.5,
-     "lng": 135.5
-    },
-    {
-     "as_of": "2026-07-27",
-     "lat": 33.0,
-     "lng": 129.0
-    },
-    {
-     "as_of": "2026-08-10",
-     "lat": 33.0,
-     "lng": 129.0
-    },
-    {
-     "as_of": "2026-08-17",
-     "lat": 32.0,
-     "lng": 129.0
-    },
-    {
-     "as_of": "2026-08-24",
-     "lat": 32.5,
-     "lng": 129.5
-    },
-    {
-     "as_of": "2026-08-31",
-     "lat": 33.0,
-     "lng": 129.0
-    },
-    {
-     "as_of": "2026-09-08",
-     "lat": 33.0,
-     "lng": 129.0
-    },
-    {
-     "as_of": "2026-09-14",
-     "lat": 33.5,
-     "lng": 129.7
-    },
-    {
-     "as_of": "2026-09-21",
-     "lat": 32.5,
-     "lng": 129.8
-    },
-    {
-     "as_of": "2026-09-28",
-     "lat": 32.5,
-     "lng": 129.8
-    }
-   ],
-   "current": {
-    "lat": 32.5,
-    "lng": 129.8,
-    "region": "East China Sea",
-    "status": "deployed"
-   }
-  },
-  {
-   "name": "USS Carl Vinson (CVN-70)",
-   "photo_key": "ves-USS_Carl_Vinson-ed5e78",
-   "type": "carrier",
-   "track": [
-    {
-     "as_of": "2026-07-13",
-     "lat": 34.0,
-     "lng": -120.0
-    },
-    {
-     "as_of": "2026-08-17",
-     "lat": 34.0,
-     "lng": -120.0
-    },
-    {
-     "as_of": "2026-08-24",
-     "lat": 34.0,
-     "lng": -120.0
-    },
-    {
-     "as_of": "2026-08-31",
-     "lat": 10.0,
-     "lng": -130.0
-    }
-   ],
-   "current": {
-    "lat": 10.0,
-    "lng": -130.0,
-    "region": "Pacific Ocean",
-    "status": "deployed"
-   }
-  },
-  {
-   "name": "USS San Antonio (LPD-17)",
-   "photo_key": "ves-USS_San_Antonio-bc0617",
-   "type": "amphib",
-   "track": [
-    {
-     "as_of": "2026-07-13",
-     "lat": 10.5,
-     "lng": -64.0
-    },
-    {
-     "as_of": "2026-07-20",
-     "lat": 12.5,
-     "lng": -68.5
-    },
-    {
-     "as_of": "2026-07-27",
-     "lat": -15.0,
-     "lng": -70.0
-    },
-    {
-     "as_of": "2026-08-10",
-     "lat": 10.0,
-     "lng": -85.0
-    },
-    {
-     "as_of": "2026-08-17",
-     "lat": 10.0,
-     "lng": -75.0
-    },
-    {
-     "as_of": "2026-08-24",
-     "lat": -15.0,
-     "lng": -75.0
-    },
-    {
-     "as_of": "2026-08-31",
-     "lat": -20.0,
-     "lng": -60.0
-    },
-    {
-     "as_of": "2026-09-08",
-     "lat": -30.0,
-     "lng": -60.0
-    },
-    {
-     "as_of": "2026-09-14",
-     "lat": 10.5,
-     "lng": -62.5
-    },
-    {
-     "as_of": "2026-09-21",
-     "lat": 10.5,
-     "lng": -62.5
-    },
-    {
-     "as_of": "2026-09-28",
-     "lat": 17.9,
-     "lng": -66.1
-    }
-   ],
-   "current": {
-    "lat": 17.9,
-    "lng": -66.1,
-    "region": "Caribbean Sea",
-    "status": "deployed"
-   }
-  },
-  {
    "name": "USS Makin Island (LHD-8)",
    "photo_key": "ves-USS_Makin_Island-260055",
    "type": "amphib",
@@ -673,13 +620,18 @@
      "as_of": "2026-08-31",
      "lat": 40.0,
      "lng": -10.0
+    },
+    {
+     "as_of": "2026-10-05",
+     "lat": 36.9,
+     "lng": -76.3
     }
    ],
    "current": {
-    "lat": 40.0,
-    "lng": -10.0,
-    "region": "Mediterranean Sea",
-    "status": "deployed"
+    "lat": 36.9,
+    "lng": -76.3,
+    "region": "Norfolk, Virginia",
+    "status": "homeport"
    }
   },
   {
@@ -709,12 +661,107 @@
      "as_of": "2026-09-08",
      "lat": 34.0,
      "lng": -120.0
+    },
+    {
+     "as_of": "2026-10-05",
+     "lat": 1.4,
+     "lng": 179.0
     }
    ],
    "current": {
-    "lat": 34.0,
-    "lng": -120.0,
-    "region": "Pacific Ocean",
+    "lat": 1.4,
+    "lng": 179.0,
+    "region": "Makin Island",
+    "status": "deployed"
+   }
+  },
+  {
+   "name": "USS Ronald Reagan (CVN-76)",
+   "photo_key": "ves-USS_Ronald_Reagan-ed7de4",
+   "type": "carrier",
+   "track": [
+    {
+     "as_of": "2026-10-05",
+     "lat": 32.7,
+     "lng": -117.2
+    }
+   ],
+   "current": {
+    "lat": 32.7,
+    "lng": -117.2,
+    "region": "San Diego, California",
+    "status": "homeport"
+   }
+  },
+  {
+   "name": "USS Abraham Lincoln (CVN-72)",
+   "photo_key": "ves-USS_Abraham_Lincoln-407f91",
+   "type": "carrier",
+   "track": [
+    {
+     "as_of": "2026-10-05",
+     "lat": 0.0,
+     "lng": 0.0
+    }
+   ],
+   "current": {
+    "lat": 0.0,
+    "lng": 0.0,
+    "region": "unknown",
+    "status": "deployed"
+   }
+  },
+  {
+   "name": "USS George Washington (CVN-73)",
+   "photo_key": "ves-USS_George_Washington-ffbde5",
+   "type": "carrier",
+   "track": [
+    {
+     "as_of": "2026-10-05",
+     "lat": 0.0,
+     "lng": 0.0
+    }
+   ],
+   "current": {
+    "lat": 0.0,
+    "lng": 0.0,
+    "region": "unknown",
+    "status": "deployed"
+   }
+  },
+  {
+   "name": "USS Boxer (LHD-4)",
+   "photo_key": "ves-USS_Boxer-43ea61",
+   "type": "amphib",
+   "track": [
+    {
+     "as_of": "2026-10-05",
+     "lat": 0.0,
+     "lng": 0.0
+    }
+   ],
+   "current": {
+    "lat": 0.0,
+    "lng": 0.0,
+    "region": "unknown",
+    "status": "deployed"
+   }
+  },
+  {
+   "name": "USS George H.W. Bush (CVN-77)",
+   "photo_key": "ves-USS_George_H.W._Bush-a57ac1",
+   "type": "carrier",
+   "track": [
+    {
+     "as_of": "2026-10-05",
+     "lat": 7.9,
+     "lng": 98.4
+    }
+   ],
+   "current": {
+    "lat": 7.9,
+    "lng": 98.4,
+    "region": "Phuket, Thailand",
     "status": "deployed"
    }
   }
