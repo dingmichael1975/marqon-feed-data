@@ -1,8 +1,48 @@
 {
- "generated_at": "2026-10-29T21:05:05+00:00",
- "count": 38,
+ "generated_at": "2026-10-30T05:40:42+00:00",
+ "count": 42,
  "source_url": "https://www.ukmto.org/recent-incidents",
  "incidents": [
+  {
+   "number": 187,
+   "type": "Suspicious Activity",
+   "severity": "medium",
+   "date": "29 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO has received a report of an incident 25NM Northeast of Khasab, Oman in the Strait of Hormuz. A third-party has reported that a vessel transiting outbound is on fire, the cause is unknown at time of report. Status of crew, damage assessment, and environmental impact are unknown at present. Vessels are advised to transit with caution and report any suspicious activity to UKMTO, whilst authorities investigate."
+  },
+  {
+   "number": 186,
+   "type": "Attack",
+   "severity": "high",
+   "date": "29 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO has received a report of an incident in the Strait of Hormuz.\nA Company Security Officer has informed UKMTO that their tanker has been struck by\nan unknown projectile whilst completing an outbound transit of the Strait of Hormuz.\nThere are no reported injuries to the crew or environmental impact report at this time.\nVessels are advised to transit with caution and report any suspicious activity to\nUKMTO, whilst authorities investigate."
+  },
+  {
+   "number": 185,
+   "type": "Suspicious Activity",
+   "severity": "medium",
+   "date": "29 October 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO has received a report of an incident occurring in the Strait of Hormuz, 9NM\nnorth of Khasab, Oman. The Master of a third-party vessel has reported sighting\nanother vessel on fire.\nStatus of crew is unknown. There is no damage assessment or environmental impact\nUPDATE 001: Regional authorities have identified the vessel as a dhow, which was involved in a\nmaritime security incident, igniting a large fire onboard causing the dhow to list and sink. Local\nauthorities have confirmed that the crew have been safely evacuated.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO, whilst\nauthorities investigate.\nreport at present.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO,\nwhilst authorities investigate."
+  },
+  {
+   "number": 184,
+   "type": "Advisory",
+   "severity": "low",
+   "date": "28 October 2026",
+   "region": "Gulf Of Aden",
+   "lat": 12.0,
+   "lng": 47.0,
+   "body": "UKMTO has received reports from various sources of suspicious activity within the Gulf\nof Aden. Potentially indicative of Pirate Action Group Activity.\nReports describe several sightings of suspicious small craft operating in the vicinity of\nmerchant vessels. One report describes a green and blue boat with two ladders and one\nhook with 9 persons onboard.\nVessels transiting the area are advised to transit with caution, follow guidance written\nin BMP MS and report any suspicious activity to UKMTO.\nAuthorities are investigating."
+  },
   {
    "number": 182,
    "type": "Attack",
