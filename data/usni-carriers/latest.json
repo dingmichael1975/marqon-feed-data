@@ -1,80 +1,72 @@
 {
- "as_of": "2026-10-05",
- "fetched_at": "2026-10-28T14:44:11+00:00",
- "source_url": "https://news.usni.org/2026/10/05/usni-news-fleet-and-marine-tracker-oct-5-2026",
- "image_url": "https://news.usni.org/wp-content/uploads/2026/10/FT_10_05_26.jpg",
- "count": 9,
+ "as_of": "2026-10-13",
+ "fetched_at": "2026-11-04T15:52:53+00:00",
+ "source_url": "https://news.usni.org/2026/10/13/usni-news-fleet-and-marine-tracker-oct-13-2026",
+ "image_url": "https://news.usni.org/wp-content/uploads/2026/10/FT_10_13_26.jpg",
+ "count": 8,
  "vessels": [
   {
    "name": "USS Ronald Reagan (CVN-76)",
    "type": "carrier",
-   "region": "San Diego, California",
-   "lat": 32.7,
-   "lng": -117.2,
-   "status": "homeport"
-  },
-  {
-   "name": "USS Dwight D. Eisenhower (CVN-69)",
-   "type": "carrier",
-   "region": "Norfolk, Virginia",
-   "lat": 36.9,
-   "lng": -76.3,
-   "status": "homeport"
+   "region": "Eastern Pacific",
+   "lat": 32.5,
+   "lng": -118.5,
+   "status": "deployed"
   },
   {
    "name": "USS San Antonio (LPD-17)",
    "type": "amphib",
-   "region": "Norfolk, Virginia",
-   "lat": 36.9,
-   "lng": -76.3,
-   "status": "homeport"
-  },
-  {
-   "name": "USS Theodore Roosevelt (CVN-71)",
-   "type": "carrier",
-   "region": "Makin Island",
-   "lat": 1.4,
-   "lng": 179.0,
+   "region": "Gulf of Mexico",
+   "lat": 29.5,
+   "lng": -95.5,
    "status": "deployed"
   },
   {
-   "name": "USS Abraham Lincoln (CVN-72)",
+   "name": "George H.W. Bush CSG",
    "type": "carrier",
-   "region": "unknown",
-   "lat": 0.0,
-   "lng": 0.0,
+   "region": "Mediterranean Sea",
+   "lat": 38.0,
+   "lng": 15.0,
    "status": "deployed"
   },
   {
-   "name": "USS George Washington (CVN-73)",
+   "name": "George Washington CSG",
    "type": "carrier",
-   "region": "unknown",
-   "lat": 0.0,
-   "lng": 0.0,
+   "region": "Mediterranean Sea",
+   "lat": 38.0,
+   "lng": 15.0,
    "status": "deployed"
   },
   {
-   "name": "USS Boxer (LHD-4)",
+   "name": "Boxer ARG",
    "type": "amphib",
-   "region": "unknown",
-   "lat": 0.0,
-   "lng": 0.0,
+   "region": "Mediterranean Sea",
+   "lat": 38.0,
+   "lng": 15.0,
    "status": "deployed"
   },
   {
    "name": "USS Tripoli (LHA-7)",
    "type": "amphib",
    "region": "Sasebo, Japan",
-   "lat": 33.3,
-   "lng": 129.8,
+   "lat": 33.5,
+   "lng": 129.7,
    "status": "deployed"
   },
   {
-   "name": "USS George H.W. Bush (CVN-77)",
+   "name": "Makin Island ARG",
+   "type": "amphib",
+   "region": "Western Pacific",
+   "lat": 30.0,
+   "lng": 140.0,
+   "status": "deployed"
+  },
+  {
+   "name": "Theodore Roosevelt CSG",
    "type": "carrier",
-   "region": "Phuket, Thailand",
-   "lat": 7.9,
-   "lng": 98.4,
+   "region": "Western Pacific",
+   "lat": 30.0,
+   "lng": 140.0,
    "status": "deployed"
   }
  ]
