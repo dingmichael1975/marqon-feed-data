@@ -1,8 +1,18 @@
 {
- "generated_at": "2026-11-06T06:33:31+00:00",
- "count": 50,
+ "generated_at": "2026-11-06T15:53:07+00:00",
+ "count": 51,
  "source_url": "https://www.ukmto.org/recent-incidents",
  "incidents": [
+  {
+   "number": 197,
+   "type": "Attack",
+   "severity": "high",
+   "date": "6 November 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO has received a time-late report of an incident 16NM east of Khasab, Oman.\nThe Master of a Tanker transiting the Strait of Hormuz outbound, has reported an\nexplosion at the waterline, port side. The crew are safe and are accounted for. The\ntanker is still under its own power and is continuing on its voyage.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO,\nwhilst authorities investigate."
+  },
   {
    "number": 196,
    "type": "Attack",
