@@ -1,5 +1,54 @@
 {
- "generated_at": "2026-11-08T10:07:31+00:00",
- "count": 0,
- "markets": []
+ "generated_at": "2026-11-08T16:59:04+00:00",
+ "count": 3,
+ "markets": [
+  {
+   "id": "4599796",
+   "question": "Israeli airspace closed by December 31, 2026?",
+   "slug": "israeli-airspace-closed-by-december-31-2026",
+   "url": "https://polymarket.com/event/israeli-airspace-closed-by-december-31-2026",
+   "yes_price": 0.315,
+   "volume_24h": 89717.334595,
+   "volume": 376953.54554799997,
+   "end_date": "2027-01-01T04:59:00Z",
+   "lat": 31.0461,
+   "lng": 34.8516,
+   "region": "Israel",
+   "category": "",
+   "yes_price_6h_ago": 0.39,
+   "delta_6h": -0.075
+  },
+  {
+   "id": "682710",
+   "question": "Will Avigdor Lieberman be the next Prime Minister of Israel?",
+   "slug": "will-avigdor-lieberman-be-the-next-prime-minister-of-israel",
+   "url": "https://polymarket.com/event/will-avigdor-lieberman-be-the-next-prime-minister-of-israel",
+   "yes_price": 0.07,
+   "volume_24h": 123020.80337,
+   "volume": 5374876.241550001,
+   "end_date": "2026-10-28T03:59:00Z",
+   "lat": 31.0461,
+   "lng": 34.8516,
+   "region": "Israel",
+   "category": "",
+   "yes_price_6h_ago": 0.0595,
+   "delta_6h": 0.0105
+  },
+  {
+   "id": "5339986",
+   "question": "Israel x Iran ceasefire continues through November 15?",
+   "slug": "israel-x-iran-ceasefire-continues-through-november-15",
+   "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-november-15",
+   "yes_price": 0.895,
+   "volume_24h": 233696.96996499997,
+   "volume": 1598851.0681209997,
+   "end_date": "2026-11-16T04:59:00Z",
+   "lat": 32.4279,
+   "lng": 53.688,
+   "region": "Iran",
+   "category": "",
+   "yes_price_6h_ago": 0.885,
+   "delta_6h": 0.01
+  }
+ ]
 }
