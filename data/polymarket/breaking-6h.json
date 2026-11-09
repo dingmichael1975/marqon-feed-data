@@ -1,54 +1,5 @@
 {
- "generated_at": "2026-11-08T21:01:19+00:00",
- "count": 3,
- "markets": [
-  {
-   "id": "5488329",
-   "question": "Will Max Verstappen win the 2026 F1 Brazilian Grand Prix?",
-   "slug": "f1-brazilian-grand-prix-winner-verstappen-2026-11-08",
-   "url": "https://polymarket.com/event/f1-brazilian-grand-prix-winner-verstappen-2026-11-08",
-   "yes_price": 0.0015,
-   "volume_24h": 158036.77223099998,
-   "volume": 194479.56823499998,
-   "end_date": "2026-11-15T17:00:00Z",
-   "lat": -14.235,
-   "lng": -51.9253,
-   "region": "Brazil",
-   "category": "",
-   "yes_price_6h_ago": 0.165,
-   "delta_6h": -0.1635
-  },
-  {
-   "id": "682708",
-   "question": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
-   "slug": "will-gadi-eizenkot-be-the-next-prime-minister-of-israel",
-   "url": "https://polymarket.com/event/will-gadi-eizenkot-be-the-next-prime-minister-of-israel",
-   "yes_price": 0.6315,
-   "volume_24h": 195790.162863,
-   "volume": 9610548.922325,
-   "end_date": "2026-10-28T03:59:00Z",
-   "lat": 31.0461,
-   "lng": 34.8516,
-   "region": "Israel",
-   "category": "",
-   "yes_price_6h_ago": 0.6705,
-   "delta_6h": -0.039
-  },
-  {
-   "id": "5339986",
-   "question": "Israel x Iran ceasefire continues through November 15?",
-   "slug": "israel-x-iran-ceasefire-continues-through-november-15",
-   "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-november-15",
-   "yes_price": 0.915,
-   "volume_24h": 290495.64012399997,
-   "volume": 1699466.204589,
-   "end_date": "2026-11-16T04:59:00Z",
-   "lat": 32.4279,
-   "lng": 53.688,
-   "region": "Iran",
-   "category": "",
-   "yes_price_6h_ago": 0.895,
-   "delta_6h": 0.02
-  }
- ]
+ "generated_at": "2026-11-09T00:43:03+00:00",
+ "count": 0,
+ "markets": []
 }
