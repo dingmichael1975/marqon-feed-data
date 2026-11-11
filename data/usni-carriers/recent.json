@@ -1,6 +1,7 @@
 {
- "generated_at": "2026-11-04T15:53:00+00:00",
+ "generated_at": "2026-11-11T15:44:09+00:00",
  "weeks": [
+  "2026-10-19",
   "2026-10-13",
   "2026-10-05",
   "2026-09-28",
@@ -11,41 +12,40 @@
   "2026-08-24",
   "2026-08-17",
   "2026-08-10",
-  "2026-07-27",
-  "2026-07-20"
+  "2026-07-27"
  ],
  "vessels": [
   {
-   "name": "USS Makin Island (LHD-8)",
-   "photo_key": "ves-USS_Makin_Island-260055",
-   "type": "amphib",
+   "name": "USS Dwight D. Eisenhower (CVN-69)",
+   "photo_key": "ves-USS_Dwight_D._Eisenhower-02621c",
+   "type": "carrier",
    "track": [
     {
-     "as_of": "2026-07-20",
-     "lat": 32.5,
-     "lng": -117.2
-    },
-    {
-     "as_of": "2026-08-17",
-     "lat": 34.0,
-     "lng": -118.0
+     "as_of": "2026-07-27",
+     "lat": 37.0,
+     "lng": -75.5
     },
     {
      "as_of": "2026-08-24",
-     "lat": 34.0,
-     "lng": -120.0
+     "lat": 37.0,
+     "lng": 15.0
     },
     {
      "as_of": "2026-08-31",
-     "lat": 10.0,
-     "lng": -130.0
+     "lat": 40.0,
+     "lng": -10.0
+    },
+    {
+     "as_of": "2026-10-05",
+     "lat": 36.9,
+     "lng": -76.3
     }
    ],
    "current": {
-    "lat": 10.0,
-    "lng": -130.0,
-    "region": "Pacific Ocean",
-    "status": "deployed"
+    "lat": 36.9,
+    "lng": -76.3,
+    "region": "Norfolk, Virginia",
+    "status": "homeport"
    }
   },
   {
@@ -53,11 +53,6 @@
    "photo_key": "ves-USS_San_Antonio-bc0617",
    "type": "amphib",
    "track": [
-    {
-     "as_of": "2026-07-20",
-     "lat": 12.5,
-     "lng": -68.5
-    },
     {
      "as_of": "2026-07-27",
      "lat": -15.0,
@@ -112,13 +107,18 @@
      "as_of": "2026-10-13",
      "lat": 29.5,
      "lng": -95.5
+    },
+    {
+     "as_of": "2026-10-19",
+     "lat": 36.9,
+     "lng": -76.3
     }
    ],
    "current": {
-    "lat": 29.5,
-    "lng": -95.5,
-    "region": "Gulf of Mexico",
-    "status": "deployed"
+    "lat": 36.9,
+    "lng": -76.3,
+    "region": "Norfolk, Va.",
+    "status": "homeport"
    }
   },
   {
@@ -126,11 +126,6 @@
    "photo_key": "ves-USS_Abraham_Lincoln-407f91",
    "type": "carrier",
    "track": [
-    {
-     "as_of": "2026-07-20",
-     "lat": 30.0,
-     "lng": 50.0
-    },
     {
      "as_of": "2026-07-27",
      "lat": 1.0,
@@ -190,11 +185,6 @@
    "type": "carrier",
    "track": [
     {
-     "as_of": "2026-07-20",
-     "lat": 37.0,
-     "lng": 15.0
-    },
-    {
      "as_of": "2026-07-27",
      "lat": 37.0,
      "lng": 15.0
@@ -243,10 +233,15 @@
      "as_of": "2026-10-13",
      "lat": 38.0,
      "lng": 15.0
+    },
+    {
+     "as_of": "2026-10-19",
+     "lat": 37.0,
+     "lng": 15.0
     }
    ],
    "current": {
-    "lat": 38.0,
+    "lat": 37.0,
     "lng": 15.0,
     "region": "Mediterranean Sea",
     "status": "deployed"
@@ -257,11 +252,6 @@
    "photo_key": "ves-USS_Boxer-43ea61",
    "type": "amphib",
    "track": [
-    {
-     "as_of": "2026-07-20",
-     "lat": 25.0,
-     "lng": 135.0
-    },
     {
      "as_of": "2026-07-27",
      "lat": 30.0,
@@ -311,10 +301,15 @@
      "as_of": "2026-10-13",
      "lat": 38.0,
      "lng": 15.0
+    },
+    {
+     "as_of": "2026-10-19",
+     "lat": 37.0,
+     "lng": 15.0
     }
    ],
    "current": {
-    "lat": 38.0,
+    "lat": 37.0,
     "lng": 15.0,
     "region": "Mediterranean Sea",
     "status": "deployed"
@@ -325,11 +320,6 @@
    "photo_key": "ves-USS_Tripoli-51a490",
    "type": "amphib",
    "track": [
-    {
-     "as_of": "2026-07-20",
-     "lat": 25.5,
-     "lng": 135.5
-    },
     {
      "as_of": "2026-07-27",
      "lat": 33.0,
@@ -384,11 +374,16 @@
      "as_of": "2026-10-13",
      "lat": 33.5,
      "lng": 129.7
+    },
+    {
+     "as_of": "2026-10-19",
+     "lat": 33.3,
+     "lng": 129.8
     }
    ],
    "current": {
-    "lat": 33.5,
-    "lng": 129.7,
+    "lat": 33.3,
+    "lng": 129.8,
     "region": "Sasebo, Japan",
     "status": "deployed"
    }
@@ -398,11 +393,6 @@
    "photo_key": "ves-USS_Theodore_Roosevelt-440a3b",
    "type": "carrier",
    "track": [
-    {
-     "as_of": "2026-07-20",
-     "lat": 20.0,
-     "lng": 130.0
-    },
     {
      "as_of": "2026-07-27",
      "lat": 30.0,
@@ -417,12 +407,17 @@
      "as_of": "2026-10-13",
      "lat": 30.0,
      "lng": 140.0
+    },
+    {
+     "as_of": "2026-10-19",
+     "lat": 33.3,
+     "lng": 129.8
     }
    ],
    "current": {
-    "lat": 30.0,
-    "lng": 140.0,
-    "region": "Western Pacific",
+    "lat": 33.3,
+    "lng": 129.8,
+    "region": "Sasebo, Japan",
     "status": "deployed"
    }
   },
@@ -431,11 +426,6 @@
    "photo_key": "ves-USS_Essex-2a05cd",
    "type": "amphib",
    "track": [
-    {
-     "as_of": "2026-07-20",
-     "lat": 20.5,
-     "lng": 130.5
-    },
     {
      "as_of": "2026-07-27",
      "lat": 30.0,
@@ -459,11 +449,6 @@
    "photo_key": "ves-USS_George_Washington-ffbde5",
    "type": "carrier",
    "track": [
-    {
-     "as_of": "2026-07-20",
-     "lat": 35.0,
-     "lng": 140.0
-    },
     {
      "as_of": "2026-07-27",
      "lat": 30.0,
@@ -513,46 +498,18 @@
      "as_of": "2026-10-13",
      "lat": 38.0,
      "lng": 15.0
+    },
+    {
+     "as_of": "2026-10-19",
+     "lat": 37.0,
+     "lng": 15.0
     }
    ],
    "current": {
-    "lat": 38.0,
+    "lat": 37.0,
     "lng": 15.0,
     "region": "Mediterranean Sea",
     "status": "deployed"
-   }
-  },
-  {
-   "name": "USS Dwight D. Eisenhower (CVN-69)",
-   "photo_key": "ves-USS_Dwight_D._Eisenhower-02621c",
-   "type": "carrier",
-   "track": [
-    {
-     "as_of": "2026-07-27",
-     "lat": 37.0,
-     "lng": -75.5
-    },
-    {
-     "as_of": "2026-08-24",
-     "lat": 37.0,
-     "lng": 15.0
-    },
-    {
-     "as_of": "2026-08-31",
-     "lat": 40.0,
-     "lng": -10.0
-    },
-    {
-     "as_of": "2026-10-05",
-     "lat": 36.9,
-     "lng": -76.3
-    }
-   ],
-   "current": {
-    "lat": 36.9,
-    "lng": -76.3,
-    "region": "Norfolk, Virginia",
-    "status": "homeport"
    }
   },
   {
@@ -564,6 +521,34 @@
      "as_of": "2026-08-17",
      "lat": 34.0,
      "lng": -120.0
+    },
+    {
+     "as_of": "2026-08-24",
+     "lat": 34.0,
+     "lng": -120.0
+    },
+    {
+     "as_of": "2026-08-31",
+     "lat": 10.0,
+     "lng": -130.0
+    }
+   ],
+   "current": {
+    "lat": 10.0,
+    "lng": -130.0,
+    "region": "Pacific Ocean",
+    "status": "deployed"
+   }
+  },
+  {
+   "name": "USS Makin Island (LHD-8)",
+   "photo_key": "ves-USS_Makin_Island-260055",
+   "type": "amphib",
+   "track": [
+    {
+     "as_of": "2026-08-17",
+     "lat": 34.0,
+     "lng": -118.0
     },
     {
      "as_of": "2026-08-24",
@@ -638,13 +623,18 @@
      "as_of": "2026-10-13",
      "lat": 32.5,
      "lng": -118.5
+    },
+    {
+     "as_of": "2026-10-19",
+     "lat": 32.7,
+     "lng": -117.2
     }
    ],
    "current": {
-    "lat": 32.5,
-    "lng": -118.5,
-    "region": "Eastern Pacific",
-    "status": "deployed"
+    "lat": 32.7,
+    "lng": -117.2,
+    "region": "San Diego, Calif.",
+    "status": "homeport"
    }
   },
   {
@@ -728,12 +718,17 @@
      "as_of": "2026-10-13",
      "lat": 30.0,
      "lng": 140.0
+    },
+    {
+     "as_of": "2026-10-19",
+     "lat": 33.3,
+     "lng": 129.8
     }
    ],
    "current": {
-    "lat": 30.0,
-    "lng": 140.0,
-    "region": "Western Pacific",
+    "lat": 33.3,
+    "lng": 129.8,
+    "region": "Sasebo, Japan",
     "status": "deployed"
    }
   }

@@ -1,0 +1,73 @@
+{
+ "as_of": "2026-10-19",
+ "fetched_at": "2026-11-11T15:44:00+00:00",
+ "source_url": "https://news.usni.org/2026/10/19/usni-news-fleet-and-marine-tracker-oct-19-2026",
+ "image_url": "https://news.usni.org/wp-content/uploads/2026/10/FT_10_19_26.jpg",
+ "count": 8,
+ "vessels": [
+  {
+   "name": "USS Ronald Reagan (CVN-76)",
+   "type": "carrier",
+   "region": "San Diego, Calif.",
+   "lat": 32.7,
+   "lng": -117.2,
+   "status": "homeport"
+  },
+  {
+   "name": "USS San Antonio (LPD-17)",
+   "type": "amphib",
+   "region": "Norfolk, Va.",
+   "lat": 36.9,
+   "lng": -76.3,
+   "status": "homeport"
+  },
+  {
+   "name": "George H.W. Bush CSG",
+   "type": "carrier",
+   "region": "Mediterranean Sea",
+   "lat": 37.0,
+   "lng": 15.0,
+   "status": "deployed"
+  },
+  {
+   "name": "George Washington CSG",
+   "type": "carrier",
+   "region": "Mediterranean Sea",
+   "lat": 37.0,
+   "lng": 15.0,
+   "status": "deployed"
+  },
+  {
+   "name": "Boxer ARG",
+   "type": "amphib",
+   "region": "Mediterranean Sea",
+   "lat": 37.0,
+   "lng": 15.0,
+   "status": "deployed"
+  },
+  {
+   "name": "USS Tripoli (LHA-7)",
+   "type": "amphib",
+   "region": "Sasebo, Japan",
+   "lat": 33.3,
+   "lng": 129.8,
+   "status": "deployed"
+  },
+  {
+   "name": "Theodore Roosevelt CSG",
+   "type": "carrier",
+   "region": "Sasebo, Japan",
+   "lat": 33.3,
+   "lng": 129.8,
+   "status": "deployed"
+  },
+  {
+   "name": "Makin Island ARG",
+   "type": "amphib",
+   "region": "Sasebo, Japan",
+   "lat": 33.3,
+   "lng": 129.8,
+   "status": "deployed"
+  }
+ ]
+}
