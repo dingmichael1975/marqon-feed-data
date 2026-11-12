@@ -1,5 +1,70 @@
 {
- "generated_at": "2026-11-11T21:13:23+00:00",
- "count": 0,
- "markets": []
+ "generated_at": "2026-11-12T02:48:51+00:00",
+ "count": 4,
+ "markets": [
+  {
+   "id": "6440135",
+   "question": "Will Trump speak to Volodymyr Zelenskyy by November 30?",
+   "slug": "will-trump-speak-to-volodymyr-zelenskyy-by-november-30-2026",
+   "url": "https://polymarket.com/event/will-trump-speak-to-volodymyr-zelenskyy-by-november-30-2026",
+   "yes_price": 0.58,
+   "volume_24h": 87654.336523,
+   "volume": 93288.697276,
+   "end_date": "2026-12-01T04:59:00Z",
+   "lat": 50.4501,
+   "lng": 30.5234,
+   "region": "Ukraine",
+   "category": "",
+   "yes_price_6h_ago": 0.67,
+   "delta_6h": -0.09
+  },
+  {
+   "id": "665374",
+   "question": "Will the U.S. invade Iran before 2027?",
+   "slug": "will-the-us-invade-iran-before-2027",
+   "url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027",
+   "yes_price": 0.085,
+   "volume_24h": 281988.58194599993,
+   "volume": 79844541.88484502,
+   "end_date": "2027-01-01T04:59:00Z",
+   "lat": 32.4279,
+   "lng": 53.688,
+   "region": "Iran",
+   "category": "",
+   "yes_price_6h_ago": 0.065,
+   "delta_6h": 0.02
+  },
+  {
+   "id": "682708",
+   "question": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+   "slug": "will-gadi-eizenkot-be-the-next-prime-minister-of-israel",
+   "url": "https://polymarket.com/event/will-gadi-eizenkot-be-the-next-prime-minister-of-israel",
+   "yes_price": 0.6235,
+   "volume_24h": 87781.08072800002,
+   "volume": 10066168.60864,
+   "end_date": "2026-10-28T03:59:00Z",
+   "lat": 31.0461,
+   "lng": 34.8516,
+   "region": "Israel",
+   "category": "",
+   "yes_price_6h_ago": 0.642,
+   "delta_6h": -0.0185
+  },
+  {
+   "id": "3580933",
+   "question": "Will Puma Shen win the next Taipei Mayor election?",
+   "slug": "will-puma-shen-win-the-next-taipei-mayor-election-20260813125857102",
+   "url": "https://polymarket.com/event/will-puma-shen-win-the-next-taipei-mayor-election-20260813125857102",
+   "yes_price": 0.3595,
+   "volume_24h": 120526.94973199998,
+   "volume": 2477054.9029230005,
+   "end_date": "2026-11-29T04:59:00Z",
+   "lat": 38.9072,
+   "lng": -77.0369,
+   "region": "US Election",
+   "category": "",
+   "yes_price_6h_ago": 0.346,
+   "delta_6h": 0.0135
+  }
+ ]
 }
