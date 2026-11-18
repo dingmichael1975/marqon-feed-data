@@ -1,6 +1,7 @@
 {
- "generated_at": "2026-11-11T15:44:09+00:00",
+ "generated_at": "2026-11-18T16:51:09+00:00",
  "weeks": [
+  "2026-10-26",
   "2026-10-19",
   "2026-10-13",
   "2026-10-05",
@@ -11,41 +12,25 @@
   "2026-08-31",
   "2026-08-24",
   "2026-08-17",
-  "2026-08-10",
-  "2026-07-27"
+  "2026-08-10"
  ],
  "vessels": [
   {
-   "name": "USS Dwight D. Eisenhower (CVN-69)",
-   "photo_key": "ves-USS_Dwight_D._Eisenhower-02621c",
-   "type": "carrier",
+   "name": "USS Essex (LHD-2)",
+   "photo_key": "ves-USS_Essex-2a05cd",
+   "type": "amphib",
    "track": [
     {
-     "as_of": "2026-07-27",
-     "lat": 37.0,
-     "lng": -75.5
-    },
-    {
-     "as_of": "2026-08-24",
-     "lat": 37.0,
-     "lng": 15.0
-    },
-    {
-     "as_of": "2026-08-31",
-     "lat": 40.0,
-     "lng": -10.0
-    },
-    {
-     "as_of": "2026-10-05",
-     "lat": 36.9,
-     "lng": -76.3
+     "as_of": "2026-08-10",
+     "lat": 32.5,
+     "lng": -117.0
     }
    ],
    "current": {
-    "lat": 36.9,
-    "lng": -76.3,
-    "region": "Norfolk, Virginia",
-    "status": "homeport"
+    "lat": 32.5,
+    "lng": -117.0,
+    "region": "Pacific Ocean",
+    "status": "deployed"
    }
   },
   {
@@ -53,11 +38,6 @@
    "photo_key": "ves-USS_San_Antonio-bc0617",
    "type": "amphib",
    "track": [
-    {
-     "as_of": "2026-07-27",
-     "lat": -15.0,
-     "lng": -70.0
-    },
     {
      "as_of": "2026-08-10",
      "lat": 10.0,
@@ -127,11 +107,6 @@
    "type": "carrier",
    "track": [
     {
-     "as_of": "2026-07-27",
-     "lat": 1.0,
-     "lng": 100.0
-    },
-    {
      "as_of": "2026-08-10",
      "lat": 37.0,
      "lng": 0.0
@@ -185,11 +160,6 @@
    "type": "carrier",
    "track": [
     {
-     "as_of": "2026-07-27",
-     "lat": 37.0,
-     "lng": 15.0
-    },
-    {
      "as_of": "2026-08-10",
      "lat": 37.0,
      "lng": 0.0
@@ -238,10 +208,15 @@
      "as_of": "2026-10-19",
      "lat": 37.0,
      "lng": 15.0
+    },
+    {
+     "as_of": "2026-10-26",
+     "lat": 38.0,
+     "lng": 15.0
     }
    ],
    "current": {
-    "lat": 37.0,
+    "lat": 38.0,
     "lng": 15.0,
     "region": "Mediterranean Sea",
     "status": "deployed"
@@ -252,11 +227,6 @@
    "photo_key": "ves-USS_Boxer-43ea61",
    "type": "amphib",
    "track": [
-    {
-     "as_of": "2026-07-27",
-     "lat": 30.0,
-     "lng": 140.0
-    },
     {
      "as_of": "2026-08-10",
      "lat": 37.0,
@@ -306,12 +276,17 @@
      "as_of": "2026-10-19",
      "lat": 37.0,
      "lng": 15.0
+    },
+    {
+     "as_of": "2026-10-26",
+     "lat": 33.0,
+     "lng": -117.0
     }
    ],
    "current": {
-    "lat": 37.0,
-    "lng": 15.0,
-    "region": "Mediterranean Sea",
+    "lat": 33.0,
+    "lng": -117.0,
+    "region": "Pacific Ocean",
     "status": "deployed"
    }
   },
@@ -320,11 +295,6 @@
    "photo_key": "ves-USS_Tripoli-51a490",
    "type": "amphib",
    "track": [
-    {
-     "as_of": "2026-07-27",
-     "lat": 33.0,
-     "lng": 129.0
-    },
     {
      "as_of": "2026-08-10",
      "lat": 33.0,
@@ -379,68 +349,17 @@
      "as_of": "2026-10-19",
      "lat": 33.3,
      "lng": 129.8
+    },
+    {
+     "as_of": "2026-10-26",
+     "lat": 33.0,
+     "lng": 129.0
     }
    ],
    "current": {
-    "lat": 33.3,
-    "lng": 129.8,
+    "lat": 33.0,
+    "lng": 129.0,
     "region": "Sasebo, Japan",
-    "status": "deployed"
-   }
-  },
-  {
-   "name": "Theodore Roosevelt CSG",
-   "photo_key": "ves-USS_Theodore_Roosevelt-440a3b",
-   "type": "carrier",
-   "track": [
-    {
-     "as_of": "2026-07-27",
-     "lat": 30.0,
-     "lng": 140.0
-    },
-    {
-     "as_of": "2026-09-28",
-     "lat": 32.5,
-     "lng": -120.0
-    },
-    {
-     "as_of": "2026-10-13",
-     "lat": 30.0,
-     "lng": 140.0
-    },
-    {
-     "as_of": "2026-10-19",
-     "lat": 33.3,
-     "lng": 129.8
-    }
-   ],
-   "current": {
-    "lat": 33.3,
-    "lng": 129.8,
-    "region": "Sasebo, Japan",
-    "status": "deployed"
-   }
-  },
-  {
-   "name": "USS Essex (LHD-2)",
-   "photo_key": "ves-USS_Essex-2a05cd",
-   "type": "amphib",
-   "track": [
-    {
-     "as_of": "2026-07-27",
-     "lat": 30.0,
-     "lng": 140.0
-    },
-    {
-     "as_of": "2026-08-10",
-     "lat": 32.5,
-     "lng": -117.0
-    }
-   ],
-   "current": {
-    "lat": 32.5,
-    "lng": -117.0,
-    "region": "Pacific Ocean",
     "status": "deployed"
    }
   },
@@ -449,11 +368,6 @@
    "photo_key": "ves-USS_George_Washington-ffbde5",
    "type": "carrier",
    "track": [
-    {
-     "as_of": "2026-07-27",
-     "lat": 30.0,
-     "lng": 140.0
-    },
     {
      "as_of": "2026-08-10",
      "lat": 35.0,
@@ -503,10 +417,15 @@
      "as_of": "2026-10-19",
      "lat": 37.0,
      "lng": 15.0
+    },
+    {
+     "as_of": "2026-10-26",
+     "lat": 38.0,
+     "lng": 15.0
     }
    ],
    "current": {
-    "lat": 37.0,
+    "lat": 38.0,
     "lng": 15.0,
     "region": "Mediterranean Sea",
     "status": "deployed"
@@ -569,6 +488,39 @@
    }
   },
   {
+   "name": "USS Dwight D. Eisenhower (CVN-69)",
+   "photo_key": "ves-USS_Dwight_D._Eisenhower-02621c",
+   "type": "carrier",
+   "track": [
+    {
+     "as_of": "2026-08-24",
+     "lat": 37.0,
+     "lng": 15.0
+    },
+    {
+     "as_of": "2026-08-31",
+     "lat": 40.0,
+     "lng": -10.0
+    },
+    {
+     "as_of": "2026-10-05",
+     "lat": 36.9,
+     "lng": -76.3
+    },
+    {
+     "as_of": "2026-10-26",
+     "lat": 37.0,
+     "lng": -75.0
+    }
+   ],
+   "current": {
+    "lat": 37.0,
+    "lng": -75.0,
+    "region": "Atlantic Ocean",
+    "status": "deployed"
+   }
+  },
+  {
    "name": "USS Kearsarge (LHD-3)",
    "photo_key": "ves-USS_Kearsarge-d1a1a1",
    "type": "amphib",
@@ -610,6 +562,39 @@
    }
   },
   {
+   "name": "Theodore Roosevelt CSG",
+   "photo_key": "ves-USS_Theodore_Roosevelt-440a3b",
+   "type": "carrier",
+   "track": [
+    {
+     "as_of": "2026-09-28",
+     "lat": 32.5,
+     "lng": -120.0
+    },
+    {
+     "as_of": "2026-10-13",
+     "lat": 30.0,
+     "lng": 140.0
+    },
+    {
+     "as_of": "2026-10-19",
+     "lat": 33.3,
+     "lng": 129.8
+    },
+    {
+     "as_of": "2026-10-26",
+     "lat": 35.0,
+     "lng": -120.0
+    }
+   ],
+   "current": {
+    "lat": 35.0,
+    "lng": -120.0,
+    "region": "Pacific Ocean",
+    "status": "deployed"
+   }
+  },
+  {
    "name": "USS Ronald Reagan (CVN-76)",
    "photo_key": "ves-USS_Ronald_Reagan-ed7de4",
    "type": "carrier",
@@ -628,13 +613,18 @@
      "as_of": "2026-10-19",
      "lat": 32.7,
      "lng": -117.2
+    },
+    {
+     "as_of": "2026-10-26",
+     "lat": 34.0,
+     "lng": -120.0
     }
    ],
    "current": {
-    "lat": 32.7,
-    "lng": -117.2,
-    "region": "San Diego, Calif.",
-    "status": "homeport"
+    "lat": 34.0,
+    "lng": -120.0,
+    "region": "Pacific Ocean",
+    "status": "deployed"
    }
   },
   {
@@ -723,12 +713,17 @@
      "as_of": "2026-10-19",
      "lat": 33.3,
      "lng": 129.8
+    },
+    {
+     "as_of": "2026-10-26",
+     "lat": 35.0,
+     "lng": 139.0
     }
    ],
    "current": {
-    "lat": 33.3,
-    "lng": 129.8,
-    "region": "Sasebo, Japan",
+    "lat": 35.0,
+    "lng": 139.0,
+    "region": "Yokosuka, Japan",
     "status": "deployed"
    }
   }
