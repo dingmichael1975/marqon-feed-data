@@ -1,0 +1,81 @@
+{
+ "as_of": "2026-11-02",
+ "fetched_at": "2026-11-25T18:19:22+00:00",
+ "source_url": "https://news.usni.org/2026/11/02/usni-news-fleet-and-marine-tracker-nov-2-2026",
+ "image_url": "https://news.usni.org/wp-content/uploads/2026/11/FT_11_02_26-1.jpg",
+ "count": 9,
+ "vessels": [
+  {
+   "name": "USS Ronald Reagan (CVN-76)",
+   "type": "carrier",
+   "region": "Western Pacific",
+   "lat": 35.0,
+   "lng": 138.0,
+   "status": "deployed"
+  },
+  {
+   "name": "USS Dwight D. Eisenhower (CVN-69)",
+   "type": "carrier",
+   "region": "Norfolk, Va.",
+   "lat": 36.9,
+   "lng": -76.3,
+   "status": "homeport"
+  },
+  {
+   "name": "USS Nimitz (CVN-68)",
+   "type": "carrier",
+   "region": "Western Pacific",
+   "lat": 35.0,
+   "lng": 138.0,
+   "status": "deployed"
+  },
+  {
+   "name": "George Washington CSG",
+   "type": "carrier",
+   "region": "Western Pacific",
+   "lat": 35.0,
+   "lng": 138.0,
+   "status": "deployed"
+  },
+  {
+   "name": "George H.W. Bush CSG",
+   "type": "carrier",
+   "region": "Western Pacific",
+   "lat": 35.0,
+   "lng": 138.0,
+   "status": "deployed"
+  },
+  {
+   "name": "USS Tripoli (LHA-7)",
+   "type": "amphib",
+   "region": "Sasebo, Japan",
+   "lat": 33.0,
+   "lng": 129.0,
+   "status": "deployed"
+  },
+  {
+   "name": "Makin Island ARG",
+   "type": "amphib",
+   "region": "Yokosuka, Japan",
+   "lat": 35.0,
+   "lng": 139.0,
+   "status": "deployed"
+  },
+  {
+   "name": "Theodore Roosevelt CSG",
+   "type": "carrier",
+   "region": "Western Pacific",
+   "lat": 35.0,
+   "lng": 138.0,
+   "status": "deployed"
+  },
+  {
+   "name": "Boxer ARG",
+   "type": "amphib",
+   "region": "Western Pacific",
+   "lat": 35.0,
+   "lng": 138.0,
+   "status": "deployed"
+  }
+ ]
+}
