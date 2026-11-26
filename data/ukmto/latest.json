@@ -1,8 +1,48 @@
 {
- "generated_at": "2026-11-25T14:13:59+00:00",
- "count": 70,
+ "generated_at": "2026-11-26T00:16:18+00:00",
+ "count": 75,
  "source_url": "https://www.ukmto.org/recent-incidents",
  "incidents": [
+  {
+   "number": 222,
+   "type": "Suspicious Activity",
+   "severity": "medium",
+   "date": "25 November 2026",
+   "region": "Dubai",
+   "lat": 25.2048,
+   "lng": 55.2708,
+   "body": "UKMTO has received a report of an incident 50NM west of Dubai, UAE.\nThe Master of a tanker, has reported an explosion caused by an unknown projectile in close proximity to the tanker. The crew are safe and are accounted for and there is no damage reported to the tanker or environmental impact. Vessels are advised to transit with caution and report any suspicious activity to UKMTO, whilst authorities investigate."
+  },
+  {
+   "number": 221,
+   "type": "Attack",
+   "severity": "high",
+   "date": "22 November 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO WARNING 121-26 - ATTACK\nIncident Date: 22 Nov 26 Incident Time: 2042UTC\nUKMTO has received a time-late report of an incident in the Strait of Hormuz. The\nverified report stated that a tanker was struck by unknown projectile whilst transiting\neastbound. The tanker continued their transit and all crew have been accounted for.\nDamage assessment and environmental impact unknown at present. Vessels are\nadvised to transit with caution and report any suspicious activity to UKMTO, whilst\nauthorities investigate."
+  },
+  {
+   "number": 220,
+   "type": "Attack",
+   "severity": "high",
+   "date": "22 November 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO WARNING 220-26 - ATTACK\nIncident Date: 22 Nov 26 Incident Time: 2032UTC\nUKMTO has received a time-late report of an incident in the Strait of Hormuz. The\nverified report stated that a tanker was struck by unknown projectile whilst transiting\neastbound. The tanker continued their transit and all crew have been accounted for.\nDamage assessment and environmental impact unknown at present. Vessels are\nadvised to transit with caution and report any suspicious activity to UKMTO, whilst\nauthorities investigate."
+  },
+  {
+   "number": 219,
+   "type": "Attack",
+   "severity": "high",
+   "date": "22 November 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO WARNING 219-26-UPDATE 001\nIncident Date: 22 Nov 26 Incident Time: 2025UTC\nThis warning is being re-issued to reflect previously reported incident being reclassified\nas three separate attacks. UKMTO has received a time-late report of an incident in the\nStrait of Hormuz. The verified report stated that a tanker was struck by unknown\nprojectile whilst transiting eastbound. The tanker continued their transit and all crew\nhave been accounted for. Damage assessment and environmental impact unknown at\npresent. Vessels are advised to transit with caution and report any suspicious activity\nto UKMTO, whilst authorities investigate."
+  },
   {
    "number": 217,
    "type": "Advisory",
@@ -12,6 +52,16 @@
    "lat": 24.5,
    "lng": 58.0,
    "body": "UKMTO ADVISORY - 217-26\nIncident Date: 22 Nov 2026 Incident Time: 1425UTC\nUKMTO have received a report of an incident involving a tanker and military forces in the Gulf of Oman.\nVessels are advised to consider the latest maritime security information and maintain awareness of the evolving operational environment. Authorities are aware and relevant investigations remain ongoing."
+  },
+  {
+   "number": 218,
+   "type": "Attack",
+   "severity": "high",
+   "date": "22 November 2026",
+   "region": "Khor Fakkan",
+   "lat": 25.3389,
+   "lng": 56.3553,
+   "body": "UKMTO has received a time-late report of an incident 23NM northeast of Khor Fakkan,\nUAE. A Bulk Carrier was struck on the Port side by an unknown projectile whilst\nanchored at Dibba OPL. A fire was reported onboard the vessel but no casualties have\nbeen reported at this time. Vessels are advised to transit with caution and report any\nsuspicious activity to UKMTO, whilst authorities investigate."
   },
   {
    "number": 216,
