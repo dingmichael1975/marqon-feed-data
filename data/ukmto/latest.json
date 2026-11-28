@@ -1,8 +1,18 @@
 {
- "generated_at": "2026-11-28T00:00:21+00:00",
- "count": 75,
+ "generated_at": "2026-11-28T07:39:28+00:00",
+ "count": 77,
  "source_url": "https://www.ukmto.org/recent-incidents",
  "incidents": [
+  {
+   "number": 224,
+   "type": "Advisory",
+   "severity": "low",
+   "date": "26 November 2026",
+   "region": "Gulf Of Oman",
+   "lat": 24.5,
+   "lng": 58.0,
+   "body": "UKMTO has received a report of an incident involving a cargo vessel and military forces\nin the Gulf of Oman.\nVessels are advised to consider the latest maritime security information and maintain\nawareness of the evolving operational environment. Authorities are aware and relevant\ninvestigation remain ongoing."
+  },
   {
    "number": 222,
    "type": "Suspicious Activity",
@@ -12,6 +22,16 @@
    "lat": 25.2048,
    "lng": 55.2708,
    "body": "UKMTO has received a report of an incident 50NM west of Dubai, UAE.\nThe Master of a tanker, has reported an explosion caused by an unknown projectile in close proximity to the tanker. The crew are safe and are accounted for and there is no damage reported to the tanker or environmental impact. Vessels are advised to transit with caution and report any suspicious activity to UKMTO, whilst authorities investigate."
+  },
+  {
+   "number": 223,
+   "type": "Attack",
+   "severity": "high",
+   "date": "25 November 2026",
+   "region": "Strait Of Hormuz",
+   "lat": 26.5667,
+   "lng": 56.25,
+   "body": "UKMTO has received a report of an incident 18NM east of Khasab, Oman. Local authorities have reported that an outbound tanker has been struck by an unknown projectile whilst transiting the Strait of Hormuz. The crew are accounted for and there is no report of environmental impact at this time.\nVessels are advised to transit with caution and report any suspicious activity to UKMTO, whilst authorities investigate."
   },
   {
    "number": 221,
