@@ -1,5 +1,70 @@
 {
- "generated_at": "2026-11-27T18:05:05+00:00",
- "count": 0,
- "markets": []
+ "generated_at": "2026-11-28T01:23:55+00:00",
+ "count": 4,
+ "markets": [
+  {
+   "id": "7288834",
+   "question": "Will Bitcoin reach $62,500 in November?",
+   "slug": "will-bitcoin-reach-62pt5k-in-november-2026-from-november-23",
+   "url": "https://polymarket.com/event/will-bitcoin-reach-62pt5k-in-november-2026-from-november-23",
+   "yes_price": 0.305,
+   "volume_24h": 141402.92110900002,
+   "volume": 295653.705507,
+   "end_date": "2026-12-01T05:00:00Z",
+   "lat": 37.7749,
+   "lng": -122.4194,
+   "region": "Bitcoin (SF proxy)",
+   "category": "",
+   "yes_price_6h_ago": 0.245,
+   "delta_6h": 0.06
+  },
+  {
+   "id": "7386792",
+   "question": "Will Bitcoin dip to $57,000 on November 27?",
+   "slug": "will-bitcoin-dip-to-57k-on-november-27-2026",
+   "url": "https://polymarket.com/event/will-bitcoin-dip-to-57k-on-november-27-2026",
+   "yes_price": 0.0065,
+   "volume_24h": 101009.611432,
+   "volume": 100994.90851099999,
+   "end_date": "2026-11-28T05:00:00Z",
+   "lat": 37.7749,
+   "lng": -122.4194,
+   "region": "Bitcoin (SF proxy)",
+   "category": "",
+   "yes_price_6h_ago": 0.0265,
+   "delta_6h": -0.02
+  },
+  {
+   "id": "3581450",
+   "question": "Will Lai Jui-lung win the next Kaohsiung Mayor election?",
+   "slug": "will-lai-jui-lung-win-the-next-kaohsiung-mayor-election-20260813125857602",
+   "url": "https://polymarket.com/event/will-lai-jui-lung-win-the-next-kaohsiung-mayor-election-20260813125857602",
+   "yes_price": 0.785,
+   "volume_24h": 92703.244993,
+   "volume": 317931.974097,
+   "end_date": "2026-11-29T04:59:00Z",
+   "lat": 38.9072,
+   "lng": -77.0369,
+   "region": "US Election",
+   "category": "",
+   "yes_price_6h_ago": 0.805,
+   "delta_6h": -0.02
+  },
+  {
+   "id": "701502",
+   "question": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+   "slug": "will-bitcoin-dip-to-45000-by-december-31-2026-674-923-755-971-998-525-926-245-316-517-544-589-965-923-986-841-815-224-586-231-289-533-573",
+   "url": "https://polymarket.com/event/will-bitcoin-dip-to-45000-by-december-31-2026-674-923-755-971-998-525-926-245-316-517-544-589-965-923-986-841-815-224-586-231-289-533-573",
+   "yes_price": 0.1075,
+   "volume_24h": 173546.51890199998,
+   "volume": 11218845.880524,
+   "end_date": "2027-01-01T05:00:00Z",
+   "lat": 37.7749,
+   "lng": -122.4194,
+   "region": "Bitcoin (SF proxy)",
+   "category": "",
+   "yes_price_6h_ago": 0.1255,
+   "delta_6h": -0.018
+  }
+ ]
 }
